@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_1234",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "obj_lamp_left_table",
+   "knowledge_group_id": "table_lamp_overall_height",
+   "description": "Overall height of the table lamp on the left end table, measured from the top rim of its shade down to the bottom of the glass base where it meets the tabletop.",
+   "p1_xy": [
+    55.0,
+    98.0
+   ],
+   "p2_xy": [
+    75.0,
+    247.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.68,
+   "length_interval_m": [
+    0.6,
+    0.76
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "White drum/empire shade with visible top rim; gold crackle double-gourd base visible below the shade resting on the dark end table. Silhouette fully visible over the tan wall background.",
+   "identity_uncertainty": "No brand or model visible. Residential table lamps with a shade are commonly 23-30 in (0.60-0.76 m) overall; used 26-27 in as the point estimate."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "obj_wall_plate_hallway",
+   "knowledge_group_id": "decorative_wall_plate_diameter",
+   "description": "Diameter of the dark round wall-hung object (decorative plate / wall clock) on the hallway wall, measured rim-to-rim vertically.",
+   "p1_xy": [
+    193.0,
+    47.0
+   ],
+   "p2_xy": [
+    201.0,
+    99.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.25,
+    0.35
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Round dark disc with a brighter metal-looking rim mounted on the tan wall near the top-left of the doorway view; the face is seen obliquely so the vertical rim-to-rim chord spans the visible plate.",
+   "identity_uncertainty": "Cannot resolve whether it is a decorative charger plate, wall clock, or small mirror; all of these are typically 10-14 in (0.25-0.36 m). No face details or numbers are legible."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_653f3270da2dbf0b",
+ "schema_version": "0.2"
+}

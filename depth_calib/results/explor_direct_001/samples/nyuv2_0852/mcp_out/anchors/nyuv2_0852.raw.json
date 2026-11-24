@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0852",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "nyuv2_0852_builtin_microwave",
+    "knowledge_group_id": "builtin_microwave_24in_standard",
+    "description": "Horizontal width of the built-in microwave front panel between its left and right outer frame edges at the same height (mid-door level), from original-image point [110,124] to [187,124].",
+    "p1": {
+     "xy": [
+      110,
+      124
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      187,
+      124
+     ],
+     "point_id": null
+    },
+    "length_m": 0.61,
+    "length_interval_m": [
+     0.55,
+     0.7
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Stainless-steel front panel of a built-in microwave set flush into wood cabinetry just under the upper cabinets; the panel measures about 79 px wide by 60 px high (aspect ratio ~1.3), with a dark glass door and a vertical control strip on its right side, consistent with a standard 24-inch built-in microwave.",
+    "identity_uncertainty": "No legible brand or model number; built-in microwave widths are typically 24 in (0.61 m) or 27 in (0.69 m), and trim-kit edges add about 1 cm, so the true panel width may differ from the 24-inch category value."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "767ec611a65afd4bba5d2a5bb82d47dd5481580228e827a57ba49e53aaa3cb45"
+}

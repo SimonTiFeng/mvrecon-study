@@ -1,0 +1,62 @@
+{
+ "pilot": {
+  "n": 60,
+  "scenes": [
+   "bathroom_0017",
+   "bedroom_0037",
+   "bedroom_0043",
+   "bedroom_0067",
+   "bedroom_0077",
+   "bedroom_0129",
+   "classroom_0010",
+   "courtyard",
+   "delivery_area",
+   "dining_room_0011",
+   "dining_room_0032",
+   "dining_room_0038",
+   "electro",
+   "facade",
+   "kitchen_0030",
+   "kitchen_0040",
+   "living_room_0036",
+   "office_0005"
+  ],
+  "sha256": "83e1a1b7c088788b372538ab21db36cd9a6c0690a22d62d8a87bfe6c06d51fb9",
+  "by_dataset": {
+   "nyuv2": 40,
+   "eth3d": 20
+  }
+ },
+ "dev": {
+  "n": 30,
+  "scenes": [
+   "bedroom_0133",
+   "dining_room_0018",
+   "dining_room_0023",
+   "home_office_0007",
+   "kitchen_0060",
+   "office",
+   "office_0012",
+   "terrace"
+  ],
+  "sha256": "6d744519e7e8c20b647e12b1e5a36ebb5729c4aa19e38c357a7e57fe922139db",
+  "by_dataset": {
+   "nyuv2": 20,
+   "eth3d": 10
+  }
+ },
+ "smoke": {
+  "n": 15,
+  "scenes": [
+   "cafe_0001",
+   "furniture_store_0002",
+   "home_office_0014",
+   "playground"
+  ],
+  "sha256": "a437ecf05ab4275005c3f0282585f1442a112a9c5d9056a02f81e395527e9c81",
+  "by_dataset": {
+   "nyuv2": 10,
+   "eth3d": 5
+  }
+ }
+}

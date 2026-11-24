@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0514",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "white_bed_pillow_on_bed",
+    "knowledge_group_id": "standard_sleeping_pillow_20x30in",
+    "description": "White standard-size sleeping pillow (pillowcase with patterned trim) lying on the bed near the head; length measured along its long axis between the visible left and right end points of its top surface.",
+    "p1": {
+     "xy": [
+      142,
+      308
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      250,
+      289
+     ],
+     "point_id": null
+    },
+    "length_m": 0.73,
+    "length_interval_m": [
+     0.63,
+     0.81
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The white pillow lies flat on the bed head with clear left and right ends at about (142,308) and (250,289); the span follows the pillow's long axis, while its short axis is strongly foreshortened by the oblique view.",
+    "identity_uncertainty": "Identified as a standard sleeping pillow from its elongated rectangular shape and pillowcase-like trim; if it is a decorative cushion, a folded throw, or a non-standard (e.g. 26x26 in) size, the long side could differ by roughly -15% to +10%. The right end may be slightly occluded by the dark rolled item beside it, so the visible span could be shorter than the full pillow length."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "df58f5015d703bf83765e3399f8827a13c633985f6e48d8b559818cf33eb2616"
+}

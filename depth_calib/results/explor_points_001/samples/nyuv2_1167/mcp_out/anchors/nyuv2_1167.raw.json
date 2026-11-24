@@ -1,0 +1,32 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1167",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "nyuv2_1167_paper_sheet",
+    "knowledge_group_id": "office_paper_sheet_letter_A4",
+    "description": "Long edge of the plain white sheet of paper lying on the pink bedspread, between its top-left and top-right corners.",
+    "p1": {
+     "point_id": "v3:p2",
+     "xy": null
+    },
+    "p2": {
+     "point_id": "v3:p3",
+     "xy": null
+    },
+    "length_m": 0.27,
+    "length_interval_m": [
+     0.21,
+     0.33
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A single plain white rectangular sheet lies flat on the bedspread near the bed center; fitted edges give a quad with long edges ~56-65 px and short edges ~27 px (foreshortened by the oblique bed view), both long edges nearly parallel to the image plane; no print, fold or thickness cue is visible. Its apparent size relative to the bed/pillows is consistent with an ordinary office sheet.",
+    "identity_uncertainty": "No markings or format clues; cannot distinguish US Letter (0.279 m long edge) from A4 (0.297 m) or a trimmed sheet, so a generic sheet-of-paper prior is used."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "6fbec58715cc8091337c08e63583ea341f92232c6dbc9dcee3ae456e9f46eca5"
+}

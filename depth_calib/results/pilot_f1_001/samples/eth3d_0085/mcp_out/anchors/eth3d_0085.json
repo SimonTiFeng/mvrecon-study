@@ -1,0 +1,89 @@
+{
+ "image_id": "eth3d_0085",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "left_glass_double_door_unit",
+   "knowledge_group_id": "double_door_module_2x1000",
+   "description": "Overall outer width of the aluminium-framed double glass entrance door at the left of the facade, measured across the top frame between its outer left and outer right corners (two leaf modules).",
+   "p1_xy": [
+    13.0,
+    329.0
+   ],
+   "p2_xy": [
+    274.0,
+    336.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.0,
+   "length_interval_m": [
+    1.85,
+    2.15
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both corners are the visible top outer corners of the same metal door frame; the two equal leaves meet at a central stile with the lever handle, so the frame spans two standard ~1.0 m leaf modules.",
+   "identity_uncertainty": "Leaf nominal width could be 0.9 m (total ~1.85-1.9 m) rather than 1.0 m; frame profile adds a few cm per side."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "left_glass_double_door_unit",
+   "knowledge_group_id": "door_height_2100",
+   "description": "Clear height of the same left double door, from the top outer frame corner down to the door bottom at the threshold on the right jamb.",
+   "p1_xy": [
+    274.0,
+    336.0
+   ],
+   "p2_xy": [
+    246.0,
+    604.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.1,
+   "length_interval_m": [
+    1.95,
+    2.25
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Top frame corner and the bottom of the same door leaf where it meets the threshold paving are both clearly visible; the door is a full-height external entrance door with no transom in this lower unit.",
+   "identity_uncertainty": "Standard external door height 2.1 m; if the unit is 2.2 m high the estimate is 5% low. Bottom point sits at the frame/threshold junction."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "central_glass_double_door_unit",
+   "knowledge_group_id": "door_height_2100",
+   "description": "Height of the recessed central glass entrance door, from the top-right outer frame corner down to the bottom-right corner of the same frame at floor level.",
+   "p1_xy": [
+    599.0,
+    364.0
+   ],
+   "p2_xy": [
+    602.0,
+    575.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.1,
+   "length_interval_m": [
+    1.95,
+    2.3
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The two points lie on the right jamb of the same glazed door frame, top corner and bottom corner, both facing the camera in the recessed entrance.",
+   "identity_uncertainty": "Second door of the same building standard; height could be 2.0-2.2 m, and the bottom point may be one frame width above the floor slab."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_6879eeea0d5fbf2b",
+ "schema_version": "0.2"
+}

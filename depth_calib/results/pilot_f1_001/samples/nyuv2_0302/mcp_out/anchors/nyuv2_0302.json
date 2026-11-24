@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0302",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "white_sheet_on_foreground_round_table",
+   "knowledge_group_id": "us_letter_paper_8.5x11in_long_edge",
+   "description": "Long (11 in) edge of the white worksheet lying flat on the foreground round table, measured between the sheet's two left-side corners",
+   "p1_xy": [
+    282.0,
+    365.0
+   ],
+   "p2_xy": [
+    245.0,
+    387.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.2794,
+   "length_interval_m": [
+    0.25,
+    0.3
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "A single white rectangular sheet lies flat on the round table below the camera; its four corners are visible as a sharp parallelogram. The edge chosen runs in the image depth (foreshortened) direction: its projected length (about 43 px) exceeds what the sheet's short 8.5 in side could produce under the measured tabletop foreshortening, so it is the 11 in side.",
+   "identity_uncertainty": "Assumed a US letter sheet (8.5x11 in, 0.2794 m long edge) in a US classroom; an A4 sheet would give 0.297 m (+6%). A thin stack rather than one sheet would enlarge the visible footprint by a few percent. Corners localized to about +/-2 px."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "ceiling_fluorescent_troffer_left",
+   "knowledge_group_id": "ansi_2x4ft_fluorescent_troffer_lens_length",
+   "description": "Length of the luminous lens of the ceiling fluorescent troffer, measured along its near long edge from the left end of the panel to its right end",
+   "p1_xy": [
+    105.0,
+    10.0
+   ],
+   "p2_xy": [
+    197.0,
+    44.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.16,
+   "length_interval_m": [
+    1.0,
+    1.3
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Rectangular fluorescent troffer in the ceiling at upper left, with a straight high-contrast boundary between the bright luminous lens and the darker ceiling along its near long edge; both ends of that edge are visible (the far long edge is clipped by the image top).",
+   "identity_uncertainty": "Assumed the standard US 2x4 ft troffer (1.22 m overall), whose luminous aperture is about 1.16 m; a 3 ft (0.91 m) fixture would be about 20% shorter. The measured edge is the visible lens aperture, not the fixture frame, and the image is overexposed along this edge (+/-3 px)."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_a7659564c25f95a4",
+ "schema_version": "0.2"
+}

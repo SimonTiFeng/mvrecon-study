@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0937",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "bed_headboard",
+   "knowledge_group_id": "std_mattress_width",
+   "description": "Width of the bed headboard rail equals the mattress width (standard full/queen mattress widths 1.37 m / 1.53 m, headboard slightly wider).",
+   "p1_xy": [
+    192.0,
+    97.0
+   ],
+   "p2_xy": [
+    446.0,
+    160.0
+   ],
+   "source_point_ids": [
+    "v4:p3",
+    "v4:p2"
+   ],
+   "length_m": 1.5,
+   "length_interval_m": [
+    1.2,
+    1.75
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Light wooden headboard frame runs continuously from the top of the left bedpost (p3) across the pillow row to the right end of the frame (p2), spanning the visible bed width.",
+   "identity_uncertainty": "Mattress size could be twin/full/queen; the right end sits beside a standing white pillow at the shelf/wall junction, so the exact frame corner is partly occluded."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "bookshelf",
+   "knowledge_group_id": "ladder_bookshelf_tier_span",
+   "description": "Vertical span of a four-tier ladder bookshelf from top-tier books to bottom-tier books; typical 4-tier ladder shelves are 1.6-1.8 m tall with ~0.30-0.42 m tier spacing, giving ~1.0-1.4 m across the three gaps.",
+   "p1_xy": [
+    495.0,
+    42.0
+   ],
+   "p2_xy": [
+    529.0,
+    371.0
+   ],
+   "source_point_ids": [
+    "v1:p12",
+    "v1:p10"
+   ],
+   "length_m": 1.25,
+   "length_interval_m": [
+    0.95,
+    1.6
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The leaning ladder shelf holds four distinct tiers of books; p12 is a book top on the top tier and p10 a book top on the bottom tier, three tier-gaps apart.",
+   "identity_uncertainty": "Shelf model and tier spacing unknown (0.30-0.42 m); the shelf leans back so the 3D chord includes a small depth offset, and p12 marks a book rather than the frame."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_5ab8b4364ad2dc40",
+ "schema_version": "0.2"
+}

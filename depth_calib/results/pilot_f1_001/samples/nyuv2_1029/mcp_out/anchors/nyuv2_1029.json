@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_1029",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "bed_base",
+   "knowledge_group_id": "us_mattress_sizes",
+   "description": "Width of the bed base across the foot face, measured between the bottom-left and bottom-right corners of the striped bed skirt at floor contact; standard US queen mattress width 1.52 m (full/double 1.37 m).",
+   "p1_xy": [
+    196.0,
+    318.0
+   ],
+   "p2_xy": [
+    470.0,
+    338.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.52,
+   "length_interval_m": [
+    1.37,
+    1.6
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The striped bed skirt runs the full width of the foot of the bed; both bottom corners where the skirt meets the carpet are clearly visible, unobstructed by the rug or nightstands.",
+   "identity_uncertainty": "Queen vs full/double size cannot be distinguished; quilt overhang and click placement add a few cm."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "left_nightstand",
+   "knowledge_group_id": "nightstand_heights",
+   "description": "Front-face height of the dark three-drawer bedside chest left of the bed, from its front top edge down to the front bottom edge at floor contact; typical three-drawer nightstand 0.55-0.75 m tall.",
+   "p1_xy": [
+    70.0,
+    203.0
+   ],
+   "p2_xy": [
+    68.0,
+    312.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.63,
+   "length_interval_m": [
+    0.55,
+    0.72
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The chest left of the bed shows its top surface with a clock and cup, three drawer fronts, and the bottom front edge meeting the carpet; the front face is fully visible.",
+   "identity_uncertainty": "Exact model unknown; could be a taller chest of drawers (up to ~0.8 m); the bottom edge sits in shadow."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_6ae270a28429c928",
+ "schema_version": "0.2"
+}

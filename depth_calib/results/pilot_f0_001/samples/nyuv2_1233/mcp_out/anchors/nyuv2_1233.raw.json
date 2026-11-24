@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1233",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "lamp_shade_right",
+    "knowledge_group_id": "drum_lampshade_category",
+    "description": "Horizontal diameter of the white drum lampshade on the buffet lamp at right, measured between the left and right shade edges at the shade's vertical midpoint.",
+    "p1": {
+     "xy": [
+      482,
+      100
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      611,
+      100
+     ],
+     "point_id": null
+    },
+    "length_m": 0.38,
+    "length_interval_m": [
+     0.3,
+     0.46
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The white drum shade is fully visible against the dark wall/picture area; its left and right silhouette edges are clearly separable at mid-height.",
+    "identity_uncertainty": "Exact lamp model unknown; buffet-table lamp drum shades commonly run 12-18 in diameter, so the interval spans that range."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "sofa_throw_pillow_tan",
+    "knowledge_group_id": "throw_pillow_18in_category",
+    "description": "Width of the tan throw pillow resting against the sofa back below the wall mirror, between its visible left and right front-face edges near mid-height.",
+    "p1": {
+     "xy": [
+      348,
+      195
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      427,
+      192
+     ],
+     "point_id": null
+    },
+    "length_m": 0.46,
+    "length_interval_m": [
+     0.38,
+     0.56
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The tan pillow's front face is exposed toward the camera with both left and right edges visible against the dark leather sofa.",
+    "identity_uncertainty": "Throw pillows range 16-22 in and the pillow is slightly tilted, so the visible edge span may understate the true width; interval covers typical sizes."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "f1e2ee010b9a6d2d47f72fe72f23c1a076e06c22ac5cb4afb9487c55d5ca442c"
+}

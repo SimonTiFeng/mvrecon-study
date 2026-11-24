@@ -1,0 +1,32 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1377",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "base_cabinet_run_left_end_counter",
+    "knowledge_group_id": "us_kitchen_finished_counter_height_36in",
+    "description": "左侧白色底柜端板底部与地面相交的角点，到同一端部上方花岗岩台面左前顶角的三维直线距离（即台面完成高度）",
+    "p1": {
+     "xy": null,
+     "point_id": "v4:p5"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v4:p11"
+    },
+    "length_m": 0.91,
+    "length_interval_m": [
+     0.85,
+     0.97
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "画面左侧可见白色底柜端板向下延续到地砖/踢脚线所在的楼面线；其正上方为深色花岗岩台面，点 v4:p5 落在台面左前端顶面，v4:p11 落在端板与地面相接处，两点近似同一竖直线。",
+    "identity_uncertainty": "采用美式厨房标准底柜+台面完成高度约 36 in (0.91 m) 的类别先验；若端板未直达地面或台面加厚，真值约在 0.85-0.97 m。无品牌/型号可识别。"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "bf9262adbb00bfc9d606a56ea79d78060d1b1ef66cd7082cd52cf48dd9f64d9a"
+}

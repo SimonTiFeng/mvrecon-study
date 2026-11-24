@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1388",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "obj_dishwasher_undercounter",
+    "knowledge_group_id": "knowledge_standard_24in_dishwasher",
+    "description": "White built-in dishwasher under the counter, horizontal distance between the left and right front-panel edges (panel plane), standard 24-inch (0.61 m) dishwasher width.",
+    "p1": {
+     "xy": [
+      294.0,
+      405.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      420.0,
+      405.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.6,
+    "length_interval_m": [
+     0.55,
+     0.65
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White two-panel under-counter appliance between the sink cabinet and the black glass-front cooler; its left and right front edges are visible at x about 294 and 420 px at y about 405 px in the original image.",
+    "identity_uncertainty": "Paneled front and standard appliance bay strongly indicate a dishwasher; US under-counter dishwashers are usually 24 in (0.61 m), though 18 in models exist."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "obj_wine_cooler_undercounter",
+    "knowledge_group_id": "knowledge_15in_wine_cooler",
+    "description": "Black glass-front under-counter wine/beverage cooler, horizontal distance between its left and right cabinet edges, typical 15-inch (0.38 m) under-counter wine cooler width.",
+    "p1": {
+     "xy": [
+      424.0,
+      400.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      503.0,
+      400.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.38,
+    "length_interval_m": [
+     0.3,
+     0.45
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black glass door with horizontal bottle racks under the counter, flanked by white cabinet fronts; left and right edges visible at x about 424 and 503 px at y about 400 px.",
+    "identity_uncertainty": "Racks and glass door indicate a wine/beverage cooler; common under-counter widths are 12, 15 and 24 in, the interval covers these possibilities."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "e5a9e20be575b9243e55e391852c4572b66ec10a7e08c831f2b63a0882fc2496"
+}

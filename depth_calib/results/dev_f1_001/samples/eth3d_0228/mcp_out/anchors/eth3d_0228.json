@@ -1,0 +1,89 @@
+{
+ "image_id": "eth3d_0228",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "paving_yard",
+   "knowledge_group_id": "kg_concrete_paver_50cm",
+   "description": "Edge length of one dark grey concrete paving slab in the foreground, measured between two joint intersections along the same joint line",
+   "p1_xy": [
+    170.0,
+    735.0
+   ],
+   "p2_xy": [
+    330.0,
+    710.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.5,
+   "length_interval_m": [
+    0.35,
+    0.65
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Foreground is a regular grid of large square concrete slabs with dark joints; both marked points sit on adjacent joint intersections of one continuous joint line",
+   "identity_uncertainty": "Slab format is not readable; common formats are 40x40 or 50x50 cm (also 30x30/60x60). Interval covers those variants; points on the joint intersections may be 1-2 px off."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "mesh_gate",
+   "knowledge_group_id": "kg_mesh_gate_2000",
+   "description": "Outer frame height of the galvanised steel mesh access gate in front of the silo enclosure, from top rail to bottom rail at mid-span",
+   "p1_xy": [
+    592.0,
+    420.0
+   ],
+   "p2_xy": [
+    592.0,
+    616.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.0,
+   "length_interval_m": [
+    1.8,
+    2.1
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Single-leaf welded mesh gate with a green rescue sign, straight vertical frame; marked endpoints lie on the top rail and on the bottom rail of the same leaf",
+   "identity_uncertainty": "Custom-fabricated gate; standard fence-gate heights are 1.8 or 2.0 m. Small ground clearance and rail thickness make the measured frame height a few cm less than nominal."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "exhaust_duct",
+   "knowledge_group_id": "kg_stainless_flue_400",
+   "description": "Horizontal straight-line chord across the cylindrical stainless-steel exhaust duct at one height, between two visible surface points inside the silhouette",
+   "p1_xy": [
+    207.0,
+    349.0
+   ],
+   "p2_xy": [
+    241.0,
+    349.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.24,
+    0.4
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Vertical polished stainless flue with conical rain cap in front of the brick facade; the straight cylindrical section is crossed at constant image height",
+   "identity_uncertainty": "Nominal duct size unknown (DN250-DN400 typical for building exhaust); points are placed just inside the silhouette, so the claimed length is a chord slightly shorter than the outer diameter."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_4812f22f16446287",
+ "schema_version": "0.2"
+}

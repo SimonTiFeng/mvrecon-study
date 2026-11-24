@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0304",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "leftwall_poster_sheet_col1_row1",
+    "knowledge_group_id": "us_letter_paper_8.5x11",
+    "description": "Printed worksheet in a sleeve on the left wall; vertical short edge of the sheet, measured between the sheet's top edge and its bottom edge at x=30 px.",
+    "p1": {
+     "xy": [
+      30,
+      90
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      30,
+      137
+     ],
+     "point_id": null
+    },
+    "length_m": 0.216,
+    "length_interval_m": [
+     0.2,
+     0.235
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "A column of uniform white printed sheets with red/yellow borders hangs on the left wall; the nearest fully visible sheet spans about x 24-82 px and y 89-137 px (width/height ~1.21), consistent with a landscape 11 x 8.5 in leaf at only mild perspective. Both endpoints lie on that same sheet: p1 on its top edge, p2 on its bottom edge, a few pixels in from the left border.",
+    "identity_uncertainty": "Size is inferred from the uniform printed-worksheet appearance; it could be a slightly oversized pre-printed chart. A4 (0.210 m) and US Letter (0.216 m) differ by only ~3%, so the vertical extent is insensitive to that choice, but an 11x17 enlargement would be ~29% larger."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "backwall_whiteboard",
+    "knowledge_group_id": "classroom_whiteboard_4ft_height",
+    "description": "Back-wall classroom whiteboard: vertical height from its top frame edge down to the bottom edge where the marker tray sits.",
+    "p1": {
+     "xy": [
+      570,
+      90
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      570,
+      176
+     ],
+     "point_id": null
+    },
+    "length_m": 1.18,
+    "length_interval_m": [
+     1.02,
+     1.35
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Large white board with red/blue handwriting covering the back wall right of the pocket chart; its top frame runs just under the long red/blue banner and its bottom edge is the line where the marker tray holds pink, blue and red items. The visible width is at least 1.3x the height, consistent with a 4 x 8 ft board seen obliquely.",
+    "identity_uncertainty": "Height is assumed from the common 4 ft (1.22 m) classroom whiteboard; a 5 ft board would be ~25 percent taller. The top frame edge is partly lost against the banner, and the far wall's absolute depth is not independently calibrated."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "db24edac6632af2c48035e2e1facefcfd45122b10235659048d8545b04c2b874"
+}

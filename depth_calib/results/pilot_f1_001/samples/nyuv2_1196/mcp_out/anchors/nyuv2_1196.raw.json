@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1196",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "upholstered_back_right",
+    "knowledge_group_id": "upholstered_seat_back_width_prior",
+    "description": "Visible top-rim width of the right-hand rounded dark-red upholstered form resting against the wall, measured from its left crease between the two humps to its right shoulder against the wall.",
+    "p1": {
+     "xy": [
+      267,
+      205
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      500,
+      215
+     ],
+     "point_id": null
+    },
+    "length_m": 0.82,
+    "length_interval_m": [
+     0.64,
+     1.02
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Two similar rounded velvet-like upholstered humps sit against a plain wall; the right one's top rim is a crisp silhouette against the wall from x~267 to x~500, and the paired similar forms are consistent with upholstered back cushions or accent-chair backs.",
+    "identity_uncertainty": "View is dim and oblique; cannot tell whether the form is a sofa back cushion, an accent-chair back, or a duvet-covered pillow, and scene depth is uncalibrated, so the prior interval spans roughly 0.64-1.02 m."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "b9c8ddc03e7eb15301e14ecfc20513701840163271c25b00303c90a1fd35b556"
+}

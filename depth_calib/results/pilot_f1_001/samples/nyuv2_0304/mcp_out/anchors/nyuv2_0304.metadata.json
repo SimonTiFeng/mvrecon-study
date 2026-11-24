@@ -1,0 +1,11 @@
+{
+ "image_id": "nyuv2_0304",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f1_001\\samples\\nyuv2_0304\\input.png",
+ "image_width": 640,
+ "image_height": 480,
+ "run_id": "pilot_f1_001",
+ "mode": "harness",
+ "submission_id": "sub_db24edac6632af2c",
+ "committed_at": "2026-11-17T02:12:58.135156+00:00",
+ "request_hash": "db24edac6632af2c48035e2e1facefcfd45122b10235659048d8545b04c2b874"
+}

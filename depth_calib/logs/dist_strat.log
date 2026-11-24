@@ -1,0 +1,70 @@
+C:\Users\Simon\Downloads\Git\research\music\depth_calib\src\geometry\camera.py:100: RuntimeWarning: invalid value encountered in multiply
+  v = (d[y0, x0] * (1 - wx) * (1 - wy) + d[y0, x1] * wx * (1 - wy)
+C:\Users\Simon\Downloads\Git\research\music\depth_calib\src\geometry\camera.py:101: RuntimeWarning: invalid value encountered in multiply
+  + d[y1, x0] * (1 - wx) * wy + d[y1, x1] * wx * wy)
+
+## 1. Overall (median across images; A_ours over images where its solver accepts)
+
+eth3d: images=17, A-solver-accepted=7, pixels=2,586,666
+  B_raw              all=0.1074  (A-accepted subset=0.1155)
+  B_ours             all=0.1337  (A-accepted subset=0.1590)
+  A_ours             all=0.2972  (A-accepted subset=0.2972)
+  A_scale_oracle     all=0.0578  (A-accepted subset=0.0565)
+  A_affine_oracle    all=0.0262  (A-accepted subset=0.0267)
+
+nyuv2: images=38, A-solver-accepted=18, pixels=11,673,600
+  B_raw              all=0.0947  (A-accepted subset=0.0910)
+  B_ours             all=0.1066  (A-accepted subset=0.0983)
+  A_ours             all=0.2761  (A-accepted subset=0.2761)
+  A_scale_oracle     all=0.1136  (A-accepted subset=0.1044)
+  A_affine_oracle    all=0.0610  (A-accepted subset=0.0567)
+
+## 2. Pixel-level AbsRel by GT depth band
+   (per-image mean within band, then median across images; n = images with >=100 px)
+
+eth3d (all 17 images)
+  band                     B_raw            B_ours            A_ours    A_scale_oracle   A_affine_oracle
+  <0.5                     N/A               N/A               N/A               N/A               N/A
+  0.5-1.5                  N/A               N/A               N/A               N/A               N/A
+  1.5-3                 0.0955            0.1605            2.7082            0.2483            0.0354
+  3-5                   0.1000            0.1425            1.1007            0.0750            0.0368
+  >=5                   0.1149            0.1317            0.2958            0.0294            0.0261
+  -- A-accepted images only (7) --
+  <0.5                     N/A               N/A               N/A               N/A               N/A
+  0.5-1.5                  N/A               N/A               N/A               N/A               N/A
+  1.5-3                 0.0905            0.2404            2.7082            0.2543            0.0383
+  3-5                   0.0976            0.1839            1.1007            0.0930            0.0397
+  >=5                   0.1139            0.1622            0.2958            0.0313            0.0256
+
+nyuv2 (all 38 images)
+  band                     B_raw            B_ours            A_ours    A_scale_oracle   A_affine_oracle
+  <0.5                     N/A               N/A               N/A               N/A               N/A
+  0.5-1.5               0.0885            0.0885            0.3672            0.2433            0.0654
+  1.5-3                 0.0807            0.0979            0.2637            0.1094            0.0485
+  3-5                   0.1125            0.1175            0.2157            0.0963            0.0631
+  >=5                   0.1294            0.1351            0.3664            0.1318            0.0748
+  -- A-accepted images only (18) --
+  <0.5                     N/A               N/A               N/A               N/A               N/A
+  0.5-1.5               0.0542            0.0743            0.3672            0.2296            0.0680
+  1.5-3                 0.0686            0.0776            0.2637            0.0900            0.0441
+  3-5                   0.1000            0.1019            0.2157            0.0985            0.0577
+  >=5                   0.1444            0.2213            0.3664            0.1876            0.0980
+
+## 3. Image-level: AbsRel grouped by that image's GT median depth
+
+eth3d
+  group       n                B_raw            B_ours            A_ours    A_scale_oracle   A_affine_oracle
+  median<1   0                  N/A               N/A               N/A               N/A               N/A
+  1-2        0                  N/A               N/A               N/A               N/A               N/A
+  2-3        0                  N/A               N/A               N/A               N/A               N/A
+  >=3        17              0.1074            0.1337            0.2972            0.0578            0.0262
+
+nyuv2
+  group       n                B_raw            B_ours            A_ours    A_scale_oracle   A_affine_oracle
+  median<1   0                  N/A               N/A               N/A               N/A               N/A
+  1-2        3               0.0511            0.0622            0.2610            0.1096            0.0553
+  2-3        19              0.0954            0.1139            0.2316            0.1129            0.0469
+  >=3        16              0.0989            0.1066            0.3593            0.1181            0.0640
+
+## 4. Anchor depth coverage vs image depth range
+  nyuv2: anchor log-span / image log-span  median 0.43 (p10-p90 0.13-0.84); <30%: 15/38

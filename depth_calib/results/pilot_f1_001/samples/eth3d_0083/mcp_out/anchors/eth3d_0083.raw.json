@@ -1,0 +1,122 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0083",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "door64_glass_double_door",
+    "knowledge_group_id": "standard_double_entrance_door_width",
+    "description": "Overall width between the outer jambs of the two-leaf glazed entrance door of the '64' building, measured horizontally across both leaves at mid height",
+    "p1": {
+     "xy": [
+      157,
+      488
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      294,
+      488
+     ],
+     "point_id": null
+    },
+    "length_m": 1.62,
+    "length_interval_m": [
+     1.45,
+     1.85
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "White-framed double glass entrance door at building no. 64; two glazed leaves with centre seam and lever handles, seen nearly frontally under the facade overhang",
+    "identity_uncertainty": "Standard double entrance door leaves are 0.735-0.985 m each (DIN 18101), plus frame; slight oblique view of the facade gives about +/-0.2 m"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "door64_glass_double_door",
+    "knowledge_group_id": "standard_entrance_door_height",
+    "description": "Vertical clear height of one glazed door leaf, from the upper frame line down to the lower frame/threshold line of the '64' entrance",
+    "p1": {
+     "xy": [
+      190,
+      391
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      190,
+      578
+     ],
+     "point_id": null
+    },
+    "length_m": 2.08,
+    "length_interval_m": [
+     1.9,
+     2.3
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Single glazed leaf of the same two-leaf entrance door; the leaf runs from the white head frame to the bottom rail above the concrete threshold",
+    "identity_uncertainty": "Door height standards are 2.0-2.4 m for entrance doors; the measured span excludes the top/bottom rails so the leaf height could be 0.05-0.1 m more"
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "door_s12_telefonraum",
+    "knowledge_group_id": "standard_utility_door_height",
+    "description": "Vertical height of the grey double-leaf 'S12 Telefonraum' steel door, from its visible head edge under the canopy down to the threshold above the concrete apron",
+    "p1": {
+     "xy": [
+      1090,
+      150
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      1090,
+      700
+     ],
+     "point_id": null
+    },
+    "length_m": 2.2,
+    "length_interval_m": [
+     1.95,
+     2.5
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Large grey steel double door labelled 'S12 Telefonraum' with lever hardware and warning labels, set under a protruding concrete canopy on the right facade",
+    "identity_uncertainty": "Top edge is partly hidden by the canopy and the bottom edge blends with the concrete apron/threshold; door height standard 2.0-2.4 m plus edge uncertainty"
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "door_s12_notice_sheet",
+    "knowledge_group_id": "iso_a4_paper_height",
+    "description": "Vertical span between the visible upper and lower right-hand corners of the white A4 notice sheet taped to the grey door",
+    "p1": {
+     "xy": [
+      1242,
+      388
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      1240,
+      458
+     ],
+     "point_id": null
+    },
+    "length_m": 0.297,
+    "length_interval_m": [
+     0.26,
+     0.34
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White printed notice with a warning triangle, taped with a yellow strip at the top of the grey S12 door; its width-to-height pixel ratio (~0.6-0.7) matches ISO A4 portrait (210 x 297 mm)",
+    "identity_uncertainty": "The sheet may be Letter size or slightly curled and the yellow tape may cover the very top edge, shifting the measured span by about 1-2 cm"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "34e451c072bedb87d33d86b8126494ad866aea82fe2f56236e76b4b8bc0d02f5"
+}

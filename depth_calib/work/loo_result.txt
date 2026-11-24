@@ -1,0 +1,13 @@
+images=29 scenes=6
+held-out          const   n      raw      cal   wins
+courtyard        0.9510   5   0.0813   0.0210   5/5  
+facade           0.9530   5   0.1330   0.0311   5/5  
+delivery_area    0.9532   5   0.1072   0.0270   5/5  
+electro          0.9532   5   0.0964   0.0332   5/5  
+office           0.9525   3   0.0468   0.0275   3/3  
+terrace          0.9531   6   0.0416   0.0336   5/6  
+
+POOLED raw 0.0878 -> 0.0270 wins 28/29
+
+zero-parameter version (raw s_lm, no constant):
+  0.0878 -> 0.0493 wins 23/29

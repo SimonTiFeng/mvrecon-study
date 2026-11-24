@@ -1,0 +1,10 @@
+{
+ "image_id": "synthetic_0000",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "abstain",
+ "anchors": [],
+ "abstain_reason": "合成几何测试图，没有可靠的世界知识尺寸参照。",
+ "submission_id": "sub_b448a3bfb1892f71",
+ "schema_version": "0.2"
+}

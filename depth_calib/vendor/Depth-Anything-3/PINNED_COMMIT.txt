@@ -1,0 +1,5 @@
+Depth-Anything-3
+repo: https://github.com/ByteDance-Seed/Depth-Anything-3
+commit: 3d835ec1a5802d64a8b8b15f817a1ab54809bfe4
+copied: 2026-11-17 (src/ + LICENSE + pyproject.toml only)
+note: export/ pose_align imports are stubbed/installed in the adapter; see src/backends/da3.py

@@ -1,0 +1,92 @@
+[
+ {
+  "case": "playground_v2_eth3d_0286",
+  "scene": "playground",
+  "tag": "v2",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0286",
+  "status": "done",
+  "rot_err": 1.0313851680904345,
+  "lat_err": 0.07193117831103824,
+  "files": {
+   "agent": "clouds/playground/playground_v2_eth3d_0286_agent.ply",
+   "ref": "clouds/playground/playground_v2_eth3d_0286_ref.ply",
+   "input": "clouds/playground/playground_v2_eth3d_0286_input.ply"
+  }
+ },
+ {
+  "case": "playground_v3_eth3d_0278",
+  "scene": "playground",
+  "tag": "v3",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0278",
+  "status": "done",
+  "rot_err": 55.20799287273033,
+  "lat_err": 5.695358204257017,
+  "files": {
+   "agent": "clouds/playground/playground_v3_eth3d_0278_agent.ply",
+   "ref": "clouds/playground/playground_v3_eth3d_0278_ref.ply",
+   "input": "clouds/playground/playground_v3_eth3d_0278_input.ply"
+  }
+ },
+ {
+  "case": "playground_v3_eth3d_0286",
+  "scene": "playground",
+  "tag": "v3",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0286",
+  "status": "done",
+  "rot_err": 0.9218952382595017,
+  "lat_err": 0.07244233105672031,
+  "files": {
+   "agent": "clouds/playground/playground_v3_eth3d_0286_agent.ply",
+   "ref": "clouds/playground/playground_v3_eth3d_0286_ref.ply",
+   "input": "clouds/playground/playground_v3_eth3d_0286_input.ply"
+  }
+ },
+ {
+  "case": "playground_v4_eth3d_0249",
+  "scene": "playground",
+  "tag": "v4",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0249",
+  "status": "done",
+  "rot_err": 56.6241441461672,
+  "lat_err": 0.9638963611709999,
+  "files": {
+   "agent": "clouds/playground/playground_v4_eth3d_0249_agent.ply",
+   "ref": "clouds/playground/playground_v4_eth3d_0249_ref.ply",
+   "input": "clouds/playground/playground_v4_eth3d_0249_input.ply"
+  }
+ },
+ {
+  "case": "playground_v4_eth3d_0278",
+  "scene": "playground",
+  "tag": "v4",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0278",
+  "status": "abstain",
+  "rot_err": 43.414659229976195,
+  "lat_err": 4.991425979682851,
+  "files": {
+   "agent": "clouds/playground/playground_v4_eth3d_0278_agent.ply",
+   "ref": "clouds/playground/playground_v4_eth3d_0278_ref.ply",
+   "input": "clouds/playground/playground_v4_eth3d_0278_input.ply"
+  }
+ },
+ {
+  "case": "playground_v4_eth3d_0286",
+  "scene": "playground",
+  "tag": "v4",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0286",
+  "status": "done",
+  "rot_err": 1.1014757059855487,
+  "lat_err": 0.0653372445411482,
+  "files": {
+   "agent": "clouds/playground/playground_v4_eth3d_0286_agent.ply",
+   "ref": "clouds/playground/playground_v4_eth3d_0286_ref.ply",
+   "input": "clouds/playground/playground_v4_eth3d_0286_input.ply"
+  }
+ }
+]

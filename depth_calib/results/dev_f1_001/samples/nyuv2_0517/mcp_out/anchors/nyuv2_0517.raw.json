@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0517",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "pillow_left",
+    "knowledge_group_id": "standard_bed_pillow",
+    "description": "Long horizontal edge of the left floral bed pillow propped at the head of the bed.",
+    "p1": {
+     "xy": [
+      240,
+      140
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      375,
+      138
+     ],
+     "point_id": null
+    },
+    "length_m": 0.75,
+    "length_interval_m": [
+     0.63,
+     0.82
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Left and right outer edges of the left floral pillow are crisp and unobstructed at mid-height; the pillow leans against the back wall above the maroon duvet.",
+    "identity_uncertainty": "Exact pillow size class unknown: standard 20x26 in (0.66 m) vs queen 20x30 in (0.76 m); stuffing puffiness adds a few cm to the seam-to-seam width."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "pillow_right",
+    "knowledge_group_id": "standard_bed_pillow",
+    "description": "Long horizontal edge of the right floral bed pillow, matching the left pillow in pattern and apparent size.",
+    "p1": {
+     "xy": [
+      383,
+      135
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      512,
+      120
+     ],
+     "point_id": null
+    },
+    "length_m": 0.75,
+    "length_interval_m": [
+     0.63,
+     0.82
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The right pillow's inner seam (touching the left pillow) and its right outer edge are both visible at mid-height, well above the duvet line.",
+    "identity_uncertainty": "Same size ambiguity as the left pillow (20x26 vs 20x30 in); the pillow is tilted back, but the 3D edge length is unaffected by foreshortening."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "68efaa40c24dbcf49222fa40808a5ba3b7a1df4b759b79dd2e330c8502dc1fcb"
+}

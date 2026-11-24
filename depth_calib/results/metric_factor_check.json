@@ -1,0 +1,70 @@
+{
+ "rows": [
+  {
+   "index": 0,
+   "scene": "kitchen_0004",
+   "processed_shape": [
+    378,
+    504
+   ],
+   "fx_proc": 408.60059624999997,
+   "focal_over_300": 1.3620019874999998,
+   "gt_over_raw": 1.3445466756820679,
+   "gt_over_raw_times_factor": 0.9871840476989746
+  },
+  {
+   "index": 137,
+   "scene": "kitchen_0010",
+   "processed_shape": [
+    378,
+    504
+   ],
+   "fx_proc": 408.60059624999997,
+   "focal_over_300": 1.3620019874999998,
+   "gt_over_raw": 1.4398471117019653,
+   "gt_over_raw_times_factor": 1.0571550130844116
+  },
+  {
+   "index": 402,
+   "scene": "indoor_balcony_0001",
+   "processed_shape": [
+    378,
+    504
+   ],
+   "fx_proc": 408.60059624999997,
+   "focal_over_300": 1.3620019874999998,
+   "gt_over_raw": 1.6370989084243774,
+   "gt_over_raw_times_factor": 1.2019797563552856
+  },
+  {
+   "index": 733,
+   "scene": "bathroom_0047",
+   "processed_shape": [
+    378,
+    504
+   ],
+   "fx_proc": 408.60059624999997,
+   "focal_over_300": 1.3620019874999998,
+   "gt_over_raw": 1.3866573572158813,
+   "gt_over_raw_times_factor": 1.0181022882461548
+  },
+  {
+   "index": 1101,
+   "scene": "bedroom_0092",
+   "processed_shape": [
+    378,
+    504
+   ],
+   "fx_proc": 408.60059624999997,
+   "focal_over_300": 1.3620019874999998,
+   "gt_over_raw": 1.3629037141799927,
+   "gt_over_raw_times_factor": 1.000662088394165
+  }
+ ],
+ "summary": {
+  "median_gt_over_raw": 1.3866573572158813,
+  "median_gt_over_raw_times_factor": 1.0181022882461548,
+  "median_focal_over_300": 1.3620019874999998,
+  "decision": "apply_focal_over_300_once"
+ }
+}

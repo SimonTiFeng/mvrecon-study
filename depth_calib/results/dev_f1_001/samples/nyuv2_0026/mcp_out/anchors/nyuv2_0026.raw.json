@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0026",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "projection_screen",
+    "knowledge_group_id": "pull_down_projection_screen_4x3_100in_class",
+    "description": "Black-framed wall-mounted manual pull-down projection screen; endpoints are the top-left and bottom-right outer corners of the screen frame.",
+    "p1": {
+     "xy": [
+      168,
+      88
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      410,
+      272
+     ],
+     "point_id": null
+    },
+    "length_m": 2.7,
+    "length_interval_m": [
+     2.35,
+     3.1
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "White viewing surface with black border and bottom weight bar, typical 4:3 manual pull-down conference-room screen mounted on the wall above the table; opposite frame corners chosen as endpoints.",
+    "identity_uncertainty": "Brand/model not legible; nominal viewing diagonal likely 100 in (2.54 m, outer frame diagonal ~2.7 m), plausible 92-120 in range; 4:3 inferred from ~1.3 aspect of the white area."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "0cd88cac66de7ed8bd8924df3637ebc5ee5f432d49c8ee1ae640316357e4bd9f"
+}

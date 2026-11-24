@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_0843",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "dishwasher_front",
+   "knowledge_group_id": "us_kitchen_appliance_standard",
+   "description": "Width of the black built-in dishwasher front face, left vertical edge to right vertical edge at mid-door height",
+   "p1_xy": [
+    330.0,
+    380.0
+   ],
+   "p2_xy": [
+    421.0,
+    380.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.61,
+   "length_interval_m": [
+    0.59,
+    0.63
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Black glossy under-counter appliance front is fully visible between the wood drawer stack on its left and the wood cabinet door on its right; both front edges are crisp vertical boundaries in the counter run.",
+   "identity_uncertainty": "Fascia proportions and 34-in front height match a standard 24-in wide built-in dishwasher; a compact 18-in unit would be noticeably narrower than the adjacent door."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "upper_cabinet_left_run",
+   "knowledge_group_id": "us_kitchen_cabinetry_standard",
+   "description": "Vertical clearance from the bottom front edge of the left upper cabinet run down to the granite countertop directly beneath it",
+   "p1_xy": [
+    180.0,
+    161.0
+   ],
+   "p2_xy": [
+    180.0,
+    275.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.457,
+   "length_interval_m": [
+    0.41,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Upper cabinet underside front edge runs at y~161 across the left run; at this column the granite countertop is fully visible from backsplash joint to front edge, and the point sits at mid-counter depth directly under the cabinet face.",
+   "identity_uncertainty": "Standard 18-in gap between upper cabinets and countertop; installations range 17-19 in, and the mid-depth placement of the counter point carries about +/-0.05 m of depth error."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "countertop_front_edge",
+   "knowledge_group_id": "us_kitchen_cabinetry_standard",
+   "description": "Vertical rise from the tile floor at the dishwasher toe kick up to the countertop front edge above it",
+   "p1_xy": [
+    410.0,
+    270.0
+   ],
+   "p2_xy": [
+    410.0,
+    439.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.914,
+   "length_interval_m": [
+    0.87,
+    0.98
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Countertop front edge (top of the black dishwasher front) and the bright tile floor directly below at the appliance base are both visible in the same image column; the counter edge line and the toe-kick line are unambiguous.",
+   "identity_uncertainty": "Standard 36-in countertop height (34.5-in base cabinet plus 1.5-in counter); the floor point lies a few centimetres in front of the recessed toe kick, which can inflate the straight-line distance by up to ~5 cm."
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "kettle",
+   "knowledge_group_id": "small_appliance_prior",
+   "description": "Height of the black electric kettle on the counter, from its base on the granite to the top of the lid/handle arch",
+   "p1_xy": [
+    115.0,
+    291.0
+   ],
+   "p2_xy": [
+    100.0,
+    222.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.26,
+   "length_interval_m": [
+    0.21,
+    0.31
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Black kettle stands on the granite at image left with its spout and handle silhouette against the light backsplash; base contact and the top of the handle are both crisp against the bright background.",
+   "identity_uncertainty": "Read as a typical 1.7-L electric kettle (24-28 cm overall with handle); if it is instead a taller thermal carafe or a lower jug kettle the height would differ by roughly 3-5 cm."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_b2be6cf6fd635e7c",
+ "schema_version": "0.2"
+}

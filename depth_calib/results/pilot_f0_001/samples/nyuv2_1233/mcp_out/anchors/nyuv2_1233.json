@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_1233",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "lamp_shade_right",
+   "knowledge_group_id": "drum_lampshade_category",
+   "description": "Horizontal diameter of the white drum lampshade on the buffet lamp at right, measured between the left and right shade edges at the shade's vertical midpoint.",
+   "p1_xy": [
+    482.0,
+    100.0
+   ],
+   "p2_xy": [
+    611.0,
+    100.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.38,
+   "length_interval_m": [
+    0.3,
+    0.46
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The white drum shade is fully visible against the dark wall/picture area; its left and right silhouette edges are clearly separable at mid-height.",
+   "identity_uncertainty": "Exact lamp model unknown; buffet-table lamp drum shades commonly run 12-18 in diameter, so the interval spans that range."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "sofa_throw_pillow_tan",
+   "knowledge_group_id": "throw_pillow_18in_category",
+   "description": "Width of the tan throw pillow resting against the sofa back below the wall mirror, between its visible left and right front-face edges near mid-height.",
+   "p1_xy": [
+    348.0,
+    195.0
+   ],
+   "p2_xy": [
+    427.0,
+    192.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.46,
+   "length_interval_m": [
+    0.38,
+    0.56
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The tan pillow's front face is exposed toward the camera with both left and right edges visible against the dark leather sofa.",
+   "identity_uncertainty": "Throw pillows range 16-22 in and the pillow is slightly tilted, so the visible edge span may understate the true width; interval covers typical sizes."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_f1e2ee010b9a6d2d",
+ "schema_version": "0.2"
+}

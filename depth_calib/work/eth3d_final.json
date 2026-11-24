@@ -1,0 +1,21 @@
+{
+ "note": "ETH3D leave-one-scene-out, adaptive distance gate (furthest quartile dropped)",
+ "batches": [
+  {"scenes": ["courtyard","facade"], "n": 83, "raw": 0.1094, "cal": 0.0361, "wins": 81,
+   "zero_param": {"raw": 0.1094, "cal": 0.0585, "wins": 67},
+   "per_scene": [{"scene":"courtyard","const":0.9524,"n":28,"raw":0.0816,"cal":0.0210,"wins":27},
+                 {"scene":"facade","const":0.9486,"n":55,"raw":0.1209,"cal":0.0454,"wins":54}]},
+  {"scenes": ["delivery_area","electro"], "n": 64, "raw": 0.0928, "cal": 0.0359, "wins": 53,
+   "zero_param": {"raw": 0.0928, "cal": 0.0595, "wins": 44},
+   "per_scene": [{"scene":"delivery_area","const":0.9379,"n":33,"raw":0.0616,"cal":0.0346,"wins":28},
+                 {"scene":"electro","const":0.9536,"n":31,"raw":0.1035,"cal":0.0397,"wins":25}]},
+  {"scenes": ["office","playground","terrace"], "n": 53, "raw": 0.0968, "cal": 0.0659, "wins": 43,
+   "zero_param": {"raw": 0.0968, "cal": 0.0661, "wins": 30},
+   "per_scene": [{"scene":"office","const":0.9687,"n":16,"raw":0.0406,"cal":0.0269,"wins":13},
+                 {"scene":"playground","const":0.9663,"n":24,"raw":0.1872,"cal":0.1170,"wins":21},
+                 {"scene":"terrace","const":0.9735,"n":13,"raw":0.0408,"cal":0.0272,"wins":9}]}
+ ],
+ "weighted": {"n": 200, "raw": 0.0992, "cal": 0.0452, "wins": 177,
+              "zero_param": {"raw": 0.1007, "cal": 0.0608, "wins": 141}},
+ "published": 0.104
+}

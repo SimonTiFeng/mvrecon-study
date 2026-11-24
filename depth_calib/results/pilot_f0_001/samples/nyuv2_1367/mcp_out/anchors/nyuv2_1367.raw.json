@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1367",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "ceiling_fan_1",
+    "knowledge_group_id": "us_residential_ceiling_fan_size",
+    "description": "Five-blade ceiling fan at the top of the dining room: straight-line distance between the outer ends of two blades on opposite sides of the hub.",
+    "p1": {
+     "xy": [
+      152,
+      65
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      291,
+      57
+     ],
+     "point_id": null
+    },
+    "length_m": 1.25,
+    "length_interval_m": [
+     1.02,
+     1.42
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A five-blade ceiling fan hangs from the ceiling at top center of the frame; the two selected points are at the outer ends of the blades lying on opposite sides of the fan hub.",
+    "identity_uncertainty": "Fan make/size is not identifiable; residential ceiling fans are usually 42-56 in (1.07-1.42 m) in diameter, with 48-52 in (1.22-1.32 m) most common in dining rooms. For a five-blade fan, a tip-to-tip measurement across the hub is about 0.95x the diameter, so the expected tip-to-tip distance is roughly 1.0-1.4 m."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "right_interior_door_1",
+    "knowledge_group_id": "us_interior_door_height_80in",
+    "description": "White paneled interior door in the right-hand cased opening: vertical distance from the top corner to the bottom corner of the door leaf along its hinge-side edge.",
+    "p1": {
+     "xy": [
+      558,
+      63
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      561,
+      299
+     ],
+     "point_id": null
+    },
+    "length_m": 2.03,
+    "length_interval_m": [
+     1.89,
+     2.16
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Standard white multi-panel interior door set in a white-cased doorway on the right wall, with the leaf visible from ceiling height down to the threshold; the selected points are the top and bottom of the leaf at its hinge-side vertical edge, next to the kitchen beyond.",
+    "identity_uncertainty": "Specific door product is not identifiable; U.S. residential interior doors are almost always 80 in (2.032 m) high, with 78 in (1.98 m) or 84 in (2.13 m) as occasional alternatives. The exact top/bottom corners are estimated within a few pixels."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "e7ac8cb99c9d1b5ce0e014479a969486414e18b167e6c283c7257a56f8fc650c"
+}

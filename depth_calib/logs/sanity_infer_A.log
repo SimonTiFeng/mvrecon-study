@@ -1,0 +1,20 @@
+C:\Users\Simon\Downloads\Git\research\music\depth_calib\vendor\Depth-Anything-3\src\depth_anything_3\cfg.py:25: UserWarning: register_new_resolver() is deprecated and will be removed in a future release.
+Use register_resolver() instead.
+See https://github.com/hydra-ecosystem/omegaconf/issues/426 for migration instructions.
+
+  OmegaConf.register_new_resolver("eval", eval)
+[97m[INFO ] using MLP layer as FFN[0m
+Loading weights from local directory
+Traceback (most recent call last):
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\infer_depths.py", line 96, in <module>
+    main()
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\infer_depths.py", line 65, in main
+    .read_text())
+     ^^^^^^^^^^^
+  File "C:\Users\Simon\anaconda3\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Simon\anaconda3\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'cache\\depths_sanity\\nyuv2_0025__A.json'

@@ -1,0 +1,602 @@
+[
+ {
+  "case": "courtyard_v2_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v2",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0008",
+  "status": "done",
+  "rot_err": 2.3613238831239625,
+  "lat_err": 0.29464090690889794,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v2_eth3d_0008_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v2_eth3d_0008_ref.ply",
+   "input": "clouds/courtyard/courtyard_v2_eth3d_0008_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v3_eth3d_0000",
+  "scene": "courtyard",
+  "tag": "v3",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0000",
+  "status": "done",
+  "rot_err": 2.9132128785987033,
+  "lat_err": 0.40552484389062676,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v3_eth3d_0000_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v3_eth3d_0000_ref.ply",
+   "input": "clouds/courtyard/courtyard_v3_eth3d_0000_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v3_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v3",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0008",
+  "status": "done",
+  "rot_err": 2.36129371658468,
+  "lat_err": 0.29472159164661044,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v3_eth3d_0008_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v3_eth3d_0008_ref.ply",
+   "input": "clouds/courtyard/courtyard_v3_eth3d_0008_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v4_eth3d_0000",
+  "scene": "courtyard",
+  "tag": "v4",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0000",
+  "status": "done",
+  "rot_err": 2.9133769228433835,
+  "lat_err": 0.4055236663575559,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v4_eth3d_0000_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v4_eth3d_0000_ref.ply",
+   "input": "clouds/courtyard/courtyard_v4_eth3d_0000_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v4_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v4",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0008",
+  "status": "done",
+  "rot_err": 2.36129371658468,
+  "lat_err": 0.29472159164661044,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v4_eth3d_0008_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v4_eth3d_0008_ref.ply",
+   "input": "clouds/courtyard/courtyard_v4_eth3d_0008_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v2_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v2",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0081",
+  "status": "done",
+  "rot_err": 1.4677044953412792,
+  "lat_err": 0.20217935988810254,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v2_eth3d_0081_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v2_eth3d_0081_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v2_eth3d_0081_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v3_eth3d_0057",
+  "scene": "delivery_area",
+  "tag": "v3",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0057",
+  "status": "done",
+  "rot_err": 0.6869983235252897,
+  "lat_err": 0.25682992956007583,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v3_eth3d_0057_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v3_eth3d_0057_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v3_eth3d_0057_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v3_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v3",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0081",
+  "status": "done",
+  "rot_err": 1.4677044955548604,
+  "lat_err": 0.2021793599260417,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v3_eth3d_0081_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v3_eth3d_0081_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v3_eth3d_0081_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v4_eth3d_0057",
+  "scene": "delivery_area",
+  "tag": "v4",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0057",
+  "status": "done",
+  "rot_err": 3.2234540719648725,
+  "lat_err": 0.30925368831436434,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v4_eth3d_0057_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v4_eth3d_0057_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v4_eth3d_0057_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v4_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v4",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0081",
+  "status": "done",
+  "rot_err": 1.5845817297979308,
+  "lat_err": 0.26629085155809573,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v4_eth3d_0081_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v4_eth3d_0081_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v4_eth3d_0081_input.ply"
+  }
+ },
+ {
+  "case": "electro_v2_eth3d_0097",
+  "scene": "electro",
+  "tag": "v2",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0097",
+  "status": "done",
+  "rot_err": 2.72982423259682,
+  "lat_err": 0.2604243695342362,
+  "files": {
+   "agent": "clouds/electro/electro_v2_eth3d_0097_agent.ply",
+   "ref": "clouds/electro/electro_v2_eth3d_0097_ref.ply",
+   "input": "clouds/electro/electro_v2_eth3d_0097_input.ply"
+  }
+ },
+ {
+  "case": "electro_v3_eth3d_0097",
+  "scene": "electro",
+  "tag": "v3",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0097",
+  "status": "done",
+  "rot_err": 2.142520064036442,
+  "lat_err": 0.23640171612303293,
+  "files": {
+   "agent": "clouds/electro/electro_v3_eth3d_0097_agent.ply",
+   "ref": "clouds/electro/electro_v3_eth3d_0097_ref.ply",
+   "input": "clouds/electro/electro_v3_eth3d_0097_input.ply"
+  }
+ },
+ {
+  "case": "electro_v3_eth3d_0126",
+  "scene": "electro",
+  "tag": "v3",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0126",
+  "status": "done",
+  "rot_err": 91.98680691553037,
+  "lat_err": 10.106001966004634,
+  "files": {
+   "agent": "clouds/electro/electro_v3_eth3d_0126_agent.ply",
+   "ref": "clouds/electro/electro_v3_eth3d_0126_ref.ply",
+   "input": "clouds/electro/electro_v3_eth3d_0126_input.ply"
+  }
+ },
+ {
+  "case": "electro_v4_eth3d_0092",
+  "scene": "electro",
+  "tag": "v4",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0092",
+  "status": "abstain",
+  "rot_err": 143.50090881425794,
+  "lat_err": 1.3672717116042827,
+  "files": {
+   "agent": "clouds/electro/electro_v4_eth3d_0092_agent.ply",
+   "ref": "clouds/electro/electro_v4_eth3d_0092_ref.ply",
+   "input": "clouds/electro/electro_v4_eth3d_0092_input.ply"
+  }
+ },
+ {
+  "case": "electro_v4_eth3d_0097",
+  "scene": "electro",
+  "tag": "v4",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0097",
+  "status": "done",
+  "rot_err": 2.7298242325965525,
+  "lat_err": 0.2604243695342272,
+  "files": {
+   "agent": "clouds/electro/electro_v4_eth3d_0097_agent.ply",
+   "ref": "clouds/electro/electro_v4_eth3d_0097_ref.ply",
+   "input": "clouds/electro/electro_v4_eth3d_0097_input.ply"
+  }
+ },
+ {
+  "case": "electro_v4_eth3d_0126",
+  "scene": "electro",
+  "tag": "v4",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0126",
+  "status": "done",
+  "rot_err": 91.57022521951471,
+  "lat_err": 4.412672532790101,
+  "files": {
+   "agent": "clouds/electro/electro_v4_eth3d_0126_agent.ply",
+   "ref": "clouds/electro/electro_v4_eth3d_0126_ref.ply",
+   "input": "clouds/electro/electro_v4_eth3d_0126_input.ply"
+  }
+ },
+ {
+  "case": "facade_v2_eth3d_0209",
+  "scene": "facade",
+  "tag": "v2",
+  "ref": "eth3d_0177",
+  "target": "eth3d_0209",
+  "status": "done",
+  "rot_err": 2.9794906847618554,
+  "lat_err": 0.5605536741112102,
+  "files": {
+   "agent": "clouds/facade/facade_v2_eth3d_0209_agent.ply",
+   "ref": "clouds/facade/facade_v2_eth3d_0209_ref.ply",
+   "input": "clouds/facade/facade_v2_eth3d_0209_input.ply"
+  }
+ },
+ {
+  "case": "facade_v3_eth3d_0169",
+  "scene": "facade",
+  "tag": "v3",
+  "ref": "eth3d_0177",
+  "target": "eth3d_0169",
+  "status": "done",
+  "rot_err": 1.3177278776281494,
+  "lat_err": 0.7194231913849326,
+  "files": {
+   "agent": "clouds/facade/facade_v3_eth3d_0169_agent.ply",
+   "ref": "clouds/facade/facade_v3_eth3d_0169_ref.ply",
+   "input": "clouds/facade/facade_v3_eth3d_0169_input.ply"
+  }
+ },
+ {
+  "case": "facade_v3_eth3d_0209",
+  "scene": "facade",
+  "tag": "v3",
+  "ref": "eth3d_0177",
+  "target": "eth3d_0209",
+  "status": "done",
+  "rot_err": 3.4425627731887025,
+  "lat_err": 0.18212589495871004,
+  "files": {
+   "agent": "clouds/facade/facade_v3_eth3d_0209_agent.ply",
+   "ref": "clouds/facade/facade_v3_eth3d_0209_ref.ply",
+   "input": "clouds/facade/facade_v3_eth3d_0209_input.ply"
+  }
+ },
+ {
+  "case": "facade_v4_eth3d_0169",
+  "scene": "facade",
+  "tag": "v4",
+  "ref": "eth3d_0177",
+  "target": "eth3d_0169",
+  "status": "done",
+  "rot_err": 1.3177036883135482,
+  "lat_err": 0.7194592779450775,
+  "files": {
+   "agent": "clouds/facade/facade_v4_eth3d_0169_agent.ply",
+   "ref": "clouds/facade/facade_v4_eth3d_0169_ref.ply",
+   "input": "clouds/facade/facade_v4_eth3d_0169_input.ply"
+  }
+ },
+ {
+  "case": "facade_v4_eth3d_0201",
+  "scene": "facade",
+  "tag": "v4",
+  "ref": "eth3d_0177",
+  "target": "eth3d_0201",
+  "status": "done",
+  "rot_err": 7.65930588399695,
+  "lat_err": 1.485698000595926,
+  "files": {
+   "agent": "clouds/facade/facade_v4_eth3d_0201_agent.ply",
+   "ref": "clouds/facade/facade_v4_eth3d_0201_ref.ply",
+   "input": "clouds/facade/facade_v4_eth3d_0201_input.ply"
+  }
+ },
+ {
+  "case": "facade_v4_eth3d_0209",
+  "scene": "facade",
+  "tag": "v4",
+  "ref": "eth3d_0177",
+  "target": "eth3d_0209",
+  "status": "done",
+  "rot_err": 3.438433568736907,
+  "lat_err": 0.18737142274532803,
+  "files": {
+   "agent": "clouds/facade/facade_v4_eth3d_0209_agent.ply",
+   "ref": "clouds/facade/facade_v4_eth3d_0209_ref.ply",
+   "input": "clouds/facade/facade_v4_eth3d_0209_input.ply"
+  }
+ },
+ {
+  "case": "office_v2_eth3d_0133",
+  "scene": "office",
+  "tag": "v2",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0133",
+  "status": "done",
+  "rot_err": 0.5227276624827097,
+  "lat_err": 0.04790125310811833,
+  "files": {
+   "agent": "clouds/office/office_v2_eth3d_0133_agent.ply",
+   "ref": "clouds/office/office_v2_eth3d_0133_ref.ply",
+   "input": "clouds/office/office_v2_eth3d_0133_input.ply"
+  }
+ },
+ {
+  "case": "office_v3_eth3d_0133",
+  "scene": "office",
+  "tag": "v3",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0133",
+  "status": "done",
+  "rot_err": 0.7049061366755855,
+  "lat_err": 0.03687071219341364,
+  "files": {
+   "agent": "clouds/office/office_v3_eth3d_0133_agent.ply",
+   "ref": "clouds/office/office_v3_eth3d_0133_ref.ply",
+   "input": "clouds/office/office_v3_eth3d_0133_input.ply"
+  }
+ },
+ {
+  "case": "office_v3_eth3d_0149",
+  "scene": "office",
+  "tag": "v3",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0149",
+  "status": "done",
+  "rot_err": 6.50642278321483,
+  "lat_err": 0.10943597877894701,
+  "files": {
+   "agent": "clouds/office/office_v3_eth3d_0149_agent.ply",
+   "ref": "clouds/office/office_v3_eth3d_0149_ref.ply",
+   "input": "clouds/office/office_v3_eth3d_0149_input.ply"
+  }
+ },
+ {
+  "case": "office_v4_eth3d_0133",
+  "scene": "office",
+  "tag": "v4",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0133",
+  "status": "done",
+  "rot_err": 1.1213007692411152,
+  "lat_err": 0.03232103236571116,
+  "files": {
+   "agent": "clouds/office/office_v4_eth3d_0133_agent.ply",
+   "ref": "clouds/office/office_v4_eth3d_0133_ref.ply",
+   "input": "clouds/office/office_v4_eth3d_0133_input.ply"
+  }
+ },
+ {
+  "case": "office_v4_eth3d_0149",
+  "scene": "office",
+  "tag": "v4",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0149",
+  "status": "done",
+  "rot_err": 3.982804300899286,
+  "lat_err": 0.12951811398763044,
+  "files": {
+   "agent": "clouds/office/office_v4_eth3d_0149_agent.ply",
+   "ref": "clouds/office/office_v4_eth3d_0149_ref.ply",
+   "input": "clouds/office/office_v4_eth3d_0149_input.ply"
+  }
+ },
+ {
+  "case": "office_v4_eth3d_0152",
+  "scene": "office",
+  "tag": "v4",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0152",
+  "status": "done",
+  "rot_err": 4.937687698400787,
+  "lat_err": 0.15437920258308793,
+  "files": {
+   "agent": "clouds/office/office_v4_eth3d_0152_agent.ply",
+   "ref": "clouds/office/office_v4_eth3d_0152_ref.ply",
+   "input": "clouds/office/office_v4_eth3d_0152_input.ply"
+  }
+ },
+ {
+  "case": "playground_v2_eth3d_0286",
+  "scene": "playground",
+  "tag": "v2",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0286",
+  "status": "done",
+  "rot_err": 1.0313851680904345,
+  "lat_err": 0.07193117831103824,
+  "files": {
+   "agent": "clouds/playground/playground_v2_eth3d_0286_agent.ply",
+   "ref": "clouds/playground/playground_v2_eth3d_0286_ref.ply",
+   "input": "clouds/playground/playground_v2_eth3d_0286_input.ply"
+  }
+ },
+ {
+  "case": "playground_v3_eth3d_0278",
+  "scene": "playground",
+  "tag": "v3",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0278",
+  "status": "done",
+  "rot_err": 55.20799287273033,
+  "lat_err": 5.695358204257017,
+  "files": {
+   "agent": "clouds/playground/playground_v3_eth3d_0278_agent.ply",
+   "ref": "clouds/playground/playground_v3_eth3d_0278_ref.ply",
+   "input": "clouds/playground/playground_v3_eth3d_0278_input.ply"
+  }
+ },
+ {
+  "case": "playground_v3_eth3d_0286",
+  "scene": "playground",
+  "tag": "v3",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0286",
+  "status": "done",
+  "rot_err": 0.9218952382595017,
+  "lat_err": 0.07244233105672031,
+  "files": {
+   "agent": "clouds/playground/playground_v3_eth3d_0286_agent.ply",
+   "ref": "clouds/playground/playground_v3_eth3d_0286_ref.ply",
+   "input": "clouds/playground/playground_v3_eth3d_0286_input.ply"
+  }
+ },
+ {
+  "case": "playground_v4_eth3d_0249",
+  "scene": "playground",
+  "tag": "v4",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0249",
+  "status": "done",
+  "rot_err": 56.6241441461672,
+  "lat_err": 0.9638963611709999,
+  "files": {
+   "agent": "clouds/playground/playground_v4_eth3d_0249_agent.ply",
+   "ref": "clouds/playground/playground_v4_eth3d_0249_ref.ply",
+   "input": "clouds/playground/playground_v4_eth3d_0249_input.ply"
+  }
+ },
+ {
+  "case": "playground_v4_eth3d_0278",
+  "scene": "playground",
+  "tag": "v4",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0278",
+  "status": "abstain",
+  "rot_err": 43.414659229976195,
+  "lat_err": 4.991425979682851,
+  "files": {
+   "agent": "clouds/playground/playground_v4_eth3d_0278_agent.ply",
+   "ref": "clouds/playground/playground_v4_eth3d_0278_ref.ply",
+   "input": "clouds/playground/playground_v4_eth3d_0278_input.ply"
+  }
+ },
+ {
+  "case": "playground_v4_eth3d_0286",
+  "scene": "playground",
+  "tag": "v4",
+  "ref": "eth3d_0282",
+  "target": "eth3d_0286",
+  "status": "done",
+  "rot_err": 1.1014757059855487,
+  "lat_err": 0.0653372445411482,
+  "files": {
+   "agent": "clouds/playground/playground_v4_eth3d_0286_agent.ply",
+   "ref": "clouds/playground/playground_v4_eth3d_0286_ref.ply",
+   "input": "clouds/playground/playground_v4_eth3d_0286_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v2_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v2",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0236",
+  "status": "done",
+  "rot_err": 0.8866387447680592,
+  "lat_err": 0.08096434122214054,
+  "files": {
+   "agent": "clouds/terrace/terrace_v2_eth3d_0236_agent.ply",
+   "ref": "clouds/terrace/terrace_v2_eth3d_0236_ref.ply",
+   "input": "clouds/terrace/terrace_v2_eth3d_0236_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v3_eth3d_0231",
+  "scene": "terrace",
+  "tag": "v3",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0231",
+  "status": "done",
+  "rot_err": 2.061756363910371,
+  "lat_err": 0.27385691703331233,
+  "files": {
+   "agent": "clouds/terrace/terrace_v3_eth3d_0231_agent.ply",
+   "ref": "clouds/terrace/terrace_v3_eth3d_0231_ref.ply",
+   "input": "clouds/terrace/terrace_v3_eth3d_0231_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v3_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v3",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0236",
+  "status": "done",
+  "rot_err": 0.8866387447680592,
+  "lat_err": 0.08096434122214054,
+  "files": {
+   "agent": "clouds/terrace/terrace_v3_eth3d_0236_agent.ply",
+   "ref": "clouds/terrace/terrace_v3_eth3d_0236_ref.ply",
+   "input": "clouds/terrace/terrace_v3_eth3d_0236_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v4_eth3d_0228",
+  "scene": "terrace",
+  "tag": "v4",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0228",
+  "status": "done",
+  "rot_err": 89.86759318491984,
+  "lat_err": 2.81307022026601,
+  "files": {
+   "agent": "clouds/terrace/terrace_v4_eth3d_0228_agent.ply",
+   "ref": "clouds/terrace/terrace_v4_eth3d_0228_ref.ply",
+   "input": "clouds/terrace/terrace_v4_eth3d_0228_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v4_eth3d_0231",
+  "scene": "terrace",
+  "tag": "v4",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0231",
+  "status": "done",
+  "rot_err": 1.5204731494252708,
+  "lat_err": 0.2918071644499543,
+  "files": {
+   "agent": "clouds/terrace/terrace_v4_eth3d_0231_agent.ply",
+   "ref": "clouds/terrace/terrace_v4_eth3d_0231_ref.ply",
+   "input": "clouds/terrace/terrace_v4_eth3d_0231_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v4_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v4",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0236",
+  "status": "done",
+  "rot_err": 0.4077497325671857,
+  "lat_err": 0.09137345349242423,
+  "files": {
+   "agent": "clouds/terrace/terrace_v4_eth3d_0236_agent.ply",
+   "ref": "clouds/terrace/terrace_v4_eth3d_0236_ref.ply",
+   "input": "clouds/terrace/terrace_v4_eth3d_0236_input.ply"
+  }
+ }
+]

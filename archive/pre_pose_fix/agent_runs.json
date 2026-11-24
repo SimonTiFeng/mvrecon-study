@@ -1,0 +1,355 @@
+[
+ {
+  "target": "eth3d_0111",
+  "hist": [
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.1686822877299068,
+    "median_nn_m": 1.8544835421776533,
+    "residual": 0.18157596518026214,
+    "scale": 1.0
+   },
+   {
+    "kind": "coarse",
+    "t": [
+     4.227274809601165,
+     1.5539321671624713,
+     4.027316217311068
+    ],
+    "overlap": 0.24481397497270513
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.24481397497270513,
+    "median_nn_m": 1.4895064894076775,
+    "residual": 0.16649137751511714,
+    "scale": 1.0
+   },
+   {
+    "kind": "solve",
+    "ok": true,
+    "t": [
+     0.15429405469973412,
+     0.15486195977156614,
+     0.9409981638469098
+    ],
+    "overlap": 0.19677500629881584,
+    "residual": 0.17722994805526351
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.19677500629881584,
+    "median_nn_m": 1.5526937629177155,
+    "residual": 0.17722994805526351,
+    "scale": 1.0
+   },
+   {
+    "kind": "refine",
+    "ok": true,
+    "fitness": 0.541488200218359,
+    "rmse": 0.19035454203599664,
+    "overlap": 0.5660115898211137
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.5660115898211137,
+    "median_nn_m": 0.24748060474411915,
+    "residual": 0.11543979364830091,
+    "scale": 0.9999999999999994
+   }
+  ],
+  "budget": {
+   "used": {
+    "render": 0,
+    "transform": 1,
+    "solve": 2,
+    "pick": 0,
+    "total": 3
+   },
+   "budget": {
+    "render": 24,
+    "transform": 20,
+    "solve": 8,
+    "pick": 10,
+    "total": 60
+   },
+   "exhausted": false
+  },
+  "trace": [
+   {
+    "op": "transform",
+    "sid": "eth3d_0111",
+    "s": null,
+    "overlap": 0.24481397497270513
+   },
+   {
+    "op": "solve",
+    "sid": "eth3d_0111",
+    "n_src": 201,
+    "n_dst": 201
+   },
+   {
+    "op": "icp",
+    "sid": "eth3d_0111",
+    "fitness": 0.541488200218359
+   }
+  ],
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0111"
+ },
+ {
+  "target": "eth3d_0111",
+  "hist": [
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.211976148484085,
+    "median_nn_m": 1.7606906191845724,
+    "residual": 0.17032186096180557,
+    "scale": 1.0
+   },
+   {
+    "kind": "coarse",
+    "t": [
+     4.3197776123154465,
+     4.655608196736355,
+     3.386681598967602
+    ],
+    "overlap": 0.09641387419165197
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.09641387419165197,
+    "median_nn_m": 2.224440838382205,
+    "residual": 0.21287553507961016,
+    "scale": 1.0
+   },
+   {
+    "kind": "solve",
+    "ok": true,
+    "t": [
+     0.15429405469973412,
+     0.15486195977156614,
+     0.9409981638469098
+    ],
+    "overlap": 0.12442260854959268,
+    "residual": 0.21250107192611525
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.12442260854959268,
+    "median_nn_m": 1.9699218622385568,
+    "residual": 0.21250107192611525,
+    "scale": 1.0
+   },
+   {
+    "kind": "refine",
+    "ok": true,
+    "fitness": 0.5380448475686571,
+    "rmse": 0.1921395363912485,
+    "overlap": 0.5467792055093642
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.5467792055093642,
+    "median_nn_m": 0.2670244822011929,
+    "residual": 0.11516140969485242,
+    "scale": 1.0
+   },
+   {
+    "kind": "check_undo",
+    "before": 0.5467792055093642,
+    "after": 0.12442260854959268,
+    "kept_undo": false
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.09641387419165197,
+    "median_nn_m": 2.224440838382205,
+    "residual": 0.21287553507961016,
+    "scale": 1.0
+   }
+  ],
+  "budget": {
+   "used": {
+    "render": 0,
+    "transform": 1,
+    "solve": 2,
+    "pick": 0,
+    "total": 3
+   },
+   "budget": {
+    "render": 24,
+    "transform": 20,
+    "solve": 8,
+    "pick": 10,
+    "total": 60
+   },
+   "exhausted": false
+  },
+  "trace": [
+   {
+    "op": "transform",
+    "sid": "eth3d_0111",
+    "s": null,
+    "overlap": 0.09641387419165197
+   },
+   {
+    "op": "solve",
+    "sid": "eth3d_0111",
+    "n_src": 201,
+    "n_dst": 201
+   },
+   {
+    "op": "icp",
+    "sid": "eth3d_0111",
+    "fitness": 0.5380448475686571
+   },
+   {
+    "op": "undo",
+    "ok": true
+   },
+   {
+    "op": "undo",
+    "ok": true
+   }
+  ],
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0111"
+ },
+ {
+  "target": "eth3d_0111",
+  "hist": [
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.16914420089023263,
+    "median_nn_m": 1.824423871475438,
+    "residual": 0.1779571605779494,
+    "scale": 1.0
+   },
+   {
+    "kind": "coarse",
+    "t": [
+     -0.018138509403523323,
+     -3.2810517079174475,
+     1.889429767490853
+    ],
+    "overlap": 0.2928529436465944
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.2928529436465944,
+    "median_nn_m": 1.0267916261201038,
+    "residual": 0.16984727260139604,
+    "scale": 1.0
+   },
+   {
+    "kind": "solve",
+    "ok": true,
+    "t": [
+     0.15429405469973412,
+     0.15486195977156614,
+     0.9409981638469098
+    ],
+    "overlap": 0.2654740908709163,
+    "residual": 0.17072629898857994
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.2654740908709163,
+    "median_nn_m": 1.1529002185515251,
+    "residual": 0.17072629898857994,
+    "scale": 1.0
+   },
+   {
+    "kind": "refine",
+    "ok": true,
+    "fitness": 0.3347190728143109,
+    "rmse": 0.292659565619736,
+    "overlap": 0.35827664399092973
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.35827664399092973,
+    "median_nn_m": 0.6079361008190425,
+    "residual": 0.16591162851462246,
+    "scale": 1.0000000000000002
+   },
+   {
+    "kind": "check_undo",
+    "before": 0.35827664399092973,
+    "after": 0.2654740908709163,
+    "kept_undo": false
+   },
+   {
+    "kind": "stats",
+    "sid": "eth3d_0111",
+    "overlap": 0.2928529436465944,
+    "median_nn_m": 1.0267916261201038,
+    "residual": 0.16984727260139604,
+    "scale": 1.0
+   }
+  ],
+  "budget": {
+   "used": {
+    "render": 0,
+    "transform": 1,
+    "solve": 2,
+    "pick": 0,
+    "total": 3
+   },
+   "budget": {
+    "render": 24,
+    "transform": 20,
+    "solve": 8,
+    "pick": 10,
+    "total": 60
+   },
+   "exhausted": false
+  },
+  "trace": [
+   {
+    "op": "transform",
+    "sid": "eth3d_0111",
+    "s": null,
+    "overlap": 0.2928529436465944
+   },
+   {
+    "op": "solve",
+    "sid": "eth3d_0111",
+    "n_src": 201,
+    "n_dst": 201
+   },
+   {
+    "op": "icp",
+    "sid": "eth3d_0111",
+    "fitness": 0.3347190728143109
+   },
+   {
+    "op": "undo",
+    "ok": true
+   },
+   {
+    "op": "undo",
+    "ok": true
+   }
+  ],
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0111"
+ }
+]

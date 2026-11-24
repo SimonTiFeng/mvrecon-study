@@ -1,0 +1,92 @@
+[
+ {
+  "case": "terrace_v2_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v2",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0236",
+  "status": "done",
+  "rot_err": 0.8866387447680592,
+  "lat_err": 0.08096434122214054,
+  "files": {
+   "agent": "clouds/terrace/terrace_v2_eth3d_0236_agent.ply",
+   "ref": "clouds/terrace/terrace_v2_eth3d_0236_ref.ply",
+   "input": "clouds/terrace/terrace_v2_eth3d_0236_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v3_eth3d_0231",
+  "scene": "terrace",
+  "tag": "v3",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0231",
+  "status": "done",
+  "rot_err": 2.061756363910371,
+  "lat_err": 0.27385691703331233,
+  "files": {
+   "agent": "clouds/terrace/terrace_v3_eth3d_0231_agent.ply",
+   "ref": "clouds/terrace/terrace_v3_eth3d_0231_ref.ply",
+   "input": "clouds/terrace/terrace_v3_eth3d_0231_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v3_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v3",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0236",
+  "status": "done",
+  "rot_err": 0.8866387447680592,
+  "lat_err": 0.08096434122214054,
+  "files": {
+   "agent": "clouds/terrace/terrace_v3_eth3d_0236_agent.ply",
+   "ref": "clouds/terrace/terrace_v3_eth3d_0236_ref.ply",
+   "input": "clouds/terrace/terrace_v3_eth3d_0236_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v4_eth3d_0228",
+  "scene": "terrace",
+  "tag": "v4",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0228",
+  "status": "done",
+  "rot_err": 89.86759318491984,
+  "lat_err": 2.81307022026601,
+  "files": {
+   "agent": "clouds/terrace/terrace_v4_eth3d_0228_agent.ply",
+   "ref": "clouds/terrace/terrace_v4_eth3d_0228_ref.ply",
+   "input": "clouds/terrace/terrace_v4_eth3d_0228_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v4_eth3d_0231",
+  "scene": "terrace",
+  "tag": "v4",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0231",
+  "status": "done",
+  "rot_err": 1.5204731494252708,
+  "lat_err": 0.2918071644499543,
+  "files": {
+   "agent": "clouds/terrace/terrace_v4_eth3d_0231_agent.ply",
+   "ref": "clouds/terrace/terrace_v4_eth3d_0231_ref.ply",
+   "input": "clouds/terrace/terrace_v4_eth3d_0231_input.ply"
+  }
+ },
+ {
+  "case": "terrace_v4_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v4",
+  "ref": "eth3d_0233",
+  "target": "eth3d_0236",
+  "status": "done",
+  "rot_err": 0.4077497325671857,
+  "lat_err": 0.09137345349242423,
+  "files": {
+   "agent": "clouds/terrace/terrace_v4_eth3d_0236_agent.ply",
+   "ref": "clouds/terrace/terrace_v4_eth3d_0236_ref.ply",
+   "input": "clouds/terrace/terrace_v4_eth3d_0236_input.ply"
+  }
+ }
+]

@@ -1,0 +1,11 @@
+{
+ "image_id": "eth3d_0229",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_f1_001\\samples\\eth3d_0229\\input.png",
+ "image_width": 1280,
+ "image_height": 853,
+ "run_id": "dev_f1_001",
+ "mode": "harness",
+ "submission_id": "sub_ca07bf9e565d2311",
+ "committed_at": "2026-11-17T02:22:26.763196+00:00",
+ "request_hash": "ca07bf9e565d2311c1d0739312c02d94542ddc7b7f70eec8723d36fa7129be6e"
+}

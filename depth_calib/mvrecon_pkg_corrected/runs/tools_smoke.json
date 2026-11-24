@@ -1,0 +1,13 @@
+{
+ "roundtrip_max_abs": 1.6653345369377348e-16,
+ "orthonormal_R": true,
+ "det_R": 1.0,
+ "downsample_count": 198,
+ "downsample_is_subset": true,
+ "knn_idx_valid": true,
+ "knn_point_is_real": true,
+ "icp_fitness": 1.0,
+ "icp_rmse": 1.31018054841108e-15,
+ "icp_recovered_R_err": 2.4424906541753444e-15,
+ "icp_recovered_t_err": 2.5169753434250976e-16
+}

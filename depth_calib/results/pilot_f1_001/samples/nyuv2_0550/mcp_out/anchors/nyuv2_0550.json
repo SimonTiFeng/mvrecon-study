@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_0550",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "dining_table_front",
+   "knowledge_group_id": "dining_table_long_side",
+   "description": "Long side of the rectangular wooden dining table, measured along the far top edge between the back-left and back-right tabletop corners.",
+   "p1_xy": [
+    167.0,
+    239.0
+   ],
+   "p2_xy": [
+    455.0,
+    238.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.65,
+   "length_interval_m": [
+    1.4,
+    1.95
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both endpoints sit on visible corners of the wooden tabletop far edge; the full long edge is visible between the rear chairs.",
+   "identity_uncertainty": "Typical rectangular dining tables range 1.4-2.0 m long (60-78 in); exact model unknown."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "dining_table_front",
+   "knowledge_group_id": "dining_table_height",
+   "description": "Dining table height: from the front-right tabletop corner down to the floor contact of the front-right table leg.",
+   "p1_xy": [
+    434.0,
+    335.0
+   ],
+   "p2_xy": [
+    438.0,
+    428.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.75,
+   "length_interval_m": [
+    0.7,
+    0.8
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The front-right table leg is visible from the tabletop edge to its floor contact beside the right chair.",
+   "identity_uncertainty": "Standard dining-table height is 0.71-0.79 m (28-31 in); counter-height tables excluded."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "dining_chair_right_front",
+   "knowledge_group_id": "dining_chair_seat_height",
+   "description": "Seat height of the front-right wooden dining chair: top of the grey seat cushion down to the visible floor between its front legs.",
+   "p1_xy": [
+    450.0,
+    318.0
+   ],
+   "p2_xy": [
+    462.0,
+    435.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.46,
+   "length_interval_m": [
+    0.4,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The grey cushion top is visible under the table edge and the hardwood floor is visible between the chair's front legs below it.",
+   "identity_uncertainty": "Dining-chair seat heights cluster at 0.43-0.48 m (17-19 in); the floor point is slightly forward of the cushion, so the measured slant may exceed the true vertical height."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_274934999d56b3ad",
+ "schema_version": "0.2"
+}

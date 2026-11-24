@@ -1,0 +1,176 @@
+{
+ "targets": {
+  "nyuv2_1167": "\u5e8a\u4e0a\u767d\u8272\u7eb8\u5f20\u7684\u957f\u8fb9\uff08\u540c\u4e00\u5f20\u7eb8\u7684\u4e24\u4e2a\u89d2\uff09",
+  "nyuv2_0852": "\u5d4c\u5165\u5f0f\u5fae\u6ce2\u7089\u524d\u9762\u677f\u7684\u6c34\u5e73\u5bbd\u5ea6\uff08\u5de6\u53f3\u4e24\u6761\u5916\u7f18\uff0c\u540c\u4e00\u9ad8\u5ea6\uff09",
+  "nyuv2_1416": "\u524d\u666f\u767d\u8272\u6253\u5370\u6587\u4ef6\u9876\u90e8\u7684\u957f\u8fb9\uff08\u540c\u4e00\u5f20\u7eb8\u7684\u4e24\u4e2a\u89d2\uff09",
+  "eth3d_0158": "\u53f3\u4e0b\u89d2\u62f1\u5f62\u7a97\u7684\u5916\u6846\u6c34\u5e73\u5bbd\u5ea6\uff08\u5de6\u53f3\u7a97\u6846\u5916\u7f18\uff0c\u540c\u4e00\u9ad8\u5ea6\uff09"
+ },
+ "reference": {
+  "nyuv2_1167": [
+   [
+    262.0,
+    334.0
+   ],
+   [
+    330.0,
+    327.0
+   ]
+  ],
+  "nyuv2_0852": [
+   [
+    105.0,
+    125.0
+   ],
+   [
+    183.0,
+    125.0
+   ]
+  ],
+  "nyuv2_1416": [
+   [
+    386.0,
+    346.0
+   ],
+   [
+    557.0,
+    333.0
+   ]
+  ],
+  "eth3d_0158": [
+   [
+    1002.0,
+    600.0
+   ],
+   [
+    1247.0,
+    600.0
+   ]
+  ]
+ },
+ "runs": {
+  "explor_points_001": {
+   "nyuv2_1167": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 6.618033988749895,
+    "per_anchor_endpoint_error_px": [
+     6.618033988749895
+    ],
+    "claimed_lengths_m": [
+     0.27
+    ],
+    "candidate_coverage": {
+     "n_candidates": 16,
+     "nearest_candidate_px_ref1": 11.0,
+     "nearest_candidate_px_ref2": 2.23606797749979
+    }
+   },
+   "nyuv2_0852": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 31.436682798038504,
+    "per_anchor_endpoint_error_px": [
+     31.436682798038504
+    ],
+    "claimed_lengths_m": [
+     0.44
+    ],
+    "candidate_coverage": {
+     "n_candidates": 32,
+     "nearest_candidate_px_ref1": 34.713109915419565,
+     "nearest_candidate_px_ref2": 12.083045973594572
+    }
+   },
+   "nyuv2_1416": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 46.04419601302895,
+    "per_anchor_endpoint_error_px": [
+     46.04419601302895
+    ],
+    "claimed_lengths_m": [
+     0.216
+    ],
+    "candidate_coverage": {
+     "n_candidates": 32,
+     "nearest_candidate_px_ref1": 11.704699910719626,
+     "nearest_candidate_px_ref2": 11.704699910719626
+    }
+   },
+   "eth3d_0158": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 53.40987387657884,
+    "per_anchor_endpoint_error_px": [
+     53.40987387657884
+    ],
+    "claimed_lengths_m": [
+     1.44
+    ],
+    "candidate_coverage": {
+     "n_candidates": 16,
+     "nearest_candidate_px_ref1": 70.45565981523414,
+     "nearest_candidate_px_ref2": 17.029386365926403
+    }
+   }
+  },
+  "explor_direct_001": {
+   "nyuv2_1167": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 12.904013062234572,
+    "per_anchor_endpoint_error_px": [
+     12.904013062234572
+    ],
+    "claimed_lengths_m": [
+     0.28
+    ],
+    "candidate_coverage": {
+     "n_candidates": 0
+    }
+   },
+   "nyuv2_0852": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 4.611062569605222,
+    "per_anchor_endpoint_error_px": [
+     4.611062569605222
+    ],
+    "claimed_lengths_m": [
+     0.61
+    ],
+    "candidate_coverage": {
+     "n_candidates": 0
+    }
+   },
+   "nyuv2_1416": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 30.022288548626914,
+    "per_anchor_endpoint_error_px": [
+     30.022288548626914
+    ],
+    "claimed_lengths_m": [
+     0.2794
+    ],
+    "candidate_coverage": {
+     "n_candidates": 0
+    }
+   },
+   "eth3d_0158": {
+    "status": "ok",
+    "n_anchors": 1,
+    "endpoint_error_px": 43.25,
+    "per_anchor_endpoint_error_px": [
+     43.25
+    ],
+    "claimed_lengths_m": [
+     1.72
+    ],
+    "candidate_coverage": {
+     "n_candidates": 0
+    }
+   }
+  }
+ }
+}

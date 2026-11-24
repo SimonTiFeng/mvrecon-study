@@ -1,0 +1,63 @@
+{
+ "image_id": "eth3d_0003",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "fg_bench_left",
+   "knowledge_group_id": "folding_beer_garden_bench_180cm",
+   "description": "Left of the two slatted wooden benches placed end to end in the foreground; length measured between the visible left board end and the butt joint with the right bench.",
+   "p1_xy": [
+    257.0,
+    732.0
+   ],
+   "p2_xy": [
+    693.0,
+    676.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.8,
+   "length_interval_m": [
+    1.7,
+    2.0
+   ],
+   "prior_kind": "identified_product",
+   "visible_evidence": "Slatted pine top with black folding steel legs, the classic German folding beer-garden bench (Klappbank/Bierbank); both top-board ends are crisp in the frame and the two bench halves are butted end to end at x~695.",
+   "identity_uncertainty": "Folding benches of this type are usually 180 cm, sometimes 200 cm; the bench depth is foreshortened, so the length relies on the product-size prior; end points placed on visible board ends (+/-3 px)."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "fg_bench_right",
+   "knowledge_group_id": "folding_beer_garden_bench_180cm",
+   "description": "Right of the two slatted wooden benches in the foreground; length measured from the butt joint at x~700 to the visible rounded right board end.",
+   "p1_xy": [
+    703.0,
+    672.0
+   ],
+   "p2_xy": [
+    1110.0,
+    685.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.8,
+   "length_interval_m": [
+    1.7,
+    2.0
+   ],
+   "prior_kind": "identified_product",
+   "visible_evidence": "Same product as the left bench (identical slat pattern, bolt heads and black folding legs); the wooden top runs from the joint behind the green cloth to a rounded end at the right, with the leg frame set in from that end.",
+   "identity_uncertainty": "Right end is partly behind a green cloth draped over the bench, so the last ~5 cm of board next to the cloth is inferred; length prior 180 cm (200 cm variant possible)."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_60c1a40b64a17f93",
+ "schema_version": "0.2"
+}

@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0550",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "dining_table",
+    "knowledge_group_id": "dining_table_height_standard",
+    "description": "Dining table height: near tabletop corner above the carved front leg down to that leg's foot on the floor",
+    "p1": {
+     "xy": [
+      330,
+      386
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      323,
+      454
+     ],
+     "point_id": null
+    },
+    "length_m": 0.76,
+    "length_interval_m": [
+     0.71,
+     0.82
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Brown wooden dining table with carved corner leg and block foot; the near tabletop corner is visible directly above the leg, and the leg foot rests on the visible hardwood floor.",
+    "identity_uncertainty": "Assumed standard-height dining table (~0.75 m); a counter-height table would be ~0.90 m but the matching wooden dining chairs make standard height far more likely."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "dining_chair_right_front",
+    "knowledge_group_id": "dining_chair_seat_height_standard",
+    "description": "Dining chair seat height: top of the near right chair's seat at its front edge down to the floor at the front leg foot",
+    "p1": {
+     "xy": [
+      438,
+      368
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      448,
+      452
+     ],
+     "point_id": null
+    },
+    "length_m": 0.46,
+    "length_interval_m": [
+     0.42,
+     0.5
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Tall-backed wooden dining chair at the right side of the table; its seat front edge and the front leg reaching the visible hardwood floor are both clear.",
+    "identity_uncertainty": "Standard dining chair seat height varies 0.44-0.47 m; the cushion/upholstery thickness adds a little uncertainty."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "paper_towel_roll",
+    "knowledge_group_id": "paper_towel_roll_standard",
+    "description": "Paper towel roll height: top edge of the white roll to its bottom edge where it meets the tabletop",
+    "p1": {
+     "xy": [
+      329,
+      101
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      332,
+      148
+     ],
+     "point_id": null
+    },
+    "length_m": 0.28,
+    "length_interval_m": [
+     0.24,
+     0.32
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White cylindrical paper towel roll standing upright on the tabletop near the window, with a dark finial of the holder visible just above it; both roll ends are visible.",
+    "identity_uncertainty": "Standard US kitchen roll is ~0.28 m tall, but the roll could be partly used and the finial overlaps the top edge."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "5e7c373f6717fa5f1b89d47f302f55ce389faa41aa9d1d72e97556136448fcb4"
+}

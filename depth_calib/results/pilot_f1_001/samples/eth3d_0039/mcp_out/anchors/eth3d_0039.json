@@ -1,0 +1,63 @@
+{
+ "image_id": "eth3d_0039",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "brick_wall_left",
+   "knowledge_group_id": "euro_modular_brick_240_family",
+   "description": "Distance between two adjacent vertical mortar joints in one course of the white sand-lime brick wall (one brick pitch).",
+   "p1_xy": [
+    113.0,
+    419.0
+   ],
+   "p2_xy": [
+    153.5,
+    419.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.23,
+   "length_interval_m": [
+    0.2,
+    0.27
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Running-bond courses of pale sand-lime bricks; per-course intensity dips give vertical joints at x=113.0 and x=153.5 within the same course band (y 411-428), pitch ~40.5 px; adjacent course joints offset by half a pitch, confirming one full brick length.",
+   "identity_uncertainty": "Exact brick format (200 vs 240 mm modular length) is not readable, and mild horizontal foreshortening cannot be excluded; interval covers both."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "scaffold_frame_tubes",
+   "knowledge_group_id": "steel_scaffold_tube_48_3",
+   "description": "Outer diameter of the vertical galvanised steel scaffold tube, measured across its silhouette at y=600.",
+   "p1_xy": [
+    634.5,
+    600.0
+   ],
+   "p2_xy": [
+    648.2,
+    600.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.048,
+   "length_interval_m": [
+    0.041,
+    0.055
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Galvanised steel tubes joined by pressed clamps/couplers form the panel frame; intensity profile at y=600 shows the dark tube spanning x~634-648 against the bright panel, ~13.5 px wide.",
+   "identity_uncertainty": "EN 39 scaffold tube is 48.3 mm OD but lighter 42.4 mm tube is possible; tube is only ~13 px wide so +/-1 px is ~7%, and the silhouette depth may pull slightly into the panel behind."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_5f29d050e4718734",
+ "schema_version": "0.2"
+}

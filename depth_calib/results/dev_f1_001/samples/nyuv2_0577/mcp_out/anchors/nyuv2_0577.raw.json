@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0577",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "blue_door_left",
+    "knowledge_group_id": "us_interior_door_80in_height",
+    "description": "Vertical straight-line distance between the top and bottom corners of the open blue interior door's free vertical edge.",
+    "p1": {
+     "xy": [
+      112,
+      34
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      96,
+      303
+     ],
+     "point_id": null
+    },
+    "length_m": 2.0,
+    "length_interval_m": [
+     1.92,
+     2.12
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Blue flat-panel door swung open at left; the top corner sits just under the white door casing and the bottom corner meets the hallway threshold, giving the full leaf face height.",
+    "identity_uncertainty": "Standard US residential interior door is 80 in (2.03 m) tall; a 78 in or 84 in leaf in an older home would shift this by ~5 percent."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "wine_bottle_bottom_shelf",
+    "knowledge_group_id": "wine_bottle_750ml_height",
+    "description": "Vertical straight-line distance from the bottle cap to the base of the dark glass bottle standing on the bottom shelf board.",
+    "p1": {
+     "xy": [
+      378,
+      346
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      380,
+      407
+     ],
+     "point_id": null
+    },
+    "length_m": 0.3,
+    "length_interval_m": [
+     0.27,
+     0.34
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Tall dark-glass bottle with a narrow neck, long body and foil-style cap among three similar bottles on the bottom shelf; proportions (height ~4x body width) match a standard 750 ml wine bottle.",
+    "identity_uncertainty": "Could be 375 ml (about 24 cm) or 1.5 L (about 35 cm) wine, or a tall condiment bottle; the three-bottle cluster and green/dark glass favor 750 ml."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "rice_cooker_bottom_shelf",
+    "knowledge_group_id": "rice_cooker_10cup_outer_width",
+    "description": "Horizontal straight-line distance across the front of the black and silver rice cooker between its left and right outer body edges.",
+    "p1": {
+     "xy": [
+      417,
+      378
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      480,
+      380
+     ],
+     "point_id": null
+    },
+    "length_m": 0.3,
+    "length_interval_m": [
+     0.25,
+     0.34
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Cylindrical black body with brushed-metal lid and front control panel, sitting on the bottom shelf next to the bottles; outer width spans about 63 px, consistent with a 5.5-10 cup rice cooker under the shelf's depth scale.",
+    "identity_uncertainty": "Could be a rice cooker, water boiler or bread maker; 5.5-10 cup models are 25-30 cm wide, but compact models may be narrower."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "6237f0c7ca7317ce9ad08a4146d28b4d4bd79b94cf6935cbecb072b6241e41b1"
+}

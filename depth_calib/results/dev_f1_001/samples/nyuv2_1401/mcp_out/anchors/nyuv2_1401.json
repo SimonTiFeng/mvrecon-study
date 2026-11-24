@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1401",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "table_right",
+   "knowledge_group_id": "folding_table_30in_width",
+   "description": "Across-the-top width of the right-hand white folding table, from a point on its far edge to a point on its near edge at the same image column (x=615).",
+   "p1_xy": [
+    615.0,
+    122.0
+   ],
+   "p2_xy": [
+    615.0,
+    278.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.76,
+   "length_interval_m": [
+    0.66,
+    0.92
+   ],
+   "prior_kind": "identified_product",
+   "visible_evidence": "Bright white plastic tabletop with a raised rim fills the right side of the image; its far-edge line runs against the beige wall near y=120 and its near-edge line runs above the floor near y=278 at x=615, both visible in the clear gap to the right of the far chair backs.",
+   "identity_uncertainty": "Looks like a standard 30-inch-wide (0.76 m) plastic folding banquet table, but the brand, length variant (4/6/8 ft) and any non-folding white-table alternative are not verifiable from the image; edge picking carries a few pixels of error."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "table_left",
+   "knowledge_group_id": "folding_table_30in_width",
+   "description": "Across-the-top width of the left-hand white folding table, from a point on its far edge to a point on its near edge at the same image column (x=358).",
+   "p1_xy": [
+    358.0,
+    82.0
+   ],
+   "p2_xy": [
+    358.0,
+    208.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.76,
+   "length_interval_m": [
+    0.66,
+    0.92
+   ],
+   "prior_kind": "identified_product",
+   "visible_evidence": "Same white folding table type; in the narrow corridor between the middle and right near chairs the tabletop's far edge against the wall and its near edge above the chair rail are both visible at x=358.",
+   "identity_uncertainty": "Standard 30-inch folding-table width assumed; model/length unknown and the corridor between chairs is narrow, so both edge points are within only a few pixels of occluding chair backs."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "chair_front_right",
+   "knowledge_group_id": "dining_chair_seat_width",
+   "description": "Width across the padded seat cushion of the near right-hand dining chair, between the visible left and right edges of the grey cushion.",
+   "p1_xy": [
+    392.0,
+    316.0
+   ],
+   "p2_xy": [
+    514.0,
+    330.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.43,
+   "length_interval_m": [
+    0.35,
+    0.53
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Grey upholstered seat surface is visible inside the dark wooden frame of the chair at lower right, between the lower back rail and the front legs; the cushion's left and right limits can be seen against the frame.",
+   "identity_uncertainty": "Generic dark-wood dining chair with no visible make or model; typical padded dining-chair seat width is 0.40-0.50 m, and the seat is seen obliquely with side edges partly hidden by the frame, so the measured span may be slightly under the full seat width."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_d67ad22350c13564",
+ "schema_version": "0.2"
+}

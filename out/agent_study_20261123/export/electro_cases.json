@@ -1,0 +1,92 @@
+[
+ {
+  "case": "electro_v2_eth3d_0097",
+  "scene": "electro",
+  "tag": "v2",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0097",
+  "status": "done",
+  "rot_err": 2.72982423259682,
+  "lat_err": 0.2604243695342362,
+  "files": {
+   "agent": "clouds/electro/electro_v2_eth3d_0097_agent.ply",
+   "ref": "clouds/electro/electro_v2_eth3d_0097_ref.ply",
+   "input": "clouds/electro/electro_v2_eth3d_0097_input.ply"
+  }
+ },
+ {
+  "case": "electro_v3_eth3d_0097",
+  "scene": "electro",
+  "tag": "v3",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0097",
+  "status": "done",
+  "rot_err": 2.142520064036442,
+  "lat_err": 0.23640171612303293,
+  "files": {
+   "agent": "clouds/electro/electro_v3_eth3d_0097_agent.ply",
+   "ref": "clouds/electro/electro_v3_eth3d_0097_ref.ply",
+   "input": "clouds/electro/electro_v3_eth3d_0097_input.ply"
+  }
+ },
+ {
+  "case": "electro_v3_eth3d_0126",
+  "scene": "electro",
+  "tag": "v3",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0126",
+  "status": "done",
+  "rot_err": 91.98680691553037,
+  "lat_err": 10.106001966004634,
+  "files": {
+   "agent": "clouds/electro/electro_v3_eth3d_0126_agent.ply",
+   "ref": "clouds/electro/electro_v3_eth3d_0126_ref.ply",
+   "input": "clouds/electro/electro_v3_eth3d_0126_input.ply"
+  }
+ },
+ {
+  "case": "electro_v4_eth3d_0092",
+  "scene": "electro",
+  "tag": "v4",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0092",
+  "status": "abstain",
+  "rot_err": 143.50090881425794,
+  "lat_err": 1.3672717116042827,
+  "files": {
+   "agent": "clouds/electro/electro_v4_eth3d_0092_agent.ply",
+   "ref": "clouds/electro/electro_v4_eth3d_0092_ref.ply",
+   "input": "clouds/electro/electro_v4_eth3d_0092_input.ply"
+  }
+ },
+ {
+  "case": "electro_v4_eth3d_0097",
+  "scene": "electro",
+  "tag": "v4",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0097",
+  "status": "done",
+  "rot_err": 2.7298242325965525,
+  "lat_err": 0.2604243695342272,
+  "files": {
+   "agent": "clouds/electro/electro_v4_eth3d_0097_agent.ply",
+   "ref": "clouds/electro/electro_v4_eth3d_0097_ref.ply",
+   "input": "clouds/electro/electro_v4_eth3d_0097_input.ply"
+  }
+ },
+ {
+  "case": "electro_v4_eth3d_0126",
+  "scene": "electro",
+  "tag": "v4",
+  "ref": "eth3d_0082",
+  "target": "eth3d_0126",
+  "status": "done",
+  "rot_err": 91.57022521951471,
+  "lat_err": 4.412672532790101,
+  "files": {
+   "agent": "clouds/electro/electro_v4_eth3d_0126_agent.ply",
+   "ref": "clouds/electro/electro_v4_eth3d_0126_ref.ply",
+   "input": "clouds/electro/electro_v4_eth3d_0126_input.ply"
+  }
+ }
+]

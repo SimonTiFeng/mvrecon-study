@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0844",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "otr_microwave",
+    "knowledge_group_id": "us_otr_microwave_width_30in",
+    "description": "Over-the-range microwave: full front width between its two bottom front corners.",
+    "p1": {
+     "xy": [
+      345,
+      143
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      555,
+      122
+     ],
+     "point_id": null
+    },
+    "length_m": 0.762,
+    "length_interval_m": [
+     0.7,
+     0.82
+    ],
+    "prior_kind": "identified_product",
+    "visible_evidence": "Black over-the-range microwave with door and right-hand control panel; its front bottom edge runs from about (345,143) at the left corner to about (555,122) at the right corner, spanning the full appliance between the flanking wood cabinets.",
+    "identity_uncertainty": "Exact model not identifiable; nearly all US over-the-range microwaves are 30 in (76.2 cm) wide, with a small chance of 36 in."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "kitchen_countertop",
+    "knowledge_group_id": "us_countertop_depth_25p5in",
+    "description": "Granite countertop depth from the front nosing edge back to the wall/backsplash, taken along one vertical image slice.",
+    "p1": {
+     "xy": [
+      470,
+      334
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      470,
+      240
+     ],
+     "point_id": null
+    },
+    "length_m": 0.648,
+    "length_interval_m": [
+     0.58,
+     0.7
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Continuous granite top surface at x=470; the front nosing edge is at y~334 above the drawer faces and the back edge meets the tile backsplash at y~240, both on the visible top surface.",
+    "identity_uncertainty": "US base-cabinet countertops are 25.5-26 in deep (24 in cabinet plus 1.5-2 in overhang), occasionally 24 in; the back point is taken at the tile face, so it may be ~1 cm short."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "gas_cooktop",
+    "knowledge_group_id": "us_gas_cooktop_width_30in",
+    "description": "Built-in gas cooktop front edge width between its front-left and front-right corners.",
+    "p1": {
+     "xy": [
+      325,
+      303
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      525,
+      323
+     ],
+     "point_id": null
+    },
+    "length_m": 0.762,
+    "length_interval_m": [
+     0.68,
+     0.94
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black gas cooktop with cast grates inset in the granite; front-left corner near (325,303) and front-right corner near (525,323) along the visible front edge, with granite visible outboard of both ends.",
+    "identity_uncertainty": "Could be a 30 in (76.2 cm) or 36 in (91.4 cm) residential cooktop; glossy black boundary leaves the corners uncertain by about 8 px."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "8f65ef022c86078f8064e07b72447e8876a29ed35fc44245d76cd7cb51d20cd3"
+}

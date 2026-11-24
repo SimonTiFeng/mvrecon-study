@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_0574",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "under_counter_black_dishwasher",
+   "knowledge_group_id": "std_builtin_dishwasher_24in",
+   "description": "Front width of the black under-counter dishwasher between its vertical left and right front-face edges.",
+   "p1_xy": [
+    295.0,
+    345.0
+   ],
+   "p2_xy": [
+    377.0,
+    345.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.61,
+   "length_interval_m": [
+    0.57,
+    0.65
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Black appliance beneath the countertop with a horizontal control/button strip at the top right and a recessed horizontal handle bar; its planar black front panel is flush with the adjacent wood base cabinets, matching a standard built-in dishwasher installed at 24 in nominal width.",
+   "identity_uncertainty": "Possible compact 18-in dishwasher, although the wide front and long handle favor the 24-in class; a 24-in trash compactor shares the same nominal width. Right edge lies close to the refrigerator side panel, so a few pixels of the front may be occluded."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_071cb0ced1ee2649",
+ "schema_version": "0.2"
+}

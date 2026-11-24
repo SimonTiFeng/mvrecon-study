@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1167",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "white_sheet_on_bed",
+    "knowledge_group_id": "paper_letter_a4",
+    "description": "Long edge of the single flat white sheet of paper lying on the bedspread, measured from its left corner to its right corner.",
+    "p1": {
+     "xy": [
+      272,
+      341
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      343,
+      331
+     ],
+     "point_id": null
+    },
+    "length_m": 0.28,
+    "length_interval_m": [
+     0.24,
+     0.33
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "One flat white rectangular sheet on the pink bedspread, straight sharp edges, slightly raised right end with a shadow step under it; the left-right edge is clearly the longer of the two edge directions.",
+    "identity_uncertainty": "No markings or brand visible, so exact format unknown: US Letter (0.279 m) vs A4 (0.297 m) sheet; a smaller notepad/note card (~0.20-0.22 m) is a less likely alternative, and endpoints may sit a few pixels inside the true corners, which would shorten the measured span slightly."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "3c78216d2d881dd5147ab915343879832882c4ee7e7cfb903572515f2656f01c"
+}

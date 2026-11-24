@@ -1,0 +1,5 @@
+bash: line 2: rsync: command not found
+CODE_RC=127
+bash: line 6: rsync: command not found
+MODELS_RC=127
+UPLOAD_DONE

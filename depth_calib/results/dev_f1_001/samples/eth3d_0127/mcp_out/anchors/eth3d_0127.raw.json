@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0127",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "paper_stack_right_desk",
+    "knowledge_group_id": "iso_a4_sheet",
+    "description": "Top sheet of the white document stack on the right desk (beside the yellow highlighter); diagonal from its top-left corner to its bottom-right corner.",
+    "p1": {
+     "xy": [
+      868,
+      593
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      985,
+      630
+     ],
+     "point_id": null
+    },
+    "length_m": 0.364,
+    "length_interval_m": [
+     0.33,
+     0.4
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Flat stack of white printed sheets with four straight edges and page fanned edge visible, lying on the desk under a yellow highlighter; opposite corners of the top sheet are both visible.",
+    "identity_uncertainty": "Identified as ISO A4 (210x297 mm) typical of European office documents; a US Letter sheet would be ~10% shorter on the diagonal."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "paper_stack_front_desk",
+    "knowledge_group_id": "iso_a4_sheet",
+    "description": "Top sheet of the white document stack near the front edge of the right desk; diagonal from its top-left corner to its bottom-right corner.",
+    "p1": {
+     "xy": [
+      752,
+      756
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      922,
+      821
+     ],
+     "point_id": null
+    },
+    "length_m": 0.364,
+    "length_interval_m": [
+     0.33,
+     0.4
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Bright white stack of printed sheets lying flat on the desk with crisp top, left and right edges contrasting against the beige desk; opposite corners visible.",
+    "identity_uncertainty": "Identified as ISO A4 office paper; the bottom-right corner lies near a shadow, so corner localization is the main error source (a few percent)."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "da1bba5c44b177db5340ba8265a35622bb4257aa4d4dc1cd85d41c843563730e"
+}

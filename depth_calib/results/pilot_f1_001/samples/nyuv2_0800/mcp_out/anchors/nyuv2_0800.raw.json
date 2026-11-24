@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0800",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "left_dining_chair",
+    "knowledge_group_id": "dining_chair_seat_height_standard",
+    "description": "左侧餐椅座面高度：座垫上表面左角到同一侧前腿落地点之间的三维直线距离（沿椅腿竖直方向）。",
+    "p1": {
+     "xy": [
+      221,
+      259
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      225,
+      364
+     ],
+     "point_id": null
+    },
+    "length_m": 0.47,
+    "length_interval_m": [
+     0.42,
+     0.53
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "深绿座垫的左前角在(221,259)清晰可见，同一侧前腿竖直向下一直可见到地面落点(225,364)，连线贴合该腿。",
+    "identity_uncertainty": "普通木质餐椅，无品牌/型号可辨识；按美式餐椅座高约18 in(0.46 m)的类别先验，座垫厚度约±3 cm。"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "dining_table_top",
+    "knowledge_group_id": "six_seat_dining_table_width_standard",
+    "description": "餐桌台面宽度：同一横截面(x≈335)处，远侧长边与近侧长边两个桌面点之间的三维直线距离。",
+    "p1": {
+     "xy": [
+      335,
+      245
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      335,
+      207
+     ],
+     "point_id": null
+    },
+    "length_m": 0.96,
+    "length_interval_m": [
+     0.86,
+     1.1
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "深色木桌的近侧与远侧两条长边在x≈335处同时可见，两点都取在桌面内部约3 px，属于同一桌面平面。",
+    "identity_uncertainty": "六人餐桌无品牌/型号；常见宽度36-42 in(0.91-1.07 m)。两点略在边缘内侧，实测弦长会比真实宽度小几厘米。"
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "ceiling_fan",
+    "knowledge_group_id": "ceiling_fan_blade_span_standard",
+    "description": "吊扇叶片展宽（直径）：最左与最右两片相对叶片尖端之间的三维直线距离。",
+    "p1": {
+     "xy": [
+      500,
+      52
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      597,
+      70
+     ],
+     "point_id": null
+    },
+    "length_m": 1.3,
+    "length_interval_m": [
+     1.05,
+     1.52
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "右上角吊扇完整可见，两端点分别落在扇叶轮廓的最左端与最右端尖端。",
+    "identity_uncertainty": "无品牌/型号可辨识；美式室内吊扇常见42-52 in(1.07-1.32 m)，少数60 in(1.52 m)。"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "901b2ea6ad6c088f5a91126d75cfacf8bfd721a87400d380e9fbd50347a67563"
+}

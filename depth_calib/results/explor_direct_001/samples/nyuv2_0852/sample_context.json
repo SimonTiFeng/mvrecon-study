@@ -1,0 +1,12 @@
+{
+ "image_id": "nyuv2_0852",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\explor_direct_001\\samples\\nyuv2_0852\\input.png",
+ "width": 640,
+ "height": 480,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/explor_direct_001/samples/nyuv2_0852/mcp_out",
+ "run_id": "explor_direct_001",
+ "mode": "harness",
+ "toolset": "direct_coords",
+ "require_point_ids": false,
+ "target": "\u5d4c\u5165\u5f0f\u5fae\u6ce2\u7089\u524d\u9762\u677f\u7684\u6c34\u5e73\u5bbd\u5ea6\uff08\u5de6\u53f3\u4e24\u6761\u5916\u7f18\uff0c\u540c\u4e00\u9ad8\u5ea6\uff09"
+}

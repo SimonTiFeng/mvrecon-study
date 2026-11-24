@@ -1,0 +1,475 @@
+{
+ "table": "| condition | n | submitted ok | abstain | missing | anchors/img | mean obs calls |\n|---|---|---|---|---|---|---|\n| explor_points_001 | 20 | 20 (100%) | 0 | 0 | 1.70 | 4.00 |\n| explor_direct_001 | 20 | 11 (55%) | 0 | 9 | 1.50 | 3.35 |",
+ "runs": {
+  "explor_points_001": {
+   "n": 20,
+   "ok": 20,
+   "abstain": 0,
+   "missing": 0,
+   "anchors": 34,
+   "vis": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "crops": [
+    2,
+    2,
+    0,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    0,
+    2,
+    2,
+    1,
+    1,
+    2
+   ],
+   "att": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "per_sample": {
+    "nyuv2_0937": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0130": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1225": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 0,
+     "att": 1
+    },
+    "nyuv2_1377": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1167": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0263": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 1,
+     "att": 1
+    },
+    "nyuv2_0852": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1416": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1420": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 1,
+     "att": 1
+    },
+    "nyuv2_1345": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0551": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0758": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 1,
+     "att": 1
+    },
+    "nyuv2_1280": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0473": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0005": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 4,
+     "vis": 4,
+     "crops": 0,
+     "att": 1
+    },
+    "eth3d_0158": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0043": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0087": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 5,
+     "vis": 4,
+     "crops": 1,
+     "att": 1
+    },
+    "eth3d_0132": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 1,
+     "att": 1
+    },
+    "eth3d_0231": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    }
+   }
+  },
+  "explor_direct_001": {
+   "n": 20,
+   "ok": 11,
+   "abstain": 0,
+   "missing": 9,
+   "anchors": 30,
+   "vis": [
+    4,
+    3,
+    2,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    4,
+    2,
+    3,
+    4,
+    4,
+    3,
+    3,
+    4,
+    3,
+    2
+   ],
+   "crops": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "att": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   "per_sample": {
+    "nyuv2_0937": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 4,
+     "crops": 2,
+     "att": 0
+    },
+    "nyuv2_0130": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 3,
+     "crops": 2,
+     "att": 0
+    },
+    "nyuv2_1225": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 2,
+     "crops": 2,
+     "att": 0
+    },
+    "nyuv2_1377": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 3,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1167": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0263": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 4,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0852": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1416": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_1420": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 4,
+     "crops": 2,
+     "att": 0
+    },
+    "nyuv2_1345": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 2,
+     "crops": 2,
+     "att": 0
+    },
+    "nyuv2_0551": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 5,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0758": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 2,
+     "crops": 2,
+     "att": 0
+    },
+    "nyuv2_1280": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 5,
+     "vis": 3,
+     "crops": 2,
+     "att": 1
+    },
+    "nyuv2_0473": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 2,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0005": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 4,
+     "crops": 2,
+     "att": 0
+    },
+    "eth3d_0158": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 1,
+     "vis": 3,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0043": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 3,
+     "crops": 2,
+     "att": 0
+    },
+    "eth3d_0087": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 3,
+     "vis": 4,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0132": {
+     "committed": true,
+     "status": "ok",
+     "n_anchors": 4,
+     "vis": 3,
+     "crops": 2,
+     "att": 1
+    },
+    "eth3d_0231": {
+     "committed": false,
+     "status": null,
+     "n_anchors": 0,
+     "vis": 2,
+     "crops": 2,
+     "att": 0
+    }
+   }
+  }
+ }
+}

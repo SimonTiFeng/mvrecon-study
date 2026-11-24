@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_0263",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "chair_01",
+   "knowledge_group_id": "wooden_side_chair_leg",
+   "description": "木制纺锤背靠椅左前腿：座面前左缘与腿的交接点至该腿在地板上的落脚点之间的三维直线距离（近似前腿长度/座高）",
+   "p1_xy": [
+    255.0,
+    360.0
+   ],
+   "p2_xy": [
+    243.0,
+    468.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.44,
+   "length_interval_m": [
+    0.37,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "画面中部偏左的木制靠背椅，纺锤状竖条靠背与弯曲横档清晰可见，左前腿从座面延伸到木地板并在落脚处形成暗色接地点",
+   "identity_uncertainty": "无法确认型号；按常见家用木制纺锤背餐椅/书桌椅类别先验（座高约0.43-0.47m）估计，若为吧椅或儿童椅则实际值偏离区间"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "chair_01",
+   "knowledge_group_id": "wooden_side_chair_leg",
+   "description": "同一把木制靠背椅右前腿：座面前右缘交接点至右前腿地板落脚点之间的三维直线距离（近似右侧前腿长度）",
+   "p1_xy": [
+    318.0,
+    360.0
+   ],
+   "p2_xy": [
+    332.0,
+    468.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.44,
+   "length_interval_m": [
+    0.37,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "右前腿在座面右缘下方可见，向下略外撇延伸至地板，端点落在木质地板上的暗色接地处",
+   "identity_uncertainty": "与a1同一把椅子，型号未知；右腿部分被前景深色弧形椅背轻微遮挡，落脚点位置存在数厘米不确定性"
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "chair_01",
+   "knowledge_group_id": "side_chair_backrest_above_seat",
+   "description": "椅背顶横档上缘中点至椅座后缘平面的三维直线距离（座面以上靠背高度）",
+   "p1_xy": [
+    270.0,
+    258.0
+   ],
+   "p2_xy": [
+    283.0,
+    358.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.45,
+   "length_interval_m": [
+    0.33,
+    0.57
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "弯曲深色木质顶横档位于窗光前方，竖向纺锤条与之相接；顶横档到座面之间的竖直线可见且未被遮挡",
+   "identity_uncertainty": "靠背高度随椅型差异较大（餐椅常见0.35-0.55m）；仅凭类别先验，无法排除高靠背或吧椅款式"
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "chair_01",
+   "knowledge_group_id": "side_chair_seat_width",
+   "description": "椅座左缘至右缘之间的横向三维直线距离（座面宽度）",
+   "p1_xy": [
+    252.0,
+    390.0
+   ],
+   "p2_xy": [
+    322.0,
+    390.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.43,
+   "length_interval_m": [
+    0.34,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "椅座为可见的水平座板，左右两端在木质地板与日光背景下呈现明显边缘；两端点分别落在座面左右边缘",
+   "identity_uncertainty": "座面右缘靠近前景深色弧形椅背的遮挡边界，端点可能略内收；按普通餐椅座宽先验估计"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_a80f87a7a45691cc",
+ "schema_version": "0.2"
+}

@@ -1,0 +1,9 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0852",
+  "status": "abstain",
+  "anchors": [],
+  "abstain_reason": "候选点组协议无法完成提交：points 工具返回的候选点 ID（v2:p*、v3:p*）在后续进程中不可解析。state/nyuv2_0852.usage.json 中 point_registry 为空（已核对），render 与 submit 均会报 POINT_ID_UNKNOWN；原因是 propose_points 在 register_points 之后未持久化注册表。观测预算已用尽（visual_calls 4/4），无法重新取点。因此无法在 require_point_ids=true（p1/p2 仅允许候选点 ID、xy=null）的约束下给出有效锚点。这是工具链缺陷导致的提交阻塞，而非缺乏视觉证据或世界知识：目标（嵌入式不锈钢微波炉前面板）及其左右外缘顶点的可见位置已由 points/render 视图确认。"
+ },
+ "request_hash": "6113750c63589fe4ee708f81d2d9e6dbb6b6bc057ddc6ee17856f8ea81659165"
+}

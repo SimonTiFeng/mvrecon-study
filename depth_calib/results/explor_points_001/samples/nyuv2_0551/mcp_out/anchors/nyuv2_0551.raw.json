@@ -1,0 +1,54 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0551",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "filing_cabinet_gray_right",
+    "knowledge_group_id": "file_cabinet_drawer_pitch",
+    "description": "Vertical spacing between corresponding chrome pull-handle points of two consecutive drawers on the gray steel filing cabinet front (above the chair back).",
+    "p1": {
+     "xy": null,
+     "point_id": "v3:p1"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v3:p13"
+    },
+    "length_m": 0.3,
+    "length_interval_m": [
+     0.27,
+     0.35
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Two consecutive drawer faces each carry an identical chrome bow pull with a keyhole and a recessed label plate above it; the cabinet runs from its top plate (~y131) to the floor (~y414), consistent with a standard ~52 in four-drawer steel file cabinet whose drawer pitch is about 11-12 in.",
+    "identity_uncertainty": "Brand/series and drawer count (2 vs 4) are not identifiable; typical office steel file cabinets have drawer pitches of 0.26-0.35 m, while compact or non-standard units could fall outside this range."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "printer_white_right_desk",
+    "knowledge_group_id": "compact_laser_printer_front_width",
+    "description": "Front width of the white desktop laser printer on the wooden desk at right, between its front-top-left and front-top-right corner points.",
+    "p1": {
+     "xy": null,
+     "point_id": "v4:p7"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v4:p1"
+    },
+    "length_m": 0.36,
+    "length_interval_m": [
+     0.32,
+     0.42
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "White boxy unit with a dark output slot on top and a front paper slot, typical of a compact A4 monochrome laser printer (roughly 0.33-0.40 m wide class).",
+    "identity_uncertainty": "No legible brand or model marking; the chosen endpoints sit a few pixels inside the true front corners, so the span may be slightly shorter than the full body width."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "7324fbd30382892ef6e07b33dbaef893d1b2080c83cc414e0ecd2c70d7e73afb"
+}

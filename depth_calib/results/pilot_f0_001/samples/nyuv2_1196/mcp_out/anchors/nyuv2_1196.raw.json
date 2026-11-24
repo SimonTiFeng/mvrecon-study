@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1196",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_pillow_right",
+    "knowledge_group_id": "standard_us_bed_pillow",
+    "description": "Standard US bed pillow (20x26 in = 0.51x0.66 m) at the head of the bed against the back wall, covered by the burgundy comforter; endpoints are the visible fabric surface points near the two ends of the pillow's long axis (the dome end-to-end span along the headboard/wall).",
+    "p1": {
+     "xy": [
+      305,
+      235
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      495,
+      222
+     ],
+     "point_id": null
+    },
+    "length_m": 0.66,
+    "length_interval_m": [
+     0.5,
+     0.9
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Two dome-shaped mounds of the comforter at the bed head against the bright back wall; the right mound is fully visible: the V-notch wall junction between the two pillows at about x=300 and the flank meeting the wall at about x=500, with the dome peak near (410,176) (traced from bright wall to dark fabric in the original frame).",
+    "identity_uncertainty": "Pillow is under the comforter, so the visible dome is pillow plus drape; the long axis could be the 26-in (0.66 m) or 20-in (0.51 m) side depending on pillow orientation, and the size class (standard vs queen) is uncertain; could conceivably be a folded duvet rather than a pillow."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "d31c9352664dd3e4d09f5154111c3c37e75956c12bac2fe3beb2818f8f9ef71d"
+}

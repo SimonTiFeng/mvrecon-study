@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0668",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bathtub",
+    "knowledge_group_id": "freestanding_bathtub_length",
+    "description": "Freestanding white oval bathtub: outer rim length between the left and right rim extremes.",
+    "p1": {
+     "xy": [
+      126,
+      277
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      536,
+      235
+     ],
+     "point_id": null
+    },
+    "length_m": 1.7,
+    "length_interval_m": [
+     1.5,
+     1.88
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "White oval tub rim fully visible; both points sit on the lit outer rim edge (leftmost and rightmost rim extremes) against the dark surround.",
+    "identity_uncertainty": "Exact model unknown; freestanding slipper tubs are typically 1.5-1.8 m long."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "bathtub",
+    "knowledge_group_id": "freestanding_bathtub_width",
+    "description": "Freestanding tub: outer rim width between the near (front) and far (back) rim extremes.",
+    "p1": {
+     "xy": [
+      215,
+      297
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      455,
+      200
+     ],
+     "point_id": null
+    },
+    "length_m": 0.8,
+    "length_interval_m": [
+     0.7,
+     0.92
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Front rim near edge and back rim far edge are both visible on the same oval rim, nearly opposite each other across the tub.",
+    "identity_uncertainty": "Freestanding tub widths are usually 0.75-0.85 m; exact model unknown."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "towel_rack",
+    "knowledge_group_id": "hotel_towel_shelf_width",
+    "description": "Chrome multi-tier hotel towel shelf at left: front width between the ends of the top shelf rail.",
+    "p1": {
+     "xy": [
+      40,
+      143
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      157,
+      133
+     ],
+     "point_id": null
+    },
+    "length_m": 0.53,
+    "length_interval_m": [
+     0.43,
+     0.66
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Chrome shelf frame with folded bath towels fully visible at image left; both ends of the front top shelf rail are visible.",
+    "identity_uncertainty": "Generic product, model not identifiable; such towel shelves are typically 16-24 in wide."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "67095741a48f74248ba33f8b84e71d0995f2411be2ed2be096ddb06c16527a75"
+}

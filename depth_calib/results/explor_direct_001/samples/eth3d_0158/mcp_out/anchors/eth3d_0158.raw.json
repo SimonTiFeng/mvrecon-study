@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0158",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "eth3d_0158_br_arched_window",
+    "knowledge_group_id": "historic_metric_brick_bond",
+    "description": "Outer-frame horizontal width of the bottom-right ground-floor arched window, measured between the outer edge of the left window jamb and the outer edge of the right window jamb at the same height (image row y=600): frame-to-wall boundary at x~1076.5 and x~1235.0.",
+    "p1": {
+     "xy": [
+      1076.5,
+      600.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      1235.0,
+      600.0
+     ],
+     "point_id": null
+    },
+    "length_m": 1.72,
+    "length_interval_m": [
+     1.45,
+     2.0
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The same polychrome brick wall flanking the window shows an English-bond lattice: header courses with vertical joints every ~11.7 px (2D autocorrelation peak dx=12, dy=0) and stretcher courses with joints every ~23.5 px (peaks 23-24 px), i.e. a 2:1 length:width brick ratio. The window clear span at the same course line is 158.6 px, equal to 13.5 header modules or 6.7 stretcher modules. Vertical course pitch is ~6.9 px, consistent with the same metric brick format (ratio width:height ~1.7-1.8).",
+    "identity_uncertainty": "The exact historic brick format is not identified: Reichsformat 250x120x65 mm gives ~1.74 m, Normalformat 240x115x71 mm ~1.66 m, Dutch Waalformat 210x100x50 mm ~1.50 m, so the format alone spans roughly 1.5-2.0 m; edge blur and the slightly skewed window frame add about +/-0.05 m."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "47c6c47b875fe69e94a1b88dfd3e2176e82a273b98cc530b0a56b992f73a8ccb"
+}

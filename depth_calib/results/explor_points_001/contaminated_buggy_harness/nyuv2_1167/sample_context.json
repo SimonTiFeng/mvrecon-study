@@ -1,0 +1,12 @@
+{
+ "image_id": "nyuv2_1167",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\explor_points_001\\samples\\nyuv2_1167\\input.png",
+ "width": 640,
+ "height": 480,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/explor_points_001/samples/nyuv2_1167/mcp_out",
+ "run_id": "explor_points_001",
+ "mode": "harness",
+ "toolset": "points",
+ "require_point_ids": true,
+ "target": "\u5e8a\u4e0a\u767d\u8272\u7eb8\u5f20\u7684\u957f\u8fb9\uff08\u540c\u4e00\u5f20\u7eb8\u7684\u4e24\u4e2a\u89d2\uff09"
+}

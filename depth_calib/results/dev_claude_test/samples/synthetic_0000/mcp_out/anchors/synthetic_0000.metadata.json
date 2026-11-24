@@ -1,0 +1,11 @@
+{
+ "image_id": "synthetic_0000",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_claude_test\\samples\\synthetic_0000\\input.png",
+ "image_width": 640,
+ "image_height": 480,
+ "run_id": "dev_claude_test",
+ "mode": "harness",
+ "submission_id": "sub_b448a3bfb1892f71",
+ "committed_at": "2026-11-17T01:16:52.001765+00:00",
+ "request_hash": "b448a3bfb1892f71608241786eb775442674c0bfa4bb0788c883da661d3b88ca"
+}

@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0576",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "outlet_plate_wall",
+    "knowledge_group_id": "us_duplex_cover_plate_4_5in",
+    "description": "Beige duplex electrical outlet cover plate on the blue kitchen wall, long side horizontal; span measured between its visible left and right edge corners",
+    "p1": {
+     "xy": [
+      490,
+      231
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      525,
+      223
+     ],
+     "point_id": null
+    },
+    "length_m": 0.1143,
+    "length_interval_m": [
+     0.1,
+     0.135
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Beige rectangular cover plate mounted on the blue backsplash wall; a black NEMA plug is inserted in its left socket with the cord running up-left. The plate's long horizontal edge runs from the left corner (490,231) to the right corner (525,223).",
+    "identity_uncertainty": "Cover plate assumed standard single-gang 4.5 in long side; could be a jumbo plate (5.25 in) and the sampled corner points sit slightly inside the true edges, so the span may understate the full 4.5 in dimension."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "3ba163f844ccf60fc9fbc51e90d7cb43ce4d1dd4d16852982cf7d257fa755cd2"
+}

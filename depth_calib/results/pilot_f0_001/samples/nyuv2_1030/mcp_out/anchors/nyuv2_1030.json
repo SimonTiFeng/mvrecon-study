@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_1030",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "chair_white_windsor",
+   "knowledge_group_id": "windsor_side_chair_overall_height",
+   "description": "Overall height of the white spindled Windsor-style side chair, from the rounded top rail of the back down to the carpet at the front-left foot.",
+   "p1_xy": [
+    240.0,
+    454.0
+   ],
+   "p2_xy": [
+    271.0,
+    155.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.95,
+   "length_interval_m": [
+    0.85,
+    1.05
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The chair stands free on the carpet in the middle of the room; both the curved top rail of the back and the front-left foot where the white leg meets the carpet are fully visible and unoccluded.",
+   "identity_uncertainty": "Generic residential Windsor-style side chair; such chairs are commonly 0.85-1.00 m tall overall, exact model unknown."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "chair_white_windsor",
+   "knowledge_group_id": "windsor_seat_width",
+   "description": "Width of the tan chair seat measured between its two outer side corners of the visible seat platform.",
+   "p1_xy": [
+    245.0,
+    420.0
+   ],
+   "p2_xy": [
+    330.0,
+    411.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.45,
+   "length_interval_m": [
+    0.38,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The tan seat slab is seen from above between the white back spindles and the legs; both left and right side corners of the seat are visible.",
+   "identity_uncertainty": "Seat outline is partly rounded/soft in the image; Windsor-style seat widths are typically 0.42-0.48 m."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "dresser_dark_wood_double",
+   "knowledge_group_id": "double_dresser_height",
+   "description": "Height of the dark-wood six-drawer double dresser on the left, measured along its front-right vertical edge from the top surface to the floor.",
+   "p1_xy": [
+    171.0,
+    351.0
+   ],
+   "p2_xy": [
+    169.0,
+    192.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.9,
+   "length_interval_m": [
+    0.78,
+    1.02
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The dresser's front-right vertical edge is unoccluded from the light top surface down to where the body meets the floor; five to six drawer rows are visible along that edge.",
+   "identity_uncertainty": "Mass-produced double dresser; body height for this class is typically 0.80-1.00 m, model unknown."
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "nightstand_dark_wood",
+   "knowledge_group_id": "bedside_chest_width",
+   "description": "Width of the dark-wood bedside chest standing against the right wall, measured along its top front edge between the two front-top corners.",
+   "p1_xy": [
+    420.0,
+    167.0
+   ],
+   "p2_xy": [
+    528.0,
+    172.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.62,
+   "length_interval_m": [
+    0.48,
+    0.8
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The chest's flat top and its front-top edge are visible with a table lamp standing on it; both front-top corners of the top slab are visible, the lower body being partly hidden behind the bed.",
+   "identity_uncertainty": "Could be a tall bedside chest rather than a small nightstand, so width may range roughly 0.5-0.8 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_4f3a557bcbdc37b7",
+ "schema_version": "0.2"
+}

@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1232",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "lamp_shade_white_drum",
+   "knowledge_group_id": "drum_lampshade_diameter_16in",
+   "description": "White cylindrical drum lampshade on the table lamp at left; diameter measured across its widest horizontal extent (left and right silhouette edges at the same height).",
+   "p1_xy": [
+    25.0,
+    145.0
+   ],
+   "p2_xy": [
+    177.0,
+    140.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.4,
+   "length_interval_m": [
+    0.33,
+    0.47
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The white drum shade is clearly visible at upper-left; left and right vertical side edges sit at nearly the same height, so the chord between them is the shade diameter. Its width-to-height ratio (~1.5) matches common 16x10 in drum shades.",
+   "identity_uncertainty": "Exact shade model unknown; typical drum table-lamp shades are 13-18 in (0.33-0.46 m) in diameter. Assumed a standard 16 in (0.41 m) drum shade."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "pillow_gold_front",
+   "knowledge_group_id": "throw_pillow_18in",
+   "description": "Front gold/tan decorative throw pillow on the sofa; width measured across its front face between the left and right seams at mid-height.",
+   "p1_xy": [
+    292.0,
+    246.0
+   ],
+   "p2_xy": [
+    350.0,
+    239.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.46,
+   "length_interval_m": [
+    0.41,
+    0.53
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Square decorative throw pillow resting against the sofa back; both side seams are visible at mid-face, giving a chord across the pillow face.",
+   "identity_uncertainty": "Standard decorative throw pillows are 16-21 in; most commonly 18-20 in (0.46-0.51 m). Exact size/brand unknown."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "pillow_gold_right",
+   "knowledge_group_id": "throw_pillow_18in",
+   "description": "Second gold/tan throw pillow on the sofa (right of the first); width measured across its visible front face at mid-height.",
+   "p1_xy": [
+    358.0,
+    237.0
+   ],
+   "p2_xy": [
+    408.0,
+    232.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.46,
+   "length_interval_m": [
+    0.41,
+    0.53
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Matching gold throw pillow next to the first against the sofa back; left seam borders the other pillow and its right side is visible against the sofa arm/back.",
+   "identity_uncertainty": "Same category prior as the matching pillow; 18-20 in typical, exact size unknown."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_72ea112e25c59cbd",
+ "schema_version": "0.2"
+}

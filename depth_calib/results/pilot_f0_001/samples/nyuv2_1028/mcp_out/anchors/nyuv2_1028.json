@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1028",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "bed_pillow_right",
+   "knowledge_group_id": "standard_bed_pillow_20in",
+   "description": "右侧白色床枕，沿床头方向的左右两端之间的宽度",
+   "p1_xy": [
+    491.0,
+    182.0
+   ],
+   "p2_xy": [
+    566.0,
+    182.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.51,
+   "length_interval_m": [
+    0.47,
+    0.6
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "右侧白色枕头完整可见，左右两侧边缘清楚，横向跨度约75px；与左侧枕头并排置于床头，两者合计跨度约1.4m接近一张标准双人床内宽，说明此横向尺寸约为枕头的20英寸短边",
+   "identity_uncertainty": "枕头规格有20x26与20x30等；此处可见方向应为20in(0.51m)，若实际长边(26-30in)朝向镜头则长度会达到0.66-0.76m"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "dresser_chest",
+   "knowledge_group_id": "three_drawer_chest_width",
+   "description": "深色木质三抽屉柜顶面前缘的左、右两端之间的前脸宽度",
+   "p1_xy": [
+    265.0,
+    189.0
+   ],
+   "p2_xy": [
+    365.0,
+    187.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.8,
+   "length_interval_m": [
+    0.68,
+    0.95
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "深色木质三抽屉五斗柜位于床左侧墙边，顶面突出的顶板前缘左右两角均可见，前脸宽约100px，为典型30-36英寸宽小柜",
+   "identity_uncertainty": "通用三抽屉柜，无品牌型号；常见宽30-36英寸(0.76-0.91m)，具体宽度与深度未知，像素比例受透视影响"
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "table_lamp_left",
+   "knowledge_group_id": "lamp_cone_shade_diameter",
+   "description": "五斗柜上的木质台灯，锥形灯罩下缘左、右两端之间的直径",
+   "p1_xy": [
+    288.0,
+    123.0
+   ],
+   "p2_xy": [
+    343.0,
+    122.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.38,
+   "length_interval_m": [
+    0.31,
+    0.45
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "木质底座台灯的深色锥形灯罩下缘左右两端清晰可见，横向跨度约55px，为灯罩底径方向",
+   "identity_uncertainty": "台灯无型号，锥形灯罩底径常见12-16英寸(0.30-0.41m)，实际直径不确定"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_4f9b23925ca7dd52",
+ "schema_version": "0.2"
+}

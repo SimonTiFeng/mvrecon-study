@@ -1,0 +1,22 @@
+{
+ "backend": "B",
+ "model": "DA3 Metric",
+ "hf_repo": "depth-anything/DA3METRIC-LARGE",
+ "revision": "4010e39f3634a45bc60553321fb49fb760bd594e",
+ "checkpoint_sha256": "bbea5b0b3ee389849cffa7ddae89de064a90abd2b055fc5aa99aac68db324776",
+ "vendor_commit": "3d835ec1a5802d64a8b8b15f817a1ab54809bfe4",
+ "device": "cuda",
+ "torch": "2.7.0+cu128",
+ "cuda_available": true,
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "process_res": 504,
+ "processed_shape": [
+  378,
+  504
+ ],
+ "inference_seconds": 1.73,
+ "depth_min": 1.2297121286392212,
+ "depth_max": 1.7523642778396606,
+ "depth_median": 1.6042410135269165,
+ "is_metric_flag": 0
+}

@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0154",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bench_1",
+    "knowledge_group_id": "public_bench_seat_height_045",
+    "description": "Vertical 3D distance between the top front edge of the long outdoor bench seat (at its first visible front leg) and the bottom of that front leg on the gravel ground; equals the bench seat height above the ground.",
+    "p1": {
+     "xy": [
+      903,
+      700
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      905,
+      732
+     ],
+     "point_id": null
+    },
+    "length_m": 0.45,
+    "length_interval_m": [
+     0.4,
+     0.52
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Continuous dark slat/metal bench running along the facade with visible thin front legs; seat top edge and front foot contact with the gravel are both directly visible at x~903-905, y~700 and y~732.",
+    "identity_uncertainty": "Category-level bench prior: outdoor public benches have seat heights typically 0.40-0.50 m; the element could conceivably be a low rail, and the gravel foot contact is slightly soft, giving roughly +/-0.05 m."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "bin_right_of_door",
+    "knowledge_group_id": "ss_pedestal_litter_bin_095",
+    "description": "Vertical 3D distance from the top front rim to the bottom base rim of the polished stainless-steel pedestal bin standing right of the entrance door.",
+    "p1": {
+     "xy": [
+      394,
+      670
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      394,
+      746
+     ],
+     "point_id": null
+    },
+    "length_m": 0.95,
+    "length_interval_m": [
+     0.85,
+     1.08
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Polished stainless cylinder with a black band near the top and a domed cap, standing on the gravel beside the door; visible height/diameter ratio ~3 matches a standard stainless pedestal litter bin (height ~0.9-1.0 m, diameter ~0.30 m).",
+    "identity_uncertainty": "Could be a wide stainless doorway bollard rather than a litter bin; both classes are typically 0.85-1.10 m tall, but an atypical taller guard post would bias the estimate low."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "bin_left_of_door",
+    "knowledge_group_id": "ss_pedestal_litter_bin_095",
+    "description": "Vertical 3D distance from the top front rim to the bottom base rim of the polished stainless-steel pedestal bin standing left of the entrance door.",
+    "p1": {
+     "xy": [
+      164,
+      670
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      164,
+      742
+     ],
+     "point_id": null
+    },
+    "length_m": 0.95,
+    "length_interval_m": [
+     0.85,
+     1.08
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Identical stainless cylinder with black top band and domed cap on the opposite side of the door, standing on the gravel; top rim and base contact visible at x~164.",
+    "identity_uncertainty": "Same product assumption as the right-hand unit; it is slightly farther from the camera, and its top rim is seen against a dark background, so the rim row is a few pixels less certain."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "1a2c47b375098bef60e94667c0ce1f680d063d02d0b513b6bc9c20bab4505958"
+}

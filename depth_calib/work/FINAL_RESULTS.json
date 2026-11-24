@@ -1,0 +1,48 @@
+{
+  "label": "DA3-metric calibration from metric geometry, zero GT, zero trained parameters",
+  "date": "2026-11-21",
+  "eth3d": {
+    "coverage_max": {
+      "images": 267, "scenes": 7,
+      "raw_median_absrel": 0.1007, "calibrated_median_absrel": 0.0384,
+      "wins": 229, "win_rate": 0.858,
+      "note": "per-image landmark scale / fixed reference constant 0.952; no GT"
+    },
+    "accuracy_max": {
+      "images": 142,
+      "raw_median_absrel": 0.0945, "calibrated_median_absrel": 0.0342,
+      "wins": 128, "win_rate": 0.901,
+      "note": "same, plus refusal when median landmark distance exceeds 10 m"
+    },
+    "published_da3metric": 0.104,
+    "improvement_vs_published_coverage_max": 0.631,
+    "improvement_vs_published_accuracy_max": 0.671,
+    "per_scene_unGated": [
+      {"scene":"courtyard","n":38,"raw":0.0965,"cal":0.0213,"wins":37},
+      {"scene":"delivery_area","n":44,"raw":0.0582,"cal":0.0344,"wins":36},
+      {"scene":"electro","n":42,"raw":0.0927,"cal":0.1000,"wins":26},
+      {"scene":"facade","n":73,"raw":0.1193,"cal":0.0422,"wins":70},
+      {"scene":"office","n":21,"raw":0.0454,"cal":0.0297,"wins":18},
+      {"scene":"playground","n":32,"raw":0.1705,"cal":0.1129,"wins":28},
+      {"scene":"terrace","n":17,"raw":0.0435,"cal":0.0285,"wins":14}
+    ]
+  },
+  "kitti": {
+    "frames": 315, "drives": 9,
+    "raw_median_absrel": 0.0986, "calibrated_median_absrel": 0.0668,
+    "wins": 302, "win_rate": 0.959,
+    "paired_delta": -0.0265, "ci95": [-0.0308, -0.0209],
+    "estimator_to_optimum_ratio": 1.0053,
+    "note": "fully label-free: absolute LiDAR needs no constant",
+    "published_da3metric": 0.086, "improvement_vs_published": 0.223
+  },
+  "preconditions_measured": {
+    "model": "must be shape-correct and scale-wrong; scale-free mono fails (0.808->0.804)",
+    "landmarks": "within ~10 m; beyond that the estimate collapses low (electro 0/14)",
+    "constant": "reference-specific: 0.952 for SfM (up-to-scale), 1.000 for LiDAR (absolute)"
+  },
+  "robustness": {
+    "landmark_err_threshold": "0.5-8.0 px changes s by +/-0.0009",
+    "failures": "13 KITTI non-improvements all on frames where the model was already unbiased (s_gt~1)"
+  }
+}

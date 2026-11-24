@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1056",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_right",
+    "knowledge_group_id": "twin_mattress_length",
+    "description": "Length of the right-hand single/twin bed along its visible near top edge, from the head-end corner at the back wall to the foot-end corner where the bedspread folds down.",
+    "p1": {
+     "xy": [
+      361,
+      206
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      519,
+      382
+     ],
+     "point_id": null
+    },
+    "length_m": 1.93,
+    "length_interval_m": [
+     1.84,
+     2.06
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Both points lie on the visible mattress top surface: the head-left corner at the wall below the pillow, and the foot-left corner where the polka-dot spread turns over the end; the full length of the bed is traceable along this taut top edge.",
+    "identity_uncertainty": "Standard narrow bed; on-screen length/width ratio (~2.2) strongly favors twin (0.97 m wide) over full/double (1.37 m), but twin (1.905 m) vs twin-XL (2.03 m) cannot be distinguished, hence the interval."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "pillow_right",
+    "knowledge_group_id": "standard_bed_pillow_length",
+    "description": "Long front edge of the white pillow lying at the head of the right bed, from its lower-left corner to its lower-right corner.",
+    "p1": {
+     "xy": [
+      377,
+      200
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      455,
+      182
+     ],
+     "point_id": null
+    },
+    "length_m": 0.66,
+    "length_interval_m": [
+     0.58,
+     0.74
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The pillow's bright white top/front face and its long lower edge are clearly visible against the grey bedspread, with both end corners resolvable.",
+    "identity_uncertainty": "Standard US pillow 20x26 in (0.51x0.66 m); queen 20x30 (0.76 m) and king 20x36 (0.91 m) are possible, but the pillow measures ~0.70 of the bed width, consistent with the 26 in length, so the interval is kept tight around standard/queen-small."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "window_back_wall",
+    "knowledge_group_id": "residential_window_sill_height",
+    "description": "Vertical distance on the back wall from the underside of the window sill to the wall/floor junction directly below it.",
+    "p1": {
+     "xy": [
+      200,
+      164
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      200,
+      292
+     ],
+     "point_id": null
+    },
+    "length_m": 0.78,
+    "length_interval_m": [
+     0.66,
+     0.92
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The window's bottom sill/trim line and, directly beneath it, the white baseboard and hardwood floor line where the back wall meets the floor are both plainly visible at the same image column.",
+    "identity_uncertainty": "Residential window sill height above finished floor is commonly 30-36 in (0.76-0.91 m), but construction varies; the window is cut by the top of the frame so its own height cannot pin the scale, hence the wide interval."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "661c7281a3697c2c936e143613140510e8b59bdf7debcc805f4f7647edb075a4"
+}

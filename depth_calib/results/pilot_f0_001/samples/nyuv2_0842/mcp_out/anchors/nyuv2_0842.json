@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0842",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "refrigerator",
+   "knowledge_group_id": "side_by_side_refrigerator_width",
+   "description": "Width of the black side-by-side refrigerator front face, between the outer left and right front door edges at mid height",
+   "p1_xy": [
+    245.0,
+    195.0
+   ],
+   "p2_xy": [
+    426.0,
+    200.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.92,
+   "length_interval_m": [
+    0.88,
+    0.96
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both vertical outer edges of the black refrigerator's front door face are visible from about y=30 to y=370: the left edge against the beige wall and memo organizer, the right edge against the wood cabinets/backsplash. Mid-height points lie on the same flat front face.",
+   "identity_uncertainty": "Standard freestanding side-by-side refrigerators are 35.5-36.25 in (0.90-0.92 m) wide; uncommon 33 in or 42 in models and slight front-face tilt could shift the true width by a few percent."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "refrigerator",
+   "knowledge_group_id": "side_by_side_refrigerator_height",
+   "description": "Height of the black side-by-side refrigerator front face, from its top front edge to its bottom front edge",
+   "p1_xy": [
+    333.0,
+    25.0
+   ],
+   "p2_xy": [
+    338.0,
+    369.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.78,
+   "length_interval_m": [
+    1.7,
+    1.86
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The refrigerator's top front edge is visible just below the wood cabinet over it (near y=25 at center x≈333), and the bottom front edge is visible where the black doors meet the tile floor (near y=369 at x≈338); both points lie on the same vertical front plane.",
+   "identity_uncertainty": "Standard side-by-side refrigerator heights are 68.5-71.5 in (1.74-1.82 m); the visible door face excludes small top/bottom trim gaps, so the interval is widened to ±0.08 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_444a706597409386",
+ "schema_version": "0.2"
+}

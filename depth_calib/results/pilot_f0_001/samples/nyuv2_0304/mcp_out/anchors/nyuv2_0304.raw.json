@@ -1,0 +1,122 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0304",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "left_wall_printed_sheet_1",
+    "knowledge_group_id": "us_letter_paper_8.5x11",
+    "description": "Printed sheet with red border taped to the left wall, nearest column",
+    "p1": {
+     "xy": [
+      30,
+      116
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      32,
+      180
+     ],
+     "point_id": null
+    },
+    "length_m": 0.2794,
+    "length_interval_m": [
+     0.21,
+     0.35
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White page with red border and printed text lines taped prominently on the near left wall; top and bottom edges lie on one near-vertical line.",
+    "identity_uncertainty": "Page may be US Letter (279 mm tall) or A4 (297 mm tall); border/laminating could add a few mm; portrait orientation assumed."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "left_wall_printed_sheet_2",
+    "knowledge_group_id": "us_letter_paper_8.5x11",
+    "description": "Second printed sheet with red border in the next column of the left wall",
+    "p1": {
+     "xy": [
+      96,
+      128
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      98,
+      180
+     ],
+     "point_id": null
+    },
+    "length_m": 0.2794,
+    "length_interval_m": [
+     0.21,
+     0.35
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White page with red border and printed text in the adjacent column; top and bottom edges visible in one near-vertical line.",
+    "identity_uncertainty": "Same sheet format as a1 (Letter/A4); wall obliquity foreshortens width, so the vertical dimension is used."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "back_wall_whiteboard",
+    "knowledge_group_id": "classroom_whiteboard_panel",
+    "description": "Wall-mounted whiteboard with red/blue writing on the back classroom wall, full panel height",
+    "p1": {
+     "xy": [
+      560,
+      93
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      560,
+      181
+     ],
+     "point_id": null
+    },
+    "length_m": 1.0,
+    "length_interval_m": [
+     0.82,
+     1.3
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Whiteboard surface with dry-erase writing; top edge lies below the alphabet strip and bottom edge above the white ledge, both visible along the same vertical line.",
+    "identity_uncertainty": "Panel height not identifiable from the image; classroom whiteboards are commonly 36 in (0.91 m) or 48 in (1.22 m) tall."
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "green_waste_bin",
+    "knowledge_group_id": "classroom_waste_recycling_bin",
+    "description": "Green plastic recycling/trash bin standing on the carpet near the teacher",
+    "p1": {
+     "xy": [
+      432,
+      224
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      434,
+      266
+     ],
+     "point_id": null
+    },
+    "length_m": 0.36,
+    "length_interval_m": [
+     0.24,
+     0.55
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Green bin standing upright on the carpet; top rim and bottom front edge visible with the front face between them.",
+    "identity_uncertainty": "Bin model/capacity cannot be identified; typical classroom recycling bins are roughly 0.25-0.5 m tall."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "07ad36692089513a840825db8cf27d2ca49b6459b123aedcabd51fd7092e7f2e"
+}

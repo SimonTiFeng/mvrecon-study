@@ -1,0 +1,23 @@
+{
+ "sample_id": "eth3d_0126",
+ "backend": "B",
+ "image_sha256": "79042d49dff488da88987858e8bc7edd0390422ee8fd42b05f8637762a239d70",
+ "width": 6048,
+ "height": 4032,
+ "processed_shape": [
+  336,
+  504
+ ],
+ "model_revision": "4010e39f3634a45bc60553321fb49fb760bd594e",
+ "checkpoint_sha256": "bbea5b0b3ee389849cffa7ddae89de064a90abd2b055fc5aa99aac68db324776",
+ "vendor_commit": "3d835ec1a5802d64a8b8b15f817a1ab54809bfe4",
+ "process_res": 504,
+ "process_res_method": "upper_bound_resize",
+ "is_metric_flag": 0,
+ "depth_min": 1.7996448278427124,
+ "depth_max": 38.786014556884766,
+ "cache_dtype": "float16",
+ "cache_include_conf": false,
+ "precision_policy": "vendor default autocast (sm_80 >= threshold)",
+ "inference_seconds": 1.07
+}

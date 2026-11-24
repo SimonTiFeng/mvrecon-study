@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1387",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "switch_plate_lower_right",
+   "knowledge_group_id": "us_single_gang_switch_plate_height",
+   "description": "Vertical height of the lower-right white US single-gang wall switch plate on the tan paneled wall, from its top edge to its bottom edge.",
+   "p1_xy": [
+    469.0,
+    193.0
+   ],
+   "p2_xy": [
+    469.0,
+    211.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.1143,
+   "length_interval_m": [
+    0.1,
+    0.13
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "A 2x2 group of white rectangular switch plates is visible on the tan wall; the lower-right plate's white top and bottom edges stand out against the tan paneling at x~469, y~193 and y~211.",
+   "identity_uncertainty": "Assumed a standard US single-gang plate (2.75 x 4.5 in = 0.070 x 0.114 m); a 2-gang plate is nearly the same height (4.56 in), but if the bright patch is only part of a plate the interval may be optimistic; edges are blurred by ~1-2 px."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "armchair_front_left",
+   "knowledge_group_id": "upholstered_armchair_seat_height_prior",
+   "description": "Seat height of the light-gray upholstered armchair, measured from the top of the seat cushion at its front-left corner down to the floor at the front-left leg base.",
+   "p1_xy": [
+    107.0,
+    344.0
+   ],
+   "p2_xy": [
+    99.0,
+    440.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.44,
+   "length_interval_m": [
+    0.36,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The chair's front-left seat cushion corner and the front-left leg reaching the marble floor directly below it are both clearly visible; the vertical line between them is unobstructed.",
+   "identity_uncertainty": "Generic upholstered lounge armchair without a known model; seat heights span roughly 0.36-0.50 m, and the floor point is a few pixels in front of the seat corner, so the 3D distance may slightly exceed the pure seat height."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "round_side_table",
+   "knowledge_group_id": "round_accent_table_diameter_prior",
+   "description": "Diameter across the round pedestal side table top, between the extreme left and right visible rim points.",
+   "p1_xy": [
+    250.0,
+    291.0
+   ],
+   "p2_xy": [
+    355.0,
+    292.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.55,
+   "length_interval_m": [
+    0.45,
+    0.65
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "A round tabletop under the vase is visible from its left rim (next to the chair) to its right rim (next to the curtain) at nearly the same image height, giving the top's widest visible chord.",
+   "identity_uncertainty": "Round accent/end table of unknown make; typical top diameters are about 18-26 in (0.46-0.66 m); the left rim may be slightly occluded by the chair, which could bias the measured chord short."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_9bbc9a1b64925750",
+ "schema_version": "0.2"
+}

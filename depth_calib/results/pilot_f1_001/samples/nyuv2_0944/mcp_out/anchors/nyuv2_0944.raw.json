@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0944",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "nyuv2_0944_bed_headboard",
+    "knowledge_group_id": "bed_size_full_queen_width",
+    "description": "Width across the bed head, measured between the centers of the two turned wooden headboard posts (mattress head width).",
+    "p1": {
+     "xy": [
+      234,
+      145
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      443,
+      145
+     ],
+     "point_id": null
+    },
+    "length_m": 1.44,
+    "length_interval_m": [
+     1.34,
+     1.6
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Both wooden headboard posts are fully visible at the same height against the wall; the straight line between their front faces runs horizontally across the head of the bed.",
+    "identity_uncertainty": "Mattress size is not directly readable; US full/double (~1.37 m) vs queen (~1.52 m) assumed, and post centers may lie slightly outside the mattress edges."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "nyuv2_0944_window_blind",
+    "knowledge_group_id": "standard_window_blind_width",
+    "description": "Width of the closed white horizontal-slat window blind above the headboard, measured from its left edge to its right edge at one slat level.",
+    "p1": {
+     "xy": [
+      352,
+      28
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      445,
+      28
+     ],
+     "point_id": null
+    },
+    "length_m": 0.74,
+    "length_interval_m": [
+     0.62,
+     0.88
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The white slat blind fills the window opening above the bed; both of its vertical edges are visible and both endpoints lie on the slat surface.",
+    "identity_uncertainty": "Blind width matches the window rough opening; standard US double-hung window widths 0.61-0.91 m assumed, and the blind plane sits a few cm inside the frame."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "nyuv2_0944_bed_pillow",
+    "knowledge_group_id": "standard_bed_pillow_size",
+    "description": "Across the top edge of the plaid bed pillow propped against the headboard, between its two upper corners (pillow width).",
+    "p1": {
+     "xy": [
+      277,
+      174
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      347,
+      175
+     ],
+     "point_id": null
+    },
+    "length_m": 0.44,
+    "length_interval_m": [
+     0.34,
+     0.56
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The plaid pillow leans against the headboard; both endpoints are on the pillow's plaid fabric along its top edge.",
+    "identity_uncertainty": "Standard (20x26 in) vs queen (20x30 in) pillow is unknown, and the backward lean foreshortens the visible edge, so the chord can be shorter than the nominal pillow width."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "95b588d32edab583b89ffc3087e586323898ad6f6e8544d1e9fa5d12e7399a96"
+}

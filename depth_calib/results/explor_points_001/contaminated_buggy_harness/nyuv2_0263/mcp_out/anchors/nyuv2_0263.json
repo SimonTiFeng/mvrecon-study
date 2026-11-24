@@ -1,0 +1,10 @@
+{
+ "image_id": "nyuv2_0263",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "abstain",
+ "anchors": [],
+ "abstain_reason": "工具链状态缺陷导致候选点无法引用，而非无可测证据。propose_points 两次调用实际返回了候选点（v3:p0-p15 木椅靠背；v4:p0-p15 右侧书本），但 register_points 的结果未被持久化到会话状态（mcp_out/state/nyuv2_0263.usage.json 中 point_registry 为空，随后 status 也显示 points=[]），因此 submit 对全部 point_id 返回 POINT_ID_UNKNOWN；重新生成候选点需消耗观察调用，而观察预算已用尽（4/4：2 次 crop + 2 次 points）。本条件要求 require_point_ids=true 且 xy 必须为 null，已获得的两条测量（木椅靠背上横档两端 p0-p1 三维距离约 0.35m；右侧柜顶精装书书脊 p11-p13 三维距离约 0.24m）无法以合规端点提交。建议在 propose_points 返回前补一次 persist_usage，并重置本样本 mcp_out/state 后重跑。",
+ "submission_id": "sub_4331949426c58c26",
+ "schema_version": "0.2"
+}

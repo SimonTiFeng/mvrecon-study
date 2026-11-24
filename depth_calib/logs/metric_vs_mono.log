@@ -1,0 +1,42 @@
+
+=== pilot: submitted=55, A-gated-ok=25
+  ALL images (A falls back to B where its solver declines):
+    B raw                0.0983
+    B + our anchors      0.1139
+    A + our affine, B fallback   0.1465
+    A oracle affine, B fallback  0.0742
+  ON THE 25 IMAGES WHERE A'S SOLVER ACCEPTS (same images, no fallback):
+    B raw              0.0946
+    B + our anchors    0.1139
+    A + our affine     0.2826
+    A oracle affine    0.0468
+    A+ours beats B raw on 2/25 of these images
+    A+ours beats B+ours on 4/25
+
+=== explor points: submitted=20, A-gated-ok=2
+  ALL images (A falls back to B where its solver declines):
+    B raw                0.0848
+    B + our anchors      0.0852
+    A + our affine, B fallback   0.0848
+    A oracle affine, B fallback  0.0681
+  ON THE 2 IMAGES WHERE A'S SOLVER ACCEPTS (same images, no fallback):
+    B raw              0.1047
+    B + our anchors    0.1545
+    A + our affine     0.3245
+    A oracle affine    0.0233
+    A+ours beats B raw on 0/2 of these images
+    A+ours beats B+ours on 0/2
+
+=== explor direct: submitted=11, A-gated-ok=6
+  ALL images (A falls back to B where its solver declines):
+    B raw                0.0846
+    B + our anchors      0.0850
+    A + our affine, B fallback   0.1185
+    A oracle affine, B fallback  0.0686
+  ON THE 6 IMAGES WHERE A'S SOLVER ACCEPTS (same images, no fallback):
+    B raw              0.0951
+    B + our anchors    0.1552
+    A + our affine     0.2392
+    A oracle affine    0.0525
+    A+ours beats B raw on 1/6 of these images
+    A+ours beats B+ours on 2/6

@@ -1,0 +1,32 @@
+[
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0111",
+  "rot_err": 56.855627051289154,
+  "trans_err": 1.7176119933958038,
+  "overlap": 0.5660115898211137,
+  "steps": 7,
+  "total_calls": 3
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0111",
+  "rot_err": 65.63496956809063,
+  "trans_err": 7.267470473878212,
+  "overlap": 0.09641387419165197,
+  "steps": 9,
+  "total_calls": 3
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0111",
+  "rot_err": 107.93121240892701,
+  "trans_err": 3.5809068091624114,
+  "overlap": 0.2928529436465944,
+  "steps": 9,
+  "total_calls": 3
+ }
+]

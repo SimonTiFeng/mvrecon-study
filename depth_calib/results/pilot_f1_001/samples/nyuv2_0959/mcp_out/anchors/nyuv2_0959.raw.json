@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0959",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "lamp_white_drum_shade",
+    "knowledge_group_id": "drum_lampshade_standard_diameter",
+    "description": "White cylindrical drum lampshade of the bedside table lamp at right foreground; left and right silhouette points at mid-height span the shade's outer diameter",
+    "p1": {
+     "xy": [
+      466,
+      246
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      597,
+      246
+     ],
+     "point_id": null
+    },
+    "length_m": 0.38,
+    "length_interval_m": [
+     0.3,
+     0.46
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Both points sit on the bright white cylindrical shade surface at mid-height (v2 crop, original coords 430..640 x 120..370); the horizontal span of the drum equals its outer diameter.",
+    "identity_uncertainty": "Exact shade model unknown; standard drum shades are commonly 12-18 in (0.30-0.46 m) in diameter."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "wall_clock_left_wall",
+    "knowledge_group_id": "round_wall_clock_standard_diameter",
+    "description": "Round dark wall clock on the left wall; top and bottom ends of the projected major axis give the dial diameter",
+    "p1": {
+     "xy": [
+      24,
+      101
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      24,
+      152
+     ],
+     "point_id": null
+    },
+    "length_m": 0.305,
+    "length_interval_m": [
+     0.24,
+     0.4
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Dark circular dial on the left wall (v3/v4 views), foreshortened into an upright ellipse by the oblique wall; its vertical major axis is the true diameter.",
+    "identity_uncertainty": "Small object near the frame edge could be a decorative plate; typical round wall clocks are 10-16 in (0.25-0.41 m)."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "c295733eba395412c759ac79c0aadee53052f59264dba6cf20ef962da76eeab6"
+}

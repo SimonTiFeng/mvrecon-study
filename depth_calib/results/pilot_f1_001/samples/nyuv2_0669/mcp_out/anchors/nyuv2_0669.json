@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0669",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "sink_basin",
+   "knowledge_group_id": "oval_lavatory_basin",
+   "description": "Oval white lavatory basin set in the granite vanity counter; measured across its long axis between the visible left and right rim edges.",
+   "p1_xy": [
+    133.0,
+    310.0
+   ],
+   "p2_xy": [
+    314.0,
+    298.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.45,
+   "length_interval_m": [
+    0.38,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The white oval basin and its rim are fully visible on the counter; both extreme left and right rim edges lie on the visible oval boundary at similar depth.",
+   "identity_uncertainty": "Model unknown; standard oval bath basins are 17-19 in (0.43-0.48 m) wide, and the visible boundary may be the granite cutout if the sink is undermounted."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "vanity_counter",
+   "knowledge_group_id": "bathroom_vanity_height",
+   "description": "Vertical distance from the tile floor at the makeup-chair knee space to the top face of the granite vanity countertop.",
+   "p1_xy": [
+    575.0,
+    170.0
+   ],
+   "p2_xy": [
+    575.0,
+    455.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.88,
+   "length_interval_m": [
+    0.8,
+    0.95
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Granite countertop top face at the right end of the vanity is visible; tile floor is visible below the chair skirt in approximately the same image column, giving a near-vertical pair spanning the vanity height.",
+   "identity_uncertainty": "Custom cabinetry without labels; US bathroom vanity tops are commonly 32-36 in (0.81-0.91 m) above the finished floor, and makeup vanities are sometimes lower."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_96af608a2326ed8d",
+ "schema_version": "0.2"
+}

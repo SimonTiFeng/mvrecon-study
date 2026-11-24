@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0944",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_headboard_posts",
+    "knowledge_group_id": "bed_full_queen_width",
+    "description": "Horizontal distance between the centers of the two turned wood posts that flank the metal headboard at the head of the bed, i.e. the outer width of the bed frame.",
+    "p1": {
+     "xy": [
+      232.0,
+      150.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      438.0,
+      150.0
+     ],
+     "point_id": null
+    },
+    "length_m": 1.45,
+    "length_interval_m": [
+     1.3,
+     1.62
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Two tall turned wood posts with ball finials are fully visible, one at each end of the dark ornate metal headboard standing against the back wall under the window; both posts are upright and clearly separate the headboard from the wall on either side.",
+    "identity_uncertainty": "Full (1.37 m) vs queen (1.52 m) width cannot be resolved; a twin (0.97 m) is unlikely given the two-pillow layout and the headboard proportions, but not excluded. I clicked post centers, so post diameter adds a small outward bias."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "blue_box_on_bed",
+    "knowledge_group_id": "facial_tissue_box_long_side",
+    "description": "Long dimension of the small blue rectangular box lying on the duvet beside the pillows (face of a standard US facial-tissue box).",
+    "p1": {
+     "xy": [
+      289.0,
+      252.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      340.0,
+      246.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.225,
+    "length_interval_m": [
+     0.2,
+     0.27
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Blue rectangular box with a light oval panel on its top face, lying on the plaid duvet just below the pillows; its long edge runs roughly left-right across the bedding and spans about 53 px, with the short edge much shorter.",
+    "identity_uncertainty": "Most likely a US facial-tissue box (long side 0.21-0.24 m); could also be a small book or a wipes package (0.18-0.22 m). Identity affects length by roughly +/-0.03 m, covered by the interval."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "1b18e4d935201955f81fb46d451cc455a2113953c89527622a996fbea600c881"
+}

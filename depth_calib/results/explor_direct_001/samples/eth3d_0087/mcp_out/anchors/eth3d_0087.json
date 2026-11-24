@@ -1,0 +1,89 @@
+{
+ "image_id": "eth3d_0087",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1_door_clear_height",
+   "object_group_id": "door_main",
+   "knowledge_group_id": "door_clear_height",
+   "description": "Vertical distance through the glazed double entrance door from the inner lower edge of the head frame to the door threshold at the same image column (x=800).",
+   "p1_xy": [
+    800.0,
+    303.5
+   ],
+   "p2_xy": [
+    800.0,
+    600.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.1,
+   "length_interval_m": [
+    2.0,
+    2.3
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Bright door head frame inner edge at y=303.5 and the leaf bottom rail / threshold line at y=600 in the same column; the two leaves and frame lie in the facade glazing plane, camera horizon is well below the head.",
+   "identity_uncertainty": "Exact door model unknown; European commercial entrance doors have clear passage heights of about 2.0-2.3 m. This working length is also the scale assumption behind the planar-facade calibration, so absolute scale is uncertain at the 5-8 percent level."
+  },
+  {
+   "anchor_id": "a2_double_leaf_span",
+   "object_group_id": "door_main",
+   "knowledge_group_id": "leaf_module_din18101",
+   "description": "Horizontal distance at mid-door height between the centreline of the hinge-side outer stile and the centreline of the right end stile of the double-leaf entrance door.",
+   "p1_xy": [
+    648.0,
+    520.0
+   ],
+   "p2_xy": [
+    856.5,
+    520.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.68,
+   "length_interval_m": [
+    1.58,
+    1.8
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Two bright vertical stiles bound the leaf pair; subpixel centres x=648 and x=856.5 at y=520; the measured leaf modules are 0.82 and 0.85 m, matching the standard 860 mm leaf module of double-leaf doors (two modules give about 1.72 m overall).",
+   "identity_uncertainty": "Leaf module not verified as DIN 18101; the measured 0.81-0.85 m per leaf suggests 860 mm nominal, but 735 mm or 985 mm variants would give 1.47 m or 1.97 m overall, so roughly 5-8 percent spread around the claimed span."
+  },
+  {
+   "anchor_id": "a3_round_sign_diameter",
+   "object_group_id": "sign_pier",
+   "knowledge_group_id": "round_prohibition_sign_small",
+   "description": "Vertical diameter of the round prohibition sign (red ring, blue disc, red diagonal) mounted on the concrete pier left of the entrance.",
+   "p1_xy": [
+    509.6,
+    395.1
+   ],
+   "p2_xy": [
+    509.6,
+    429.9
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.31,
+   "length_interval_m": [
+    0.27,
+    0.37
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Subpixel top and bottom edges of the disc at y=395.1 and y=429.9 on column x=509.6 (34.8 px tall, 26.4 px wide, consistent with a circular disc seen obliquely); mounted on the pier face which stands slightly in front of the glazing plane.",
+   "identity_uncertainty": "Sign class is a German-style Haltverbot/no-stopping disc; road-sign sizes are 420 or 600 mm, but the calibrated facade scale (door height) implies a small private-property variant near 300 mm. Pier standoff of roughly 0.2-0.5 m adds about 5 percent size uncertainty."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_5208e17feb0b63b0",
+ "schema_version": "0.2"
+}

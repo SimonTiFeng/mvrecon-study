@@ -1,0 +1,92 @@
+[
+ {
+  "case": "office_v2_eth3d_0133",
+  "scene": "office",
+  "tag": "v2",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0133",
+  "status": "done",
+  "rot_err": 0.5227276624827097,
+  "lat_err": 0.04790125310811833,
+  "files": {
+   "agent": "clouds/office/office_v2_eth3d_0133_agent.ply",
+   "ref": "clouds/office/office_v2_eth3d_0133_ref.ply",
+   "input": "clouds/office/office_v2_eth3d_0133_input.ply"
+  }
+ },
+ {
+  "case": "office_v3_eth3d_0133",
+  "scene": "office",
+  "tag": "v3",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0133",
+  "status": "done",
+  "rot_err": 0.7049061366755855,
+  "lat_err": 0.03687071219341364,
+  "files": {
+   "agent": "clouds/office/office_v3_eth3d_0133_agent.ply",
+   "ref": "clouds/office/office_v3_eth3d_0133_ref.ply",
+   "input": "clouds/office/office_v3_eth3d_0133_input.ply"
+  }
+ },
+ {
+  "case": "office_v3_eth3d_0149",
+  "scene": "office",
+  "tag": "v3",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0149",
+  "status": "done",
+  "rot_err": 6.50642278321483,
+  "lat_err": 0.10943597877894701,
+  "files": {
+   "agent": "clouds/office/office_v3_eth3d_0149_agent.ply",
+   "ref": "clouds/office/office_v3_eth3d_0149_ref.ply",
+   "input": "clouds/office/office_v3_eth3d_0149_input.ply"
+  }
+ },
+ {
+  "case": "office_v4_eth3d_0133",
+  "scene": "office",
+  "tag": "v4",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0133",
+  "status": "done",
+  "rot_err": 1.1213007692411152,
+  "lat_err": 0.03232103236571116,
+  "files": {
+   "agent": "clouds/office/office_v4_eth3d_0133_agent.ply",
+   "ref": "clouds/office/office_v4_eth3d_0133_ref.ply",
+   "input": "clouds/office/office_v4_eth3d_0133_input.ply"
+  }
+ },
+ {
+  "case": "office_v4_eth3d_0149",
+  "scene": "office",
+  "tag": "v4",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0149",
+  "status": "done",
+  "rot_err": 3.982804300899286,
+  "lat_err": 0.12951811398763044,
+  "files": {
+   "agent": "clouds/office/office_v4_eth3d_0149_agent.ply",
+   "ref": "clouds/office/office_v4_eth3d_0149_ref.ply",
+   "input": "clouds/office/office_v4_eth3d_0149_input.ply"
+  }
+ },
+ {
+  "case": "office_v4_eth3d_0152",
+  "scene": "office",
+  "tag": "v4",
+  "ref": "eth3d_0127",
+  "target": "eth3d_0152",
+  "status": "done",
+  "rot_err": 4.937687698400787,
+  "lat_err": 0.15437920258308793,
+  "files": {
+   "agent": "clouds/office/office_v4_eth3d_0152_agent.ply",
+   "ref": "clouds/office/office_v4_eth3d_0152_ref.ply",
+   "input": "clouds/office/office_v4_eth3d_0152_input.ply"
+  }
+ }
+]

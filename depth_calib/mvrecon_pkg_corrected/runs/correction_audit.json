@@ -1,0 +1,58 @@
+{
+ "legacy_office_v2": {
+  "pair": [
+   "eth3d_0130",
+   "eth3d_0135"
+  ],
+  "saved_result_rot_deg": 83.4,
+  "legacy_scorer_M_vs_A_rot_deg": 56.11236177742337,
+  "M_vs_old_T_bad_rot_deg": 18.558798489823634,
+  "M_vs_correct_COLMAP_T_rot_deg": 31.302384358271798,
+  "note": "The saved 83.4 does not reproduce from the archived task using either the legacy or corrected formula; baseline_table/task provenance mismatch."
+ },
+ "current_office_v2": {
+  "pair": [
+   "eth3d_0127",
+   "eth3d_0133"
+  ],
+  "identity_initial_rot_deg": 66.05842429698987
+ },
+ "formula": {
+  "legacy": "score cumulative M against incremental A=T_true@inv(D)",
+  "correct": "score cumulative M against T_true; after applying A, M=A@D=T_true"
+ },
+ "current_task_transforms_verified": true,
+ "current_task_mismatches": [],
+ "corrected_summary": {
+  "identity": {
+   "n": 40,
+   "rot_median": 57.9500766789708,
+   "trans_median_m": 2.5362350936669054,
+   "rot_lt20": 0,
+   "trans_lt05": 0,
+   "joint_rot_lt20_trans_lt05": 0
+  },
+  "FPFH+ICP": {
+   "n": 40,
+   "rot_median": 5.022839697231365,
+   "trans_median_m": 2.669534579669442,
+   "rot_lt20": 25,
+   "trans_lt05": 6,
+   "joint_rot_lt20_trans_lt05": 6
+  },
+  "scripted_loop": {
+   "n": 40,
+   "rot_median": 17.226482187187642,
+   "trans_median_m": 2.4417328057547056,
+   "rot_lt20": 22,
+   "trans_lt05": 4,
+   "joint_rot_lt20_trans_lt05": 4
+  }
+ },
+ "saved_corrected_rows": {
+  "baseline": 80,
+  "agent": 40,
+  "baseline_has_initial_D_final_M_T_and_method_matrices": true,
+  "agent_has_initial_final_T_D_full_trace": true
+ }
+}

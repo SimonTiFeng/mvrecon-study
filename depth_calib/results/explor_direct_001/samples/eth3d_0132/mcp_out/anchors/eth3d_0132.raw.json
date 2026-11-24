@@ -1,0 +1,122 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0132",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "whiteboard",
+    "knowledge_group_id": "whiteboard_1800x900",
+    "description": "Full width of the wall-mounted whiteboard along its top edge, from the top-left frame corner to the top-right frame corner.",
+    "p1": {
+     "xy": [
+      212.2,
+      148.3
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      976.2,
+      229.1
+     ],
+     "point_id": null
+    },
+    "length_m": 1.8,
+    "length_interval_m": [
+     1.55,
+     2.05
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Whiteboard frame edges traced continuously from corner (212,148) to (976,229); whole board spans ~768 px of the 1280-px image, board rectangle is planar and fully visible.",
+    "identity_uncertainty": "Board model unknown; assumed standard ~1800x900 mm (2:1) whiteboard. 1200x900 or 2400x1200 boards would rescale this anchor by roughly 0.7-1.3x, offsetting all other anchors with it."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "whiteboard",
+    "knowledge_group_id": "whiteboard_1800x900",
+    "description": "Height of the whiteboard along its left frame edge, from the top-left corner to the bottom-left corner.",
+    "p1": {
+     "xy": [
+      212.2,
+      148.3
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      220.9,
+      653.1
+     ],
+     "point_id": null
+    },
+    "length_m": 0.9,
+    "length_interval_m": [
+     0.78,
+     1.02
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Left frame edge visible as a continuous near-vertical line from (212,148) to (221,653), ~505 px; board aspect after perspective correction is about 2:1.",
+    "identity_uncertainty": "Same whiteboard prior as a1: standard 1800x900 mm assumed; a 4:3 board would change the implied height differently from the width estimate."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "dryerase_marker_upper",
+    "knowledge_group_id": "dryerase_marker_std",
+    "description": "Length of the upper dry-erase marker resting in the whiteboard pen holder, from its red cap end to its far tip.",
+    "p1": {
+     "xy": [
+      943.0,
+      501.2
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      982.0,
+      499.6
+     ],
+     "point_id": null
+    },
+    "length_m": 0.135,
+    "length_interval_m": [
+     0.11,
+     0.16
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Upper slot of the pen holder shows a red-capped marker with grey/green barrel; visible ends at about (943,501) and (982,500), ~39 px, consistent with a standard ~13-14 cm marker.",
+    "identity_uncertainty": "Brand/format not readable; both ends partly shaded by the holder rails, so the visible extent may under-measure by 1-2 cm. Standard dry-erase markers range ~12-15 cm."
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "whiteboard_eraser",
+    "knowledge_group_id": "eraser_std",
+    "description": "Long-axis length of the cream/pale-yellow whiteboard eraser attached near the lower right of the board, from its lower-left end to its upper-right end.",
+    "p1": {
+     "xy": [
+      915.5,
+      444.2
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      943.1,
+      407.9
+     ],
+     "point_id": null
+    },
+    "length_m": 0.133,
+    "length_interval_m": [
+     0.11,
+     0.16
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Eraser block separated from the board by its higher saturation and brightness; min-area rectangle gives long axis from (916,444) to (943,408), ~46 px, short side ~20 px (ratio ~2.3 typical of a hand eraser).",
+    "identity_uncertainty": "Generic whiteboard eraser; exact model unknown. Typical eraser blocks are 12-14 cm long, 5-6 cm wide; slight depth foreshortening and blur add ~10% uncertainty."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "3e525bd6a67b4ba61a6105e01c06b6e9bf87cd076f25a47b65d005877f8b3acf"
+}

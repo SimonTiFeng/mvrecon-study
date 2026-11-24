@@ -1,0 +1,32 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1225",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "patio_door_left_panel",
+    "knowledge_group_id": "us_sliding_patio_door_panel_width",
+    "description": "Straight-line width of the left glazed panel of the sliding patio door on the right wall, from the glass-edge of the left door jamb to the leading stile of the sliding sash that carries the latch block, both sampled at the same height along the head of the opening.",
+    "p1": {
+     "xy": null,
+     "point_id": "v1:p3"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v1:p2"
+    },
+    "length_m": 0.95,
+    "length_interval_m": [
+     0.78,
+     1.25
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Full-height glazed opening in the right wall: the brick wall face ends in a dark vertical jamb, then a wide bright pane through which a lawn, cedar fence and a step ladder are visible, closed by a separate dark vertical stile carrying a small latch/handle block part-way down, with further glazing continuing to the right of that stile. Both endpoints sit on those two vertical frame members at equal image height, so the segment runs along the panel span.",
+    "identity_uncertainty": "The head of the door is cut off by the image border, so the opening height cannot be used to confirm the unit size; US patio-door sashes are 30-48 in (0.76-1.22 m) wide and the measurement could instead span a fixed window-wall bay. The left endpoint lies on the outer face of the near jamb rather than the glass line, and the stile is viewed obliquely, so the 3D separation may exceed the nominal sash width by one jamb thickness (order 5-15 cm)."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "6dad786785a23e4a234e7af43b87c01124d1ffffbe80dcafd90145585b80779f"
+}

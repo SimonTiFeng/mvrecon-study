@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1431",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bg_white_interior_door",
+    "knowledge_group_id": "us_interior_door_80in",
+    "description": "Height of the white paneled interior door on the back wall, from the top edge of the door leaf down to its bottom edge at the floor line.",
+    "p1": {
+     "xy": [
+      125,
+      51
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      125,
+      212
+     ],
+     "point_id": null
+    },
+    "length_m": 2.03,
+    "length_interval_m": [
+     1.93,
+     2.13
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White paneled door leaf fully visible in the back hallway; its top rail and the floor line at its base are both visible.",
+    "identity_uncertainty": "Read as a standard US interior door leaf (80 in). If it is a shorter closet/bifold leaf the height could drop to ~1.90 m; top/bottom edge localization is within a few pixels."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "left_dining_chair",
+    "knowledge_group_id": "dining_chair_total_height",
+    "description": "Total height of the wooden dining chair at the left end of the table, from the top of its back rail to the bottom of its rear leg at the floor.",
+    "p1": {
+     "xy": [
+      58,
+      183
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      55,
+      290
+     ],
+     "point_id": null
+    },
+    "length_m": 0.9,
+    "length_interval_m": [
+     0.82,
+     1.0
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Left wooden dining chair is fully in frame; its top back rail and the legs meeting the lit floor are both visible.",
+    "identity_uncertainty": "Generic wooden dining chair; overall heights vary ~0.82-1.00 m and the exact leg/top-rail pixels are uncertain by a few pixels, which slightly changes the measured height."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "b92f1bcc584479968dc29185877945e95dce27f1ef4b96f95130caa289ed94a6"
+}

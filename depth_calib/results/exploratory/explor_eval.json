@@ -1,0 +1,316 @@
+{
+ "explor_points_001": [
+  {
+   "sample_id": "nyuv2_0937",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw": 0.08923615861313436,
+   "B_cal": 0.08923615861313436,
+   "B_status": "conflict",
+   "A_status": "insufficient",
+   "A_aff": 0.5373706922096466
+  },
+  {
+   "sample_id": "nyuv2_0130",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw": 0.064603951624298,
+   "B_cal": 0.655061171533959,
+   "B_status": "ok",
+   "A_status": "insufficient",
+   "A_aff": 0.3780280183905846
+  },
+  {
+   "sample_id": "nyuv2_1225",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.03999186986929318,
+   "B_cal": 0.03999186986929318,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.6074244395368266
+  },
+  {
+   "sample_id": "nyuv2_1377",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.05353887331401927,
+   "B_cal": 0.05353887331401927,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5474596652919163
+  },
+  {
+   "sample_id": "nyuv2_1167",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.05109348676533139,
+   "B_cal": 0.05109348676533139,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5194307427867428
+  },
+  {
+   "sample_id": "nyuv2_0263",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.05473881788427851,
+   "B_cal": 0.05473881788427851,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.45012088036309317
+  },
+  {
+   "sample_id": "nyuv2_0852",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.06767661035567063,
+   "B_cal": 0.06767661035567063,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5424383030728605
+  },
+  {
+   "sample_id": "nyuv2_1416",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.0850423723515344,
+   "B_cal": 0.0850423723515344,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5255041337090615
+  },
+  {
+   "sample_id": "nyuv2_1420",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.04200043089423376,
+   "B_cal": 0.04200043089423376,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.6492380225061833
+  },
+  {
+   "sample_id": "nyuv2_1345",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw": 0.11804734186286456,
+   "B_cal": 0.11804734186286456,
+   "B_status": "conflict",
+   "A_status": "insufficient",
+   "A_aff": 0.6497697808802546
+  },
+  {
+   "sample_id": "nyuv2_0551",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw": 0.1055068378894214,
+   "B_cal": 0.1055068378894214,
+   "B_status": "conflict",
+   "A_status": "insufficient",
+   "A_aff": 0.48873480308218226
+  },
+  {
+   "sample_id": "nyuv2_0758",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.08893502380516044,
+   "B_cal": 0.08893502380516044,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.4389904241869013
+  },
+  {
+   "sample_id": "nyuv2_1280",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw": 0.08463264577640954,
+   "B_cal": 0.08463264577640954,
+   "B_status": "conflict",
+   "A_status": "insufficient",
+   "A_aff": 0.685189266216272
+  },
+  {
+   "sample_id": "nyuv2_0473",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.06861318013750373,
+   "B_cal": 0.06861318013750373,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5723207762383408
+  },
+  {
+   "sample_id": "eth3d_0005",
+   "dataset": "eth3d",
+   "n_anchors": 4,
+   "B_raw": 0.08490811084473479,
+   "B_cal": 0.0699019506844695,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.26451940964754483
+  },
+  {
+   "sample_id": "eth3d_0158",
+   "dataset": "eth3d",
+   "n_anchors": 1,
+   "B_raw": 0.11853295642940156,
+   "B_cal": 0.11853295642940156,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.905371830699718
+  },
+  {
+   "sample_id": "eth3d_0043",
+   "dataset": "eth3d",
+   "n_anchors": 1,
+   "B_raw": 0.08536808194192914,
+   "B_cal": 0.08536808194192914,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.8132597148023453
+  },
+  {
+   "sample_id": "eth3d_0087",
+   "dataset": "eth3d",
+   "n_anchors": 5,
+   "B_raw": 0.1245539908697308,
+   "B_cal": 0.2390629115076578,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.3844666777059085
+  },
+  {
+   "sample_id": "eth3d_0132",
+   "dataset": "eth3d",
+   "n_anchors": 2,
+   "B_raw": 0.1253219576274707,
+   "B_cal": 0.18133765728557338,
+   "B_status": "ok",
+   "A_status": "insufficient",
+   "A_aff": 0.3656682628245588
+  },
+  {
+   "sample_id": "eth3d_0231",
+   "dataset": "eth3d",
+   "n_anchors": 2,
+   "B_raw": 0.02676356880961947,
+   "B_cal": 0.18228206717341547,
+   "B_status": "ok",
+   "A_status": "insufficient",
+   "A_aff": 0.7916110815871823
+  }
+ ],
+ "explor_direct_001": [
+  {
+   "sample_id": "nyuv2_1377",
+   "dataset": "nyuv2",
+   "n_anchors": 3,
+   "B_raw": 0.05353887331401927,
+   "B_cal": 0.07228881397305842,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.2707755894791335
+  },
+  {
+   "sample_id": "nyuv2_1167",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.05109348676533139,
+   "B_cal": 0.05109348676533139,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5194307427867428
+  },
+  {
+   "sample_id": "nyuv2_0263",
+   "dataset": "nyuv2",
+   "n_anchors": 4,
+   "B_raw": 0.05473881788427851,
+   "B_cal": 0.05473881788427851,
+   "B_status": "conflict",
+   "A_status": "ok",
+   "A_aff": 0.20764233456836714
+  },
+  {
+   "sample_id": "nyuv2_0852",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.06767661035567063,
+   "B_cal": 0.06767661035567063,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5424383030728605
+  },
+  {
+   "sample_id": "nyuv2_1416",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw": 0.0850423723515344,
+   "B_cal": 0.0850423723515344,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.5255041337090615
+  },
+  {
+   "sample_id": "nyuv2_0551",
+   "dataset": "nyuv2",
+   "n_anchors": 5,
+   "B_raw": 0.1055068378894214,
+   "B_cal": 0.15560934337119797,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.1355004418378869
+  },
+  {
+   "sample_id": "nyuv2_1280",
+   "dataset": "nyuv2",
+   "n_anchors": 5,
+   "B_raw": 0.08463264577640954,
+   "B_cal": 0.2187636180396776,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.30297641053515606
+  },
+  {
+   "sample_id": "nyuv2_0473",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw": 0.06861318013750373,
+   "B_cal": 0.06861318013750373,
+   "B_status": "conflict",
+   "A_status": "insufficient",
+   "A_aff": 0.5723207762383408
+  },
+  {
+   "sample_id": "eth3d_0158",
+   "dataset": "eth3d",
+   "n_anchors": 1,
+   "B_raw": 0.11853295642940156,
+   "B_cal": 0.11853295642940156,
+   "B_status": "single_anchor",
+   "A_status": "insufficient",
+   "A_aff": 0.905371830699718
+  },
+  {
+   "sample_id": "eth3d_0087",
+   "dataset": "eth3d",
+   "n_anchors": 3,
+   "B_raw": 0.1245539908697308,
+   "B_cal": 0.26295745387439207,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.2820339635828583
+  },
+  {
+   "sample_id": "eth3d_0132",
+   "dataset": "eth3d",
+   "n_anchors": 4,
+   "B_raw": 0.1253219576274707,
+   "B_cal": 0.15482738592266665,
+   "B_status": "ok",
+   "A_status": "ok",
+   "A_aff": 0.10340447734004188
+  }
+ ]
+}

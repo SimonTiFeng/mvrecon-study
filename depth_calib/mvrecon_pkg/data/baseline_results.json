@@ -1,0 +1,426 @@
+[
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "method": "identity",
+  "rot_err": 97.1,
+  "trans_err": 0.65,
+  "overlap": 0.169
+ },
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "method": "A_icp",
+  "rot_err": 46.5,
+  "trans_err": 0.96,
+  "overlap": 0.677
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 65.6,
+  "trans_err": 0.805,
+  "overlap": 0.212
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 100.4,
+  "trans_err": 12.785,
+  "overlap": 0.007
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 32.7,
+  "trans_err": 1.596,
+  "overlap": 0.666
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 41.1,
+  "trans_err": 8.593,
+  "overlap": 0.646
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 107.9,
+  "trans_err": 0.831,
+  "overlap": 0.169
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 87.4,
+  "trans_err": 9.35,
+  "overlap": 0.005
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 102.9,
+  "trans_err": 4.633,
+  "overlap": 0.392
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 55.1,
+  "trans_err": 1.255,
+  "overlap": 0.649
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 51.1,
+  "trans_err": 8.181,
+  "overlap": 0.619
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 54.3,
+  "trans_err": 3.313,
+  "overlap": 0.46
+ },
+ {
+  "scene": "playground",
+  "tag": "v2",
+  "method": "identity",
+  "rot_err": 92.0,
+  "trans_err": 2.0,
+  "overlap": 0.036
+ },
+ {
+  "scene": "playground",
+  "tag": "v2",
+  "method": "A_icp",
+  "rot_err": 79.2,
+  "trans_err": 2.987,
+  "overlap": 0.505
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 118.0,
+  "trans_err": 2.668,
+  "overlap": 0.043
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 84.2,
+  "trans_err": 11.235,
+  "overlap": 0.0
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 65.4,
+  "trans_err": 1.519,
+  "overlap": 0.529
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 145.9,
+  "trans_err": 5.196,
+  "overlap": 0.577
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 106.8,
+  "trans_err": 3.668,
+  "overlap": 0.525
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 58.4,
+  "trans_err": 9.595,
+  "overlap": 0.108
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 110.4,
+  "trans_err": 5.023,
+  "overlap": 0.421
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 66.4,
+  "trans_err": 1.649,
+  "overlap": 0.292
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 121.8,
+  "trans_err": 7.75,
+  "overlap": 0.171
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 176.0,
+  "trans_err": 15.038,
+  "overlap": 0.228
+ },
+ {
+  "scene": "office",
+  "tag": "v2",
+  "method": "identity",
+  "rot_err": 83.4,
+  "trans_err": 0.433,
+  "overlap": 0.689
+ },
+ {
+  "scene": "office",
+  "tag": "v2",
+  "method": "A_icp",
+  "rot_err": 59.6,
+  "trans_err": 4.895,
+  "overlap": 0.188
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 71.8,
+  "trans_err": 0.886,
+  "overlap": 0.619
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 59.6,
+  "trans_err": 4.895,
+  "overlap": 0.188
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 67.2,
+  "trans_err": 1.762,
+  "overlap": 0.896
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 139.8,
+  "trans_err": 6.455,
+  "overlap": 0.864
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 83.4,
+  "trans_err": 0.433,
+  "overlap": 0.689
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 75.6,
+  "trans_err": 3.251,
+  "overlap": 0.403
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 133.7,
+  "trans_err": 1.816,
+  "overlap": 0.686
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 171.3,
+  "trans_err": 4.007,
+  "overlap": 0.376
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 57.7,
+  "trans_err": 3.969,
+  "overlap": 0.505
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 170.2,
+  "trans_err": 5.099,
+  "overlap": 0.985
+ },
+ {
+  "scene": "terrace",
+  "tag": "v2",
+  "method": "identity",
+  "rot_err": 84.2,
+  "trans_err": 0.853,
+  "overlap": 0.452
+ },
+ {
+  "scene": "terrace",
+  "tag": "v2",
+  "method": "A_icp",
+  "rot_err": 48.8,
+  "trans_err": 2.276,
+  "overlap": 0.732
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 153.3,
+  "trans_err": 4.033,
+  "overlap": 0.412
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 48.8,
+  "trans_err": 2.276,
+  "overlap": 0.732
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 113.0,
+  "trans_err": 5.386,
+  "overlap": 0.789
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 84.2,
+  "trans_err": 0.853,
+  "overlap": 0.452
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 76.6,
+  "trans_err": 6.216,
+  "overlap": 0.08
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 71.4,
+  "trans_err": 14.883,
+  "overlap": 0.08
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 135.7,
+  "trans_err": 1.39,
+  "overlap": 0.526
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 40.8,
+  "trans_err": 4.943,
+  "overlap": 0.816
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 157.1,
+  "trans_err": 9.453,
+  "overlap": 0.663
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v2",
+  "method": "identity",
+  "rot_err": 117.2,
+  "trans_err": 5.771,
+  "overlap": 0.06
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v2",
+  "method": "A_icp",
+  "rot_err": 143.0,
+  "trans_err": 8.037,
+  "overlap": 0.506
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "method": "identity",
+  "rot_err": 94.9,
+  "trans_err": 9.657,
+  "overlap": 0.09
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "method": "A_icp",
+  "rot_err": 59.4,
+  "trans_err": 20.334,
+  "overlap": 0.248
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "method": "identity",
+  "rot_err": 72.0,
+  "trans_err": 4.283,
+  "overlap": 0.021
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "method": "A_icp",
+  "rot_err": 100.9,
+  "trans_err": 7.606,
+  "overlap": 0.734
+ }
+]

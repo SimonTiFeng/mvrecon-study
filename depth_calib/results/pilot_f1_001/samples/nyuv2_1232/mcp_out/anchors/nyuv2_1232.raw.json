@@ -1,0 +1,122 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1232",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "sofa_throw_pillows",
+    "knowledge_group_id": "decorative_pillow_standard_size",
+    "description": "Middle gold decorative throw pillow on the leather sofa; distance from its top-left corner to its bottom-left corner (one full side edge).",
+    "p1": {
+     "xy": [
+      284,
+      190
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      281,
+      282
+     ],
+     "point_id": null
+    },
+    "length_m": 0.47,
+    "length_interval_m": [
+     0.4,
+     0.56
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The gold cushion's left side is fully visible from the top corner next to the dark pillow down to the seat cushion, unobstructed.",
+    "identity_uncertainty": "Exact cushion size is not identifiable; assumes a standard 18-20 in square decorative pillow, with some padding/lean variation."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "sofa_throw_pillows",
+    "knowledge_group_id": "decorative_pillow_standard_size",
+    "description": "Right-hand gold decorative throw pillow beside the middle one; distance from its top-left corner to its bottom-left corner (one full side edge).",
+    "p1": {
+     "xy": [
+      352,
+      176
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      365,
+      271
+     ],
+     "point_id": null
+    },
+    "length_m": 0.47,
+    "length_interval_m": [
+     0.4,
+     0.56
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Second matching gold cushion leaning on the sofa back; its left side edge is visible from the top corner to the bottom corner near the seat.",
+    "identity_uncertainty": "Same standard square-cushion assumption; the pillow is tilted, so the visible side may be slightly foreshortened."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "table_lamp",
+    "knowledge_group_id": "table_lamp_standard_size",
+    "description": "Table lamp on the side table; vertical distance from the top of the white lampshade to the bottom of the gold base on the tabletop.",
+    "p1": {
+     "xy": [
+      100,
+      90
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      106,
+      320
+     ],
+     "point_id": null
+    },
+    "length_m": 0.7,
+    "length_interval_m": [
+     0.6,
+     0.82
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The whole lamp is visible: shade top, gold stacked-orb base, and the base resting on the dark side table, with a clean near-vertical axis.",
+    "identity_uncertainty": "No model/brand identifiable; typical table lamps with a medium/large drum shade are 60-78 cm tall overall."
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "table_lamp",
+    "knowledge_group_id": "lampshade_standard_size",
+    "description": "Diameter across the bottom rim of the white drum lampshade, from the visible left rim point to the visible right rim point.",
+    "p1": {
+     "xy": [
+      24,
+      191
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      162,
+      190
+     ],
+     "point_id": null
+    },
+    "length_m": 0.4,
+    "length_interval_m": [
+     0.33,
+     0.48
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Both lateral edges of the shade's bottom rim are visible against the wall and sofa, at the same height.",
+    "identity_uncertainty": "Shade shape/size varies; assumes a standard 14-17 in table-lamp shade diameter."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "2e0a16556143be6fe30b5baea8ce095e48f9932c07bbd946d6841fb7cff76473"
+}

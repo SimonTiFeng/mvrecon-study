@@ -1,0 +1,27 @@
+{
+ "n_images": 60,
+ "total_pixels_evaluated": 15459584,
+ "median": {
+  "A_scale_oracle_FULL": 0.1082625827867639,
+  "A_affine_oracle_FULL": 0.045889921253915895,
+  "A_affine_oracle_sub50k_mean": 0.045961110795765744,
+  "A_affine_oracle_max_abs_dev_between_seeds": 0.0013747187816220974,
+  "B_raw": 0.09634580572278328,
+  "B_scale_oracle_FULL": 0.041870426531771796
+ },
+ "by_dataset": {
+  "eth3d": {
+   "n": 20,
+   "A_affine_oracle_FULL": 0.02427101619737588,
+   "A_scale_oracle_FULL": 0.06485491840252165,
+   "B_raw": 0.10399923720327661
+  },
+  "nyuv2": {
+   "n": 40,
+   "A_affine_oracle_FULL": 0.061029452151438374,
+   "A_scale_oracle_FULL": 0.11356282203601278,
+   "B_raw": 0.09416094080461873
+  }
+ },
+ "count_A_affine_beats_B_raw": 55
+}

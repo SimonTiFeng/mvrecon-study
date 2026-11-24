@@ -121,6 +121,23 @@ out/*        the earlier analysis arms (rotation, translation, identity, HPC swe
 FINDING_*.md / STATUS.md   cumulative research log
 ```
 
+## Full archive
+
+Beyond the study itself this repository now carries the rest of the working tree:
+
+- `archive/` — pre-fix handoff tarball and the earlier corrected-regeneration snapshot.
+- `study/pilot_*` — the three excluded pilots (contaminated prompt, lost-update race, old CLI),
+  kept for provenance; they are **not** part of any reported number.
+- `out/agent_study_20261123/export/clouds/` — the PLY clouds behind the viewers.
+- `depth_calib/` — the parent mono-depth pipeline (`src`, `scripts`, `configs`, `tests`,
+  `manifests`, `work`, `results`), plus the two agent handoff packages
+  `mvrecon_pkg/` and `mvrecon_pkg_corrected/`. Model caches, pretrained weights and the
+  virtualenv are not included.
+
+Those handoff packages contain the agent-visible RGB views (ETH3D crops). ETH3D data is
+released for non-commercial research use; if you hold the rights and want a subset removed,
+open an issue.
+
 ## Caveats worth knowing
 
 - The study is **two-view** registration from an injected wrong pose, with high direct

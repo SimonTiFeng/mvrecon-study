@@ -1,0 +1,77 @@
+[
+ {
+  "case": "delivery_area_v2_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v2",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0081",
+  "status": "done",
+  "rot_err": 1.4677044953412792,
+  "lat_err": 0.20217935988810254,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v2_eth3d_0081_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v2_eth3d_0081_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v2_eth3d_0081_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v3_eth3d_0057",
+  "scene": "delivery_area",
+  "tag": "v3",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0057",
+  "status": "done",
+  "rot_err": 0.6869983235252897,
+  "lat_err": 0.25682992956007583,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v3_eth3d_0057_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v3_eth3d_0057_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v3_eth3d_0057_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v3_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v3",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0081",
+  "status": "done",
+  "rot_err": 1.4677044955548604,
+  "lat_err": 0.2021793599260417,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v3_eth3d_0081_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v3_eth3d_0081_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v3_eth3d_0081_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v4_eth3d_0057",
+  "scene": "delivery_area",
+  "tag": "v4",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0057",
+  "status": "done",
+  "rot_err": 3.2234540719648725,
+  "lat_err": 0.30925368831436434,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v4_eth3d_0057_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v4_eth3d_0057_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v4_eth3d_0057_input.ply"
+  }
+ },
+ {
+  "case": "delivery_area_v4_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v4",
+  "ref": "eth3d_0062",
+  "target": "eth3d_0081",
+  "status": "done",
+  "rot_err": 1.5845817297979308,
+  "lat_err": 0.26629085155809573,
+  "files": {
+   "agent": "clouds/delivery_area/delivery_area_v4_eth3d_0081_agent.ply",
+   "ref": "clouds/delivery_area/delivery_area_v4_eth3d_0081_ref.ply",
+   "input": "clouds/delivery_area/delivery_area_v4_eth3d_0081_input.ply"
+  }
+ }
+]

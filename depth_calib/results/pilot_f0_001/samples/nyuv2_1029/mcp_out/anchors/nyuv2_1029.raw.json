@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1029",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed",
+    "knowledge_group_id": "residential_bed_size",
+    "description": "Queen-size bed width across the head end, where the left and right mattress/comforter edges meet the line of the two flanking nightstands",
+    "p1": {
+     "xy": [
+      181,
+      238
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      468,
+      232
+     ],
+     "point_id": null
+    },
+    "length_m": 1.52,
+    "length_interval_m": [
+     1.38,
+     1.7
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Left mattress/comforter edge beside the left nightstand at (181,238); right mattress/comforter edge beside the right nightstand at (468,232); both are points on the bed's top/head plane bounding the same width dimension.",
+    "identity_uncertainty": "Queen (1.53 m) vs full (1.37 m) vs king (1.93 m); two standard pillows filling most of the width favor queen, and comforter overhang adds roughly 5-10 cm."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "pillow",
+    "knowledge_group_id": "standard_bed_pillow",
+    "description": "Long-axis extent of the right-hand bed pillow lying across the head of the bed",
+    "p1": {
+     "xy": [
+      303,
+      192
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      385,
+      178
+     ],
+     "point_id": null
+    },
+    "length_m": 0.68,
+    "length_interval_m": [
+     0.56,
+     0.82
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The pillow's two visible silhouette ends along its long axis (left end at 303,192; right end at 385,178) on the mattress near the head of the bed.",
+    "identity_uncertainty": "Standard (0.66 m) vs queen (0.76 m) pillow length; soft pillow surface makes the visible chord slightly shorter than nominal length."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "wall_poster",
+    "knowledge_group_id": "framed_print_size",
+    "description": "Outer width of the framed print centered on the wall above the bed",
+    "p1": {
+     "xy": [
+      204,
+      92
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      290,
+      92
+     ],
+     "point_id": null
+    },
+    "length_m": 0.44,
+    "length_interval_m": [
+     0.32,
+     0.58
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Left and right outer edges of the framed print's frame at the same height (y=92), a flat wall-mounted object whose horizontal extent is its width.",
+    "identity_uncertainty": "Print/frame size not identifiable; plausible 30x40 cm to 18x24 in with mat, frame width also variable."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "e8e28f969a358fde7be7f665f0759ea720343facfb25d93046a40c18ea0fec3c"
+}

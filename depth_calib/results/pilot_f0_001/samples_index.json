@@ -1,0 +1,482 @@
+[
+ {
+  "sample_id": "nyuv2_0958",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0958\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "2169f208383fccc5cfae200707bd85dfe07fc82bccf608c5e732779de65440ab",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0958/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0959",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0959\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "ff4ea182f6bdc4ed7e9932d8b4aab353689f31c0469d7959d896ad9d1036f71a",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0959/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0302",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0302\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "935ccc8411fd40d6b297eadf000a9c2aaec4bf0033b27a556114ca30e21796da",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0302/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0303",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0303\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "4b06e382ae670a9d8609d4bddfd5b2ace4f09b5a73a95aa9d1955b6b84890891",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0303/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0304",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0304\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "bcd541dc33c3d1a2827a224f186dcb78235934a9da781dced70e0e470f68b93b",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0304/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1196",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1196\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "be2ffcd9b7c4ddfa3acacc73f884c19590d4df04e7be3ec719c8f32d49135ff1",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1196/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1197",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1197\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "d3e45cc85832e4efcd9e87f0e4b2a35f96b9658980c152ba2c34b3dba7b61abb",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1197/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1367",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1367\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "7c85a14758b22287de9c81b81b844febbb154f1c3911b9f35263254ff29cbb43",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1367/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1368",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1368\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "21b8314f6e50805b1ea101cd04f36c7d0246ec506c33d654ab70ea7aa3e412ec",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1368/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0548",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0548\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "5cd65bf71edb838bfc7a3e601be183b4545f0ab03734f2e48f018c6148ca8779",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0548/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0549",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0549\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "ee6291a38aef4a610db5f420b885d1e0082d54c447dfbe87dc7d8925ce76539e",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0549/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0550",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0550\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "e4ea20fb1ee414dc920ec4b9638b7fc7410185fe77c58162b20b25985427a6af",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0550/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1028",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1028\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "a415ccc2266c2c390c328efa4c1575719fce42cac0ace8a348aefa8e34c0f5f2",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1028/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1029",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1029\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "d1b8c0fec4e0f3043f00155417110d5c9991980326854c99f66cca28a66f3ece",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1029/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1030",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1030\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "3d7ea6109615e6cb5bb441c9784cb3a2f4aa9700f911b88efff2dbe16e35cd6d",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1030/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1429",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1429\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "20f3df8cf985da875ab238f86a89a02ee192fbc58940f18fdfbc0a04a630edc2",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1429/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1430",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1430\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "98d215b7be0a5817e41863a576ff6dab5f73e2de43e68860ed5dc9e5a2671445",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1430/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1431",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1431\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "da1edf7f3b30978523afc2a9af9e7113f6600e709320d8092b9b1fd1db181e46",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1431/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1432",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1432\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "ddfc8205a2ea500ef8ca99ca62bf478b228cb48bdaa95314cf00a61fc571df58",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1432/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0944",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0944\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "1a91dee70b34481057944ad2f4442d5649eb0228d6eed5f40f214a472b76bc8b",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0944/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0945",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0945\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "2448b023da5c7dec499c3de0ab61d48c943dce1ce5ac7c60929eb72f5a7499e4",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0945/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0946",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0946\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "e60c1f56fc45bb398816662582c62162045f88ce8eb706725ad6aafa58da7fdc",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0946/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0667",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0667\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "b0c77aa2b59987ed4b02b2b3ce7cdaf027240c63791cbc7492a31028de410906",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0667/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0668",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0668\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "f076e7fdb63b572d69d2010fe5c0f10287bfbd6f982b129489f237b4ae5b0d4f",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0668/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0669",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0669\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "d6b27d79750cafd4a080cb240768452d92cd44ba277a89c39272dbc2b7437a57",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0669/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0799",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0799\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "052b61b480b93ca24fd62a1726676db5d6830211149fe42e6a0496c76b53af82",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0799/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0800",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0800\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "0decd565c16f38e45b162d314dad8e9a17236a121f99bde812a607bd8e843219",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0800/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0801",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0801\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "56afa59852b185c40a49665aa28fa836f78e08fd1c468bb54133974826979460",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0801/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0802",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0802\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "25c3d90401857b8215212ed7062a561f4773e55bbfbcad262fa589dc3d7bf16f",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0802/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0803",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0803\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "0d6e774cffab86ef7f1ea62b55db41a646599cad47b5a068719da1eb243e1fc7",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0803/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0842",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0842\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "e047a4221935d5f8115dfd7349067e0574829cb60c802fac000af67e6318c1a9",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0842/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0843",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0843\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "fe91be3e14e9ad2aef7253bf429211361980e6d02b6fd03d13b78fafe53a6830",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0843/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0844",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0844\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "6fc8635389ec21691651a8fc38d7b6944b5b893d55f5ae8e37e3ee461c339900",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0844/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0845",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0845\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "955e689f821edc3cfa2fe264b2a35c7a3b3772b8f41a68953cd303fb3090f1e4",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0845/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1232",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1232\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "d6c428db64a55fd1286881b43e80cb92e89d379b448438cded66912037d6bdd1",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1232/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1233",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1233\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "8eb3a758b08458714afa205a9618b93243fbac92ccbe060b16ec9c27cd061c45",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1233/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1234",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1234\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "bd354a200406586dd81385f5198d0f06ba6d28697031e87b36b033b0fe8d2bd4",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1234/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_0008",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_0008\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "948d377e40ebaf8288af4a70faca449c6acbe27a28719613f538702f411ec256",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_0008/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1056",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1056\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "fdd3969b247a7a72f9f86fc9be2bd7c77bcb6a118a3f29171c6014478da0f4f9",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1056/sample_context.json"
+ },
+ {
+  "sample_id": "nyuv2_1057",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\nyuv2_1057\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "c944b9b0872e54daf81851b27ec295ae1e60b51758292d36007d51f89226d555",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/nyuv2_1057/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0000",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0000\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "8dbef983b04d9674f7757419a401824e6f78963664463f40f4d6dbf27fb705f6",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0000/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0001",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0001\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "8cf07bad8da2634b7ffebe671d89e80bd0b3d0bd4102be099befa78971cb2da6",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0001/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0002",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0002\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "2c928f9ca05865aacaec4e23cd1ad7251b3ac35975bf0607d5b878d4b061d820",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0002/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0003",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0003\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "03dec479eeea489fc50db2f0ab6ba67f456bc5b53eda683df5da9dbc18fced27",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0003/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0004",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0004\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "3a0afc2bc6371f160948f35e0d743267c7bedc3e565786c19731905949b17843",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0004/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0153",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0153\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "beb343aa15a036b7958a3886c046aba6e58e4a7c009374da731f7c3c0bf21e42",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0153/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0154",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0154\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "396d58bcdcc7bf98dc561aef6c521b11c8ae3879ada180bd561f551c798a7140",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0154/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0155",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0155\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "cbd3a45843386020759d03cd89b4e219a4f520d0647aa684de1b3a7b0530bb15",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0155/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0156",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0156\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "eb36441e936f8f27d0c167d5371dda9b36974c5c60c88b15dfcd5025990b0437",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0156/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0157",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0157\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "f76ee57b28758eca3beb038dea13e50b8f4fbc1a919b19fbbd4db11adc65e145",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0157/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0038",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0038\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "ce8cb39de2a44efb418f3086cf075abe460740b78a43e9cfc4da47b2fc851012",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0038/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0039",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0039\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "5ac3d259306ad9f221679a1c20f58429d71c9807f575e20d7edfc4faf21bed09",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0039/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0040",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0040\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "debf1e46e60d6e6839a4d46045cca7e85b7b38bfbc81568987a254674235d2c2",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0040/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0041",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0041\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "882a5d7ef67d638ba3243f80bb5c8e0891c84ea4b2fc453cfbc8138e1585d1ce",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0041/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0042",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0042\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "9805800333f71745f5f9ccb720280d7d148ae8497329f022868c467a866865b9",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0042/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0082",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0082\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "44dc53a2b723958262dc726adf26dc3170fc2eb60eb8618e8eda774f4e033354",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0082/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0083",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0083\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "2bcd3d3d5db3b04628ec3740005660e95fbc83e6712469d03a4a9ac3567e6c2e",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0083/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0084",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0084\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "456033100be715b206a68583062806fcf07597c41fb1f17de135343bcf88f018",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0084/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0085",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0085\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "80f2b0733961d2572422f8c7c484a799a605235b0fa9d02fe3f642deff4a56f0",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0085/sample_context.json"
+ },
+ {
+  "sample_id": "eth3d_0086",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\pilot_f0_001\\samples\\eth3d_0086\\input.png",
+  "width": 1280,
+  "height": 853,
+  "image_sha256": "2327c078c943d4dd2b88f4d85acbe78d9c8f023d08bf147f503a4552190eee1b",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/pilot_f0_001/samples/eth3d_0086/sample_context.json"
+ }
+]

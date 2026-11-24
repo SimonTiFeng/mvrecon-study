@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0842",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "refrigerator_1",
+    "knowledge_group_id": "side_by_side_refrigerator_36in_width",
+    "description": "Front-face width of the black side-by-side refrigerator, between its left and right vertical front-door edges at mid-height (both doors plus the center seam visible).",
+    "p1": {
+     "xy": [
+      243,
+      210
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      426,
+      210
+     ],
+     "point_id": null
+    },
+    "length_m": 0.91,
+    "length_interval_m": [
+     0.85,
+     1.0
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Freestanding side-by-side refrigerator seen almost frontally: two black doors with a center seam, in-door ice/water dispenser on the left door; both endpoints lie on the left and right vertical front-face edges at the same image row, so the 3D segment lies in the door plane.",
+    "identity_uncertainty": "Exact model unknown; 36 in (0.914 m) is the dominant US side-by-side width, with 33 in and 42-48 in built-ins possible, hence the +/-5-8% interval."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "countertop_1",
+    "knowledge_group_id": "us_base_cabinet_24in_counter_depth",
+    "description": "Depth of the kitchen countertop on the right wall, from the open countertop front edge back to the counter/backsplash junction at the wall, along the same image column clear of appliances.",
+    "p1": {
+     "xy": [
+      530,
+      213
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      530,
+      175
+     ],
+     "point_id": null
+    },
+    "length_m": 0.61,
+    "length_interval_m": [
+     0.54,
+     0.68
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Light stone countertop visible as a continuous bright band between the beige tiled backsplash and the dark shadow line of the front edge; the column x=530 is free of the kettle and the white canister, so both the front edge and the wall junction are directly visible.",
+    "identity_uncertainty": "Standard US base-cabinet counter depth is 24-25.5 in (0.61-0.65 m) including overhang; the surface is seen at a grazing angle, so a 1-2 px endpoint error maps to roughly 0.03 m."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "3591524a633cd82242b9fa5ec92a9fb2ab58b2df9a59258ecd0e763f5e97e36a"
+}

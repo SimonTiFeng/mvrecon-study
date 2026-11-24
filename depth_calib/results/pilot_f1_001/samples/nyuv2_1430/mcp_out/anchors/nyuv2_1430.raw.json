@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1430",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "near_dining_chair_seat",
+    "knowledge_group_id": "dining_chair_seat_450mm",
+    "description": "Near-side dining chair with black upholstered seat: left-right extent across the seat cushion between its visible left and right side edges at mid-depth.",
+    "p1": {
+     "xy": [
+      282,
+      336
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      363,
+      346
+     ],
+     "point_id": null
+    },
+    "length_m": 0.45,
+    "length_interval_m": [
+     0.38,
+     0.52
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black leather seat cushion clearly visible between the chair back (left) and the glossy table edge (right); both endpoints sit on the cushion's left and right side edges.",
+    "identity_uncertainty": "Chair model/maker unknown; standard dining-chair seats are about 0.40-0.50 m wide and deep, and the foreshortened visible extent may be seat depth rather than width, which is similar."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "left_wall_switch_plate",
+    "knowledge_group_id": "us_1gang_wallplate_114mm",
+    "description": "Standard single-gang wall switch plate on the left wall: vertical height between its visible top and bottom edges.",
+    "p1": {
+     "xy": [
+      74,
+      285
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      74,
+      309
+     ],
+     "point_id": null
+    },
+    "length_m": 0.114,
+    "length_interval_m": [
+     0.1,
+     0.13
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White rectangular plate with a central toggle on the tan wall left of the window, baseboard below; top and bottom edges visible at the submitted endpoints.",
+    "identity_uncertainty": "Exact plate variant (toggle vs decora, standard vs jumbo) is not resolvable at this resolution; US single-gang plates are 4.5 in tall (0.114 m), jumbo 4.875 in (0.124 m)."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "0838a8ccbce30ac598e2386eb3f31e61d1a81a1be0afd13f0044a9c8d4f4e23e"
+}

@@ -1,0 +1,724 @@
+{
+ "summary": {
+  "n": 60,
+  "medians": {
+   "A_scale_oracle": 0.1082632765261601,
+   "A_affine_oracle": 0.04589018925387704,
+   "B_raw": 0.09634580572278328,
+   "B_scale_oracle": 0.041913177533657406
+  },
+  "A_affine_oracle_p10_p90": [
+   0.020846082683840562,
+   0.08403167354590327
+  ],
+  "count_A_affine_worse_than_B_raw": 5,
+  "by_dataset": {
+   "eth3d": {
+    "n": 20,
+    "A_affine_oracle": 0.024271687608872723,
+    "A_scale_oracle": 0.06485519870399109,
+    "B_raw": 0.10399923720327661
+   },
+   "nyuv2": {
+    "n": 40,
+    "A_affine_oracle": 0.06102980360095678,
+    "A_scale_oracle": 0.11356288372729464,
+    "B_raw": 0.09416094080461873
+   }
+  },
+  "monotone_worst5": [
+   {
+    "sample_id": "nyuv2_0669",
+    "affine": 0.14631936225495054,
+    "monotone_holdout": 0.16926400009753137,
+    "knots": 4
+   },
+   {
+    "sample_id": "nyuv2_1368",
+    "affine": 0.10808626915421901,
+    "monotone_holdout": 0.0837673870481559,
+    "knots": 4
+   },
+   {
+    "sample_id": "nyuv2_0842",
+    "affine": 0.10679555918849187,
+    "monotone_holdout": 0.12167205604240122,
+    "knots": 4
+   },
+   {
+    "sample_id": "nyuv2_1432",
+    "affine": 0.09958231598367773,
+    "monotone_holdout": 0.10003555033155083,
+    "knots": 4
+   },
+   {
+    "sample_id": "nyuv2_0803",
+    "affine": 0.0917131339179902,
+    "monotone_holdout": 0.11073533379696573,
+    "knots": 4
+   }
+  ]
+ },
+ "per_image": [
+  {
+   "sample_id": "nyuv2_0958",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0043",
+   "A_scale_absrel": 0.10374621171939537,
+   "A_affine_absrel": 0.046935983046321794,
+   "B_raw_absrel": 0.09339041798424444,
+   "B_scale_oracle_absrel": 0.03378569240421251,
+   "affine_a": 1.8808644162301407,
+   "affine_b": 0.7856051069672609
+  },
+  {
+   "sample_id": "nyuv2_0959",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0043",
+   "A_scale_absrel": 0.11691813945836993,
+   "A_affine_absrel": 0.05905901210509301,
+   "B_raw_absrel": 0.10827245251031221,
+   "B_scale_oracle_absrel": 0.06516598292713864,
+   "affine_a": 1.8924475843647974,
+   "affine_b": 0.3781826100926756
+  },
+  {
+   "sample_id": "nyuv2_0302",
+   "dataset": "nyuv2",
+   "scene_id": "classroom_0010",
+   "A_scale_absrel": 0.11194403291900634,
+   "A_affine_absrel": 0.06316094877051703,
+   "B_raw_absrel": 0.06934065956349324,
+   "B_scale_oracle_absrel": 0.0655961508448538,
+   "affine_a": 2.644229189533383,
+   "affine_b": 0.6583281569592178
+  },
+  {
+   "sample_id": "nyuv2_0303",
+   "dataset": "nyuv2",
+   "scene_id": "classroom_0010",
+   "A_scale_absrel": 0.14680651174264384,
+   "A_affine_absrel": 0.0819133510568274,
+   "B_raw_absrel": 0.09376167183009369,
+   "B_scale_oracle_absrel": 0.08107909753754709,
+   "affine_a": 2.772721528678434,
+   "affine_b": 0.6939731404519754
+  },
+  {
+   "sample_id": "nyuv2_0304",
+   "dataset": "nyuv2",
+   "scene_id": "classroom_0010",
+   "A_scale_absrel": 0.12117853928131443,
+   "A_affine_absrel": 0.06296483136603193,
+   "B_raw_absrel": 0.051026258840548545,
+   "B_scale_oracle_absrel": 0.041929376828025375,
+   "affine_a": 2.212398770126231,
+   "affine_b": 0.40299385879415617
+  },
+  {
+   "sample_id": "nyuv2_1196",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0129",
+   "A_scale_absrel": 0.14101137556289253,
+   "A_affine_absrel": 0.03917956184722684,
+   "B_raw_absrel": 0.11012108016148739,
+   "B_scale_oracle_absrel": 0.056994420583995654,
+   "affine_a": 1.517489420751799,
+   "affine_b": 0.667314852528486
+  },
+  {
+   "sample_id": "nyuv2_1197",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0129",
+   "A_scale_absrel": 0.11773910614902441,
+   "A_affine_absrel": 0.06263337437636012,
+   "B_raw_absrel": 0.07791653454877921,
+   "B_scale_oracle_absrel": 0.0653507036460876,
+   "affine_a": 1.4054938600151814,
+   "affine_b": 0.5414354499774583
+  },
+  {
+   "sample_id": "nyuv2_1367",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0011",
+   "A_scale_absrel": 0.15684315393471795,
+   "A_affine_absrel": 0.06275898335064459,
+   "B_raw_absrel": 0.10315278910540528,
+   "B_scale_oracle_absrel": 0.05750942564136915,
+   "affine_a": 2.27273203804652,
+   "affine_b": 1.0083950215777802
+  },
+  {
+   "sample_id": "nyuv2_1368",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0011",
+   "A_scale_absrel": 0.12370084486158184,
+   "A_affine_absrel": 0.10808626915421901,
+   "B_raw_absrel": 0.10377755654438557,
+   "B_scale_oracle_absrel": 0.08929552853729532,
+   "affine_a": 2.2765758560934537,
+   "affine_b": 0.399949777523695
+  },
+  {
+   "sample_id": "nyuv2_0548",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0038",
+   "A_scale_absrel": 0.06919793005491999,
+   "A_affine_absrel": 0.04418740150494399,
+   "B_raw_absrel": 0.07617360432820368,
+   "B_scale_oracle_absrel": 0.03528019902558156,
+   "affine_a": 1.641935273316223,
+   "affine_b": 0.4707266401728566
+  },
+  {
+   "sample_id": "nyuv2_0549",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0038",
+   "A_scale_absrel": 0.14126757242857788,
+   "A_affine_absrel": 0.03857413345711349,
+   "B_raw_absrel": 0.08811479318970876,
+   "B_scale_oracle_absrel": 0.03999985541718199,
+   "affine_a": 1.437238371896727,
+   "affine_b": 1.165101668791263
+  },
+  {
+   "sample_id": "nyuv2_0550",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0038",
+   "A_scale_absrel": 0.12665266213048362,
+   "A_affine_absrel": 0.03652975174597012,
+   "B_raw_absrel": 0.10462001558225215,
+   "B_scale_oracle_absrel": 0.045308477871529466,
+   "affine_a": 1.49324592881994,
+   "affine_b": 0.7983136174156701
+  },
+  {
+   "sample_id": "nyuv2_1028",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0067",
+   "A_scale_absrel": 0.09582553583245818,
+   "A_affine_absrel": 0.08366646661730683,
+   "B_raw_absrel": 0.1048399742368459,
+   "B_scale_oracle_absrel": 0.10424999648421383,
+   "affine_a": 2.200854504427,
+   "affine_b": 0.2536825490613583
+  },
+  {
+   "sample_id": "nyuv2_1029",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0067",
+   "A_scale_absrel": 0.11170743426010536,
+   "A_affine_absrel": 0.03161113352461799,
+   "B_raw_absrel": 0.06571703617655437,
+   "B_scale_oracle_absrel": 0.030390661966250978,
+   "affine_a": 2.4037993027589772,
+   "affine_b": 0.9944452963031192
+  },
+  {
+   "sample_id": "nyuv2_1030",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0067",
+   "A_scale_absrel": 0.10436358027173265,
+   "A_affine_absrel": 0.058153543257971015,
+   "B_raw_absrel": 0.0659864667648299,
+   "B_scale_oracle_absrel": 0.052100321859682754,
+   "affine_a": 2.1237091183291152,
+   "affine_b": 0.6464096101935071
+  },
+  {
+   "sample_id": "nyuv2_1429",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0032",
+   "A_scale_absrel": 0.10995845900501985,
+   "A_affine_absrel": 0.04572466183728346,
+   "B_raw_absrel": 0.11392377959523003,
+   "B_scale_oracle_absrel": 0.03799572617580222,
+   "affine_a": 1.582907056797971,
+   "affine_b": 0.7385110188894224
+  },
+  {
+   "sample_id": "nyuv2_1430",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0032",
+   "A_scale_absrel": 0.1109265318230131,
+   "A_affine_absrel": 0.07006736849916291,
+   "B_raw_absrel": 0.0983126041197583,
+   "B_scale_oracle_absrel": 0.08049125346587671,
+   "affine_a": 1.94118076634341,
+   "affine_b": 0.34846122665441015
+  },
+  {
+   "sample_id": "nyuv2_1431",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0032",
+   "A_scale_absrel": 0.20755109952625989,
+   "A_affine_absrel": 0.08731853590327117,
+   "B_raw_absrel": 0.14711376724817019,
+   "B_scale_oracle_absrel": 0.08560580033706373,
+   "affine_a": 2.0856732919054695,
+   "affine_b": 0.4768546278156837
+  },
+  {
+   "sample_id": "nyuv2_1432",
+   "dataset": "nyuv2",
+   "scene_id": "dining_room_0032",
+   "A_scale_absrel": 0.2034244073849469,
+   "A_affine_absrel": 0.09958231598367773,
+   "B_raw_absrel": 0.1399950864537035,
+   "B_scale_oracle_absrel": 0.10218959153427656,
+   "affine_a": 2.4936700338827826,
+   "affine_b": 0.6692359770319717
+  },
+  {
+   "sample_id": "nyuv2_0944",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0037",
+   "A_scale_absrel": 0.08193334511683355,
+   "A_affine_absrel": 0.04655468769484957,
+   "B_raw_absrel": 0.07129033756434494,
+   "B_scale_oracle_absrel": 0.05382349649290044,
+   "affine_a": 1.757937757079668,
+   "affine_b": 0.525329485228283
+  },
+  {
+   "sample_id": "nyuv2_0945",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0037",
+   "A_scale_absrel": 0.08110627556987013,
+   "A_affine_absrel": 0.03817560577870995,
+   "B_raw_absrel": 0.07198435979625016,
+   "B_scale_oracle_absrel": 0.04760721310184544,
+   "affine_a": 1.6316627491348032,
+   "affine_b": 0.44570883340637363
+  },
+  {
+   "sample_id": "nyuv2_0946",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0037",
+   "A_scale_absrel": 0.10257558827942552,
+   "A_affine_absrel": 0.046055716670470634,
+   "B_raw_absrel": 0.12206235116232766,
+   "B_scale_oracle_absrel": 0.041896978239289444,
+   "affine_a": 2.00657726089922,
+   "affine_b": 0.6455619289127713
+  },
+  {
+   "sample_id": "nyuv2_0667",
+   "dataset": "nyuv2",
+   "scene_id": "bathroom_0017",
+   "A_scale_absrel": 0.126357813540102,
+   "A_affine_absrel": 0.08225341105888402,
+   "B_raw_absrel": 0.12844890598883416,
+   "B_scale_oracle_absrel": 0.08692358848150168,
+   "affine_a": 1.9961321171155122,
+   "affine_b": 0.6897417531420187
+  },
+  {
+   "sample_id": "nyuv2_0668",
+   "dataset": "nyuv2",
+   "scene_id": "bathroom_0017",
+   "A_scale_absrel": 0.11291069883974188,
+   "A_affine_absrel": 0.027519309162663125,
+   "B_raw_absrel": 0.1464639960505305,
+   "B_scale_oracle_absrel": 0.03945848810386044,
+   "affine_a": 1.5530227513092294,
+   "affine_b": 0.8269855185904544
+  },
+  {
+   "sample_id": "nyuv2_0669",
+   "dataset": "nyuv2",
+   "scene_id": "bathroom_0017",
+   "A_scale_absrel": 0.1907900502050913,
+   "A_affine_absrel": 0.14631936225495054,
+   "B_raw_absrel": 0.21933221434295694,
+   "B_scale_oracle_absrel": 0.221778612684676,
+   "affine_a": 1.4887106859669645,
+   "affine_b": 0.385904812008271
+  },
+  {
+   "sample_id": "nyuv2_0799",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0030",
+   "A_scale_absrel": 0.09974622689033814,
+   "A_affine_absrel": 0.055276878109230126,
+   "B_raw_absrel": 0.06217980502781514,
+   "B_scale_oracle_absrel": 0.04777052991777386,
+   "affine_a": 1.1015265721007201,
+   "affine_b": 0.30216721944509
+  },
+  {
+   "sample_id": "nyuv2_0800",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0030",
+   "A_scale_absrel": 0.16026982418600763,
+   "A_affine_absrel": 0.0741930102055937,
+   "B_raw_absrel": 0.09540398629037772,
+   "B_scale_oracle_absrel": 0.07510233949105402,
+   "affine_a": 2.4425329284674335,
+   "affine_b": 0.5992343870705656
+  },
+  {
+   "sample_id": "nyuv2_0801",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0030",
+   "A_scale_absrel": 0.11931557496686199,
+   "A_affine_absrel": 0.06481209942818374,
+   "B_raw_absrel": 0.09076514704434564,
+   "B_scale_oracle_absrel": 0.08982808971394242,
+   "affine_a": 2.8417639391246072,
+   "affine_b": 0.7624168623392872
+  },
+  {
+   "sample_id": "nyuv2_0802",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0030",
+   "A_scale_absrel": 0.11164948002680904,
+   "A_affine_absrel": 0.07029279101155222,
+   "B_raw_absrel": 0.09116333201573949,
+   "B_scale_oracle_absrel": 0.08322892944735903,
+   "affine_a": 2.1648153467010256,
+   "affine_b": 0.3182342722139894
+  },
+  {
+   "sample_id": "nyuv2_0803",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0030",
+   "A_scale_absrel": 0.20374006508872491,
+   "A_affine_absrel": 0.0917131339179902,
+   "B_raw_absrel": 0.18172411837230867,
+   "B_scale_oracle_absrel": 0.07840864191402655,
+   "affine_a": 1.938333958640483,
+   "affine_b": 0.46015193940591226
+  },
+  {
+   "sample_id": "nyuv2_0842",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0040",
+   "A_scale_absrel": 0.11421506861484741,
+   "A_affine_absrel": 0.10679555918849187,
+   "B_raw_absrel": 0.14070136265658822,
+   "B_scale_oracle_absrel": 0.09254631107113288,
+   "affine_a": 1.6655919577262994,
+   "affine_b": 0.4736551216253316
+  },
+  {
+   "sample_id": "nyuv2_0843",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0040",
+   "A_scale_absrel": 0.09225180643192206,
+   "A_affine_absrel": 0.046223879902859866,
+   "B_raw_absrel": 0.031040754455775595,
+   "B_scale_oracle_absrel": 0.03093106709517498,
+   "affine_a": 1.6701621005972276,
+   "affine_b": 0.45478969641298034
+  },
+  {
+   "sample_id": "nyuv2_0844",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0040",
+   "A_scale_absrel": 0.10439858313987914,
+   "A_affine_absrel": 0.05963022625910014,
+   "B_raw_absrel": 0.07244504641158332,
+   "B_scale_oracle_absrel": 0.04782563669579009,
+   "affine_a": 1.6084224050123632,
+   "affine_b": 0.4350323069418971
+  },
+  {
+   "sample_id": "nyuv2_0845",
+   "dataset": "nyuv2",
+   "scene_id": "kitchen_0040",
+   "A_scale_absrel": 0.11496020921809356,
+   "A_affine_absrel": 0.030485740344405807,
+   "B_raw_absrel": 0.05105938295344825,
+   "B_scale_oracle_absrel": 0.03767388880542742,
+   "affine_a": 0.9817875514432853,
+   "affine_b": 0.3472715075661249
+  },
+  {
+   "sample_id": "nyuv2_1232",
+   "dataset": "nyuv2",
+   "scene_id": "living_room_0036",
+   "A_scale_absrel": 0.10689054184478124,
+   "A_affine_absrel": 0.06899115821292358,
+   "B_raw_absrel": 0.09481119572954194,
+   "B_scale_oracle_absrel": 0.07924063588160889,
+   "affine_a": 1.64498007138253,
+   "affine_b": 0.4259196344182741
+  },
+  {
+   "sample_id": "nyuv2_1233",
+   "dataset": "nyuv2",
+   "scene_id": "living_room_0036",
+   "A_scale_absrel": 0.1487096475350181,
+   "A_affine_absrel": 0.0693874943424711,
+   "B_raw_absrel": 0.06341581301937872,
+   "B_scale_oracle_absrel": 0.0635038495392855,
+   "affine_a": 1.5607350855980011,
+   "affine_b": 0.6892839872714043
+  },
+  {
+   "sample_id": "nyuv2_1234",
+   "dataset": "nyuv2",
+   "scene_id": "living_room_0036",
+   "A_scale_absrel": 0.11984459456746739,
+   "A_affine_absrel": 0.041300181006575454,
+   "B_raw_absrel": 0.05267871827637825,
+   "B_scale_oracle_absrel": 0.05089115475965868,
+   "affine_a": 1.6184379734256968,
+   "affine_b": 0.6083641471487499
+  },
+  {
+   "sample_id": "nyuv2_0008",
+   "dataset": "nyuv2",
+   "scene_id": "office_0005",
+   "A_scale_absrel": 0.10963601120753895,
+   "A_affine_absrel": 0.062429380942813424,
+   "B_raw_absrel": 0.04577525724638852,
+   "B_scale_oracle_absrel": 0.04504037252035044,
+   "affine_a": 1.6944513138520245,
+   "affine_b": 0.31365446709096645
+  },
+  {
+   "sample_id": "nyuv2_1056",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0077",
+   "A_scale_absrel": 0.08945172793634631,
+   "A_affine_absrel": 0.04676908759211015,
+   "B_raw_absrel": 0.09456020977914378,
+   "B_scale_oracle_absrel": 0.0390246267924057,
+   "affine_a": 1.8539103176202183,
+   "affine_b": 0.6136884313697685
+  },
+  {
+   "sample_id": "nyuv2_1057",
+   "dataset": "nyuv2",
+   "scene_id": "bedroom_0077",
+   "A_scale_absrel": 0.07438908029180125,
+   "A_affine_absrel": 0.03824792602997395,
+   "B_raw_absrel": 0.14166343097399187,
+   "B_scale_oracle_absrel": 0.0438016936509819,
+   "affine_a": 1.499671817729095,
+   "affine_b": 0.7185851122441218
+  },
+  {
+   "sample_id": "eth3d_0000",
+   "dataset": "eth3d",
+   "scene_id": "courtyard",
+   "A_scale_absrel": 0.10686062516556659,
+   "A_affine_absrel": 0.018446699679880343,
+   "B_raw_absrel": 0.03179640688047173,
+   "B_scale_oracle_absrel": 0.013844753430227725,
+   "affine_a": 3.1314137673278184,
+   "affine_b": 0.9219936981690914
+  },
+  {
+   "sample_id": "eth3d_0001",
+   "dataset": "eth3d",
+   "scene_id": "courtyard",
+   "A_scale_absrel": 0.07022406414842818,
+   "A_affine_absrel": 0.020986373138883137,
+   "B_raw_absrel": 0.060433626073710785,
+   "B_scale_oracle_absrel": 0.017873726753464075,
+   "affine_a": 3.2204541383406435,
+   "affine_b": 0.7529937867510615
+  },
+  {
+   "sample_id": "eth3d_0002",
+   "dataset": "eth3d",
+   "scene_id": "courtyard",
+   "A_scale_absrel": 0.06025397701689878,
+   "A_affine_absrel": 0.019583468588457383,
+   "B_raw_absrel": 0.0818597785962594,
+   "B_scale_oracle_absrel": 0.02103608043083302,
+   "affine_a": 3.106725622257557,
+   "affine_b": 0.7419119679631895
+  },
+  {
+   "sample_id": "eth3d_0003",
+   "dataset": "eth3d",
+   "scene_id": "courtyard",
+   "A_scale_absrel": 0.0577734412285159,
+   "A_affine_absrel": 0.01837569681460323,
+   "B_raw_absrel": 0.08073613561505667,
+   "B_scale_oracle_absrel": 0.021835048601297757,
+   "affine_a": 3.032897665467131,
+   "affine_b": 0.7710560139726219
+  },
+  {
+   "sample_id": "eth3d_0004",
+   "dataset": "eth3d",
+   "scene_id": "courtyard",
+   "A_scale_absrel": 0.04455654955419501,
+   "A_affine_absrel": 0.0240980171287978,
+   "B_raw_absrel": 0.08750513657368886,
+   "B_scale_oracle_absrel": 0.020807469326665762,
+   "affine_a": 3.1551397559657453,
+   "affine_b": 0.6003694831562739
+  },
+  {
+   "sample_id": "eth3d_0153",
+   "dataset": "eth3d",
+   "scene_id": "facade",
+   "A_scale_absrel": 0.026915838927039228,
+   "A_affine_absrel": 0.02650797093979299,
+   "B_raw_absrel": 0.13366327431307304,
+   "B_scale_oracle_absrel": 0.034727998926352636,
+   "affine_a": 12.740611563774168,
+   "affine_b": -0.2189066365566337
+  },
+  {
+   "sample_id": "eth3d_0154",
+   "dataset": "eth3d",
+   "scene_id": "facade",
+   "A_scale_absrel": 0.027592799177099444,
+   "A_affine_absrel": 0.027592076752286268,
+   "B_raw_absrel": 0.11546808624800822,
+   "B_scale_oracle_absrel": 0.034919718505861966,
+   "affine_a": 12.255583329847612,
+   "affine_b": -0.013352936578403122
+  },
+  {
+   "sample_id": "eth3d_0155",
+   "dataset": "eth3d",
+   "scene_id": "facade",
+   "A_scale_absrel": 0.049865316304484125,
+   "A_affine_absrel": 0.04934321164450223,
+   "B_raw_absrel": 0.12782441517507012,
+   "B_scale_oracle_absrel": 0.030825666183179418,
+   "affine_a": 9.751301928852651,
+   "affine_b": 0.46414182311832425
+  },
+  {
+   "sample_id": "eth3d_0156",
+   "dataset": "eth3d",
+   "scene_id": "facade",
+   "A_scale_absrel": 0.03103711809882556,
+   "A_affine_absrel": 0.02382630486000359,
+   "B_raw_absrel": 0.14831709339785598,
+   "B_scale_oracle_absrel": 0.022281136739181445,
+   "affine_a": 8.952182271703174,
+   "affine_b": 0.7251258427369031
+  },
+  {
+   "sample_id": "eth3d_0157",
+   "dataset": "eth3d",
+   "scene_id": "facade",
+   "A_scale_absrel": 0.03293928431484309,
+   "A_affine_absrel": 0.021000234984145463,
+   "B_raw_absrel": 0.13955121651402608,
+   "B_scale_oracle_absrel": 0.015394902291826187,
+   "affine_a": 8.80860545824069,
+   "affine_b": 1.2699711047575517
+  },
+  {
+   "sample_id": "eth3d_0038",
+   "dataset": "eth3d",
+   "scene_id": "delivery_area",
+   "A_scale_absrel": 0.04630859972535465,
+   "A_affine_absrel": 0.008771458855331898,
+   "B_raw_absrel": 0.22331515670919586,
+   "B_scale_oracle_absrel": 0.01530139359080301,
+   "affine_a": 1.7477033003429292,
+   "affine_b": 2.2962672484749707
+  },
+  {
+   "sample_id": "eth3d_0039",
+   "dataset": "eth3d",
+   "scene_id": "delivery_area",
+   "A_scale_absrel": 0.06945642039108339,
+   "A_affine_absrel": 0.014769135746908196,
+   "B_raw_absrel": 0.14267233898128936,
+   "B_scale_oracle_absrel": 0.02286765152180728,
+   "affine_a": 2.3672884030467642,
+   "affine_b": 2.0466536726480804
+  },
+  {
+   "sample_id": "eth3d_0040",
+   "dataset": "eth3d",
+   "scene_id": "delivery_area",
+   "A_scale_absrel": 0.1208472426404613,
+   "A_affine_absrel": 0.024445358088947645,
+   "B_raw_absrel": 0.09950656989744375,
+   "B_scale_oracle_absrel": 0.03073792716642367,
+   "affine_a": 2.5649361324069093,
+   "affine_b": 2.0875846903971214
+  },
+  {
+   "sample_id": "eth3d_0041",
+   "dataset": "eth3d",
+   "scene_id": "delivery_area",
+   "A_scale_absrel": 0.14655683934312372,
+   "A_affine_absrel": 0.030031344796572837,
+   "B_raw_absrel": 0.1073839856846924,
+   "B_scale_oracle_absrel": 0.02679938339660057,
+   "affine_a": 3.1168786773697397,
+   "affine_b": 1.8529527930009115
+  },
+  {
+   "sample_id": "eth3d_0042",
+   "dataset": "eth3d",
+   "scene_id": "delivery_area",
+   "A_scale_absrel": 0.15965161254973,
+   "A_affine_absrel": 0.03153507253785881,
+   "B_raw_absrel": 0.10203422219464932,
+   "B_scale_oracle_absrel": 0.02655307881822569,
+   "affine_a": 3.371316936568659,
+   "affine_b": 1.7606119072847615
+  },
+  {
+   "sample_id": "eth3d_0082",
+   "dataset": "eth3d",
+   "scene_id": "electro",
+   "A_scale_absrel": 0.0768817049496547,
+   "A_affine_absrel": 0.018103897414180444,
+   "B_raw_absrel": 0.027885775469194844,
+   "B_scale_oracle_absrel": 0.018852537151823112,
+   "affine_a": 3.8029111692166384,
+   "affine_b": 1.202542705017954
+  },
+  {
+   "sample_id": "eth3d_0083",
+   "dataset": "eth3d",
+   "scene_id": "electro",
+   "A_scale_absrel": 0.0717181428720408,
+   "A_affine_absrel": 0.02619286172864824,
+   "B_raw_absrel": 0.09728762515518885,
+   "B_scale_oracle_absrel": 0.024023586598037168,
+   "affine_a": 4.119698448120215,
+   "affine_b": 0.8938389790517713
+  },
+  {
+   "sample_id": "eth3d_0084",
+   "dataset": "eth3d",
+   "scene_id": "electro",
+   "A_scale_absrel": 0.07164814894522901,
+   "A_affine_absrel": 0.026750145051151836,
+   "B_raw_absrel": 0.1059642522119039,
+   "B_scale_oracle_absrel": 0.019429718978007597,
+   "affine_a": 3.7249397001940046,
+   "affine_b": 0.8093422898131224
+  },
+  {
+   "sample_id": "eth3d_0085",
+   "dataset": "eth3d",
+   "scene_id": "electro",
+   "A_scale_absrel": 0.05645693434788115,
+   "A_affine_absrel": 0.03331019312585002,
+   "B_raw_absrel": 0.13350565036307024,
+   "B_scale_oracle_absrel": 0.01632458649771079,
+   "affine_a": 4.102885165079338,
+   "affine_b": 0.7637023904840606
+  },
+  {
+   "sample_id": "eth3d_0086",
+   "dataset": "eth3d",
+   "scene_id": "electro",
+   "A_scale_absrel": 0.08185919784980657,
+   "A_affine_absrel": 0.032587750258119254,
+   "B_raw_absrel": 0.08715607146693947,
+   "B_scale_oracle_absrel": 0.018349774372459805,
+   "affine_a": 5.152842078547139,
+   "affine_b": 1.262235809057263
+  }
+ ]
+}

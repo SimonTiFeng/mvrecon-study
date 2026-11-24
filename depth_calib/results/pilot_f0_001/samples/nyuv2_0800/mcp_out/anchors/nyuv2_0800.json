@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_0800",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "door_patio_glass_white_frame",
+   "knowledge_group_id": "std_us_exterior_door_height_80in",
+   "description": "Height of the white-framed glass patio door, from the bottom rail at the floor to the top door frame header, measured along the door plane.",
+   "p1_xy": [
+    270.0,
+    293.0
+   ],
+   "p2_xy": [
+    270.0,
+    29.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.03,
+   "length_interval_m": [
+    1.95,
+    2.13
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "White-framed glass exterior door at left-center with its bottom rail meeting the interior floor and a white header/top frame visible above the brightest glass; both endpoints lie on the same door plane.",
+   "identity_uncertainty": "Standard US exterior door is 80 in (2.03 m); a taller 84 in (2.13 m) custom door is possible, and the header is near the bright overexposed area so the top edge has a few pixels of slack."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "dining_table_dark_wood",
+   "knowledge_group_id": "std_dining_table_height_30in",
+   "description": "Dining table height, from the tabletop surface at the near-right corner down to the floor at the base of the near-right table leg.",
+   "p1_xy": [
+    505.0,
+    252.0
+   ],
+   "p2_xy": [
+    510.0,
+    350.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.75,
+   "length_interval_m": [
+    0.72,
+    0.79
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Dark wood dining table fills the center of the room; its near-right leg descends from the tabletop corner to the tile floor, and floor tiles are visible around the leg base.",
+   "identity_uncertainty": "Standard dining table height is 29-30 in (0.74-0.76 m); a counter-height variant (~0.9 m) is unlikely given the paired standard dining chairs, but leg-base visibility is limited."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "dining_chair_dark_wood_blue_cushion",
+   "knowledge_group_id": "std_dining_chair_seat_height_18in",
+   "description": "Seat height of the near-left dark wood dining chair, from the top of the blue seat cushion to the tile floor under the chair.",
+   "p1_xy": [
+    258.0,
+    372.0
+   ],
+   "p2_xy": [
+    264.0,
+    452.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.46,
+   "length_interval_m": [
+    0.42,
+    0.51
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Dark wood dining chair at the near-left side with a clearly visible blue-green seat cushion; its legs stand on the light tile floor, which is visible beneath the chair front.",
+   "identity_uncertainty": "Standard dining chair seat height is 17-18 in (0.43-0.46 m) with cushion thickness adding a few cm; the floor point is slightly forward of the seat edge, which can inflate the 3D distance a little."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_15ffba00a3acf773",
+ "schema_version": "0.2"
+}

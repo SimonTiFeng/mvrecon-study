@@ -1,0 +1,77 @@
+[
+ {
+  "case": "courtyard_v2_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v2",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0008",
+  "status": "done",
+  "rot_err": 2.3613238831239625,
+  "lat_err": 0.29464090690889794,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v2_eth3d_0008_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v2_eth3d_0008_ref.ply",
+   "input": "clouds/courtyard/courtyard_v2_eth3d_0008_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v3_eth3d_0000",
+  "scene": "courtyard",
+  "tag": "v3",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0000",
+  "status": "done",
+  "rot_err": 2.9132128785987033,
+  "lat_err": 0.40552484389062676,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v3_eth3d_0000_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v3_eth3d_0000_ref.ply",
+   "input": "clouds/courtyard/courtyard_v3_eth3d_0000_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v3_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v3",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0008",
+  "status": "done",
+  "rot_err": 2.36129371658468,
+  "lat_err": 0.29472159164661044,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v3_eth3d_0008_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v3_eth3d_0008_ref.ply",
+   "input": "clouds/courtyard/courtyard_v3_eth3d_0008_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v4_eth3d_0000",
+  "scene": "courtyard",
+  "tag": "v4",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0000",
+  "status": "done",
+  "rot_err": 2.9133769228433835,
+  "lat_err": 0.4055236663575559,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v4_eth3d_0000_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v4_eth3d_0000_ref.ply",
+   "input": "clouds/courtyard/courtyard_v4_eth3d_0000_input.ply"
+  }
+ },
+ {
+  "case": "courtyard_v4_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v4",
+  "ref": "eth3d_0004",
+  "target": "eth3d_0008",
+  "status": "done",
+  "rot_err": 2.36129371658468,
+  "lat_err": 0.29472159164661044,
+  "files": {
+   "agent": "clouds/courtyard/courtyard_v4_eth3d_0008_agent.ply",
+   "ref": "clouds/courtyard/courtyard_v4_eth3d_0008_ref.ply",
+   "input": "clouds/courtyard/courtyard_v4_eth3d_0008_input.ply"
+  }
+ }
+]

@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0128",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "paper_stack_right_desk",
+    "knowledge_group_id": "a4_paper_297x210",
+    "description": "Near (long) edge of the loose white paper stack on the desk, from the front-left to the front-right corner of the top sheet",
+    "p1": {
+     "xy": [
+      509,
+      756
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      643,
+      745
+     ],
+     "point_id": null
+    },
+    "length_m": 0.297,
+    "length_interval_m": [
+     0.27,
+     0.32
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "A stack of about 15 loose white printed sheets lies on the desk; the pile is wide and shallow (width/depth about 3 in image), so the visible near edge spans the sheet's long side and the A4 long edge (297 mm) is the relevant standard length.",
+    "identity_uncertainty": "Could be US Letter (279 mm) instead of A4; the pile is slightly fanned, so the right corner may belong to a lower sheet, adding a few millimetres."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "whiteboard_right_wall",
+    "knowledge_group_id": "whiteboard_1200x900",
+    "description": "Vertical left edge of the wall-mounted whiteboard on the right wall, from top-left to bottom-left frame corner",
+    "p1": {
+     "xy": [
+      777,
+      212
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      774,
+      568
+     ],
+     "point_id": null
+    },
+    "length_m": 0.95,
+    "length_interval_m": [
+     0.85,
+     1.2
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Aluminium-framed whiteboard mounted on the wall; its left vertical edge is straight in the image and its bottom sits near desk/window-sill height, a typical 0.9 m mounting; apparent proportions and mounting height favour a 1200x900 mm board.",
+    "identity_uncertainty": "Exact model unknown: a 1500x1000 or 1800x1200 board (height 1.0 or 1.2 m) cannot be excluded; corner localisation about +/-5 px."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "keyboard_left_desk",
+    "knowledge_group_id": "fullsize_keyboard_440mm",
+    "description": "Front (long) edge of the black keyboard on the left desk, from its left front corner to its right front corner",
+    "p1": {
+     "xy": [
+      183,
+      640
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      324,
+      614
+     ],
+     "point_id": null
+    },
+    "length_m": 0.44,
+    "length_interval_m": [
+     0.38,
+     0.48
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black office keyboard with a clearly wider right-hand key block (numeric keypad), matching a full-size 440-450 mm case; the near edge runs between the left and right front corners.",
+    "identity_uncertainty": "Model unknown; a tenkeyless board (about 360 mm) or a wide multimedia board (about 480 mm) would move the width; the keyboard is angled in plane so the corner picks are approximate."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "156e90686fef31d232f2477c10347534e47e90484f4ebb1c22db529036de4666"
+}

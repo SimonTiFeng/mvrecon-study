@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0802",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "upper_wall_cabinet_bank",
+    "knowledge_group_id": "wall_cabinet_door_height_std",
+    "description": "Vertical extent (top rail to bottom rail) of one raised-panel door on the four-door wood wall-cabinet bank above the right counter, a standard 30-36 in wall cabinet door.",
+    "p1": {
+     "xy": [
+      404,
+      52
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      404,
+      146
+     ],
+     "point_id": null
+    },
+    "length_m": 0.75,
+    "length_interval_m": [
+     0.63,
+     0.9
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "The wall cabinet bank shows four identical raised-panel doors; the marked segment runs down the centre of the second door face from just under the top rail to the bottom rail, both ends on the same cabinet front plane.",
+    "identity_uncertainty": "Wall cabinets may be 30 in (door about 25-27 in) or 36 in (door about 31-33 in); face-frame rail width shifts the door height within this range."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "upper_wall_cabinet_bank",
+    "knowledge_group_id": "wall_cabinet_door_width_std",
+    "description": "Width of one wall-cabinet door between the bank's outer left stile and the first centre mullion, standard 12-15 in door pitch.",
+    "p1": {
+     "xy": [
+      338,
+      95
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      380,
+      95
+     ],
+     "point_id": null
+    },
+    "length_m": 0.34,
+    "length_interval_m": [
+     0.3,
+     0.43
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Along the same raised-panel door bank, the door pitch is uniform: left bank edge at the marked point and the next stile junction at the second marked point, both on the cabinet front plane.",
+    "identity_uncertainty": "Door widths in this style are commonly 12, 13 or 15 in; the stile-centre endpoints add about 0.5 in of frame on each side."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "coffee_mug",
+    "knowledge_group_id": "ceramic_mug_rim_diameter",
+    "description": "Outer rim diameter of the white ceramic coffee mug standing on the peninsula counter left of the faucet, measured across the widest horizontal chord of the rim.",
+    "p1": {
+     "xy": [
+      220,
+      230
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      247,
+      230
+     ],
+     "point_id": null
+    },
+    "length_m": 0.088,
+    "length_interval_m": [
+     0.075,
+     0.105
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A white mug with a red logo sits on the dark granite peninsula counter beside the curved faucet; its rim ellipse is visible with clean left and right silhouette extremes.",
+    "identity_uncertainty": "A standard 11 oz mug is about 3.25 in across the rim (0.083 m); a larger 15-16 oz mug would be near 0.10 m, so the interval covers both."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "f468ffa17ab0951342ea816fe63575593a4a2c88bf2322bb83bfc58991a713eb"
+}

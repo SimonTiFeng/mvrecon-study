@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0958",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_headboard",
+    "knowledge_group_id": "bed_size_class",
+    "description": "Horizontal span across the dark upholstered headboard behind the pillows, from its left edge to its right edge; this span equals the bed width class (queen/small double).",
+    "p1": {
+     "xy": [
+      178,
+      252
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      421,
+      248
+     ],
+     "point_id": null
+    },
+    "length_m": 1.6,
+    "length_interval_m": [
+     1.35,
+     1.75
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The dark headboard panel is clearly visible above/behind the two patterned pillows; its left vertical edge sits just right of the left bedside lamp and its right edge ends where the warm-lit wall and right nightstand begin. The span is slightly wider than a standard mattress plus a small margin, consistent with a queen-class bed.",
+    "identity_uncertainty": "Exact bed size (full 1.37 m vs queen 1.53 m mattress) is not distinguishable; headboard may be a few cm wider than the mattress. Left edge is near the headboard/wall boundary so a small depth offset is possible."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "bed_pillow",
+    "knowledge_group_id": "pillow_standard_size",
+    "description": "Horizontal width of the left patterned pillow propped against the headboard, between its left and right visible edge.",
+    "p1": {
+     "xy": [
+      212,
+      240
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      298,
+      238
+     ],
+     "point_id": null
+    },
+    "length_m": 0.62,
+    "length_interval_m": [
+     0.5,
+     0.72
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A patterned decorative pillow leaning on the headboard, with a second matching pillow beside it; both are roughly square in the image and of standard bed-pillow size, consistent with a 26 in (0.66 m) sham.",
+    "identity_uncertainty": "Whether it is a 20x26 in standard sham or a 26x26 in euro sham is unclear; rounding of the stuffed pillow edges can shorten the measured span slightly."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "left_table_lamp",
+    "knowledge_group_id": "table_lamp_height_class",
+    "description": "Vertical height of the left bedside lamp from the top of its drum lampshade down to the bottom of its base where it meets the nightstand top.",
+    "p1": {
+     "xy": [
+      122,
+      175
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      122,
+      303
+     ],
+     "point_id": null
+    },
+    "length_m": 0.63,
+    "length_interval_m": [
+     0.5,
+     0.8
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The lamp stands vertically on the left nightstand: bright drum shade on top, black urn-shaped ceramic base below. Its shade is about 0.35-0.45 m across, which combined with the shade-to-base proportions gives a total height near 0.6 m.",
+    "identity_uncertainty": "No brand or model is identifiable; bedside lamp heights range roughly 0.5-0.8 m, and the drum-shade diameter is only inferred from category priors."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "aec7d8cb185f31fe8279a8fc0842423a80195db3922f7b63d2236ed200c85cc0"
+}

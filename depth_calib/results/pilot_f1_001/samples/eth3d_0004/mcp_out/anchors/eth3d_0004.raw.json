@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0004",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "fg_bierbench",
+    "knowledge_group_id": "biergarten_bench_seat_depth",
+    "description": "Seat depth of the near beer-garden bench (two-plank seat, black folding legs) spanning from its back edge to its front edge at the same image column.",
+    "p1": {
+     "xy": [
+      600,
+      660
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      600,
+      780
+     ],
+     "point_id": null
+    },
+    "length_m": 0.29,
+    "length_interval_m": [
+     0.25,
+     0.33
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Foreground wooden bench is completely visible across the bottom of the frame; its flat two-plank seat top is bounded by a straight back edge at (600,660) and a straight front edge at (600,780), with black steel folding legs below and a green cloth lying on the far end.",
+    "identity_uncertainty": "Identified as a standard German beer-garden folding bench from the seat/leg layout; exact seat-width variant (25-33 cm across manufacturers) is not identifiable from the image."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "center_bier_table",
+    "knowledge_group_id": "biergarten_table_width",
+    "description": "Width of the central beer-garden table's slatted wooden top, measured across the short (width) direction from the far long edge to the near long edge at the same image column.",
+    "p1": {
+     "xy": [
+      680,
+      488
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      680,
+      555
+     ],
+     "point_id": null
+    },
+    "length_m": 0.7,
+    "length_interval_m": [
+     0.58,
+     0.88
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Centre table with slatted wooden top and white-painted steel frame is fully visible; both long edges of the tabletop are directly visible at x=680, the far edge at (680,488) and the near edge at (680,555), with a beer bottle standing on the same top surface.",
+    "identity_uncertainty": "Table type is a standard folding beer-garden table (typically ~70-80 cm wide); exact model and width variant cannot be confirmed, and the far edge is close to the sofa behind it."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "beer_bottle_on_table",
+    "knowledge_group_id": "beer_bottle_height",
+    "description": "Overall height of the brown-glass beer bottle standing upright on the central table, from its base at the tabletop to the top of its crown cap.",
+    "p1": {
+     "xy": [
+      649,
+      456
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      648,
+      536
+     ],
+     "point_id": null
+    },
+    "length_m": 0.25,
+    "length_interval_m": [
+     0.215,
+     0.295
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Single brown-glass bottle with a paper label and crown cap stands free on the slatted tabletop; its entire silhouette is unoccluded, cap top at (649,456) and base/table contact at (648,536).",
+    "identity_uncertainty": "Bottle capacity is either 0.33 L (~23 cm) or 0.5 L (~28 cm) German beer format; label text is too small to read, so height is bracketed by both formats."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "db8382a263e21d97b12b6a71ec3500eda9470e6b8810f55bf5df6e2188859f11"
+}

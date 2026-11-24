@@ -1,0 +1,10 @@
+{
+ "image_id": "nyuv2_0937",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "abstain",
+ "anchors": [],
+ "abstain_reason": "候选点组工具链故障：propose_points 返回的 16 个 point_id 未被持久化（跨 CLI 调用注册表丢失，status 显示 points=[]），随后 2 次 render 校验均失败（一次因 payload 包装为对象导致 schema 错误，一次 POINT_ID_UNKNOWN），4 次观察预算已全部被服务端计入并耗尽。本条件要求 p1/p2 必须引用已注册的 point_id 且不得自填坐标或编造 ID、不得修改项目文件；当前注册表为空且无法再次调用 points，故无法构造任何合规锚点，按协议放弃。",
+ "submission_id": "sub_e4322c63f205efc9",
+ "schema_version": "0.2"
+}

@@ -1,0 +1,122 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0302",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "ceiling_light_troffer",
+    "knowledge_group_id": "ceiling_troffer_2x4ft",
+    "description": "Near long edge of the large rectangular recessed fluorescent troffer in the ceiling, from its lower-left corner to its lower-right corner.",
+    "p1": {
+     "xy": [
+      107,
+      54
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      339,
+      32
+     ],
+     "point_id": null
+    },
+    "length_m": 1.22,
+    "length_interval_m": [
+     1.05,
+     1.35
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Bright rectangular lay-in light panel on the ceiling; its near edge runs from about (107,54) to (339,32).",
+    "identity_uncertainty": "Assumed standard 2x4 ft (1.22x0.61 m) lay-in troffer; a 1x4 ft unit would be shorter, but the elongated proportions are consistent with 2x4 after foreshortening."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "globe",
+    "knowledge_group_id": "classroom_globe_12in",
+    "description": "Diameter of the classroom world globe standing on the shelf by the back wall, measured between its left and right silhouette extremes.",
+    "p1": {
+     "xy": [
+      244,
+      207
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      264,
+      204
+     ],
+     "point_id": null
+    },
+    "length_m": 0.3,
+    "length_interval_m": [
+     0.24,
+     0.38
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "White sphere with blue/green continents on a stand behind the children, near (244-266, 190-222).",
+    "identity_uncertainty": "Typical classroom globe is 12 in (30.5 cm); a 16 in globe would be larger, so interval spans both."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "backpack_camo",
+    "knowledge_group_id": "school_backpack_width",
+    "description": "Width of the camouflage backpack hanging on the wall hook row, between its left and right side edges at mid-height.",
+    "p1": {
+     "xy": [
+      408,
+      234
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      449,
+      231
+     ],
+     "point_id": null
+    },
+    "length_m": 0.3,
+    "length_interval_m": [
+     0.24,
+     0.36
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Distinct backpack with camouflage print hanging on a hook, roughly (405-452, 200-260).",
+    "identity_uncertainty": "Elementary-school backpack widths vary 0.25-0.35 m; this is a typical mid-size pack."
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "paper_sheet",
+    "knowledge_group_id": "letter_paper_8.5x11",
+    "description": "Long edge of the plain white sheet of paper lying on the foreground round table, between two adjacent corners.",
+    "p1": {
+     "xy": [
+      230,
+      387
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      298,
+      371
+     ],
+     "point_id": null
+    },
+    "length_m": 0.28,
+    "length_interval_m": [
+     0.25,
+     0.31
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White sheet with visible markings on the front kidney-shaped table, outline roughly (224-305, 350-390).",
+    "identity_uncertainty": "Could be US Letter (27.9 cm) or A4 (29.7 cm); interval covers both."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "57e966fbae59d3b44c381c79b1f634d65530e3a5d7738a0cd6e9241c37e527bd"
+}

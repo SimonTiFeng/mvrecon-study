@@ -1,0 +1,277 @@
+abs_rel,coverage,dataset,delta1,fallback,n_anchors,notes,rmse_m,sample_id,scene_id,solver_status,status,system
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0958,bedroom_0043,,,A_raw_unscaled
+0.6214448812320783,0.0,nyuv2,0.0,1,4,,1.9189630656528054,nyuv2_0958,bedroom_0043,insufficient,,A_calib_affine
+0.09339041798424444,0.0,nyuv2,0.97734375,1,4,,0.3324104193828116,nyuv2_0958,bedroom_0043,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0958,bedroom_0043,,,B_unconverted
+0.34417696865130015,0.0,nyuv2,0.005319010416666666,1,4,,1.10325466925761,nyuv2_0958,bedroom_0043,conflict,,B_calib_plain
+0.09339041798424444,0.0,nyuv2,0.97734375,1,4,,0.3324104193828116,nyuv2_0958,bedroom_0043,conflict,,B_calib_consistent
+0.09339041798424444,0.0,nyuv2,0.97734375,1,4,,0.3324104193828116,nyuv2_0958,bedroom_0043,conflict,,B_calib_conservative
+0.03462021939060499,0.0,nyuv2,0.9848079427083334,1,4,,0.1621423007650622,nyuv2_0958,bedroom_0043,conflict,,B_oracle_scale_ls
+0.03378569240421251,0.0,nyuv2,0.9847135416666667,1,4,,0.16369077270584667,nyuv2_0958,bedroom_0043,conflict,,B_oracle_scale_absrel
+0.09339041798424444,1.0,nyuv2,0.97734375,1,4,B fallback when A affine fails,0.3324104193828116,nyuv2_0958,bedroom_0043,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0959,bedroom_0043,,,A_raw_unscaled
+0.5735534233490659,0.0,nyuv2,3.2552083333333335e-06,1,2,,1.6937812880424683,nyuv2_0959,bedroom_0043,insufficient,,A_calib_affine
+0.10827245251031221,1.0,nyuv2,0.936982421875,0,2,,0.43641132975857594,nyuv2_0959,bedroom_0043,single_anchor,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0959,bedroom_0043,,,B_unconverted
+0.20657512586163737,1.0,nyuv2,0.759873046875,0,2,,0.5805127087499471,nyuv2_0959,bedroom_0043,single_anchor,,B_calib_plain
+0.20657512586163737,1.0,nyuv2,0.759873046875,0,2,,0.5805127087499471,nyuv2_0959,bedroom_0043,single_anchor,,B_calib_consistent
+0.10827245251031221,1.0,nyuv2,0.936982421875,0,2,,0.43641132975857594,nyuv2_0959,bedroom_0043,single_anchor,,B_calib_conservative
+0.06623028422252773,1.0,nyuv2,0.9479850260416667,0,2,,0.2810845457622739,nyuv2_0959,bedroom_0043,single_anchor,,B_oracle_scale_ls
+0.06516598292713864,1.0,nyuv2,0.9479654947916667,0,2,,0.28195927494916845,nyuv2_0959,bedroom_0043,single_anchor,,B_oracle_scale_absrel
+0.20657512586163737,1.0,nyuv2,0.759873046875,1,2,B fallback when A affine fails,0.5805127087499471,nyuv2_0959,bedroom_0043,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0302,classroom_0010,,,A_raw_unscaled
+0.6995327915121546,0.0,nyuv2,0.0,1,4,,3.0801541934179895,nyuv2_0302,classroom_0010,insufficient,,A_calib_affine
+0.06934065956349324,1.0,nyuv2,0.9367740885416667,0,4,,0.4212104680562558,nyuv2_0302,classroom_0010,ok,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0302,classroom_0010,,,B_unconverted
+0.16347710676083912,1.0,nyuv2,0.847392578125,0,4,,0.8291004361078069,nyuv2_0302,classroom_0010,ok,,B_calib_plain
+0.16347710676083912,1.0,nyuv2,0.847392578125,0,4,,0.8291004361078069,nyuv2_0302,classroom_0010,ok,,B_calib_consistent
+0.16347710676083912,1.0,nyuv2,0.847392578125,0,4,,0.8291004361078069,nyuv2_0302,classroom_0010,ok,,B_calib_conservative
+0.06598204040520993,1.0,nyuv2,0.9376171875,0,4,,0.41799298224828735,nyuv2_0302,classroom_0010,ok,,B_oracle_scale_ls
+0.0655961508448538,1.0,nyuv2,0.9376953125,0,4,,0.41827743393028105,nyuv2_0302,classroom_0010,ok,,B_oracle_scale_absrel
+0.16347710676083912,1.0,nyuv2,0.847392578125,1,4,B fallback when A affine fails,0.8291004361078069,nyuv2_0302,classroom_0010,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_0303,classroom_0010,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0304,classroom_0010,,,A_raw_unscaled
+0.3186316041580684,1.0,nyuv2,0.484775390625,0,4,,0.8217540741307615,nyuv2_0304,classroom_0010,ok,,A_calib_affine
+0.051026258840548545,0.0,nyuv2,0.97880859375,1,4,,0.3375470521400835,nyuv2_0304,classroom_0010,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0304,classroom_0010,,,B_unconverted
+0.07275390171577333,0.0,nyuv2,0.9744173177083333,1,4,,0.4224878807432528,nyuv2_0304,classroom_0010,conflict,,B_calib_plain
+0.051026258840548545,0.0,nyuv2,0.97880859375,1,4,,0.3375470521400835,nyuv2_0304,classroom_0010,conflict,,B_calib_consistent
+0.051026258840548545,0.0,nyuv2,0.97880859375,1,4,,0.3375470521400835,nyuv2_0304,classroom_0010,conflict,,B_calib_conservative
+0.043297997486231574,0.0,nyuv2,0.9790983072916667,1,4,,0.3300429265884863,nyuv2_0304,classroom_0010,conflict,,B_oracle_scale_ls
+0.041929376828025375,0.0,nyuv2,0.979013671875,1,4,,0.33217655141531316,nyuv2_0304,classroom_0010,conflict,,B_oracle_scale_absrel
+0.3186316041580684,1.0,nyuv2,0.484775390625,0,4,B fallback when A affine fails,0.8217540741307615,nyuv2_0304,classroom_0010,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1196,bedroom_0129,,,A_raw_unscaled
+0.5527435624010161,0.0,nyuv2,0.0,1,1,,1.3495302350588307,nyuv2_1196,bedroom_0129,insufficient,,A_calib_affine
+0.11012108016148739,0.0,nyuv2,0.9569563802083333,1,1,,0.37118828679795196,nyuv2_1196,bedroom_0129,insufficient,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1196,bedroom_0129,,,B_unconverted
+0.11012108016148739,0.0,nyuv2,0.9569563802083333,1,1,,0.37118828679795196,nyuv2_1196,bedroom_0129,insufficient,,B_calib_plain
+0.11012108016148739,0.0,nyuv2,0.9569563802083333,1,1,,0.37118828679795196,nyuv2_1196,bedroom_0129,insufficient,,B_calib_consistent
+0.11012108016148739,0.0,nyuv2,0.9569563802083333,1,1,,0.37118828679795196,nyuv2_1196,bedroom_0129,insufficient,,B_calib_conservative
+0.05816039612196094,0.0,nyuv2,0.980498046875,1,1,,0.17119607814694507,nyuv2_1196,bedroom_0129,insufficient,,B_oracle_scale_ls
+0.056994420583995654,0.0,nyuv2,0.98013671875,1,1,,0.172941677847873,nyuv2_1196,bedroom_0129,insufficient,,B_oracle_scale_absrel
+0.11012108016148739,1.0,nyuv2,0.9569563802083333,1,1,B fallback when A affine fails,0.37118828679795196,nyuv2_1196,bedroom_0129,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1197,bedroom_0129,,,A_raw_unscaled
+0.4865522911539459,0.0,nyuv2,0.0037760416666666667,1,3,,1.058443972390137,nyuv2_1197,bedroom_0129,insufficient,,A_calib_affine
+0.07791653454877921,0.0,nyuv2,0.9507063802083333,1,3,,0.25200834331297656,nyuv2_1197,bedroom_0129,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1197,bedroom_0129,,,B_unconverted
+0.3341522939499223,0.0,nyuv2,0.04016927083333333,1,3,,0.7929435360566036,nyuv2_1197,bedroom_0129,conflict,,B_calib_plain
+0.07791653454877921,0.0,nyuv2,0.9507063802083333,1,3,,0.25200834331297656,nyuv2_1197,bedroom_0129,conflict,,B_calib_consistent
+0.07791653454877921,0.0,nyuv2,0.9507063802083333,1,3,,0.25200834331297656,nyuv2_1197,bedroom_0129,conflict,,B_calib_conservative
+0.06524107842309632,0.0,nyuv2,0.9527897135416666,1,3,,0.22760469321275859,nyuv2_1197,bedroom_0129,conflict,,B_oracle_scale_ls
+0.0653507036460876,0.0,nyuv2,0.95009765625,1,3,,0.2279937057632042,nyuv2_1197,bedroom_0129,conflict,,B_oracle_scale_absrel
+0.07791653454877921,1.0,nyuv2,0.9507063802083333,1,3,B fallback when A affine fails,0.25200834331297656,nyuv2_1197,bedroom_0129,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1367,dining_room_0011,,,A_raw_unscaled
+0.7012986179995158,0.0,nyuv2,0.0,1,2,,2.780552276368537,nyuv2_1367,dining_room_0011,insufficient,,A_calib_affine
+0.10315278910540528,1.0,nyuv2,0.8980501302083334,0,2,,0.5704680972007309,nyuv2_1367,dining_room_0011,single_anchor,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1367,dining_room_0011,,,B_unconverted
+0.10723431980990479,1.0,nyuv2,0.8945377604166667,0,2,,0.5829482655998204,nyuv2_1367,dining_room_0011,single_anchor,,B_calib_plain
+0.10723431980990479,1.0,nyuv2,0.8945377604166667,0,2,,0.5829482655998204,nyuv2_1367,dining_room_0011,single_anchor,,B_calib_consistent
+0.10315278910540528,1.0,nyuv2,0.8980501302083334,0,2,,0.5704680972007309,nyuv2_1367,dining_room_0011,single_anchor,,B_calib_conservative
+0.06151665969825435,1.0,nyuv2,0.9491731770833334,0,2,,0.407786616555774,nyuv2_1367,dining_room_0011,single_anchor,,B_oracle_scale_ls
+0.05750942564136915,1.0,nyuv2,0.942265625,0,2,,0.4144997611300761,nyuv2_1367,dining_room_0011,single_anchor,,B_oracle_scale_absrel
+0.10723431980990479,1.0,nyuv2,0.8945377604166667,1,2,B fallback when A affine fails,0.5829482655998204,nyuv2_1367,dining_room_0011,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1368,dining_room_0011,,,A_raw_unscaled
+0.6417128825799765,0.0,nyuv2,0.000673828125,1,3,,2.4389113962758002,nyuv2_1368,dining_room_0011,insufficient,,A_calib_affine
+0.10377755654438557,1.0,nyuv2,0.8821061197916666,0,3,,0.6194480184513085,nyuv2_1368,dining_room_0011,ok,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1368,dining_room_0011,,,B_unconverted
+0.12497969244485362,1.0,nyuv2,0.8803515625,0,3,,0.6024144840809756,nyuv2_1368,dining_room_0011,ok,,B_calib_plain
+0.12497969244485362,1.0,nyuv2,0.8803515625,0,3,,0.6024144840809756,nyuv2_1368,dining_room_0011,ok,,B_calib_consistent
+0.12497969244485362,1.0,nyuv2,0.8803515625,0,3,,0.6024144840809756,nyuv2_1368,dining_room_0011,ok,,B_calib_conservative
+0.09629242906922574,1.0,nyuv2,0.8861588541666666,0,3,,0.5771812314427388,nyuv2_1368,dining_room_0011,ok,,B_oracle_scale_ls
+0.08929552853729532,1.0,nyuv2,0.889521484375,0,3,,0.58290182926909,nyuv2_1368,dining_room_0011,ok,,B_oracle_scale_absrel
+0.12497969244485362,1.0,nyuv2,0.8803515625,1,3,B fallback when A affine fails,0.6024144840809756,nyuv2_1368,dining_room_0011,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0548,dining_room_0038,,,A_raw_unscaled
+0.5301749488401115,0.0,nyuv2,0.0,1,2,,1.4473647692180192,nyuv2_0548,dining_room_0038,insufficient,,A_calib_affine
+0.07617360432820368,1.0,nyuv2,0.9677018229166666,0,2,,0.5690453343848668,nyuv2_0548,dining_room_0038,ok,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0548,dining_room_0038,,,B_unconverted
+0.24516204708532593,1.0,nyuv2,0.549921875,0,2,,0.7298446391961166,nyuv2_0548,dining_room_0038,ok,,B_calib_plain
+0.24516204708532593,1.0,nyuv2,0.549921875,0,2,,0.7298446391961166,nyuv2_0548,dining_room_0038,ok,,B_calib_consistent
+0.24516204708532593,1.0,nyuv2,0.549921875,0,2,,0.7298446391961166,nyuv2_0548,dining_room_0038,ok,,B_calib_conservative
+0.052064809781585245,1.0,nyuv2,0.9761263020833333,0,2,,0.5159134400186681,nyuv2_0548,dining_room_0038,ok,,B_oracle_scale_ls
+0.03528019902558156,1.0,nyuv2,0.9734700520833334,0,2,,0.5228574499755142,nyuv2_0548,dining_room_0038,ok,,B_oracle_scale_absrel
+0.24516204708532593,1.0,nyuv2,0.549921875,1,2,B fallback when A affine fails,0.7298446391961166,nyuv2_0548,dining_room_0038,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0549,dining_room_0038,,,A_raw_unscaled
+0.6055002154599681,0.0,nyuv2,0.00033203125,1,3,,1.6881017845602218,nyuv2_0549,dining_room_0038,insufficient,,A_calib_affine
+0.08811479318970876,1.0,nyuv2,0.9675618489583333,0,3,,0.28027667127046824,nyuv2_0549,dining_room_0038,single_anchor,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0549,dining_room_0038,,,B_unconverted
+0.07238148432202933,1.0,nyuv2,0.98029296875,0,3,,0.25055709413216604,nyuv2_0549,dining_room_0038,single_anchor,,B_calib_plain
+0.07238148432202933,1.0,nyuv2,0.98029296875,0,3,,0.25055709413216604,nyuv2_0549,dining_room_0038,single_anchor,,B_calib_consistent
+0.08811479318970876,1.0,nyuv2,0.9675618489583333,0,3,,0.28027667127046824,nyuv2_0549,dining_room_0038,single_anchor,,B_calib_conservative
+0.039984883853700866,1.0,nyuv2,0.9817057291666667,0,3,,0.17149341753701577,nyuv2_0549,dining_room_0038,single_anchor,,B_oracle_scale_ls
+0.03999985541718199,1.0,nyuv2,0.9819401041666667,0,3,,0.17183066871954866,nyuv2_0549,dining_room_0038,single_anchor,,B_oracle_scale_absrel
+0.07238148432202933,1.0,nyuv2,0.98029296875,1,3,B fallback when A affine fails,0.25055709413216604,nyuv2_0549,dining_room_0038,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0550,dining_room_0038,,,A_raw_unscaled
+0.5623029823110732,0.0,nyuv2,0.0032161458333333334,1,3,,1.3467031673334047,nyuv2_0550,dining_room_0038,insufficient,,A_calib_affine
+0.10462001558225215,0.0,nyuv2,0.9645540364583334,1,3,,0.31437389629825974,nyuv2_0550,dining_room_0038,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0550,dining_room_0038,,,B_unconverted
+0.6440342219754588,0.0,nyuv2,3.2552083333333335e-06,1,3,,1.6165295731539493,nyuv2_0550,dining_room_0038,conflict,,B_calib_plain
+0.10462001558225215,0.0,nyuv2,0.9645540364583334,1,3,,0.31437389629825974,nyuv2_0550,dining_room_0038,conflict,,B_calib_consistent
+0.10462001558225215,0.0,nyuv2,0.9645540364583334,1,3,,0.31437389629825974,nyuv2_0550,dining_room_0038,conflict,,B_calib_conservative
+0.04634307224619902,0.0,nyuv2,0.978388671875,1,3,,0.17814849141167738,nyuv2_0550,dining_room_0038,conflict,,B_oracle_scale_ls
+0.045308477871529466,0.0,nyuv2,0.9768294270833333,1,3,,0.1794014885836481,nyuv2_0550,dining_room_0038,conflict,,B_oracle_scale_absrel
+0.10462001558225215,1.0,nyuv2,0.9645540364583334,1,3,B fallback when A affine fails,0.31437389629825974,nyuv2_0550,dining_room_0038,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1028,bedroom_0067,,,A_raw_unscaled
+0.5991670560348887,0.0,nyuv2,0.000322265625,1,3,,2.0178254372440456,nyuv2_1028,bedroom_0067,insufficient,,A_calib_affine
+0.1048399742368459,0.0,nyuv2,0.8629296875,1,3,,0.31799975028772587,nyuv2_1028,bedroom_0067,insufficient,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1028,bedroom_0067,,,B_unconverted
+0.1048399742368459,0.0,nyuv2,0.8629296875,1,3,,0.31799975028772587,nyuv2_1028,bedroom_0067,insufficient,,B_calib_plain
+0.1048399742368459,0.0,nyuv2,0.8629296875,1,3,,0.31799975028772587,nyuv2_1028,bedroom_0067,insufficient,,B_calib_consistent
+0.1048399742368459,0.0,nyuv2,0.8629296875,1,3,,0.31799975028772587,nyuv2_1028,bedroom_0067,insufficient,,B_calib_conservative
+0.10725141271070315,0.0,nyuv2,0.85013671875,1,3,,0.29135543490016375,nyuv2_1028,bedroom_0067,insufficient,,B_oracle_scale_ls
+0.10424999648421383,0.0,nyuv2,0.854951171875,1,3,,0.2957146446022448,nyuv2_1028,bedroom_0067,insufficient,,B_oracle_scale_absrel
+0.1048399742368459,1.0,nyuv2,0.8629296875,1,3,B fallback when A affine fails,0.31799975028772587,nyuv2_1028,bedroom_0067,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1029,bedroom_0067,,,A_raw_unscaled
+0.7017607250253151,0.0,nyuv2,0.0,1,3,,2.8547192489954742,nyuv2_1029,bedroom_0067,insufficient,,A_calib_affine
+0.06571703617655437,0.0,nyuv2,0.9732747395833333,1,3,,0.3614002894599599,nyuv2_1029,bedroom_0067,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1029,bedroom_0067,,,B_unconverted
+0.4819231459095541,0.0,nyuv2,0.0,1,3,,2.0197916228131305,nyuv2_1029,bedroom_0067,conflict,,B_calib_plain
+0.06571703617655437,0.0,nyuv2,0.9732747395833333,1,3,,0.3614002894599599,nyuv2_1029,bedroom_0067,conflict,,B_calib_consistent
+0.06571703617655437,0.0,nyuv2,0.9732747395833333,1,3,,0.3614002894599599,nyuv2_1029,bedroom_0067,conflict,,B_calib_conservative
+0.031559415231493713,0.0,nyuv2,0.975830078125,1,3,,0.24092825460826703,nyuv2_1029,bedroom_0067,conflict,,B_oracle_scale_ls
+0.030390661966250978,0.0,nyuv2,0.9753190104166667,1,3,,0.24353675500838737,nyuv2_1029,bedroom_0067,conflict,,B_oracle_scale_absrel
+0.06571703617655437,1.0,nyuv2,0.9732747395833333,1,3,B fallback when A affine fails,0.3614002894599599,nyuv2_1029,bedroom_0067,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1030,bedroom_0067,,,A_raw_unscaled
+0.6421902255413485,0.0,nyuv2,0.0,1,4,,2.308162927371782,nyuv2_1030,bedroom_0067,insufficient,,A_calib_affine
+0.0659864667648299,0.0,nyuv2,0.9463932291666667,1,4,,0.6716061002520058,nyuv2_1030,bedroom_0067,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1030,bedroom_0067,,,B_unconverted
+0.21871698765376513,0.0,nyuv2,0.436015625,1,4,,1.0140251568786973,nyuv2_1030,bedroom_0067,conflict,,B_calib_plain
+0.0659864667648299,0.0,nyuv2,0.9463932291666667,1,4,,0.6716061002520058,nyuv2_1030,bedroom_0067,conflict,,B_calib_consistent
+0.0659864667648299,0.0,nyuv2,0.9463932291666667,1,4,,0.6716061002520058,nyuv2_1030,bedroom_0067,conflict,,B_calib_conservative
+0.06282047896549713,0.0,nyuv2,0.9491145833333333,1,4,,0.6259059234529663,nyuv2_1030,bedroom_0067,conflict,,B_oracle_scale_ls
+0.052100321859682754,0.0,nyuv2,0.9475716145833334,1,4,,0.6335016309511,nyuv2_1030,bedroom_0067,conflict,,B_oracle_scale_absrel
+0.0659864667648299,1.0,nyuv2,0.9463932291666667,1,4,B fallback when A affine fails,0.6716061002520058,nyuv2_1030,bedroom_0067,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_1429,dining_room_0032,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_1430,dining_room_0032,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1431,dining_room_0032,,,A_raw_unscaled
+0.6387031093955319,0.0,nyuv2,0.006494140625,1,2,,2.122536091075841,nyuv2_1431,dining_room_0032,insufficient,,A_calib_affine
+0.14711376724817019,0.0,nyuv2,0.87634765625,1,2,,0.658731812425102,nyuv2_1431,dining_room_0032,insufficient,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1431,dining_room_0032,,,B_unconverted
+0.14711376724817019,0.0,nyuv2,0.87634765625,1,2,,0.658731812425102,nyuv2_1431,dining_room_0032,insufficient,,B_calib_plain
+0.14711376724817019,0.0,nyuv2,0.87634765625,1,2,,0.658731812425102,nyuv2_1431,dining_room_0032,insufficient,,B_calib_consistent
+0.14711376724817019,0.0,nyuv2,0.87634765625,1,2,,0.658731812425102,nyuv2_1431,dining_room_0032,insufficient,,B_calib_conservative
+0.0860088130520972,0.0,nyuv2,0.8878190104166667,1,2,,0.5163667583787795,nyuv2_1431,dining_room_0032,insufficient,,B_oracle_scale_ls
+0.08560580033706373,0.0,nyuv2,0.8808235677083334,1,2,,0.5182179616403269,nyuv2_1431,dining_room_0032,insufficient,,B_oracle_scale_absrel
+0.14711376724817019,1.0,nyuv2,0.87634765625,1,2,B fallback when A affine fails,0.658731812425102,nyuv2_1431,dining_room_0032,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_1432,dining_room_0032,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0944,bedroom_0037,,,A_raw_unscaled
+0.5644770988497417,0.0,nyuv2,0.0,1,2,,1.5644708289324447,nyuv2_0944,bedroom_0037,insufficient,,A_calib_affine
+0.07129033756434494,0.0,nyuv2,0.9765234375,1,2,,0.3255326848784415,nyuv2_0944,bedroom_0037,insufficient,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0944,bedroom_0037,,,B_unconverted
+0.07129033756434494,0.0,nyuv2,0.9765234375,1,2,,0.3255326848784415,nyuv2_0944,bedroom_0037,insufficient,,B_calib_plain
+0.07129033756434494,0.0,nyuv2,0.9765234375,1,2,,0.3255326848784415,nyuv2_0944,bedroom_0037,insufficient,,B_calib_consistent
+0.07129033756434494,0.0,nyuv2,0.9765234375,1,2,,0.3255326848784415,nyuv2_0944,bedroom_0037,insufficient,,B_calib_conservative
+0.06369658048104783,0.0,nyuv2,0.988671875,1,2,,0.22116628658012297,nyuv2_0944,bedroom_0037,insufficient,,B_oracle_scale_ls
+0.05382349649290044,0.0,nyuv2,0.9857682291666666,1,2,,0.24303436832284145,nyuv2_0944,bedroom_0037,insufficient,,B_oracle_scale_absrel
+0.07129033756434494,1.0,nyuv2,0.9765234375,1,2,B fallback when A affine fails,0.3255326848784415,nyuv2_0944,bedroom_0037,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0945,bedroom_0037,,,A_raw_unscaled
+0.5158031997138608,0.0,nyuv2,0.0008854166666666666,1,4,,1.2224804890262262,nyuv2_0945,bedroom_0037,insufficient,,A_calib_affine
+0.07198435979625016,0.0,nyuv2,0.9760904947916667,1,4,,0.2303437618213382,nyuv2_0945,bedroom_0037,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0945,bedroom_0037,,,B_unconverted
+0.4700513958516486,0.0,nyuv2,0.0015071614583333332,1,4,,1.1782700766516272,nyuv2_0945,bedroom_0037,conflict,,B_calib_plain
+0.07198435979625016,0.0,nyuv2,0.9760904947916667,1,4,,0.2303437618213382,nyuv2_0945,bedroom_0037,conflict,,B_calib_consistent
+0.07198435979625016,0.0,nyuv2,0.9760904947916667,1,4,,0.2303437618213382,nyuv2_0945,bedroom_0037,conflict,,B_calib_conservative
+0.04869528698459913,0.0,nyuv2,0.9839518229166667,1,4,,0.15283984465580655,nyuv2_0945,bedroom_0037,conflict,,B_oracle_scale_ls
+0.04760721310184544,0.0,nyuv2,0.9833854166666667,1,4,,0.15393392857137467,nyuv2_0945,bedroom_0037,conflict,,B_oracle_scale_absrel
+0.07198435979625016,1.0,nyuv2,0.9760904947916667,1,4,B fallback when A affine fails,0.2303437618213382,nyuv2_0945,bedroom_0037,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_0946,bedroom_0037,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0667,bathroom_0017,,,A_raw_unscaled
+0.6436358244012993,0.0,nyuv2,0.000341796875,1,3,,2.454083518638701,nyuv2_0667,bathroom_0017,insufficient,,A_calib_affine
+0.12844890598883416,1.0,nyuv2,0.8334375,0,3,,1.0971676022545647,nyuv2_0667,bathroom_0017,ok,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0667,bathroom_0017,,,B_unconverted
+0.10389185502825926,1.0,nyuv2,0.8448600260416667,0,3,,1.0474272789631822,nyuv2_0667,bathroom_0017,ok,,B_calib_plain
+0.10389185502825926,1.0,nyuv2,0.8448600260416667,0,3,,1.0474272789631822,nyuv2_0667,bathroom_0017,ok,,B_calib_consistent
+0.10389185502825926,1.0,nyuv2,0.8448600260416667,0,3,,1.0474272789631822,nyuv2_0667,bathroom_0017,ok,,B_calib_conservative
+0.1492259809036198,1.0,nyuv2,0.8837337239583334,0,3,,0.9217726515901721,nyuv2_0667,bathroom_0017,ok,,B_oracle_scale_ls
+0.08692358848150168,1.0,nyuv2,0.8559016927083334,0,3,,0.9896964787858548,nyuv2_0667,bathroom_0017,ok,,B_oracle_scale_absrel
+0.10389185502825926,1.0,nyuv2,0.8448600260416667,1,3,B fallback when A affine fails,1.0474272789631822,nyuv2_0667,bathroom_0017,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0668,bathroom_0017,,,A_raw_unscaled
+0.5774562854325715,0.0,nyuv2,4.557291666666667e-05,1,3,,1.5132648093167969,nyuv2_0668,bathroom_0017,insufficient,,A_calib_affine
+0.1464639960505305,1.0,nyuv2,0.8991438802083334,0,3,,0.49326956439803454,nyuv2_0668,bathroom_0017,ok,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0668,bathroom_0017,,,B_unconverted
+0.041416031921132294,1.0,nyuv2,0.9785677083333333,0,3,,0.2439238193217495,nyuv2_0668,bathroom_0017,ok,,B_calib_plain
+0.041416031921132294,1.0,nyuv2,0.9785677083333333,0,3,,0.2439238193217495,nyuv2_0668,bathroom_0017,ok,,B_calib_consistent
+0.041416031921132294,1.0,nyuv2,0.9785677083333333,0,3,,0.2439238193217495,nyuv2_0668,bathroom_0017,ok,,B_calib_conservative
+0.047632798603305694,1.0,nyuv2,0.9803678385416666,0,3,,0.24061549132235785,nyuv2_0668,bathroom_0017,ok,,B_oracle_scale_ls
+0.03945848810386044,1.0,nyuv2,0.9771223958333334,0,3,,0.250617143657743,nyuv2_0668,bathroom_0017,ok,,B_oracle_scale_absrel
+0.041416031921132294,1.0,nyuv2,0.9785677083333333,1,3,B fallback when A affine fails,0.2439238193217495,nyuv2_0668,bathroom_0017,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_0669,bathroom_0017,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_0799,kitchen_0030,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0800,kitchen_0030,,,A_raw_unscaled
+0.6818741027802634,0.0,nyuv2,0.003636067708333333,1,3,,3.12809521037713,nyuv2_0800,kitchen_0030,insufficient,,A_calib_affine
+0.09540398629037772,0.0,nyuv2,0.9037955729166667,1,3,,0.8711648972810038,nyuv2_0800,kitchen_0030,insufficient,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0800,kitchen_0030,,,B_unconverted
+0.09540398629037772,0.0,nyuv2,0.9037955729166667,1,3,,0.8711648972810038,nyuv2_0800,kitchen_0030,insufficient,,B_calib_plain
+0.09540398629037772,0.0,nyuv2,0.9037955729166667,1,3,,0.8711648972810038,nyuv2_0800,kitchen_0030,insufficient,,B_calib_consistent
+0.09540398629037772,0.0,nyuv2,0.9037955729166667,1,3,,0.8711648972810038,nyuv2_0800,kitchen_0030,insufficient,,B_calib_conservative
+0.08345783209686067,0.0,nyuv2,0.91673828125,1,3,,0.7822968085712556,nyuv2_0800,kitchen_0030,insufficient,,B_oracle_scale_ls
+0.07510233949105402,0.0,nyuv2,0.9154752604166667,1,3,,0.792500983843106,nyuv2_0800,kitchen_0030,insufficient,,B_oracle_scale_absrel
+0.09540398629037772,1.0,nyuv2,0.9037955729166667,1,3,B fallback when A affine fails,0.8711648972810038,nyuv2_0800,kitchen_0030,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_0801,kitchen_0030,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0802,kitchen_0030,,,A_raw_unscaled
+0.6042846732350117,0.0,nyuv2,0.001240234375,1,3,,2.1812478286711094,nyuv2_0802,kitchen_0030,insufficient,,A_calib_affine
+0.09116333201573949,1.0,nyuv2,0.9488736979166666,0,3,,0.5256453579032168,nyuv2_0802,kitchen_0030,single_anchor,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0802,kitchen_0030,,,B_unconverted
+0.29170083606161173,1.0,nyuv2,0.09144205729166667,0,3,,1.2189776287604057,nyuv2_0802,kitchen_0030,single_anchor,,B_calib_plain
+0.29170083606161173,1.0,nyuv2,0.09144205729166667,0,3,,1.2189776287604057,nyuv2_0802,kitchen_0030,single_anchor,,B_calib_consistent
+0.09116333201573949,1.0,nyuv2,0.9488736979166666,0,3,,0.5256453579032168,nyuv2_0802,kitchen_0030,single_anchor,,B_calib_conservative
+0.09063725988118539,1.0,nyuv2,0.946650390625,0,3,,0.4193347638223581,nyuv2_0802,kitchen_0030,single_anchor,,B_oracle_scale_ls
+0.08322892944735903,1.0,nyuv2,0.951240234375,0,3,,0.4380478733667772,nyuv2_0802,kitchen_0030,single_anchor,,B_oracle_scale_absrel
+0.29170083606161173,1.0,nyuv2,0.09144205729166667,1,3,B fallback when A affine fails,1.2189776287604057,nyuv2_0802,kitchen_0030,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_0803,kitchen_0030,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0842,kitchen_0040,,,A_raw_unscaled
+0.5253259056366031,0.0,nyuv2,0.008336588541666667,1,2,,1.442030557013925,nyuv2_0842,kitchen_0040,insufficient,,A_calib_affine
+0.14070136265658822,1.0,nyuv2,0.82017578125,0,2,,0.4309200386369255,nyuv2_0842,kitchen_0040,ok,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0842,kitchen_0040,,,B_unconverted
+0.10546584470654921,1.0,nyuv2,0.850927734375,0,2,,0.3402938158106094,nyuv2_0842,kitchen_0040,ok,,B_calib_plain
+0.10546584470654921,1.0,nyuv2,0.850927734375,0,2,,0.3402938158106094,nyuv2_0842,kitchen_0040,ok,,B_calib_consistent
+0.10546584470654921,1.0,nyuv2,0.850927734375,0,2,,0.3402938158106094,nyuv2_0842,kitchen_0040,ok,,B_calib_conservative
+0.09816258278645047,1.0,nyuv2,0.8486360677083333,0,2,,0.33871535908502937,nyuv2_0842,kitchen_0040,ok,,B_oracle_scale_ls
+0.09254631107113288,1.0,nyuv2,0.845966796875,0,2,,0.3417176528040952,nyuv2_0842,kitchen_0040,ok,,B_oracle_scale_absrel
+0.10546584470654921,1.0,nyuv2,0.850927734375,1,2,B fallback when A affine fails,0.3402938158106094,nyuv2_0842,kitchen_0040,mixed,,A_calib_B_fallback
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0843,kitchen_0040,,,A_raw_unscaled
+0.5392680316530996,0.0,nyuv2,0.0,1,4,,1.3618563120750544,nyuv2_0843,kitchen_0040,insufficient,,A_calib_affine
+0.031040754455775595,0.0,nyuv2,0.97759765625,1,4,,0.19208522142163117,nyuv2_0843,kitchen_0040,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_0843,kitchen_0040,,,B_unconverted
+0.11972545086998868,0.0,nyuv2,0.9555533854166667,1,4,,0.3552739933937503,nyuv2_0843,kitchen_0040,conflict,,B_calib_plain
+0.031040754455775595,0.0,nyuv2,0.97759765625,1,4,,0.19208522142163117,nyuv2_0843,kitchen_0040,conflict,,B_calib_consistent
+0.031040754455775595,0.0,nyuv2,0.97759765625,1,4,,0.19208522142163117,nyuv2_0843,kitchen_0040,conflict,,B_calib_conservative
+0.0320425653761985,0.0,nyuv2,0.978232421875,1,4,,0.19168979137973152,nyuv2_0843,kitchen_0040,conflict,,B_oracle_scale_ls
+0.03093106709517498,0.0,nyuv2,0.9773209635416666,1,4,,0.19238945022853934,nyuv2_0843,kitchen_0040,conflict,,B_oracle_scale_absrel
+0.031040754455775595,1.0,nyuv2,0.97759765625,1,4,B fallback when A affine fails,0.19208522142163117,nyuv2_0843,kitchen_0040,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_0844,kitchen_0040,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_0845,kitchen_0040,,unknown,submission_missing
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1232,living_room_0036,,,A_raw_unscaled
+0.5254551140895436,0.0,nyuv2,0.0006087239583333333,1,3,,1.277424400371465,nyuv2_1232,living_room_0036,insufficient,,A_calib_affine
+0.09481119572954194,0.0,nyuv2,0.9113704427083333,1,3,,0.31847195349582275,nyuv2_1232,living_room_0036,conflict,,B_metric_raw
+,,nyuv2,,,,not a metric prediction; excluded from main table,,nyuv2_1232,living_room_0036,,,B_unconverted
+0.44103012729478425,0.0,nyuv2,0.00177734375,1,3,,1.1418252280471897,nyuv2_1232,living_room_0036,conflict,,B_calib_plain
+0.09481119572954194,0.0,nyuv2,0.9113704427083333,1,3,,0.31847195349582275,nyuv2_1232,living_room_0036,conflict,,B_calib_consistent
+0.09481119572954194,0.0,nyuv2,0.9113704427083333,1,3,,0.31847195349582275,nyuv2_1232,living_room_0036,conflict,,B_calib_conservative
+0.08201747594563973,0.0,nyuv2,0.9274772135416667,1,3,,0.23909951183326644,nyuv2_1232,living_room_0036,conflict,,B_oracle_scale_ls
+0.07924063588160889,0.0,nyuv2,0.921513671875,1,3,,0.2425574510559189,nyuv2_1232,living_room_0036,conflict,,B_oracle_scale_absrel
+0.09481119572954194,1.0,nyuv2,0.9113704427083333,1,3,B fallback when A affine fails,0.31847195349582275,nyuv2_1232,living_room_0036,mixed,,A_calib_B_fallback
+,0,nyuv2,,,,no committed submission,,nyuv2_1233,living_room_0036,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_1234,living_room_0036,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_0008,office_0005,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_1056,bedroom_0077,,unknown,submission_missing
+,0,nyuv2,,,,no committed submission,,nyuv2_1057,bedroom_0077,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0000,courtyard,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0001,courtyard,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0002,courtyard,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0003,courtyard,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0004,courtyard,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0153,facade,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0154,facade,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0155,facade,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0156,facade,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0157,facade,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0038,delivery_area,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0039,delivery_area,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0040,delivery_area,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0041,delivery_area,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0042,delivery_area,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0082,electro,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0083,electro,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0084,electro,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0085,electro,,unknown,submission_missing
+,0,eth3d,,,,no committed submission,,eth3d_0086,electro,,unknown,submission_missing

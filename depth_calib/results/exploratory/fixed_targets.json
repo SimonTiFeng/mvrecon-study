@@ -1,0 +1,15 @@
+{
+ "targets": {
+  "nyuv2_1167": "床上白色纸张的长边（同一张纸的两个角）",
+  "nyuv2_0852": "嵌入式微波炉前面板的水平宽度（左右两条外缘，同一高度）",
+  "nyuv2_1416": "前景白色打印文件顶部的长边（同一张纸的两个角）",
+  "eth3d_0158": "右下角拱形窗的外框水平宽度（左右窗框外缘，同一高度）"
+ },
+ "reference_endpoints_verifier_only": {
+  "nyuv2_1167": [[262.0, 334.0], [330.0, 327.0]],
+  "nyuv2_0852": [[105.0, 125.0], [183.0, 125.0]],
+  "nyuv2_1416": [[386.0, 346.0], [557.0, 333.0]],
+  "eth3d_0158": [[1002.0, 600.0], [1247.0, 600.0]]
+ },
+ "verifier_note": "endpoints annotated by the orchestrating Claude agent from 10-20 px grid crops; same model family as the measurement agents, so this is a diagnostic reference, not an independent human annotation."
+}

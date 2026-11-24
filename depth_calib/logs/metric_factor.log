@@ -1,0 +1,33 @@
+C:\Users\Simon\Downloads\Git\research\music\depth_calib\vendor\Depth-Anything-3\src\depth_anything_3\cfg.py:25: UserWarning: register_new_resolver() is deprecated and will be removed in a future release.
+Use register_resolver() instead.
+See https://github.com/hydra-ecosystem/omegaconf/issues/426 for migration instructions.
+
+  OmegaConf.register_new_resolver("eval", eval)
+[97m[INFO ] using MLP layer as FFN[0m
+Loading weights from local directory
+[97m[INFO ] Processed Images Done taking 0.17461919784545898 seconds. Shape:  torch.Size([1, 3, 378, 504])[0m
+[97m[INFO ] Model Forward Pass Done. Time: 1.4047479629516602 seconds[0m
+[97m[INFO ] Conversion to Prediction Done. Time: 0.0035829544067382812 seconds[0m
+{'index': 0, 'scene': 'kitchen_0004', 'processed_shape': [378, 504], 'fx_proc': 408.60059624999997, 'focal_over_300': 1.3620019874999998, 'gt_over_raw': 1.3445466756820679, 'gt_over_raw_times_factor': 0.9871840476989746}
+[97m[INFO ] Processed Images Done taking 0.011921167373657227 seconds. Shape:  torch.Size([1, 3, 378, 504])[0m
+[97m[INFO ] Model Forward Pass Done. Time: 0.13934946060180664 seconds[0m
+[97m[INFO ] Conversion to Prediction Done. Time: 0.001508474349975586 seconds[0m
+{'index': 137, 'scene': 'kitchen_0010', 'processed_shape': [378, 504], 'fx_proc': 408.60059624999997, 'focal_over_300': 1.3620019874999998, 'gt_over_raw': 1.4398471117019653, 'gt_over_raw_times_factor': 1.0571550130844116}
+[97m[INFO ] Processed Images Done taking 0.011122465133666992 seconds. Shape:  torch.Size([1, 3, 378, 504])[0m
+[97m[INFO ] Model Forward Pass Done. Time: 0.11312079429626465 seconds[0m
+[97m[INFO ] Conversion to Prediction Done. Time: 0.0015053749084472656 seconds[0m
+{'index': 402, 'scene': 'indoor_balcony_0001', 'processed_shape': [378, 504], 'fx_proc': 408.60059624999997, 'focal_over_300': 1.3620019874999998, 'gt_over_raw': 1.6370989084243774, 'gt_over_raw_times_factor': 1.2019797563552856}
+[97m[INFO ] Processed Images Done taking 0.015251636505126953 seconds. Shape:  torch.Size([1, 3, 378, 504])[0m
+[97m[INFO ] Model Forward Pass Done. Time: 0.1237802505493164 seconds[0m
+[97m[INFO ] Conversion to Prediction Done. Time: 0.00099945068359375 seconds[0m
+{'index': 733, 'scene': 'bathroom_0047', 'processed_shape': [378, 504], 'fx_proc': 408.60059624999997, 'focal_over_300': 1.3620019874999998, 'gt_over_raw': 1.3866573572158813, 'gt_over_raw_times_factor': 1.0181022882461548}
+[97m[INFO ] Processed Images Done taking 0.009884357452392578 seconds. Shape:  torch.Size([1, 3, 378, 504])[0m
+[97m[INFO ] Model Forward Pass Done. Time: 0.12528538703918457 seconds[0m
+[97m[INFO ] Conversion to Prediction Done. Time: 0.0005898475646972656 seconds[0m
+{'index': 1101, 'scene': 'bedroom_0092', 'processed_shape': [378, 504], 'fx_proc': 408.60059624999997, 'focal_over_300': 1.3620019874999998, 'gt_over_raw': 1.3629037141799927, 'gt_over_raw_times_factor': 1.000662088394165}
+{
+ "median_gt_over_raw": 1.3866573572158813,
+ "median_gt_over_raw_times_factor": 1.0181022882461548,
+ "median_focal_over_300": 1.3620019874999998,
+ "decision": "apply_focal_over_300_once"
+}

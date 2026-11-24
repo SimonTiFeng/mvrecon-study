@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0131",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "whiteboard_tray_accessory",
+    "knowledge_group_id": "writing_accessory_length",
+    "description": "Black whiteboard marker/eraser with red end lying in the whiteboard accessory tray; long-axis distance between the visible left and right end corners.",
+    "p1": {
+     "xy": [
+      109,
+      585
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      155,
+      582
+     ],
+     "point_id": null
+    },
+    "length_m": 0.13,
+    "length_interval_m": [
+     0.11,
+     0.15
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Whiteboard tray at lower left holds a black pen-like accessory with a red end; the two end corners of the object are visible against the white tray.",
+    "identity_uncertainty": "Exact product/model unknown; a standard whiteboard marker (~0.135 m) and a small whiteboard eraser (~0.13 m) have similar long-axis length."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "wall_switch_faceplate",
+    "knowledge_group_id": "eu_switch_plate_standard",
+    "description": "Square single-rocker light-switch faceplate on the right wall; vertical side length of the outer plate between its top and bottom edges.",
+    "p1": {
+     "xy": [
+      1172,
+      526
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      1172,
+      567
+     ],
+     "point_id": null
+    },
+    "length_m": 0.081,
+    "length_interval_m": [
+     0.055,
+     0.09
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White square switch plate with a large central rocker mounted on the right-hand wall; the outer plate bounds form a closed square.",
+    "identity_uncertainty": "European 55-mm-system single covers are about 81x81 mm, but smaller ~55x55 mm Swiss covers also exist; the interval covers both standards, and the low-contrast plate edges add a few mm of uncertainty."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "82cc68e232984c10fbac108baaebb426afd828716d42f8091a5c99b53890e0aa"
+}

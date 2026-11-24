@@ -1,0 +1,12 @@
+{
+ "image_id": "eth3d_0158",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\explor_direct_001\\samples\\eth3d_0158\\input.png",
+ "width": 1280,
+ "height": 853,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/explor_direct_001/samples/eth3d_0158/mcp_out",
+ "run_id": "explor_direct_001",
+ "mode": "harness",
+ "toolset": "direct_coords",
+ "require_point_ids": false,
+ "target": "\u53f3\u4e0b\u89d2\u62f1\u5f62\u7a97\u7684\u5916\u6846\u6c34\u5e73\u5bbd\u5ea6\uff08\u5de6\u53f3\u7a97\u6846\u5916\u7f18\uff0c\u540c\u4e00\u9ad8\u5ea6\uff09"
+}

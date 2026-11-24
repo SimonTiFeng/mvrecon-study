@@ -1,0 +1,78 @@
+file=models/DA3MONO-LARGE/model.safetensors size=1336734448 segments=20 segbytes=67108864
+seg 0/19 size=64 attempts=1
+seg 1/19 size=64 attempts=1
+seg 2/19 size=64 attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0003': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0003: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0003': No such file or directory
+seg 3/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0004': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0004: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0004': No such file or directory
+seg 4/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0005': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0005: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0005': No such file or directory
+seg 5/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0006': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0006: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0006': No such file or directory
+seg 6/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0007': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0007: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0007': No such file or directory
+seg 7/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0008': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0008: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0008': No such file or directory
+seg 8/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0009': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0009: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0009': No such file or directory
+seg 9/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0010': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0010: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0010': No such file or directory
+seg 10/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0011': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0011: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0011': No such file or directory
+seg 11/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0012': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0012: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0012': No such file or directory
+seg 12/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0013': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0013: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0013': No such file or directory
+seg 13/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0014': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0014: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0014': No such file or directory
+seg 14/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0015': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0015: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0015': No such file or directory
+seg 15/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0016': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0016: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0016': No such file or directory
+seg 16/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0017': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0017: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0017': No such file or directory
+seg 17/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0018': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0018: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0018': No such file or directory
+seg 18/19 size= attempts=5
+dd: failed to open '/tmp/upseg.11636/model.safetensors.seg0019': No such file or directory
+sha256sum: /tmp/upseg.11636/model.safetensors.seg0019: No such file or directory
+stat: cannot stat '/tmp/upseg.11636/model.safetensors.seg0019': No such file or directory
+Connection timed out during banner exchange
+Connection to 83.168.91.82 port 2222 timed out
+Connection timed out during banner exchange
+Connection to 83.168.91.82 port 2222 timed out
+seg 19/19 size= attempts=2
+verified segments: 3 / 20
+SEGMENTS_INCOMPLETE

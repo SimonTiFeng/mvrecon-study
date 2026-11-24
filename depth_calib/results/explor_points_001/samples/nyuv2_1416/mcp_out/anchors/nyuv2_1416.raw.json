@@ -1,0 +1,32 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1416",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "nyuv2_1416_foreground_printed_sheet",
+    "knowledge_group_id": "us_letter_print_paper_width",
+    "description": "Long top edge of the white printed sheet in the foreground tray, measured between its visible top-left and top-right corners (same sheet).",
+    "p1": {
+     "point_id": "v4:p5",
+     "xy": null
+    },
+    "p2": {
+     "point_id": "v4:p12",
+     "xy": null
+    },
+    "length_m": 0.216,
+    "length_interval_m": [
+     0.2,
+     0.29
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "A flat white sheet with a centered header line and two dense text columns lies in the black tray close to the camera; its top edge runs from the visible upper-left corner (~x361,y383) to the upper-right corner (~x530,y372), and the two candidate corners bracket exactly that edge.",
+    "identity_uncertainty": "The sheet is a printed two-column page (portrait), so the top edge is the short page edge: US Letter 8.5 in (0.2159 m) most likely in a NYU/US scene, A4 (0.210 m) possible; if the page were actually landscape-printed the top edge would be 0.279-0.297 m, hence the wide upper interval bound. Corner points sit near the sheet boundary where the black tray lip is adjacent, so a few pixels of depth bleed are possible."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "cf2b52a601ef62778892c75e0d97533ba97af57acca70fbd019fb2639d71339d"
+}

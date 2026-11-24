@@ -1,0 +1,20 @@
+file=models\DA3MONO-LARGE\model.safetensors size=1336734448 segments=40 sha256=7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960
+Traceback (most recent call last):
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\upload_verified.py", line 110, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\upload_verified.py", line 75, in main
+    rsize = ssh(args.host, args.port,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\upload_verified.py", line 30, in ssh
+    r = subprocess.run(["ssh", "-o", "ServerAliveInterval=15", "-o", "ConnectTimeout=20",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Simon\anaconda3\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Simon\anaconda3\Lib\subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Simon\anaconda3\Lib\subprocess.py", line 1630, in _communicate
+    raise TimeoutExpired(self.args, orig_timeout)
+subprocess.TimeoutExpired: Command '['ssh', '-o', 'ServerAliveInterval=15', '-o', 'ConnectTimeout=20', '-p', '2222', 'aiserver@83.168.91.82', 'stat -c %s $HOME/depth_calib/project/models/DA3MONO-LARGE/.parts/model.safetensors.seg0000 2>/dev/null || echo 0']' timed out after 120 seconds

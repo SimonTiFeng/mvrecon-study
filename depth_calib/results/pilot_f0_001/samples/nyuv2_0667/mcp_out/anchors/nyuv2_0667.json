@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_0667",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "vanity_cabinet_01",
+   "knowledge_group_id": "us_bath_vanity_counter_height",
+   "description": "Floor to countertop top front edge of the white bathroom vanity",
+   "p1_xy": [
+    530.0,
+    372.0
+   ],
+   "p2_xy": [
+    530.0,
+    207.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.9,
+   "length_interval_m": [
+    0.81,
+    0.96
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "White vanity with dark granite top; floor tile is visible at the cabinet-front base directly below the counter front top edge (same x=530).",
+   "identity_uncertainty": "Vanity could be 32-in (0.81 m) or 36-in (0.91 m) height; decorative ball feet instead of a toe kick and the counter overhang add 1-2 cm; floor point is the visible tile just in front of the cabinet."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "interior_doorway_01",
+   "knowledge_group_id": "us_interior_door_clear_width",
+   "description": "Clear width between the two jamb inner edges of the dark interior doorway",
+   "p1_xy": [
+    190.0,
+    150.0
+   ],
+   "p2_xy": [
+    245.0,
+    150.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.78,
+   "length_interval_m": [
+    0.7,
+    0.86
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Dark doorway leading to a stair landing; both door-jamb inner edges are visible at the same height (x=190 and x=245 at y=150).",
+   "identity_uncertainty": "Could be a standard 30-in or 32-in door opening or a narrower closet passage; jamb faces are seen slightly obliquely, so the imaged span is mildly foreshortened."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "wall_switch_plate_01",
+   "knowledge_group_id": "us_wall_plate_height_4_5in",
+   "description": "Height of the wall-mounted switch/outlet plate on the left wall",
+   "p1_xy": [
+    124.0,
+    122.0
+   ],
+   "p2_xy": [
+    124.0,
+    138.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.114,
+   "length_interval_m": [
+    0.09,
+    0.15
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Small rectangular plate mounted on the wall left of the doorway; full plate outline (top and bottom edges) visible at x~116-131, y~121-138.",
+   "identity_uncertainty": "Plate might be a switch, outlet cover, or thermostat; at this blur the visible rectangle could be the plate (4.5 in) or partly the switch window, which would shorten the length toward 0.07 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_aa41783cd3ab808a",
+ "schema_version": "0.2"
+}

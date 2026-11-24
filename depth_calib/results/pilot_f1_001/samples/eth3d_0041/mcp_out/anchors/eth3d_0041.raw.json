@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0041",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "trailer_body",
+    "knowledge_group_id": "trailer_end_width",
+    "description": "箱式拖车端面（带门短边面）左右两条竖直轮廓棱在同一高度处的三维直线距离，即拖车箱体外宽",
+    "p1": {
+     "xy": [
+      34,
+      557
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      165,
+      556
+     ],
+     "point_id": null
+    },
+    "length_m": 2.4,
+    "length_interval_m": [
+     2.2,
+     2.55
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "白色工地拖车近端面左缘与两可见面相交的竖直棱在图中形成清晰边缘，两点同高、横跨整个端面宽度",
+    "identity_uncertainty": "仅能确认为工地福利/办公拖车（Bauwagen）类别，同类厢体外宽通常 2.30-2.55 m（道路限宽上限 2.55 m）；具体型号未知，左缘落点可能略在真实轮廓线内侧"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "trailer_body",
+    "knowledge_group_id": "trailer_body_height",
+    "description": "拖车端面近侧竖直棱自顶檐到箱体底边（车身与底盘交界）的竖直三维距离，即箱体净高",
+    "p1": {
+     "xy": [
+      175,
+      470
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      162,
+      628
+     ],
+     "point_id": null
+    },
+    "length_m": 2.4,
+    "length_interval_m": [
+     2.15,
+     2.65
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "近侧竖直棱连续可见，自顶檐一直延伸到白色箱体与底盘的交界处，上端为屋顶棱角、下端为箱体底边",
+    "identity_uncertainty": "按工地拖车类别先验箱体净高 2.2-2.6 m；顶檐含少量出檐，底端落在底盘上沿而非地面，具体型号未知"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "4d191fc9a368a7e9d8ca337fe766d5a7cef8d13876da35d3c8fad9bae527c124"
+}

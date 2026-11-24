@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0668",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "bathtub",
+   "knowledge_group_id": "freestanding_bath_length",
+   "description": "Outer long-axis length of the white freestanding oval pedestal bathtub, from the left rim end to the right rim end",
+   "p1_xy": [
+    110.0,
+    277.0
+   ],
+   "p2_xy": [
+    550.0,
+    245.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.68,
+   "length_interval_m": [
+    1.5,
+    1.85
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both left and right rim extremities of the tub are visible against the tiled floor; the chord between them runs along the tub's long axis.",
+   "identity_uncertainty": "Exact model/brand not identifiable; generic freestanding double-ended bath, standard outer lengths 1.5-1.8 m."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "bathtub",
+   "knowledge_group_id": "freestanding_bath_width",
+   "description": "Outer width of the bathtub across its middle, from the front rim top to the rear rim top",
+   "p1_xy": [
+    340.0,
+    320.0
+   ],
+   "p2_xy": [
+    352.0,
+    212.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.78,
+   "length_interval_m": [
+    0.7,
+    0.85
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Front and rear rim top edges are both visible mid-tub; the chord crosses the tub interior between them.",
+   "identity_uncertainty": "Width varies by model; typical freestanding baths are 0.70-0.85 m wide."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_3d65d2f758c7b166",
+ "schema_version": "0.2"
+}

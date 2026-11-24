@@ -1,0 +1,16 @@
+Read from remote host 83.168.91.82: Connection reset by peer
+lost connection
+tar (child): /home/aiserver/depth_calib/project/models/m_DA3MONO-LARGE.tgz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+DA3MONO-LARGE rc=2
+Read from remote host 83.168.91.82: Connection reset by peer
+lost connection
+
+gzip: stdin: unexpected end of file
+tar: Unexpected EOF in archive
+tar: Unexpected EOF in archive
+tar: Error is not recoverable: exiting now
+DA3METRIC-LARGE rc=2
+MODELS_DONE

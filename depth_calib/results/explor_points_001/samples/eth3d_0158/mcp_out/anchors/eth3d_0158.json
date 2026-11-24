@@ -1,0 +1,37 @@
+{
+ "image_id": "eth3d_0158",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "window_br_arch",
+   "knowledge_group_id": "masonry_waal_brick_210x100x50",
+   "description": "Horizontal outer-frame width of the bottom-right arched window, between the outer left and outer right window-frame edges at the same height (row y~570-573 px).",
+   "p1_xy": [
+    1068.0,
+    573.0
+   ],
+   "p2_xy": [
+    1228.0,
+    570.0
+   ],
+   "source_point_ids": [
+    "v2:p9",
+    "v2:p13"
+   ],
+   "length_m": 1.44,
+   "length_interval_m": [
+    1.27,
+    1.63
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The window frame outer edges are the dark boundaries flanking both endpoints: sub-pixel threshold crossings give left outer edge x=1069.4 at y=573 and right outer edge x=1225.0 at y=570, i.e. 155.6 px between outer frame edges. The same sunlit wall beside the window carries a regular Flemish-bond brick lattice: 18 bed-joint courses over 124 px (pitch 6.89 px), header module 12.5 px, stretcher module 24.75 px, with stretcher/header = 1.98 as required for a brick laid length = 2x width + joint. Using a 210x100x50 mm brick with ~10-12 mm joints (modules 62/112/222 mm) all three directions agree on 8.96-9.00 mm/px and imply cos(theta)=1.00, i.e. a fronto-parallel wall, so horizontal pixels convert directly.",
+   "identity_uncertainty": "The brick format is inferred, not read off a label. Only the Dutch Waal/klinker 210x100x50 format reproduces the measured bed:header:stretcher module ratio (62:112:222) with zero yaw; a thicker German Reichsformat 240x115x63 would require an impossible foreshortening factor cos>1. Residual scale uncertainty about +/-8%. The two candidate endpoints sit roughly 1-3 px outside the true frame outer edges, so the reported span (160.0 px) slightly exceeds the exact outer-frame width (155.6 px, about 1.40 m)."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_78a35ea5b64a6fe5",
+ "schema_version": "0.2"
+}

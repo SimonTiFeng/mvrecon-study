@@ -1,0 +1,141 @@
+{
+ "image_id": "eth3d_0087",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "entrance_door_leaves",
+   "knowledge_group_id": "de_commercial_two_leaf_entrance_door",
+   "description": "Straight top-rail span of the left leaf of the double glass entrance door, between its outer top corner and the corner at the central meeting stile.",
+   "p1_xy": [
+    637.0,
+    318.0
+   ],
+   "p2_xy": [
+    725.0,
+    318.0
+   ],
+   "source_point_ids": [
+    "v1:p10",
+    "v1:p2"
+   ],
+   "length_m": 0.82,
+   "length_interval_m": [
+    0.72,
+    1.02
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both points sit on the same straight white aluminum top rail of the left door leaf, directly under the transom glass; the rail is rigid and planar.",
+   "identity_uncertainty": "Leaf widths of German commercial two-leaf entrance doors are typically 985-1085 mm (DIN 18101 nominal sizes); the measured rail segment excludes the two side stiles by roughly 0.1 m, and the exact product is unknown."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "entrance_door_leaves",
+   "knowledge_group_id": "de_commercial_two_leaf_entrance_door",
+   "description": "Straight top-rail span of the right leaf of the double glass entrance door, between the central-meeting-stile corner and the outer top corner.",
+   "p1_xy": [
+    746.0,
+    314.0
+   ],
+   "p2_xy": [
+    834.0,
+    302.0
+   ],
+   "source_point_ids": [
+    "v1:p1",
+    "v1:p3"
+   ],
+   "length_m": 0.82,
+   "length_interval_m": [
+    0.72,
+    1.02
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both points lie on the same straight white aluminum top rail of the right door leaf, coplanar with the left leaf's rail; the two leaves are closed and equal in width.",
+   "identity_uncertainty": "Same DIN 18101 type prior as the left leaf; the rail segment is slightly shorter than the full leaf width because the side stiles are excluded."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "entrance_door_unit",
+   "knowledge_group_id": "de_commercial_two_leaf_entrance_door",
+   "description": "Overall width of the two-leaf glass entrance door, taken along the top rails from the outer top-left corner of the left leaf to the top inner corner of the right leaf.",
+   "p1_xy": [
+    637.0,
+    318.0
+   ],
+   "p2_xy": [
+    834.0,
+    302.0
+   ],
+   "source_point_ids": [
+    "v1:p10",
+    "v1:p3"
+   ],
+   "length_m": 1.85,
+   "length_interval_m": [
+    1.62,
+    2.36
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The two leaves form one closed double-door unit in a single vertical plane; the straight line between the two top corners runs along the rigid top rails.",
+   "identity_uncertainty": "Assumes two equal leaves of about 1.0 m nominal width each plus meeting and outer stiles; custom large-format entrance doors of 2.2-2.4 m total width cannot be excluded."
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "entrance_door_leaves",
+   "knowledge_group_id": "de_commercial_two_leaf_entrance_door",
+   "description": "Outer height of the left door leaf along its left stile, from the top outer corner to the bottom corner at the threshold.",
+   "p1_xy": [
+    637.0,
+    318.0
+   ],
+   "p2_xy": [
+    641.0,
+    599.0
+   ],
+   "source_point_ids": [
+    "v1:p10",
+    "v3:p6"
+   ],
+   "length_m": 2.6,
+   "length_interval_m": [
+    2.2,
+    3.05
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both points lie on the same continuous white outer stile of the left leaf; the top point is the frame corner under the transom and the bottom point is the frame corner at the threshold grating.",
+   "identity_uncertainty": "Entrance-door heights in German office buildings range from about 2.1 m to 2.7 m for tall lobby doors; this unit appears tall and slender, and the bottom corner is close to the threshold where depth edges can be noisy."
+  },
+  {
+   "anchor_id": "a5",
+   "object_group_id": "round_no_parking_sign",
+   "knowledge_group_id": "de_no_parking_sign_small_format",
+   "description": "Diameter chord across the round blue-and-red no-parking sign mounted on the left entrance column.",
+   "p1_xy": [
+    505.0,
+    397.0
+   ],
+   "p2_xy": [
+    515.0,
+    427.0
+   ],
+   "source_point_ids": [
+    "v4:p10",
+    "v4:p12"
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.2,
+    0.48
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The two points lie on the red annulus of the round sign at almost opposite ends of a near-diameter chord; the sign is a flat printed plate on the column face.",
+   "identity_uncertainty": "The sign is the German 'eingeschraenktes Haltverbot' pictogram (single red diagonal); public-road Regelgroesse is 600 mm, but on private property 300-400 mm versions are common, and the sign spans roughly three quarters of the 0.4-0.5 m wide column face, favouring a small format."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_9bf6514a27dd1901",
+ "schema_version": "0.2"
+}

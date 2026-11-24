@@ -1,0 +1,11 @@
+{
+ "image_id": "nyuv2_1402",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_f1_001\\samples\\nyuv2_1402\\input.png",
+ "image_width": 640,
+ "image_height": 480,
+ "run_id": "dev_f1_001",
+ "mode": "harness",
+ "submission_id": "sub_21a987edb5821725",
+ "committed_at": "2026-11-17T01:58:12.521830+00:00",
+ "request_hash": "21a987edb5821725588c1939744d91cc61375c52dcc66ce9d70517c9376dca61"
+}

@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1416",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "foreground_white_printed_sheet",
+    "knowledge_group_id": "printer_page_long_edge",
+    "description": "前景白色打印文件顶部长边：同一张纸的左上角与右上角之间的三维直线距离",
+    "p1": {
+     "xy": [
+      396.5,
+      341.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      519.0,
+      363.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.2794,
+    "length_interval_m": [
+     0.26,
+     0.3
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "桌面前景平放的一叠白色打印纸，最上层纸面近似矩形、带两栏打印小字与页眉；其顶边由左角(~396,341)到右角(~519,363)连续，像素扫描显示为一段低饱和高亮(>140)直边的上缘，边上方为暗色桌面/纸堆阴影、下方为纸面文字区，符合单张纸的可见上边缘。",
+    "identity_uncertainty": "按美国室内场景常用规格推断为 US Letter(长边 0.2794 m)，区间已覆盖 A4 长边 0.297 m；纸张可能平放/多层叠放导致边缘属于最上层纸，但两角仍属同一张可见纸面。"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "bbbe9b02d23a6aceb8d3c253d992e95193aafa9bbe2a5c8e12145ab0ab826e5c"
+}

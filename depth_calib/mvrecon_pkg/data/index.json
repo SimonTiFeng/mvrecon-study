@@ -1,0 +1,33 @@
+{
+ "description": "MV-Recon handoff package",
+ "scenes": {
+  "courtyard": {
+   "views": 10,
+   "cloud_points_total": 238140
+  },
+  "delivery_area": {
+   "views": 10,
+   "cloud_points_total": 238140
+  },
+  "electro": {
+   "views": 10,
+   "cloud_points_total": 238140
+  },
+  "facade": {
+   "views": 10,
+   "cloud_points_total": 238140
+  },
+  "office": {
+   "views": 10,
+   "cloud_points_total": 238140
+  },
+  "playground": {
+   "views": 10,
+   "cloud_points_total": 238140
+  },
+  "terrace": {
+   "views": 10,
+   "cloud_points_total": 238140
+  }
+ }
+}

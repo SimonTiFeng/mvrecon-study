@@ -1,0 +1,11 @@
+{
+ "image_id": "eth3d_0043",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\explor_points_001\\samples\\eth3d_0043\\input.png",
+ "width": 1280,
+ "height": 853,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/explor_points_001/samples/eth3d_0043/mcp_out",
+ "run_id": "explor_points_001",
+ "mode": "harness",
+ "toolset": "points",
+ "require_point_ids": true
+}

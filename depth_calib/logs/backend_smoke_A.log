@@ -1,0 +1,32 @@
+C:\Users\Simon\Downloads\Git\research\music\depth_calib\vendor\Depth-Anything-3\src\depth_anything_3\cfg.py:25: UserWarning: register_new_resolver() is deprecated and will be removed in a future release.
+Use register_resolver() instead.
+See https://github.com/hydra-ecosystem/omegaconf/issues/426 for migration instructions.
+
+  OmegaConf.register_new_resolver("eval", eval)
+[97m[INFO ] using MLP layer as FFN[0m
+Loading weights from local directory
+[97m[INFO ] Processed Images Done taking 0.3226919174194336 seconds. Shape:  torch.Size([1, 3, 378, 504])[0m
+[97m[INFO ] Model Forward Pass Done. Time: 4.567265272140503 seconds[0m
+[97m[INFO ] Conversion to Prediction Done. Time: 0.10469269752502441 seconds[0m
+{
+ "backend": "A",
+ "model": "DA3 Mono",
+ "hf_repo": "depth-anything/DA3MONO-LARGE",
+ "revision": "f465978e618db8cc79c83b8bbf24964857db1875",
+ "checkpoint_sha256": "7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960",
+ "vendor_commit": "3d835ec1a5802d64a8b8b15f817a1ab54809bfe4",
+ "device": "cuda",
+ "torch": "2.7.0+cu128",
+ "cuda_available": true,
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "process_res": 504,
+ "processed_shape": [
+  378,
+  504
+ ],
+ "inference_seconds": 5.72,
+ "depth_min": 0.5906164646148682,
+ "depth_max": 1.3707928657531738,
+ "depth_median": 1.2658330202102661,
+ "is_metric_flag": 0
+}

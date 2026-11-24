@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_0801",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "dishwasher_front_right_wall",
+   "knowledge_group_id": "us_dishwasher_nominal_width_24in",
+   "description": "Width of the stainless built-in dishwasher front panel, left edge to right edge at mid-height",
+   "p1_xy": [
+    534.0,
+    258.0
+   ],
+   "p2_xy": [
+    600.0,
+    262.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.61,
+   "length_interval_m": [
+    0.575,
+    0.65
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Stainless appliance front under the counter immediately right of the sink base cabinet; full-height door with control strip at top, flanked by wood cabinets, width spanning the cabinet opening.",
+   "identity_uncertainty": "Assumed 24-inch dishwasher rather than 18-inch slimline or a 15-inch trash compactor; panel edges located to about +/-3 px."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "dishwasher_front_right_wall",
+   "knowledge_group_id": "us_dishwasher_nominal_height_34in",
+   "description": "Height of the same stainless dishwasher front, from the top edge under the counter down to the floor contact line",
+   "p1_xy": [
+    560.0,
+    230.0
+   ],
+   "p2_xy": [
+    560.0,
+    291.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.86,
+   "length_interval_m": [
+    0.82,
+    0.9
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Uninterrupted stainless front face from the shadow line under the counter down to where the panel meets the tile floor.",
+   "identity_uncertainty": "Same appliance identification assumption; upper few pixels may be concealed by the counter overhang so the visible height could slightly under-report 34 in."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "counter_run_right_wall",
+   "knowledge_group_id": "us_kitchen_base_counter_height_36in",
+   "description": "Counter height above the dishwasher, from the countertop front edge down to the floor at the base of the same cabinet run",
+   "p1_xy": [
+    560.0,
+    220.0
+   ],
+   "p2_xy": [
+    560.0,
+    296.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.914,
+   "length_interval_m": [
+    0.87,
+    0.97
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Dark countertop front edge line above the dishwasher with a white bowl and glassware resting on the surface; tile floor visible directly beneath the same cabinet base.",
+   "identity_uncertainty": "Assumes a standard 36-inch base counter (not a raised bar); edge pixel and the floor point just in front of the toe kick carry about +/-4 px each."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_b8a0d5fcc0dfb3c6",
+ "schema_version": "0.2"
+}

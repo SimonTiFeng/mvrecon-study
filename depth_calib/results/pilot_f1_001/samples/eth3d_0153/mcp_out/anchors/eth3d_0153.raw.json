@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0153",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "litterbin_right_of_entrance",
+    "knowledge_group_id": "stainless_cylindrical_litter_bin_height",
+    "description": "Right of the arched entrance stands a stainless-steel cylindrical litter bin with a black rectangular opening band near its top; height measured from the top cap down to the gravel contact at the base.",
+    "p1": {
+     "xy": [
+      525,
+      678
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      524,
+      750
+     ],
+     "point_id": null
+    },
+    "length_m": 0.86,
+    "length_interval_m": [
+     0.7,
+     1.05
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Stainless cylinder is fully visible from top cap (near the brick pier) down to where it meets the gravel; pixel span is about 73 px and its width/height proportion (~0.4) matches a catalogue street litter bin (approx. 0.35 m diameter by 0.75-0.85 m body).",
+    "identity_uncertainty": "Exact manufacturer/model unknown; cylindrical stainless bins of this type are sold in body heights of roughly 0.7-1.0 m, and a short pedestal or dome top could add a few centimetres."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "litterbin_left_of_entrance",
+    "knowledge_group_id": "stainless_cylindrical_litter_bin_height",
+    "description": "The matching stainless-steel cylindrical bin at the left edge of the entrance (farther from the camera, in front of the low granite plinth); height from its top to its ground contact.",
+    "p1": {
+     "xy": [
+      283,
+      691
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      283,
+      747
+     ],
+     "point_id": null
+    },
+    "length_m": 0.86,
+    "length_interval_m": [
+     0.7,
+     1.05
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Second bin of the same design and finish is visible on the left side of the doorway; its top rim and ground contact are both unobstructed, spanning about 56 px at a larger distance than the right-hand bin, consistent with the same physical height.",
+    "identity_uncertainty": "Same model family assumed from identical stainless finish and proportions; if it is in fact a plain bollard the height would still fall in the same 0.8-1.0 m band."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "c9ff84faac05012a4db56ad7430acdf006ebe3ecc8c5ee316a9643581413825b"
+}

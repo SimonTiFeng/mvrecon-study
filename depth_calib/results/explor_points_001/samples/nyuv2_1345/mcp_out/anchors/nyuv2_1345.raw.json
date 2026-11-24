@@ -1,0 +1,54 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1345",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "near_square_tiled_tabletop",
+    "knowledge_group_id": "chinese_square_dining_table_80_100cm",
+    "description": "Near square tiled dining-table top span: from the foreground white-framed outer corner to the right tile edge where the near purple chair begins to occlude",
+    "p1": {
+     "point_id": "v2:p12",
+     "xy": null
+    },
+    "p2": {
+     "point_id": "v3:p7",
+     "xy": null
+    },
+    "length_m": 1.0,
+    "length_interval_m": [
+     0.78,
+     1.32
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "v2:p12 lies at the front-most white-edged outer corner of the square tiled tabletop (directly above its white corner post); v3:p7 lies on the tan tile surface at the right edge, just where the near purple chair back starts to occlude the top. Both are surface points of the same tabletop and the segment crosses the whole visible top.",
+    "identity_uncertainty": "Square dining tables of this tiled type are commonly 0.8-1.0 m across; v3:p7 sits at an occlusion boundary rather than an exact table corner, so the interval is widened."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "banquet_chair_leg",
+    "knowledge_group_id": "banquet_chair_seat_height_45cm",
+    "description": "Visible lower segment of one dark wooden banquet-chair leg, from just under the seat frame to its floor contact",
+    "p1": {
+     "point_id": "v3:p8",
+     "xy": null
+    },
+    "p2": {
+     "point_id": "v3:p9",
+     "xy": null
+    },
+    "length_m": 0.28,
+    "length_interval_m": [
+     0.15,
+     0.45
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "v3:p8 and v3:p9 lie on the same dark vertical chair leg: p1 at the upper visible part where the leg passes the white chair frame below the seat, p2 at the leg's contact end on the floor, so the pair spans the exposed leg segment.",
+    "identity_uncertainty": "The upper leg is hidden by the seat, so p1 is not exactly at the seat-frame joint; assuming a typical banquet-chair seat height of about 0.45 m, the exposed segment is roughly 0.2-0.4 m."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "fc2d5e380573558454b24ade39fdb9c34a1bba7630f4264f61c3787b4c1d2ecc"
+}

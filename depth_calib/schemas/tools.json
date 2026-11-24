@@ -1,0 +1,133 @@
+{
+  "schema_version": "0.2",
+  "tools": [
+    {
+      "name": "submit_measurements",
+      "description": "提交当前图像的最终物理长度证据。每条证据必须有两个可见表面端点和对应的真实三维直线长度（米）。可以使用候选点 ID 或直接填写原图像素坐标。没有可靠证据时提交 status=abstain、空 anchors 和原因。此工具只做结构/坐标校验并保存，不验证世界知识、不访问深度或真值、不计算尺度。提交前可选用 render_measurements 检查标线；accepted=true 后结束本样本，不再修改。",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "image_id": {"type": "string", "description": "必须与当前任务绑定的匿名 image_id 一致。"},
+          "status": {"type": "string", "enum": ["ok", "abstain"]},
+          "anchors": {"type": "array", "items": {"$ref": "#/$defs/anchor"}, "maxItems": 6},
+          "abstain_reason": {"type": ["string", "null"]}
+        },
+        "required": ["image_id", "status", "anchors", "abstain_reason"],
+        "$defs": {
+          "endpoint": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "xy": {"anyOf": [{"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2, "description": "原图像素中心坐标 [x,y]，不是归一化坐标，也不是裁剪图坐标。"}, {"type": "null"}]},
+              "point_id": {"type": ["string", "null"], "description": "当前样本候选点注册表中的 ID；用 ID 时 xy 必须为 null。"}
+            },
+            "required": ["xy", "point_id"],
+            "description": "xy 与 point_id 恰有一个非 null；该跨字段规则由服务端校验。"
+          },
+          "anchor": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "anchor_id": {"type": "string", "minLength": 1},
+              "object_group_id": {"type": "string", "minLength": 1, "description": "同一物体的多条观测使用同组 ID。"},
+              "knowledge_group_id": {"type": "string", "minLength": 1, "description": "共享同一个规格/身份假设的观测使用同组 ID。"},
+              "description": {"type": "string", "minLength": 1, "description": "具体测量哪两个可见表面点之间的三维直线距离。"},
+              "p1": {"$ref": "#/$defs/endpoint"},
+              "p2": {"$ref": "#/$defs/endpoint"},
+              "length_m": {"type": "number", "exclusiveMinimum": 0, "description": "估计的真实三维欧氏长度，单位米；不是像素长度或相机到物体的距离。"},
+              "length_interval_m": {"anyOf": [{"type": "array", "items": {"type": "number", "exclusiveMinimum": 0}, "minItems": 2, "maxItems": 2}, {"type": "null"}], "description": "可选的数值区间 [下限,上限]；没有可信区间时为 null，不要求伪精确置信区间。"},
+              "prior_kind": {"type": "string", "enum": ["identified_standard", "identified_product", "category_prior", "other"]},
+              "visible_evidence": {"type": "string", "description": "支持当前尺寸判断的简短可见线索。"},
+              "identity_uncertainty": {"type": "string", "description": "规格/型号身份的不确定性及重要替代解释；不是隐藏思维链。"}
+            },
+            "required": ["anchor_id", "object_group_id", "knowledge_group_id", "description", "p1", "p2", "length_m", "length_interval_m", "prior_kind", "visible_evidence", "identity_uncertainty"]
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "accepted": {"type": "boolean"},
+          "submission_id": {"type": ["string", "null"]},
+          "anchor_count": {"type": "integer", "minimum": 0},
+          "session_status": {"type": "string", "enum": ["open", "committed"]},
+          "violations": {"type": "array", "items": {"type": "object", "additionalProperties": false, "properties": {"code": {"type": "string"}, "path": {"type": "string"}, "message": {"type": "string"}}, "required": ["code", "path", "message"]}},
+          "warnings": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["accepted", "submission_id", "anchor_count", "session_status", "violations", "warnings"]
+      },
+      "annotations": {"readOnlyHint": false, "destructiveHint": false, "idempotentHint": true, "openWorldHint": false}
+    },
+    {
+      "name": "crop_image",
+      "description": "查看当前图像的局部区域；返回真实裁剪图像、原图尺寸和裁剪到原图的坐标变换。不访问深度。",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "image_id": {"type": "string"},
+          "bbox_xyxy": {"type": "array", "items": {"type": "integer"}, "minItems": 4, "maxItems": 4, "description": "原图像素边界 [x0,y0,x1,y1]，半开区间，0<=x0<x1<=W、0<=y0<y1<=H。"}
+        },
+        "required": ["image_id", "bbox_xyxy"]
+      },
+      "annotations": {"readOnlyHint": true, "openWorldHint": false}
+    },
+    {
+      "name": "propose_points",
+      "description": "在当前图像或指定区域生成少量候选点，返回稳定的点 ID、原图坐标和标记图。候选点不是尺寸答案，可不使用。",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "image_id": {"type": "string"},
+          "roi_xyxy": {"anyOf": [{"type": "array", "items": {"type": "integer"}, "minItems": 4, "maxItems": 4}, {"type": "null"}], "description": "同 crop_image 的半开区间；null 表示全图。"},
+          "max_points": {"type": "integer", "minimum": 1, "maximum": 32}
+        },
+        "required": ["image_id", "roi_xyxy", "max_points"]
+      },
+      "annotations": {"readOnlyHint": false, "destructiveHint": false, "openWorldHint": false}
+    },
+    {
+      "name": "render_measurements",
+      "description": "只预览测量端点和线段，返回原图上的标记图；不提交、不计算尺寸正确率或深度尺度。",
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "image_id": {"type": "string"},
+          "pairs": {
+            "type": "array",
+            "maxItems": 6,
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "anchor_id": {"type": "string"},
+                "p1": {"$ref": "#/$defs/endpoint"},
+                "p2": {"$ref": "#/$defs/endpoint"}
+              },
+              "required": ["anchor_id", "p1", "p2"]
+            }
+          }
+        },
+        "required": ["image_id", "pairs"],
+        "$defs": {
+          "endpoint": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "xy": {"anyOf": [{"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2, "description": "原图像素中心坐标 [x,y]，不是归一化坐标，也不是裁剪图坐标。"}, {"type": "null"}]},
+              "point_id": {"type": ["string", "null"], "description": "当前样本候选点注册表中的 ID；用 ID 时 xy 必须为 null。"}
+            },
+            "required": ["xy", "point_id"],
+            "description": "xy 与 point_id 恰有一个非 null；该跨字段规则由服务端校验。"
+          }
+        }
+      },
+      "annotations": {"readOnlyHint": true, "openWorldHint": false}
+    }
+  ]
+}

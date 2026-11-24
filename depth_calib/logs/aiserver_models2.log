@@ -1,0 +1,15 @@
+Read from remote host 83.168.91.82: Connection reset by peer
+client_loop: send disconnect: Connection reset by peer
+lost connection
+w_DA3MONO-LARGE rc=1
+Connection closed by 83.168.91.82 port 2222
+scp: Connection closed
+c_DA3MONO-LARGE rc=255
+Connection closed by 83.168.91.82 port 2222
+Connection closed by 83.168.91.82 port 2222
+scp: Connection closed
+w_DA3METRIC-LARGE rc=255
+Connection closed by 83.168.91.82 port 2222
+scp: Connection closed
+c_DA3METRIC-LARGE rc=255
+MODELS_DONE

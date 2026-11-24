@@ -1,0 +1,32 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1420",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bookcase_pale_spine_book_01",
+    "knowledge_group_id": "upright_hardcover_book_height",
+    "description": "Vertical height of one upright book on the bookcase right of the doorway: from the top edge of its pale/white spine down to the bottom edge where the spine meets the shelf board.",
+    "p1": {
+     "xy": null,
+     "point_id": "v3:p10"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v3:p4"
+    },
+    "length_m": 0.22,
+    "length_interval_m": [
+     0.16,
+     0.29
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "In the bookcase beside the doorway a pale-white book spine stands vertically among darker volumes; p1 is at the spine top corner and p2 at the bottom corner of the same spine on the shelf line (same x, 22 px apart). The spine fills roughly two-thirds of the shelf gap, consistent with an ordinary book rather than a tall binder.",
+    "identity_uncertainty": "Exact format/size not identifiable at this resolution (trade paperback ~0.17-0.21 m vs hardcover ~0.23-0.28 m; could also be a slim binder/folder). Interval spans these possibilities."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "2346f333239876af423ec1aded45dc0b7098a208ea271ddd41ef129944b8fc1d"
+}

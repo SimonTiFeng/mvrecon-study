@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0377",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "white_interior_door",
+   "knowledge_group_id": "us_interior_door_leaf_width",
+   "description": "Width of the closed white six-panel interior door leaf, measured between its left and right outer stiles at the same height (both edges visible).",
+   "p1_xy": [
+    418.0,
+    170.0
+   ],
+   "p2_xy": [
+    531.0,
+    170.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.83,
+   "length_interval_m": [
+    0.72,
+    0.95
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "White six-panel door with brass backplate near its left edge, standing beside the right bookcase; the left and right vertical leaf edges are both clearly visible around mid-height, and the two tall recessed panels belong to one leaf.",
+   "identity_uncertainty": "Door leaf assumed to be a standard US interior door of 30-36 in (0.76-0.91 m); the actual leaf width/model is unknown and the right stile is close to the bookcase edge."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "black_mesh_task_chair",
+   "knowledge_group_id": "office_task_chair_backrest_width",
+   "description": "Width across the backrest of the black mesh office task chair, between the outer edges of the back at mid-height.",
+   "p1_xy": [
+    155.0,
+    190.0
+   ],
+   "p2_xy": [
+    229.0,
+    190.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.48,
+   "length_interval_m": [
+    0.41,
+    0.56
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Black mesh task chair at the desk, backrest facing the camera; the full backrest silhouette (left and right outer edges) is visible against the bright window/desk background.",
+   "identity_uncertainty": "Generic task chair, no specific make/model identifiable; backrest width taken from common office-chair category prior (~0.45-0.52 m)."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_812db0a423d73481",
+ "schema_version": "0.2"
+}

@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1386",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "dining_chair_set",
+    "knowledge_group_id": "dining_chair_total_height",
+    "description": "Foreground-right rattan/wicker dining chair with cream upholstery: full height from the top rail of the backrest down to the floor at the chair's feet.",
+    "p1": {
+     "xy": [
+      560,
+      304
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      560,
+      446
+     ],
+     "point_id": null
+    },
+    "length_m": 0.97,
+    "length_interval_m": [
+     0.9,
+     1.06
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The woven backrest top rail is clearly visible at the upper endpoint; below it the turned legs are seen and the lower endpoint lands on the light travertine floor directly in front of the chair base, giving the full vertical extent of the chair.",
+    "identity_uncertainty": "A matching-set dining chair of common height; exact model unknown, so backrest height could range from a standard side chair (~0.90 m) to a tall-back chair (~1.05 m). Floor endpoint sits just in front of the base, adding a small (<5%) slant excess."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "dining_chair_set",
+    "knowledge_group_id": "dining_chair_total_height",
+    "description": "Left-side rattan-frame dining chair of the same set, seen from behind: full height from backrest top rail to the floor beside its legs.",
+    "p1": {
+     "xy": [
+      450,
+      268
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      450,
+      398
+     ],
+     "point_id": null
+    },
+    "length_m": 0.96,
+    "length_interval_m": [
+     0.89,
+     1.05
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The pale upholstered backrest with its top rail is fully visible above the glass dining table; the chair's legs are visible below and the lower endpoint falls on the floor adjacent to the chair feet.",
+    "identity_uncertainty": "Same matching set as the foreground chair; model and exact upholstery height unknown, so a standard dining chair range (0.89-1.05 m) is used."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "cream_tall_cabinet",
+    "knowledge_group_id": "tall_display_cabinet_height",
+    "description": "Tall cream/ivory arched-top display cabinet (curio/hutch) standing behind the piano near the kitchen doorway: height from its top to its base at the floor.",
+    "p1": {
+     "xy": [
+      356,
+      155
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      356,
+      350
+     ],
+     "point_id": null
+    },
+    "length_m": 2.05,
+    "length_interval_m": [
+     1.85,
+     2.3
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The cabinet's arched crest and long glass-fronted body are clearly seen; the lower endpoint is at the bottom of the case where it meets the floor line behind the piano.",
+    "identity_uncertainty": "Could be a china cabinet/hutch or a tall clock; both fall in a similar 1.9-2.2 m range. A small dark arrangement sits atop the crest, so the top endpoint may include a few centimetres of decor; the cabinet base is partly behind the piano, so the lower endpoint may be slightly above the true floor contact."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "c67e8c5c44c4e58b47b24374c74bfcafb35ebb006ff4fd7661c07fde9a35b588"
+}

@@ -1,0 +1,98 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0005",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "brick_wall_pillar",
+    "knowledge_group_id": "brick_module_horizontal",
+    "description": "砖墙上同一皮砖内两条相邻竖向灰缝中心之间的三维直线距离，即一块砖长加一条灰缝的砌筑模数。",
+    "p1": {
+     "xy": null,
+     "point_id": "v1:p14"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v1:p12"
+    },
+    "length_m": 0.26,
+    "length_interval_m": [
+     0.24,
+     0.3
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "p14(584,185) 与 p12(615,184) 分别落在同一皮浅色砖的两条竖向灰缝中心：该皮亮带在 x=584 与 x=615.5 处有约2px宽的暗缝，同皮相邻灰缝在 x=648/681/713/746 以约32.5px等间距重复，缝间只有一块砖。",
+    "identity_uncertainty": "无法识别具体砖型；按常见240-250mm长实心黏土砖加10-12mm灰缝，水平模数约0.24-0.28m，实测同皮模数32.5px、上下一皮高约9px、模数比约3.6偏大，故区间上界放宽到0.30m。"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "brick_wall_pillar",
+    "knowledge_group_id": "brick_module_vertical",
+    "description": "同一砖墙面上上下相隔两皮砖的两条竖向灰缝中心之间的三维直线距离，即两个砖皮高的模数。",
+    "p1": {
+     "xy": null,
+     "point_id": "v1:p10"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v1:p11"
+    },
+    "length_m": 0.145,
+    "length_interval_m": [
+     0.12,
+     0.17
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "p10(593,265) 位于 y≈264-270 这皮砖的竖向灰缝内，p11(591,282) 位于 y≈281-287 这皮砖的竖向灰缝内；两者之间的水平灰缝位于 y≈271 与 y≈280，说明恰好相隔两皮，局部皮高约8.5-9px。",
+    "identity_uncertainty": "砖高按常见52-71mm加约10mm灰缝，两皮合计约0.12-0.17m；无法确认具体砖型，故给出较宽区间。"
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "white_leather_sofa",
+    "knowledge_group_id": "upholstered_sofa_width",
+    "description": "白色皮沙发左右扶手外侧面下部前角之间的三维直线距离，即沙发总宽度。",
+    "p1": {
+     "xy": null,
+     "point_id": "v2:p7"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v2:p6"
+    },
+    "length_m": 1.9,
+    "length_interval_m": [
+     1.65,
+     2.2
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "p7(304,473) 与 p6(611,472) 分别是左、右扶手外侧面下缘的可见外角（白色扶手外轮廓与桌面后沿交会处），两者横跨约307px；可见两个等宽靠背垫（分隔缝在x≈480，各约105px）与两侧扶手，符合双人/小三人皮沙发。",
+    "identity_uncertainty": "无品牌型号可见；按可见比例（扶手宽/靠背垫宽约0.45）判断整体约1.8-2.0m，常见双人沙发1.65-1.85m、三人2.1-2.2m均在给定区间内。"
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "deckchair_left",
+    "knowledge_group_id": "wooden_folding_deckchair_0.5m",
+    "description": "蓝红布面木框折叠躺椅布面顶端与两侧木立柱相接的两个上角之间的三维直线距离，即椅背顶部宽度。",
+    "p1": {
+     "xy": null,
+     "point_id": "v3:p3"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v3:p2"
+    },
+    "length_m": 0.55,
+    "length_interval_m": [
+     0.47,
+     0.63
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "p3(823,388) 与 p2(898,386) 分别位于布面左上角、右上角与浅木色侧立柱上端相接处；布面顶边在该两点间近似水平(y≈385-388)，两点相距约75px，同款椅子在前景右侧重复出现。",
+    "identity_uncertainty": "布面上的白色logo无法辨认，不能确定品牌型号；木框布面折叠躺椅顶部宽度通常0.50-0.60m（布面约0.50m），未见专属标识时只能按类别先验给区间。"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "c9be0ab1b9010b824f07fc9e5d4f8f1280a48af825a14d4091ed0029007b9a15"
+}

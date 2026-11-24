@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0376",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "paper_sheets_floor",
+    "knowledge_group_id": "letter_a4_paper",
+    "description": "Sheet of white paper lying on the dark carpet at the lower left, long top edge between two crisp corners",
+    "p1": {
+     "xy": [
+      18.0,
+      350.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      100.0,
+      354.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.284,
+    "length_interval_m": [
+     0.25,
+     0.32
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Bright white rectangular paper sheet (with a bent/folded corner) on the dark red carpet near the bottom-left; its long top edge runs between two sharp corners about 82 px apart, nearly parallel to the image x-axis so foreshortening is mild.",
+    "identity_uncertainty": "US Letter (0.279 m) vs A4 (0.297 m) cannot be distinguished; several overlapping sheets and one bent corner make corner localization uncertain by a few pixels; could conceivably be a thin folder."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "interior_door",
+    "knowledge_group_id": "interior_door_leaf_width",
+    "description": "Closed white six-panel interior door left of the bookcase, left and right stiles visible as straight vertical edges",
+    "p1": {
+     "xy": [
+      104.0,
+      150.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      202.0,
+      150.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.83,
+    "length_interval_m": [
+     0.74,
+     0.94
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Closed white paneled door; both vertical stiles are visible from the image top down to the floor line at y~275, so two points at the same image height on the two stiles bound the full door leaf width (3D chord between the parallel edges equals leaf width).",
+    "identity_uncertainty": "US interior door leaf widths are typically 28-36 in (0.71-0.91 m), most commonly 30 or 32 in; whether the visible right edge is the leaf edge or the adjacent jamb adds a few cm of uncertainty."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "f00ad3f8a7a98bf517f6300b42b8d7ea7666ea1231d8bfcb83614ca19075879a"
+}

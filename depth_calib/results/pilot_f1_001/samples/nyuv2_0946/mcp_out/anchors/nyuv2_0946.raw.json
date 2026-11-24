@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0946",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_frame_0946",
+    "knowledge_group_id": "bed_width_full_or_queen",
+    "description": "Straight 3D distance between the two turned wooden corner-post finials at the foot end of the bed, i.e. across the bed's width (the footboard spans between them).",
+    "p1": {
+     "xy": [
+      170.0,
+      205.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      430.0,
+      225.0
+     ],
+     "point_id": null
+    },
+    "length_m": 1.47,
+    "length_interval_m": [
+     1.36,
+     1.6
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Both brown wooden posts with ball finials are fully visible flanking the ornate metal footboard; the green test line lies across the foot end of the mattress and its two pillows sit side by side within that span, so a single double/full-or-queen bed is being measured.",
+    "identity_uncertainty": "Cannot distinguish full/double (54 in mattress, frame about 1.42-1.47 m) from queen (60 in, frame about 1.57-1.63 m); post centres are a few cm inboard of the frame outer edges. Interval spans both."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "pillow_right_0946",
+    "knowledge_group_id": "pillow_standard_or_queen",
+    "description": "Long dimension of the right-hand plaid bed pillow, from its left seam corner to its right seam corner along the bed-width direction.",
+    "p1": {
+     "xy": [
+      440.0,
+      180.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      570.0,
+      178.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.7,
+    "length_interval_m": [
+     0.62,
+     0.79
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Right plaid pillow leans against the metal headboard with its long side facing the camera; both end seams are visible. The two pillows together span about the mattress width, which excludes king-size pillows.",
+    "identity_uncertainty": "US standard pillow (26 in approx. 0.66 m) vs queen pillow (30 in approx. 0.76 m); soft seams and the leaning pose can shift the apparent endpoints by a few cm."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "2957221166219766d7f3ad42476c3df9419f422a7a80a33e2060f1518d081ea4"
+}

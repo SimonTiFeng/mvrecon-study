@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_0945",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "monitor_front",
+   "knowledge_group_id": "lcd_screen_height",
+   "description": "显示器屏幕显示区上沿中点至下沿中点的三维直线距离（屏幕竖直高度）",
+   "p1_xy": [
+    466.0,
+    66.0
+   ],
+   "p2_xy": [
+    466.0,
+    156.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.26,
+    0.35
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "书桌右侧黑色液晶显示器，屏幕显示区上下边缘与黑色边框对比清晰，显示器顶部另装有网络摄像头",
+   "identity_uncertainty": "无法读取型号；常见17-27英寸液晶显示器屏幕显示区高度约0.27-0.34 m，取0.30 m"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "desk_top",
+   "knowledge_group_id": "desk_height_std",
+   "description": "白色写字桌面前缘到下方正下方地毯（桌下白色层架柜底前沿）的三维直线距离，即桌高",
+   "p1_xy": [
+    468.0,
+    235.0
+   ],
+   "p2_xy": [
+    468.0,
+    370.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.74,
+   "length_interval_m": [
+    0.69,
+    0.79
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "白色桌面轮廓清楚；桌下右侧白色层架柜直接落在浅色地毯上，柜底前沿露出的地毯可见，两点近似同一铅垂线",
+   "identity_uncertainty": "普通电脑桌标准高约0.70-0.78 m；无法确认该桌规格，且柜底与地面接触处有阴影，地面点存在少量定位不确定性"
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "shoe_pair",
+   "knowledge_group_id": "adult_shoe_length",
+   "description": "地上一只黑色皮鞋鞋跟后端到鞋尖的三维直线距离（单鞋长）",
+   "p1_xy": [
+    606.0,
+    368.0
+   ],
+   "p2_xy": [
+    536.0,
+    383.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.28,
+   "length_interval_m": [
+    0.24,
+    0.32
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "右下角浅色地毯上并排两只黑色皮鞋，鞋跟与鞋尖的黑色轮廓在浅色地毯上清晰可见",
+   "identity_uncertainty": "成人皮鞋/便鞋，单鞋长通常0.24-0.32 m；无法确认具体鞋型与穿着者性别"
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "office_chair",
+   "knowledge_group_id": "task_chair_overall_height",
+   "description": "办公椅靠背顶端到椅脚旁地面点的三维直线距离，近似整椅高",
+   "p1_xy": [
+    269.0,
+    88.0
+   ],
+   "p2_xy": [
+    290.0,
+    350.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.0,
+   "length_interval_m": [
+    0.9,
+    1.12
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "灰色网布办公椅，靠背顶端轮廓清晰；椅脚与前景木质床柱之间露出浅色地毯，地面点可见",
+   "identity_uncertainty": "中背办公椅整椅高约0.95-1.10 m；靠背顶端与所取地面点不完全在同一铅垂线，三维直线距离略大于垂直高度"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_fec41daaadffb26a",
+ "schema_version": "0.2"
+}

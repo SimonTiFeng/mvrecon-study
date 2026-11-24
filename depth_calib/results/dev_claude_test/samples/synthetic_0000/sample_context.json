@@ -1,0 +1,9 @@
+{
+ "image_id": "synthetic_0000",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_claude_test\\samples\\synthetic_0000\\input.png",
+ "width": 640,
+ "height": 480,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/dev_claude_test/samples/synthetic_0000/mcp_out",
+ "run_id": "dev_claude_test",
+ "mode": "harness"
+}

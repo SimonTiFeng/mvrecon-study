@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0377",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "white_interior_door",
+    "knowledge_group_id": "us_interior_door_leaf_width",
+    "description": "Width of the closed white six-panel interior door leaf, measured between its left and right outer stiles at the same height (both edges visible).",
+    "p1": {
+     "xy": [
+      418,
+      170
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      531,
+      170
+     ],
+     "point_id": null
+    },
+    "length_m": 0.83,
+    "length_interval_m": [
+     0.72,
+     0.95
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White six-panel door with brass backplate near its left edge, standing beside the right bookcase; the left and right vertical leaf edges are both clearly visible around mid-height, and the two tall recessed panels belong to one leaf.",
+    "identity_uncertainty": "Door leaf assumed to be a standard US interior door of 30-36 in (0.76-0.91 m); the actual leaf width/model is unknown and the right stile is close to the bookcase edge."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "black_mesh_task_chair",
+    "knowledge_group_id": "office_task_chair_backrest_width",
+    "description": "Width across the backrest of the black mesh office task chair, between the outer edges of the back at mid-height.",
+    "p1": {
+     "xy": [
+      155,
+      190
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      229,
+      190
+     ],
+     "point_id": null
+    },
+    "length_m": 0.48,
+    "length_interval_m": [
+     0.41,
+     0.56
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black mesh task chair at the desk, backrest facing the camera; the full backrest silhouette (left and right outer edges) is visible against the bright window/desk background.",
+    "identity_uncertainty": "Generic task chair, no specific make/model identifiable; backrest width taken from common office-chair category prior (~0.45-0.52 m)."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "812db0a423d73481ac0355be648b67e34bc8bb98bf7893245db1e4b8ea944568"
+}

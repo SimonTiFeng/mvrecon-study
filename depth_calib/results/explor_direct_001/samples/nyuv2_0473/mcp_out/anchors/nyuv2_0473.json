@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0473",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "basketball_on_chair",
+   "knowledge_group_id": "basketball_size7_diameter",
+   "description": "Diameter of the basketball resting on the office chair, measured between its left and right silhouette edges through the ball center.",
+   "p1_xy": [
+    176.0,
+    214.0
+   ],
+   "p2_xy": [
+    245.0,
+    218.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.239,
+   "length_interval_m": [
+    0.226,
+    0.25
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Orange ball with black seams leaning against the black leather chair; left and right silhouette edges visible against the dark chair and white paper stack.",
+   "identity_uncertainty": "Assumed a men's size 7 regulation basketball (circumference 29.5 in, diameter about 23.9 cm); could be a size 6 youth ball (about 22.6 cm)."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "desk_frame",
+   "knowledge_group_id": "office_desk_height",
+   "description": "Vertical height of the desk at its front-left leg, from the leg's floor contact point to the front-left corner of the desk top directly above it.",
+   "p1_xy": [
+    206.0,
+    452.0
+   ],
+   "p2_xy": [
+    199.0,
+    272.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.75,
+   "length_interval_m": [
+    0.7,
+    0.79
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Black metal desk frame front-left leg meets the wood floor near the bottom of the frame; the desk top's left front corner is clearly visible above it.",
+   "identity_uncertainty": "Standard office desk height (28-30 in); exact model unknown, a taller writing table cannot be excluded."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_22a5c1810677069d",
+ "schema_version": "0.2"
+}

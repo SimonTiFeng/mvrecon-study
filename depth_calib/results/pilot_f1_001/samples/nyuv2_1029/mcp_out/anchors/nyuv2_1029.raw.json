@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1029",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_base",
+    "knowledge_group_id": "us_mattress_sizes",
+    "description": "Width of the bed base across the foot face, measured between the bottom-left and bottom-right corners of the striped bed skirt at floor contact; standard US queen mattress width 1.52 m (full/double 1.37 m).",
+    "p1": {
+     "xy": [
+      196,
+      318
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      470,
+      338
+     ],
+     "point_id": null
+    },
+    "length_m": 1.52,
+    "length_interval_m": [
+     1.37,
+     1.6
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The striped bed skirt runs the full width of the foot of the bed; both bottom corners where the skirt meets the carpet are clearly visible, unobstructed by the rug or nightstands.",
+    "identity_uncertainty": "Queen vs full/double size cannot be distinguished; quilt overhang and click placement add a few cm."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "left_nightstand",
+    "knowledge_group_id": "nightstand_heights",
+    "description": "Front-face height of the dark three-drawer bedside chest left of the bed, from its front top edge down to the front bottom edge at floor contact; typical three-drawer nightstand 0.55-0.75 m tall.",
+    "p1": {
+     "xy": [
+      70,
+      203
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      68,
+      312
+     ],
+     "point_id": null
+    },
+    "length_m": 0.63,
+    "length_interval_m": [
+     0.55,
+     0.72
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The chest left of the bed shows its top surface with a clock and cup, three drawer fronts, and the bottom front edge meeting the carpet; the front face is fully visible.",
+    "identity_uncertainty": "Exact model unknown; could be a taller chest of drawers (up to ~0.8 m); the bottom edge sits in shadow."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "6ae270a28429c9281fab1cf1a50060170fdc34ca2e0a427608914fab46d90c75"
+}

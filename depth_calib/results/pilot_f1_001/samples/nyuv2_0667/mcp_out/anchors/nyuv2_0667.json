@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_0667",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "vanity_01",
+   "knowledge_group_id": "vanity_counter_height_standard",
+   "description": "浴室柜左侧台面前缘（深色石材台面与白色柜体交接处）到其正下方地面瓷砖之间的三维直线距离，即台面高度。",
+   "p1_xy": [
+    314.0,
+    184.0
+   ],
+   "p2_xy": [
+    320.0,
+    358.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.89,
+   "length_interval_m": [
+    0.81,
+    0.97
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "台面深色石材前缘自左向右连续可见；其正下方可见白色柜体正面、外露车木柜脚和浅色地面瓷砖，上下两点近似位于同一铅垂线。",
+   "identity_uncertainty": "台面为定制石材，但浴室柜台面高度通常为32–36 in（0.81–0.91 m）；取0.89 m，区间覆盖台面前缘上下沿取点误差与地面取点误差。"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "vanity_01",
+   "knowledge_group_id": "vanity_cabinet_width_standard",
+   "description": "浴室柜正面左外缘（左侧抽屉组与墙体交界）到正面右外缘（右侧抽屉组与右侧墙垛交界）之间的三维直线距离，即柜体宽度。",
+   "p1_xy": [
+    305.0,
+    300.0
+   ],
+   "p2_xy": [
+    571.0,
+    300.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.55,
+   "length_interval_m": [
+    1.38,
+    1.78
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "白色柜体正面横向连续可见：左侧三抽屉组、中部双开门（外凸弧形）与右侧三抽屉组，两侧外缘分别与墙相接，底部为外露柜脚。",
+   "identity_uncertainty": "为定制/标准浴室柜，常见整体宽度48–72 in（1.22–1.83 m）；右端距相机更远，透视压缩使直接像素比偏小，按透视校正估计整体宽度约1.5–1.6 m。"
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "doorway_01",
+   "knowledge_group_id": "interior_door_width_standard",
+   "description": "中央深色门洞左侧白色门套面与右侧白色墙垛面之间的三维直线距离，即门洞净宽。",
+   "p1_xy": [
+    192.0,
+    247.0
+   ],
+   "p2_xy": [
+    254.0,
+    247.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.87,
+   "length_interval_m": [
+    0.75,
+    1.02
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "门洞两侧均有亮白色垂直边缘（左侧门套、右侧墙垛），两点位于同一门洞墙面高度；透过门洞可见暗室地面上的深色地垫，确认是可通行门洞。",
+   "identity_uncertainty": "门洞内未见门扇，无法区分30/32/36 in 内门或无门套开口；左侧白条可能是门套侧面，净宽存在约±0.1 m 不确定度。"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_980c35aa919173d8",
+ "schema_version": "0.2"
+}

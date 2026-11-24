@@ -1,0 +1,32 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0473",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "basketball_on_chair_01",
+    "knowledge_group_id": "basketball_regulation_size7_diameter",
+    "description": "Straight-line diameter chord across the orange basketball resting on the black leather office chair: from the ball's left silhouette rim to its opposite lower-right silhouette rim at roughly equator height.",
+    "p1": {
+     "xy": null,
+     "point_id": "v4:p13"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v3:p5"
+    },
+    "length_m": 0.239,
+    "length_interval_m": [
+     0.21,
+     0.27
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Pink-orange spherical ball with black channel seams sits on the chair seat behind the desk; its silhouette spans about 61 px across at the equator, and the two endpoints lie on nearly opposite rims (bright left edge vs dark lower-right edge), so the chord is essentially the sphere's diameter.",
+    "identity_uncertainty": "No brand or size markings legible at this resolution; assumed a regulation size-7 basketball (0.239 m diameter). A size-6/youth ball (0.22-0.23 m) or a slightly deflated ball would lower the value by up to ~10%."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "a6b32e4c73dc7fecde4ba29ef2be2e8493f3b298b66e57ab0b3c38d392d19936"
+}

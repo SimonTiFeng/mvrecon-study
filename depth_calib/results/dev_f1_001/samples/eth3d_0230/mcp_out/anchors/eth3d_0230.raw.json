@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0230",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "chair_striped_terrace",
+    "knowledge_group_id": "chair_seat_height",
+    "description": "Vertical 3D distance from the front-right top edge of the striped seat cushion to the pavement at the foot of the chair's front-right leg (seat height of the striped terrace chair).",
+    "p1": {
+     "xy": [
+      1117.0,
+      682.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      1116.0,
+      758.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.47,
+    "length_interval_m": [
+     0.42,
+     0.52
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A chair with a blue/white striped cushion and thin steel legs stands on the paved terrace in front of the slatted wall bench; its cushion front edge is clearly visible and its front legs reach the pavement, whose lit surface is visible directly below.",
+    "identity_uncertainty": "Exact chair model unknown; standard side/bistro chair seat height is 0.42-0.47 m and the cushion adds about 0.03 m, but the chair could also be a slightly lower garden chair."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "arched_doorway_white_wall",
+    "knowledge_group_id": "door_clear_width",
+    "description": "3D straight distance across the arched entrance opening between the left and right vertical jamb edges of the white curved wall (clear width of the doorway).",
+    "p1": {
+     "xy": [
+      852.0,
+      640.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      961.0,
+      640.0
+     ],
+     "point_id": null
+    },
+    "length_m": 1.0,
+    "length_interval_m": [
+     0.85,
+     1.2
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A tall arched dark entrance opening (with interior stair treads) is cut into the white vertically-boarded cylindrical wall; both vertical jamb edges are clearly visible over a long stretch of wall, and the wall surface on each side is lit.",
+    "identity_uncertainty": "Clear width of a public-building stair entrance is not directly marked; Swiss public buildings typically use 0.9-1.1 m clear widths, and the strongly curved wall makes the exact jamb corner slightly uncertain."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "96602597e173fba2b62be267b06d851b29021fef54fe813c53e07b54389a4e94"
+}

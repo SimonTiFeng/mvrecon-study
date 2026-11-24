@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0549",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "paper_towel_roll_on_table",
+    "knowledge_group_id": "paper_towel_roll_11in_x_5_5in",
+    "description": "Height of the white paper-towel roll standing on the dining table, front top rim to front base of the roll just above the table-contact line.",
+    "p1": {
+     "xy": [
+      417,
+      157
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      417,
+      207
+     ],
+     "point_id": null
+    },
+    "length_m": 0.27,
+    "length_interval_m": [
+     0.245,
+     0.305
+    ],
+    "prior_kind": "identified_product",
+    "visible_evidence": "Bright white upright cylinder with roughly 2:1 height:width ratio on the table near the far edge, with a visible flat top surface and paper-roll silhouette; matches a standard 11 in (0.279 m) kitchen paper-towel roll.",
+    "identity_uncertainty": "Brand/sheet count unknown; the very bottom is at the table contact just behind the foreground chair crest rail, so the lower point sits on the last clearly visible roll surface ~1-2 px above contact. A smaller (20-24 cm) roll is possible but less likely."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "front_left_dining_chair",
+    "knowledge_group_id": "dining_side_chair_back_top_width",
+    "description": "Distance between the tops of the two back stiles/finials of the front-left wooden dining chair.",
+    "p1": {
+     "xy": [
+      220,
+      202
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      325,
+      193
+     ],
+     "point_id": null
+    },
+    "length_m": 0.45,
+    "length_interval_m": [
+     0.39,
+     0.51
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Ladder-back wooden dining side chair turned with its back to the camera; curved crest rail ending in two clearly visible turned finials/stile tops; both endpoints lie on the chair back.",
+    "identity_uncertainty": "Generic ladder-back dining chair of unknown make; overall chair width typically 0.42-0.50 m, and the chord between the two stile tops is close to but slightly narrower than the seat width."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "front_right_dining_chair",
+    "knowledge_group_id": "dining_side_chair_back_top_width",
+    "description": "Distance between the tops of the two back stiles/finials of the front-right wooden dining chair (matched pair with the front-left chair).",
+    "p1": {
+     "xy": [
+      381,
+      192
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      488,
+      186
+     ],
+     "point_id": null
+    },
+    "length_m": 0.45,
+    "length_interval_m": [
+     0.39,
+     0.51
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Second ladder-back wooden dining side chair of the same visible design, back toward the camera; both turned stile tops/finials fully visible and separated by the plate on the table behind.",
+    "identity_uncertainty": "Same generic chair model uncertainty as a2; slight rotation about the vertical axis makes the right finial project slightly higher, but both endpoints are the back-post tops."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "0d5564d8cb671e0bcdf97bb463127787b4ac1bedcdc76128a2380c77d265e4af"
+}

@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0130",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "whiteboard_1",
+    "knowledge_group_id": "whiteboard_standard_size",
+    "description": "Framed wall-mounted whiteboard: 3D straight-line distance between the visible left and right inner edges of the white dry-erase surface, taken horizontally at mid-height of the board.",
+    "p1": {
+     "xy": [
+      92,
+      360
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      398,
+      360
+     ],
+     "point_id": null
+    },
+    "length_m": 1.15,
+    "length_interval_m": [
+     0.85,
+     1.45
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A large white dry-erase board with a thin metal frame is mounted on the beige wall above the desk; its white interior spans roughly x=85..402 px and y=264..545 px, i.e. aspect about 1.17:1 (slightly wider than tall). Two upright whiteboard pens and a small pen/eraser holder sit on the board, consistent with a conventional office whiteboard. Both endpoints of the rendered span lie on the flat white surface just inside the frame.",
+    "identity_uncertainty": "No brand, model or size marking is legible, and the board is viewed from a single distance, so the absolute size is not directly encoded. Standard office whiteboards in this appearance class are about 0.9-1.8 m wide; the interval [0.85,1.45] m covers the common 900/1000/1200 mm classes that match the measured ~1.17 aspect."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "whiteboard_1",
+    "knowledge_group_id": "whiteboard_standard_size",
+    "description": "Same framed whiteboard: 3D straight-line distance between the visible top and bottom inner edges of the white dry-erase surface, taken vertically through a clear uncluttered area left of centre.",
+    "p1": {
+     "xy": [
+      150,
+      276
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      150,
+      538
+     ],
+     "point_id": null
+    },
+    "length_m": 1.0,
+    "length_interval_m": [
+     0.72,
+     1.25
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Both the top inner frame edge (~y=264 px) and the bottom inner frame edge above the tray (~y=545 px) are visible at x=150 px; the white surface spans about 281 px vertically versus about 317 px horizontally at comparable image positions, confirming a slightly wider-than-tall board (~1.15:1). The vertical span is drawn entirely on flat white board surface.",
+    "identity_uncertainty": "Exact board height is not labelled; a category prior for standard wall-mounted whiteboards (700-1250 mm height class) is used, consistent with the measured aspect and with neighbouring office furniture scale (chair and desk below)."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "f737f415768a5fe277bcd76a4aa4d828ceffc919944c758c59c5f7226c53209e"
+}

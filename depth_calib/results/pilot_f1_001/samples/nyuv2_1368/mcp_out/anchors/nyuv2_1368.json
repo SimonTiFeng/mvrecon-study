@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_1368",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "interior_door_kitchen_opening",
+   "knowledge_group_id": "us_residential_interior_door_standard_height_80in",
+   "description": "Height of the open white six-panel interior door leaf in the cased opening between the living/dining area and the kitchen, measured from its top edge (under the head casing) to its bottom edge at the threshold.",
+   "p1_xy": [
+    253.0,
+    100.0
+   ],
+   "p2_xy": [
+    259.0,
+    293.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.03,
+   "length_interval_m": [
+    1.97,
+    2.08
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "A white six-panel hinged door stands open in the kitchen doorway; its top edge is visible just below the white head casing and its bottom edge meets the threshold at the kitchen floor, with the door knob (standard height, near mid-leaf) and four recessed panels confirming a full-size leaf rather than a half-door.",
+   "identity_uncertainty": "Standard US residential interior door leaf, nominally 6 ft 8 in (2.032 m); head/threshold clearances and the casing occluding a few pixels of the top edge give about +/-3 cm; no size or brand marking is readable."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_792b349102b58ea9",
+ "schema_version": "0.2"
+}

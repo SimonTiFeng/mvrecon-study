@@ -1,0 +1,141 @@
+{
+ "image_id": "nyuv2_0551",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1_monitor_width",
+   "object_group_id": "monitor_left_desk",
+   "knowledge_group_id": "lcd_desktop_monitor_16to9_or_16to10",
+   "description": "Outer bezel width of the left-desk dark LCD monitor: 3D straight-line distance between its visible top-left and top-right screen corners.",
+   "p1_xy": [
+    87.0,
+    166.0
+   ],
+   "p2_xy": [
+    243.0,
+    157.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.53,
+   "length_interval_m": [
+    0.44,
+    0.63
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Large flat black rectangular screen standing on the left desk, all four bezel corners of the top edge clearly visible against the light wall; width-to-height ratio ~1.6 consistent with a widescreen desktop monitor.",
+   "identity_uncertainty": "Exact panel size unknown; could be a 21.5-27 inch PC monitor (bezel width 0.47-0.62 m) or a small TV. Interval covers the common office sizes."
+  },
+  {
+   "anchor_id": "a2_filing_cabinet_drawer_pitch",
+   "object_group_id": "filing_cabinet_center",
+   "knowledge_group_id": "steel_filing_cabinet_drawer_face",
+   "description": "Vertical drawer pitch of the centre steel filing cabinet: 3D distance between the two visible horizontal drawer-gap seams on its front face.",
+   "p1_xy": [
+    455.0,
+    209.0
+   ],
+   "p2_xy": [
+    455.0,
+    281.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.26,
+    0.36
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Light-grey steel cabinet with three stacked drawer faces, each with a recessed label holder and a bar pull; two horizontal drawer-gap shadow lines are plainly visible across the front face at the two chosen heights.",
+   "identity_uncertainty": "Letter- vs legal-size and 2- vs 3-drawer variants differ; standard drawer front heights are 0.28-0.32 m, 2-drawer units can reach ~0.35 m."
+  },
+  {
+   "anchor_id": "a3_printer_width",
+   "object_group_id": "printer_right_desk",
+   "knowledge_group_id": "compact_monochrome_laser_printer",
+   "description": "Width of the white desktop laser printer on the right desk: 3D straight-line distance between its front-left and front-right vertical corners.",
+   "p1_xy": [
+    522.0,
+    205.0
+   ],
+   "p2_xy": [
+    600.0,
+    199.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.37,
+   "length_interval_m": [
+    0.3,
+    0.45
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "White boxy printer sitting on the wooden desk, dark output slot on top and a paper/name label on the front; front face bright and roughly rectangular, right corner adjacent to a stack of white papers.",
+   "identity_uncertainty": "Specific model unknown (could be HP/Canon/Brother-class compact laser, 0.35-0.40 m wide); right corner partly close to overexposed papers, so a wide interval is used."
+  },
+  {
+   "anchor_id": "a4_pc_tower_height",
+   "object_group_id": "pc_tower_floor",
+   "knowledge_group_id": "atx_desktop_tower_case",
+   "description": "Front-face height of the desktop PC tower standing on the floor at the right: 3D distance between its top front edge and its bottom front edge.",
+   "p1_xy": [
+    560.0,
+    291.0
+   ],
+   "p2_xy": [
+    560.0,
+    368.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.45,
+   "length_interval_m": [
+    0.37,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Silver/black tower with dark external drive-bay block on top and horizontal ventilation slats at the bottom, standing on the wooden floor next to the bookshelf; silver top edge and floor contact edge both visible.",
+   "identity_uncertainty": "Could be mini-tower or full/mid-tower case (0.35-0.52 m tall) and its top carries a small dark object, so the upper edge is taken at the case top, not the object."
+  },
+  {
+   "anchor_id": "a5_filing_cabinet_width",
+   "object_group_id": "filing_cabinet_center",
+   "knowledge_group_id": "steel_filing_cabinet_width",
+   "description": "Front-face width of the centre steel filing cabinet: 3D distance between its left and right front vertical edges at mid-drawer height.",
+   "p1_xy": [
+    397.0,
+    270.0
+   ],
+   "p2_xy": [
+    459.0,
+    270.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.4,
+   "length_interval_m": [
+    0.32,
+    0.48
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Bright front face of the steel cabinet bounded by a clear brightness step to the darker left storage cabinet and to the dark space at its right; both vertical edges run the full drawer height.",
+   "identity_uncertainty": "15-inch (0.38 m) letter and 18-inch (0.46 m) lateral widths both plausible; the front face is seen at an oblique angle, so the projected width is foreshortened."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_40494e176f629202",
+ "schema_version": "0.2"
+}

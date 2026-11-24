@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0548",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "shelf_book_row3_light_spine",
+    "knowledge_group_id": "trade_hardcover_height",
+    "description": "Light yellow-green hardcover spine standing upright on the bookshelf, third row from top, around x=472",
+    "p1": {
+     "xy": [
+      472,
+      273
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      472,
+      227
+     ],
+     "point_id": null
+    },
+    "length_m": 0.23,
+    "length_interval_m": [
+     0.185,
+     0.285
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Upright book with a pale yellow-green spine; top edge is a crisp transition against the dark gap above the row, and the spine ends at the lit shelf-board surface below; both end faces of the same spine are visible in the RGB image.",
+    "identity_uncertainty": "Title/publisher unknown; treated as a standard trade hardcover (typical 0.20-0.28 m tall); could be a paperback (~0.18-0.23 m)."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "shelf_book_row5_cream_spine",
+    "knowledge_group_id": "trade_hardcover_height",
+    "description": "Cream/beige hardcover spine in a lower bookshelf row (fifth row from top), around x=572",
+    "p1": {
+     "xy": [
+      572,
+      427
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      572,
+      384
+     ],
+     "point_id": null
+    },
+    "length_m": 0.22,
+    "length_interval_m": [
+     0.17,
+     0.27
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Thick cream/tan spine standing on a shelf board; crisp dark-to-cream transition at its top edge (about y=381) and a clear end at the lit board surface below (about y=429), both visible in the RGB image.",
+    "identity_uncertainty": "Identical book unknown; if it is a letter-size ring binder (~0.29 m tall) the true height is above that expected of a normal hardcover, so estimate is uncertain in the 0.17-0.29 m range."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "6325c9df60777913aa8d82131ab4949d204322c0574688925188b4fec2678a10"
+}

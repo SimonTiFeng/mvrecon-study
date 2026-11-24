@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1028",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_mattress_01",
+    "knowledge_group_id": "double_queen_mattress_width",
+    "description": "Width of the bed mattress across the visible foot edge of the quilt top, measured between its left and right top corners.",
+    "p1": {
+     "xy": [
+      418,
+      282
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      612,
+      326
+     ],
+     "point_id": null
+    },
+    "length_m": 1.55,
+    "length_interval_m": [
+     1.38,
+     1.68
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Blue quilt covers the whole mattress; the foot/side edge of the quilt top runs from its left corner near (418,282) to its right corner near (612,326), spanning the bed width. Two standard pillows lie side by side along the head edge, consistent with a double/queen bed.",
+    "identity_uncertainty": "Mattress size is not marked; a full/double (1.37 m) and a queen (1.52 m) look nearly identical at this resolution, and the quilt overhang adds a few centimeters. A king size is considered unlikely in this room."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "chest_of_drawers_01",
+    "knowledge_group_id": "four_drawer_chest_height",
+    "description": "Height of the four-drawer wood chest (with the table lamp on top) along its front-left vertical edge, from the floor/base line to the top front corner.",
+    "p1": {
+     "xy": [
+      267,
+      179
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      270,
+      283
+     ],
+     "point_id": null
+    },
+    "length_m": 0.92,
+    "length_interval_m": [
+     0.8,
+     1.05
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Dark wood chest with four drawer fronts and knobs stands beside the bed and carries a table lamp; its front-left vertical edge is visible from the top corner under the lamp down to the carpet at the base.",
+    "identity_uncertainty": "No model or label visible; typical four-drawer bachelor's chests range roughly 0.8-1.0 m tall, and the carpet line slightly obscures the exact base corner."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "framed_document_01",
+    "knowledge_group_id": "letter_a4_certificate_height",
+    "description": "Vertical extent of the white framed document/certificate hanging on the far wall, measured between the top and bottom edges of its visible white area.",
+    "p1": {
+     "xy": [
+      461,
+      51
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      461,
+      124
+     ],
+     "point_id": null
+    },
+    "length_m": 0.28,
+    "length_interval_m": [
+     0.25,
+     0.31
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Portrait dark frame on the far wall encloses a white document with several lines of text, resembling a framed diploma/certificate; the white area's height-to-frame-height ratio (~0.77) matches a Letter/A4 sheet in a standard 11x14 frame.",
+    "identity_uncertainty": "The sheet could be US Letter (0.279 m) or A4 (0.297 m), or could be an 8.5x11 opening in a mat rather than the paper itself; edges are low-contrast at this resolution."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "7394431a572c479151e1ca30505fa4908f23c58816ba8b9e7eed04df48339ad7"
+}

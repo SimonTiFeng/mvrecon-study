@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0549",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "paper_towel_roll",
+   "knowledge_group_id": "paper_towel_roll_standard",
+   "description": "餐桌上的白色厨房纸卷：左右两侧轮廓缘点之间的水平直线距离（纸卷直径）",
+   "p1_xy": [
+    403.0,
+    172.0
+   ],
+   "p2_xy": [
+    426.0,
+    172.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.14,
+   "length_interval_m": [
+    0.13,
+    0.145
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "白色圆柱纸卷通过棕色圆头立杆立在餐桌上，同一高度的左右可见轮廓缘清晰，图像宽度约23-24像素",
+   "identity_uncertainty": "分辨率低且室内暖光偏色；按美国家用厨房纸卷约5.5英寸(14cm)直径的标准规格识别，不排除其他规格纸卷"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "paper_towel_roll",
+   "knowledge_group_id": "paper_towel_roll_standard",
+   "description": "同一白色厨房纸卷的轴向高度：顶面前缘可见点到底缘可见点",
+   "p1_xy": [
+    415.0,
+    157.0
+   ],
+   "p2_xy": [
+    415.0,
+    205.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.279,
+   "length_interval_m": [
+    0.265,
+    0.295
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "纸卷顶面椭圆的前缘与底缘均可见并落在桌面上，可见高约48像素、直径约23.5像素，高径比约2.0，与标准厨房纸卷11英寸×5.5英寸一致",
+   "identity_uncertainty": "纸卷底部与桌面交界处在低分辨率下略模糊；按美国家用厨房纸卷11英寸(约28cm)高的标准规格识别"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_d955e821242af366",
+ "schema_version": "0.2"
+}

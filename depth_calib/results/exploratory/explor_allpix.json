@@ -1,0 +1,254 @@
+{
+ "explor_points_001": [
+  {
+   "sample_id": "nyuv2_0937",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.08923615861313436,
+   "anchor_scale_median": 0.9509256956111596,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0130",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.064603951624298,
+   "anchor_scale_median": 1.676153808157761,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1225",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.03999186986929318,
+   "anchor_scale_median": 1.6470992586475972,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1377",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.05353887331401927,
+   "anchor_scale_median": 1.11287141217961,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1167",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.05109348676533139,
+   "anchor_scale_median": 1.2750288838607249,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0263",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.05473881788427851,
+   "anchor_scale_median": 1.0300545111119175,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0852",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.06767661035567063,
+   "anchor_scale_median": 1.0644586194272063,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1416",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.0850423723515344,
+   "anchor_scale_median": 0.11520540527658507,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1420",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.04200043089423376,
+   "anchor_scale_median": 0.868162052146989,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1345",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.11804734186286456,
+   "anchor_scale_median": 1.0417010677403946,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0551",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.1055068378894214,
+   "anchor_scale_median": 0.9120548023292117,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0758",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.08893502380516044,
+   "anchor_scale_median": 1.7272078114875153,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1280",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.08463264577640954,
+   "anchor_scale_median": 1.0078723686424302,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0473",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.06861318013750373,
+   "anchor_scale_median": 0.6142076213710229,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "eth3d_0005",
+   "dataset": "eth3d",
+   "n_anchors": 4,
+   "B_raw_ALLPIX": 0.08490811084473479,
+   "anchor_scale_median": 0.9788031594088311,
+   "n_pix": 74218
+  },
+  {
+   "sample_id": "eth3d_0158",
+   "dataset": "eth3d",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.11853295642940156,
+   "anchor_scale_median": 0.8554644089623531,
+   "n_pix": 105930
+  },
+  {
+   "sample_id": "eth3d_0043",
+   "dataset": "eth3d",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.08536808194192914,
+   "anchor_scale_median": 1.2247268144136934,
+   "n_pix": 107451
+  },
+  {
+   "sample_id": "eth3d_0087",
+   "dataset": "eth3d",
+   "n_anchors": 5,
+   "B_raw_ALLPIX": 0.1245539908697308,
+   "anchor_scale_median": 0.9492950715806734,
+   "n_pix": 294993
+  },
+  {
+   "sample_id": "eth3d_0132",
+   "dataset": "eth3d",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.1253219576274707,
+   "anchor_scale_median": 0.9656902476905489,
+   "n_pix": 276306
+  },
+  {
+   "sample_id": "eth3d_0231",
+   "dataset": "eth3d",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.02676356880961947,
+   "anchor_scale_median": 0.8367963868386306,
+   "n_pix": 333690
+  }
+ ],
+ "explor_direct_001": [
+  {
+   "sample_id": "nyuv2_1377",
+   "dataset": "nyuv2",
+   "n_anchors": 3,
+   "B_raw_ALLPIX": 0.05353887331401927,
+   "anchor_scale_median": 1.1054355519172607,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1167",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.05109348676533139,
+   "anchor_scale_median": 1.0389095148157803,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0263",
+   "dataset": "nyuv2",
+   "n_anchors": 4,
+   "B_raw_ALLPIX": 0.05473881788427851,
+   "anchor_scale_median": 0.9114418905016803,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0852",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.06767661035567063,
+   "anchor_scale_median": 1.0437597589341714,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1416",
+   "dataset": "nyuv2",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.0850423723515344,
+   "anchor_scale_median": 0.9397593450901925,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0551",
+   "dataset": "nyuv2",
+   "n_anchors": 5,
+   "B_raw_ALLPIX": 0.1055068378894214,
+   "anchor_scale_median": 0.9094552293296008,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_1280",
+   "dataset": "nyuv2",
+   "n_anchors": 5,
+   "B_raw_ALLPIX": 0.08463264577640954,
+   "anchor_scale_median": 0.8353243037343305,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "nyuv2_0473",
+   "dataset": "nyuv2",
+   "n_anchors": 2,
+   "B_raw_ALLPIX": 0.06861318013750373,
+   "anchor_scale_median": 0.5002700888115994,
+   "n_pix": 307200
+  },
+  {
+   "sample_id": "eth3d_0158",
+   "dataset": "eth3d",
+   "n_anchors": 1,
+   "B_raw_ALLPIX": 0.11853295642940156,
+   "anchor_scale_median": 1.087974289706215,
+   "n_pix": 105930
+  },
+  {
+   "sample_id": "eth3d_0087",
+   "dataset": "eth3d",
+   "n_anchors": 3,
+   "B_raw_ALLPIX": 0.1245539908697308,
+   "anchor_scale_median": 0.8415628499408577,
+   "n_pix": 294993
+  },
+  {
+   "sample_id": "eth3d_0132",
+   "dataset": "eth3d",
+   "n_anchors": 4,
+   "B_raw_ALLPIX": 0.1253219576274707,
+   "anchor_scale_median": 0.9881922059504809,
+   "n_pix": 276306
+  }
+ ]
+}

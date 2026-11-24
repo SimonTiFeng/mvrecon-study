@@ -1,0 +1,8 @@
+images=53 scenes=3
+held-out          const    n      raw      cal    wins
+office           0.9687   16   0.0406   0.0269   13/16 
+playground       0.9663   24   0.1872   0.1170   21/24 
+terrace          0.9735   13   0.0408   0.0272    9/13 
+
+POOLED raw 0.0968 -> 0.0659 wins 43/53
+ZERO-PARAM 0.0968 -> 0.0661 wins 30/53

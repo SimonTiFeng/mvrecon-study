@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_0799",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "plate_blue_rim",
+   "knowledge_group_id": "us_dinner_plate_standard",
+   "description": "Blue-rimmed round dinner plate lying flat on the granite counter, left of the cup platter",
+   "p1_xy": [
+    250.0,
+    323.0
+   ],
+   "p2_xy": [
+    325.0,
+    315.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.24,
+   "length_interval_m": [
+    0.19,
+    0.29
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both lateral rim extremes of the plate are visible against the countertop; the plate lies flat so the leftmost-rightmost rim points span its diameter.",
+   "identity_uncertainty": "Dinner vs salad plate; US plate diameters 7.5-11 in (0.19-0.28 m), so diameter taken as 0.24 m."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "plate_cup_platter",
+   "knowledge_group_id": "us_dinner_plate_standard",
+   "description": "Large round plate/platter with red-patterned rim holding stacked white cups, on the counter",
+   "p1_xy": [
+    303.0,
+    331.0
+   ],
+   "p2_xy": [
+    409.0,
+    322.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.24,
+    0.36
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Left and right rim of the plate are visible in front of the cup stack; the plate is flat so the rim extremes span its diameter.",
+   "identity_uncertainty": "Could be an 11-13 in dinner/serving plate; diameter interval 0.24-0.36 m covers 10-14 in."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "coffee_maker_black",
+   "knowledge_group_id": "drip_coffee_maker_standard",
+   "description": "Black drip coffee maker standing on the counter to the right of the white pitcher",
+   "p1_xy": [
+    209.0,
+    210.0
+   ],
+   "p2_xy": [
+    283.0,
+    216.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.26,
+   "length_interval_m": [
+    0.21,
+    0.31
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Left and right vertical body edges of the black appliance are visible above the counter at the same height, spanning its front-face width.",
+   "identity_uncertainty": "Typical 12-cup drip coffee maker body width 0.22-0.30 m; machine rotation could make the front-face span slightly wider than the true width."
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "white_pitcher",
+   "knowledge_group_id": "ceramic_pitcher_standard",
+   "description": "White ceramic pitcher/carafe standing on the counter in front of the white counter appliance",
+   "p1_xy": [
+    142.0,
+    180.0
+   ],
+   "p2_xy": [
+    141.0,
+    266.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.25,
+   "length_interval_m": [
+    0.2,
+    0.3
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Rim at the top and base at the counter are both visible; the top rim sits directly above the base so the segment equals the pitcher height.",
+   "identity_uncertainty": "Ceramic pitcher or water-filter jug; typical heights 0.20-0.30 m, taken as 0.25 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_a9271e975f150193",
+ "schema_version": "0.2"
+}

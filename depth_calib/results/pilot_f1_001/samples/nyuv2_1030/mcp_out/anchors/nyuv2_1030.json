@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1030",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "wall_outlet_plate_1",
+   "knowledge_group_id": "us_receptacle_wall_plate_4p5in",
+   "description": "White single-gang duplex electrical receptacle cover plate on the wall left of the white chair; vertical extent from plate top edge to plate bottom edge.",
+   "p1_xy": [
+    186.0,
+    254.0
+   ],
+   "p2_xy": [
+    186.0,
+    267.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.114,
+   "length_interval_m": [
+    0.1,
+    0.127
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Small white rectangular cover plate with two socket openings visible on the pale wall beside the chair; plate outline is sharp on top/bottom.",
+   "identity_uncertainty": "Plate is only ~13 px tall, so edges are +/-1 px; a Decora-style plate would still be 4.5 in (114.3 mm) tall, but a non-US/oversized plate would differ."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "white_chair_1",
+   "knowledge_group_id": "dining_chair_seat_height_43_46cm",
+   "description": "White bow-back Windsor-style side chair: vertical span from the seat top front edge down to the front leg base on the carpet (seat height).",
+   "p1_xy": [
+    283.0,
+    246.0
+   ],
+   "p2_xy": [
+    289.0,
+    299.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.45,
+   "length_interval_m": [
+    0.4,
+    0.5
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "White spindle bow-back chair in three-quarter view; light wood seat and splayed white legs visible against carpet, front leg meets carpet at a clear corner.",
+   "identity_uncertainty": "No brand marking; dining side chairs are standardized at 17-18.5 in seat height; leg rake and carpet contact add a few cm."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "dresser_1",
+   "knowledge_group_id": "double_dresser_height_0p8_1p1m",
+   "description": "Dark wood six-drawer double dresser along the left wall; front-face height from its floor contact line up to the top front edge.",
+   "p1_xy": [
+    16.0,
+    196.0
+   ],
+   "p2_xy": [
+    12.0,
+    317.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.95,
+   "length_interval_m": [
+    0.82,
+    1.1
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Wide low chest of drawers with two columns of drawers, brass pulls, flat top carrying books; bottom edge and base shadow visible on the carpet.",
+   "identity_uncertainty": "Unbranded antique-style dresser; six-drawer double dressers typically run 0.8-1.1 m tall; left edge close to image border and floor line in shadow."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_4104338b93d00898",
+ "schema_version": "0.2"
+}

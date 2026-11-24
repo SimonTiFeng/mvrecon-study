@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_0758",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "kitchen_upper_cabinet_bottom_to_counter",
+   "knowledge_group_id": "us_residential_kitchen_standard_dimensions",
+   "description": "Straight-line distance from the front bottom rail of the upper wall cabinet (above the right-hand counter) to the countertop surface at the backsplash base directly below it; the standard counter-to-upper-cabinet backsplash gap is 18 in, and the endpoints are also offset by about the cabinet depth (front rail stands ~12 in out from the wall).",
+   "p1_xy": [
+    584.0,
+    110.0
+   ],
+   "p2_xy": [
+    551.0,
+    164.0
+   ],
+   "source_point_ids": [
+    "v4:p23",
+    "v4:p13"
+   ],
+   "length_m": 0.54,
+   "length_interval_m": [
+    0.4,
+    0.75
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Orange-wood upper cabinet bottom rail is visible above the white tiled backsplash (p23 sits on that rail at y~110); the white counter plane carrying the blue board and dishpan is visible at y~164, with p13 at the blue board's lower-left corner on the counter. The rail is at the cabinet front face, p13 near the wall plane.",
+   "identity_uncertainty": "The counter-to-upper-cabinet gap is commonly 18 in but ranges 15-24 in by installation; the two points are additionally offset along the wall (a few inches) and in depth (cabinet front vs backsplash plane), so the 3D chord exceeds the pure vertical gap; the interval budgets both effects."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_f7c86d2128f9f608",
+ "schema_version": "0.2"
+}

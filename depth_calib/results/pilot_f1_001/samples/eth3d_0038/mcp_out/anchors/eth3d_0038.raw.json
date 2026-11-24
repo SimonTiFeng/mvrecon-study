@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0038",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "board_panel_wall",
+    "knowledge_group_id": "euro_sheet_board_module",
+    "description": "Width of one flat white board cell of the panel wall, measured horizontally between the centres of two adjacent vertical galvanized steel tubes that clamp the board edge.",
+    "p1": {
+     "xy": [
+      330,
+      250
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      488,
+      250
+     ],
+     "point_id": null
+    },
+    "length_m": 1.22,
+    "length_interval_m": [
+     1.16,
+     1.3
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A single flat light-grey board fills the cell between the two tubes; the tubes (with sleeve fittings) run the full cell height and the board edge is flush behind them, so the tube-centre spacing equals the board module width plus one tube radius on each side.",
+    "identity_uncertainty": "Board is an unlabelled sheet material (plywood/MDF/plasterboard-like) with no visible marking; size inferred from the common 1220 mm sheet module. Board could be 1200 or 1250 mm, which keeps the estimate inside the quoted interval."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "board_panel_wall",
+    "knowledge_group_id": "euro_sheet_board_module",
+    "description": "Height of one white board cell in the upper row, measured vertically on the board surface between the centres of the top horizontal tube/rail and the middle horizontal tube.",
+    "p1": {
+     "xy": [
+      488,
+      168
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      488,
+      452
+     ],
+     "point_id": null
+    },
+    "length_m": 2.44,
+    "length_interval_m": [
+     2.3,
+     2.6
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The same board that fills the a1 cell continues unbroken from the top horizontal tube down to the middle horizontal tube, where a row joint crosses in front of it; the vertical span is about 1.8x the horizontal module, consistent with a long-side-vertical sheet.",
+    "identity_uncertainty": "Assumes the sheet is the wide-format 2440 mm module rather than a shorter 2000 mm board; camera pitch slightly compresses vertical spans, and the measured aspect ratio sits between both sheet formats, so the interval covers the plausible range."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "ba5932ddc70bac2d16d1d2096736d5d4c9226a91033fcc35c624dba6878d8129"
+}

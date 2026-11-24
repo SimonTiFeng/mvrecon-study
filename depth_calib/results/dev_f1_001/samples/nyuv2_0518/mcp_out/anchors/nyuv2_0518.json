@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0518",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "paper_towel_roll",
+   "knowledge_group_id": "paper_towel_roll_11in",
+   "description": "Upright white paper-towel roll standing on the floor at the left front of the dark nightstand; height measured on its front face from the top rim to the base.",
+   "p1_xy": [
+    460.0,
+    202.0
+   ],
+   "p2_xy": [
+    460.0,
+    241.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.28,
+   "length_interval_m": [
+    0.25,
+    0.31
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "White cylinder about 23 px wide and 45 px tall (height/width ratio ~2.0) at approx. (449-472, 196-242), with a visible elliptical top face, standing against the dark nightstand; proportions match a standard 11 in tall x ~5.5-6 in diameter paper-towel roll.",
+   "identity_uncertainty": "A white bottle/thermos of similar size cannot be fully excluded, but the 2:1 height-to-diameter ratio and paper-white surface favor a jumbo paper-towel roll; height uncertainty about +/-3 cm."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "bookshelf_books",
+   "knowledge_group_id": "hardcover_book_height",
+   "description": "Pale-blue upright hardcover book on the third shelf of the bookcase at left-center; measured from its top edge down to the white page block resting on the shelf.",
+   "p1_xy": [
+    338.0,
+    102.0
+   ],
+   "p2_xy": [
+    338.0,
+    138.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.26,
+   "length_interval_m": [
+    0.21,
+    0.31
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Bookcase left of center shows three rows of books; the selected pale-blue spine near (338,120) runs nearly vertically between the dark shelf above (~y=97) and its white page block on the shelf below (~y=136-139), spanning almost the full row gap.",
+   "identity_uncertainty": "Generic domestic hardcover/textbook of unknown title and edition; the shelf holds mixed sizes and some books lean, so the chosen spine could be a somewhat shorter or taller volume; prior 21-31 cm."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_4212d825157cd600",
+ "schema_version": "0.2"
+}

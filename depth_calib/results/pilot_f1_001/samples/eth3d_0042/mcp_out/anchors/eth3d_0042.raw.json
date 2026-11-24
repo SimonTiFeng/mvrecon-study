@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0042",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "trailer_1",
+    "knowledge_group_id": "box_trailer_width_eu",
+    "description": "Overall width of the white box trailer, measured along the top edge of its flat white end panel (between the panel's two visible top corners).",
+    "p1": {
+     "xy": [
+      84,
+      446
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      222,
+      439
+     ],
+     "point_id": null
+    },
+    "length_m": 1.85,
+    "length_interval_m": [
+     1.6,
+     2.15
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The large bright white panel is the trailer's end face; its top-left corner (~84,446) and the top-right corner (~222,439) where the panel meets the adjacent side wall (with two windows) are both clearly visible, so the span is the trailer body width.",
+    "identity_uncertainty": "Exact make/model is not identifiable; European tandem-axle box trailers are typically 1.5-2.1 m wide. The pixel aspect of the end face (height ~1.3x width) suggests a slim body (~1.5-1.8 m wide), while the tandem axles suggest a heavier 1.8-2.1 m chassis; interval spans both."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "12db9209b456a03305ca16f671f41cda0636e9ea90e788ceaa77c43bfc9d84f4"
+}

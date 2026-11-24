@@ -1,0 +1,122 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0958",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "bed_mattress_head_end",
+    "knowledge_group_id": "us_queen_mattress_width",
+    "description": "Width of the bed across the head end, from the visible left mattress edge to the visible right mattress edge in front of the headboard",
+    "p1": {
+     "xy": [
+      188,
+      299
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      452,
+      263
+     ],
+     "point_id": null
+    },
+    "length_m": 1.52,
+    "length_interval_m": [
+     1.42,
+     1.63
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Dark headboard and white sheet mark the bed's left and right sides; both edges are visible at the head end between the two nightstands.",
+    "identity_uncertainty": "Queen vs full vs king: queen (1.52 m) most likely for a two-pillow-stack bedroom bed; interval covers full 1.37 m and leaves king 1.93 m out."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "left_bedside_lamp",
+    "knowledge_group_id": "table_lamp_drum_shade_diameter",
+    "description": "Diameter across the cream drum shade of the left bedside table lamp, left rim to right rim",
+    "p1": {
+     "xy": [
+      87,
+      211
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      158,
+      206
+     ],
+     "point_id": null
+    },
+    "length_m": 0.36,
+    "length_interval_m": [
+     0.28,
+     0.45
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Cream lamp shade silhouetted against the lit wall left of the bed; both the left and right rims of the shade are visible.",
+    "identity_uncertainty": "No model identification possible; typical bedside drum/empire shades are 25-45 cm across."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "right_bedside_lamp",
+    "knowledge_group_id": "table_lamp_drum_shade_diameter",
+    "description": "Diameter across the cream drum shade of the right bedside table lamp, left rim to right rim",
+    "p1": {
+     "xy": [
+      432,
+      170
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      482,
+      168
+     ],
+     "point_id": null
+    },
+    "length_m": 0.34,
+    "length_interval_m": [
+     0.27,
+     0.43
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Cream lamp shade beside the right nightstand, clearly outlined against the wall; both rims visible.",
+    "identity_uncertainty": "Same style as the left lamp but slightly smaller in the image; typical bedside shade 25-45 cm across."
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "left_black_nightstand",
+    "knowledge_group_id": "bedside_nightstand_top_width",
+    "description": "Width of the top front edge of the black two-drawer nightstand left of the bed",
+    "p1": {
+     "xy": [
+      80,
+      335
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      168,
+      349
+     ],
+     "point_id": null
+    },
+    "length_m": 0.6,
+    "length_interval_m": [
+     0.5,
+     0.72
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black nightstand with drawers stands left of the bed below the left lamp; its top front edge runs between two visible corners.",
+    "identity_uncertainty": "Two-drawer nightstand/chest widths range roughly 45-70 cm; exact model unknown."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "a2c1b3b33357f1ed045e46654d08de64242e7f8b0660a5c792879376f016c3c4"
+}

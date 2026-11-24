@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_0803",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "fridge_right",
+   "knowledge_group_id": "side_by_side_fridge_width",
+   "description": "画面右侧不锈钢对开门冰箱正面左、右两条竖直棱线之间的三维直线距离，即冰箱正面外宽。",
+   "p1_xy": [
+    477.0,
+    225.0
+   ],
+   "p2_xy": [
+    598.0,
+    225.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.91,
+   "length_interval_m": [
+    0.82,
+    1.02
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "右后方可见一台落地不锈钢冰箱，正面中间有竖向门缝、两侧各有一根长竖把手，左缘与深色木柜之间有明显竖向分界；上下柜、窗、水槽等厨房构件说明这是标准美式厨房环境。",
+   "identity_uncertainty": "未识别具体品牌型号；按美式对开门冰箱常见标准宽度 36 in(0.914 m) 估计，但 33 in 超薄型或更宽机型也存在，且右侧棱线靠近画面边缘，故给较宽区间。"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_3d89ff96ceaa620e",
+ "schema_version": "0.2"
+}

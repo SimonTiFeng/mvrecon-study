@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0303",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "ceiling_troffer_left",
+   "knowledge_group_id": "us_4ft_linear_troffer",
+   "description": "Length of the white linear fluorescent troffer in the ceiling at top-left, measured along its long axis between the two visible end edges of the diffuser.",
+   "p1_xy": [
+    12.0,
+    33.0
+   ],
+   "p2_xy": [
+    147.0,
+    28.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.22,
+   "length_interval_m": [
+    1.15,
+    1.35
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Recessed linear fluorescent light panel with white diffuser in a suspended acoustical-tile ceiling; the panel spans two ceiling-tile modules with grid joints visible at both ends, consistent with a standard 4 ft troffer.",
+   "identity_uncertainty": "Troffer width class (1x4 ft vs 2x4 ft) is uncertain, but both standard classes are 4 ft (1.22 m) long, which is the only dimension used."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "whiteboard_back_wall",
+   "knowledge_group_id": "classroom_dry_erase_board_height",
+   "description": "Vertical height of the large wall-mounted dry-erase whiteboard on the back wall, from its top edge down to its bottom edge above the marker tray, sampled at x=200.",
+   "p1_xy": [
+    200.0,
+    147.0
+   ],
+   "p2_xy": [
+    200.0,
+    208.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.1,
+   "length_interval_m": [
+    0.85,
+    1.35
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Large white dry-erase board with red/black handwriting and a marker tray along its bottom edge, mounted on the back classroom wall; apparent height is consistent with a standard 3-4 ft tall classroom board.",
+   "identity_uncertainty": "Exact board product/size is unknown; could be a 36 in (0.91 m) or 48 in (1.22 m) tall board, and image scale at that depth is estimated rather than calibrated."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_2fe3fffe3f877534",
+ "schema_version": "0.2"
+}

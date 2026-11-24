@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_0843",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "og_black_dishwasher_center",
+   "knowledge_group_id": "kg_us_builtin_dishwasher_width_24in",
+   "description": "Front-panel width of the black under-counter dishwasher, measured across the door horizontally at mid height",
+   "p1_xy": [
+    391.0,
+    405.0
+   ],
+   "p2_xy": [
+    476.0,
+    405.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.61,
+   "length_interval_m": [
+    0.56,
+    0.66
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Black appliance directly under the counter next to the sink, with a horizontal control strip and recessed handle at the top of the front; panels between its visible left and right front edges. Standard built-in US dishwasher width is 24 in (0.61 m).",
+   "identity_uncertainty": "Front face is viewed at a slight angle; if this were a narrower compactor the width would differ, but the control-panel layout and under-counter proportions indicate a dishwasher."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "og_black_dishwasher_center",
+   "knowledge_group_id": "kg_us_builtin_dishwasher_height_34in",
+   "description": "Vertical height of the same dishwasher front from the top of its control panel (under the counter edge) to the bottom of the door at the floor line",
+   "p1_xy": [
+    434.0,
+    302.0
+   ],
+   "p2_xy": [
+    434.0,
+    466.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.864,
+   "length_interval_m": [
+    0.81,
+    0.92
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Top edge of the black control panel meeting the counter underside, down to the bottom edge of the black door at the floor line, on the same appliance. Standard under-counter dishwasher height is 34-35 in (0.86-0.89 m).",
+   "identity_uncertainty": "Bottom edge lies in shadow and a small gap may exist under the counter, so the measured front height may be ~1 in less than the nominal appliance height."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "og_left_base_cabinets",
+   "knowledge_group_id": "kg_us_counter_height_36in",
+   "description": "Floor-to-countertop height at the left base-cabinet run: granite front edge to the floor line at the cabinet toe-kick",
+   "p1_xy": [
+    205.0,
+    327.0
+   ],
+   "p2_xy": [
+    205.0,
+    476.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.93,
+   "length_interval_m": [
+    0.87,
+    1.0
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Front edge of the granite countertop above the base cabinet with drawer fronts, and the floor line at the bottom of the same cabinet run directly below it. US standard floor-to-countertop height is 36 in (0.914 m).",
+   "identity_uncertainty": "The floor point sits at the recessed toe-kick, slightly behind the counter overhang, making the straight-line distance ~1-2 cm longer than the nominal 36-in height; older kitchen fits can vary by 1-2 in."
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "og_pineapple_on_counter",
+   "knowledge_group_id": "kg_pineapple_overall_height",
+   "description": "Overall height of the whole pineapple standing on the counter, from crown tip to fruit base",
+   "p1_xy": [
+    305.0,
+    257.0
+   ],
+   "p2_xy": [
+    303.0,
+    194.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.22,
+    0.38
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "A whole pineapple stands upright on the counter between the utensil crock and the bottles; its base contact with the counter and the crown tip are both visible.",
+   "identity_uncertainty": "Pineapple size varies with variety and crown length, so only a broad typical range (roughly 0.22-0.38 m including crown) is claimed."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_dd511c568d7a8f8f",
+ "schema_version": "0.2"
+}

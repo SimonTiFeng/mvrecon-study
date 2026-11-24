@@ -1,0 +1,63 @@
+{
+ "image_id": "eth3d_0229",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "foreground_paving_slab",
+   "knowledge_group_id": "concrete_paver_50cm_standard",
+   "description": "Side length of one large square concrete paving slab in the foreground courtyard paving (edge between two adjacent grout-line intersections along the same transverse joint, one slab apart).",
+   "p1_xy": [
+    300.0,
+    832.0
+   ],
+   "p2_xy": [
+    600.0,
+    822.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.5,
+   "length_interval_m": [
+    0.42,
+    0.62
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The courtyard floor is a regular grid of large square grey concrete slabs with visible dark joints; both selected points lie on grout-line intersections of the same transverse joint with two adjacent longitudinal joints, so their 3D separation equals one slab edge. Slab grid is confirmed by the second crop (v1) where the near row slabs are clearly square.",
+   "identity_uncertainty": "German standard paving plates come in 40, 50 and 60 cm; 50x50 cm chosen as most common for this size, interval covers 42-62 cm. Joints partly covered by fallen leaves, so intersection localization may be off by a few pixels."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "mesh_gate_enclosure",
+   "knowledge_group_id": "double_rod_mesh_gate_height_standard",
+   "description": "Vertical height of the metal mesh gate leaf carrying the green emergency-exit sign, measured along its left stile from the bottom rail at ground level to the top rail.",
+   "p1_xy": [
+    352.0,
+    656.0
+   ],
+   "p2_xy": [
+    352.0,
+    386.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.0,
+   "length_interval_m": [
+    1.65,
+    2.35
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The leaf is a standard welded double-rod mesh gate (mesh roughly 50x200 mm; about ten cells visible between bottom and top rail), hinged at the fence enclosure around the two stainless vent units; both the bottom rail at the paving and the top rail are visible in crop v2.",
+   "identity_uncertainty": "Typical double-rod fence gates are 1.8-2.0 m high (also 1.63 m available); exact product unknown, and the leaf is slightly open so only the vertical extent (not width) is used."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_ca07bf9e565d2311",
+ "schema_version": "0.2"
+}

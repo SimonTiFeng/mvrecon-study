@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1057",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "desk_left_cabinet_top",
+    "knowledge_group_id": "us_desk_height_30in",
+    "description": "Vertical distance from the floor at the base of the left wooden desk cabinet to the front edge of its top surface (desk working height).",
+    "p1": {
+     "xy": [
+      200,
+      147
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      200,
+      348
+     ],
+     "point_id": null
+    },
+    "length_m": 0.75,
+    "length_interval_m": [
+     0.71,
+     0.8
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Left desk has a drawer cabinet with metal pulls and a black laminate top carrying a radio; the top front edge and the floor line where the cabinet meets the wooden floor are both visible.",
+    "identity_uncertainty": "US dorm/office desk height is standardized at 29-30 in (0.74-0.76 m); interval allows a slightly taller cabinet or a raised shelf top."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "task_chair_back",
+    "knowledge_group_id": "task_chair_back_width",
+    "description": "Horizontal width of the chair's padded backrest between its left and right visible outer edges at mid-height.",
+    "p1": {
+     "xy": [
+      272,
+      238
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      395,
+      238
+     ],
+     "point_id": null
+    },
+    "length_m": 0.46,
+    "length_interval_m": [
+     0.42,
+     0.52
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Dark gray upholstered task-chair backrest viewed from behind, with left and right outer edges clearly visible above the seat and below the desk edge.",
+    "identity_uncertainty": "No brand or model visible; typical armless task-chair back width is 0.44-0.50 m, with chairs varying up to about 0.52 m."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "wastebasket_beside_desk",
+    "knowledge_group_id": "wastebasket_rim_diameter",
+    "description": "Diameter of the plastic wastebasket's top rim measured between its leftmost and rightmost rim points.",
+    "p1": {
+     "xy": [
+      406,
+      302
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      450,
+      302
+     ],
+     "point_id": null
+    },
+    "length_m": 0.27,
+    "length_interval_m": [
+     0.23,
+     0.33
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Tapered white/light-blue plastic wastebasket standing between the chair and the desk pedestal; full top rim ellipse and body down to the floor are visible (its mirror reflection on the right is a separate image, not used).",
+    "identity_uncertainty": "Generic unbranded wastebasket; top diameters of such bins range roughly 0.23-0.33 m."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "47207d763f71f7a7b89c888dbbf32989d336a5167d5615309f164d0441bc6563"
+}

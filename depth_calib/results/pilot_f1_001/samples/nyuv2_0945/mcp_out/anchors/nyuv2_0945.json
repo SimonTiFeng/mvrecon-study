@@ -1,0 +1,115 @@
+{
+ "image_id": "nyuv2_0945",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "monitor",
+   "knowledge_group_id": "consumer_lcd_display_diagonal",
+   "description": "Front-face diagonal of the black LCD monitor/TV standing on the desk, from the top-left screen corner to the bottom-right screen corner.",
+   "p1_xy": [
+    417.0,
+    72.0
+   ],
+   "p2_xy": [
+    486.0,
+    140.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.48,
+   "length_interval_m": [
+    0.42,
+    0.56
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Rectangular black panel with thin bezel, webcam block on top, sitting on the raised desk shelf; both endpoints lie on the front face corners of the panel.",
+   "identity_uncertainty": "Exact viewable diagonal class (17-22 in) is unknown; bezel-vs-panel corner placement and a slightly oblique viewing angle add a few percent error."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "office_chair",
+   "knowledge_group_id": "office_chair_five_star_base_diameter",
+   "description": "Diameter across the five-star caster base of the grey task chair, measured between the left and right outer ends of the base visible on the carpet.",
+   "p1_xy": [
+    289.0,
+    303.0
+   ],
+   "p2_xy": [
+    396.0,
+    290.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.6,
+   "length_interval_m": [
+    0.53,
+    0.69
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Grey upholstered task chair on castors; the dark star base spreads from the left arm tip to the right arm tip across the carpet, both endpoints on the base.",
+   "identity_uncertainty": "Typical 5-star office chair bases range about 55-70 cm; the two chosen tips may not be exactly diametrically opposite, so the chord can underestimate the true diameter."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "bed",
+   "knowledge_group_id": "us_adult_mattress_length",
+   "description": "Length along the bed's top surface from the head end next to the pillow to the foot end at the comforter edge by the footboard.",
+   "p1_xy": [
+    65.0,
+    200.0
+   ],
+   "p2_xy": [
+    185.0,
+    400.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.9,
+   "length_interval_m": [
+    1.75,
+    2.05
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Made bed with striped comforter, pillow at the head and metal footboard at the foot; the line follows the mattress top from head to foot.",
+   "identity_uncertainty": "All US standard adult mattresses (twin/full/queen) are 203 cm long, but the endpoints sit slightly inside the mattress edges (pillow centre, comforter edge), so the chord is a little shorter; the bed size itself is not identifiable."
+  },
+  {
+   "anchor_id": "a4",
+   "object_group_id": "shoes",
+   "knowledge_group_id": "adult_shoe_length",
+   "description": "Length of one black shoe lying on the carpet near the shelving unit, from heel to toe.",
+   "p1_xy": [
+    526.0,
+    396.0
+   ],
+   "p2_xy": [
+    604.0,
+    403.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.3,
+   "length_interval_m": [
+    0.26,
+    0.34
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Two low black shoes side by side on the carpet in front of the baseboard; heel and toe of the nearer shoe are both visible.",
+   "identity_uncertainty": "Shoe type/size is not identifiable (could be loafers, dress shoes or slippers); small objects make endpoint placement relatively imprecise."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_aea6d28c48b5edf0",
+ "schema_version": "0.2"
+}

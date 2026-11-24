@@ -1,0 +1,215 @@
+# Frozen experiment configuration -- Codex world-knowledge metric depth calibration
+# Protocol source: Codex_Metric_Depth_Agent_Handoff.md v0.2 (2026-11-17)
+# All numeric defaults used by code MUST come from this file. No hidden defaults in code.
+# Version is bumped whenever a value changes; hash recorded in configs/CONFIG_HASH.json
+# before any data generation or job submission.
+
+config_version: "0.3.0-declared-sampling"
+protocol_doc: "Codex_Metric_Depth_Agent_Handoff.md"
+protocol_version: "v0.2"
+created: "2026-11-17"
+
+run:
+  run_id_prefix: "pilot"
+  seed: 42                    # handoff 8.3: fixed sampling seed
+  concurrency: 1              # handoff 3.4: start at 1
+  retry_transport_errors: 1   # handoff 3.4: at most one transport/service retry; check submission state first
+
+budget:
+  # handoff 3.4 / 5.8
+  visual_calls_max: 4         # observation tool requests per sample (valid or invalid both count)
+  crops_max: 2                # subset of visual_calls
+  anchors_max: 6              # main submission max anchors
+  submission_attempts_max: 2  # first + one parameter-fix attempt; identical replays free
+  sample_timeout_s: 180
+  post_commit_grace_s: 10     # runner wait after accepted=true before terminating session
+
+# ---------- depth backends (all frozen; no training) ----------
+# handoff section 7. Checkpoint A/B first; C-F later.
+backends:
+  A:
+    name: "DA3 Mono"
+    hf_repo: "depth-anything/DA3MONO-LARGE"
+    weight_file: "model.safetensors"
+    local_dir: "models/DA3MONO-LARGE"
+    revision: "f465978e618db8cc79c83b8bbf24964857db1875"
+    depth_convention: "z_depth"       # optical-axis depth, arbitrary unit
+    metric: false
+  B:
+    name: "DA3 Metric"
+    hf_repo: "depth-anything/DA3METRIC-LARGE"
+    weight_file: "model.safetensors"
+    local_dir: "D:/models/DA3METRIC"
+    revision: "4010e39f3634a45bc60553321fb49fb760bd594e"
+    depth_convention: "z_depth_metric"
+    metric: true
+    focal_norm_factor: 300.0          # handoff 7: canonical->metric uses focal/300; applied by pinned code only
+  C:
+    name: "DA2 Relative"
+    hf_repo: "depth-anything/Depth-Anything-V2-Large"
+    weight_file: "depth_anything_v2_vitl.pth"
+    revision: "cbbb86a30ce19b5684b7a05155dc7e6cbc7685b9"
+    depth_convention: "relative_depth"
+    metric: false
+  D:
+    name: "DA2 Metric Hypersim"
+    hf_repo: "depth-anything/Depth-Anything-V2-Metric-Hypersim-Large"
+    weight_file: "depth_anything_v2_metric_hypersim_vitl.pth"
+    revision: "79720800638389a78b2defc92caa885104f69974"
+    depth_convention: "z_depth_metric"
+    metric: true
+    max_depth: 20.0
+  E:
+    name: "DA2 Metric VKITTI"
+    hf_repo: "depth-anything/Depth-Anything-V2-Metric-VKITTI-Large"
+    weight_file: "depth_anything_v2_metric_vkitti_vitl.pth"
+    revision: "070e97e4b80e317ec1d03c19927304f4091a180b"
+    depth_convention: "z_depth_metric"
+    metric: true
+    max_depth: 80.0
+  F:
+    name: "Depth Pro"
+    hf_repo: "apple/DepthPro"
+    weight_file: "depth_pro.pt"
+    revision: "ccd1350a774eb2248bcdfb3be430e38f1d3087ef"
+    depth_convention: "z_depth_metric"
+    metric: true
+
+active_backends: ["A", "B"]   # round 1: A/B only (handoff 7)
+
+backend_inference:
+  process_res: 504
+  # Storage for per-image depth caches. Formal run keeps float16 depth only
+  # (no conf channel) to stay within disk: 2 bytes/pixel.
+  cache_dtype: "float16"
+  cache_include_conf: false
+  # V100 (sm_70) has no native bf16. DA3's api.py picks bf16 when
+  # torch.cuda.is_bf16_supported() reports true, which it does on V100 via an
+  # emulation path. Set prefer_fp16_on_pre_sm80=true so the adapter forces
+  # fp16 autocast on compute capability < 8.0 instead of silently emulating.
+  prefer_fp16_on_pre_sm80: true
+  min_sm80_for_bf16: 80
+  process_res_method: "upper_bound_resize"
+  depth_resample: "cv2_inter_linear_to_original"
+  device: "cuda"
+  dtype: "auto"                 # bf16 when supported, else fp16
+  # DA3 metric canonical->metric: focal/300 applied by pinned official code only in
+  # the nested model. For the standalone metric checkpoint the adapter applies it
+  # exactly once, using K at the processed resolution; verified empirically on the
+  # dev split before pilot (recorded in results/<run>/metric_factor_check.json).
+  metric_conversion: "focal_over_300_once"
+
+# ---------- geometry / solver (frozen defaults; dev-set thresholds) ----------
+solver:
+  diagnostics:                 # shared by affine and inverse-affine solvers
+    rank_tol: 1.0e-6           # relative singular-value threshold for effective rank
+    cond_warn: 1.0e+4
+  metric_scale:
+    estimators: ["plain_median", "group_robust_median"]
+    use_consistent_variant: true # main row uses geometric-consistency acceptance; plain reported alongside
+    conservative_requires_ok: true  # conservative row: apply s only when status=="ok"
+    min_groups_consistency: 1    # v0.2.1 pre-registered rule: >=2 agreeing anchors (group rule evaluated post hoc only)
+    group_weight_cap: 1.0        # each object/knowledge group contributes total weight <= 1
+    log_scale_clip: [-3.0, 3.0]  # reject absurd per-anchor scale ratios beyond this (log)
+    min_anchors_consistency: 2   # >=2 anchors to run a consistency check; single anchor reported separately
+    consistency_rel_tol: 0.10    # geometric-consistency variant accepts only if |log s_i - log s*| <= tol
+  depth_affine:
+    loss: "huber_log_length"
+    huber_delta_log: 0.15
+    min_anchors: 3               # >=3 constraints before attempting affine (handoff 6.3)
+    num_starts: 9                # deterministic multi-start grid; record all local solutions
+    max_iter: 200
+    a_bounds: [1.0e-8, 1.0e+8]
+    shrink_on_conflict: true     # conservative variant: fall back to identity when unstable
+  inverse_depth_affine:
+    loss: "huber_log_length"
+    huber_delta_log: 0.15
+    min_anchors: 3
+    num_starts: 9
+    max_iter: 200
+    denom_min: 1.0e-8            # require a*r+b > denom_min inside valid region
+
+quality:
+  min_length_m: 0.02
+  max_length_m: 50.0
+  depth_valid_eps: 1.0e-6        # endpoint depth must be > eps and finite
+  endpoint_perturb_px: 2.0       # sensitivity probe radius (depth readout only)
+  perturb_depth_rel_change_warn: 0.01  # warn/reject if sampled depth shifts >1% under 2px move
+  min_endpoint_separation_px: 3.0
+
+evaluation:
+  metrics: ["abs_rel", "rmse_m", "delta1"]
+  delta_thresholds: [1.25]
+  # handoff 10.1: NO per-image median scaling / alignment for main table
+  main_table_alignment: "none"
+  bootstrap_unit: "scene"
+  bootstrap_samples: 2000
+  bootstrap_seed: 42
+  tail_report_quantiles: [0.05, 0.95]
+  # Subsample limits for fitted/oracle parameters. 0 = use every valid pixel.
+  # Formal results use 0 (no subsampling); the 50k/200k values were exploratory only.
+  oracle_fit_max_pixels: 0
+  oracle_affine_max_samples: 0
+  monotone_fit_max_pixels: 0
+  monotone_train_fraction: 0.5
+  monotone_knots: 4
+
+# ---------- data ----------
+data:
+  # FORMAL SETTINGS: full official datasets, native resolution, no per-scene cap.
+  # The 40/20/20 quotas and 1280 px resize used earlier are retained below as
+  # `_exploratory_*` for reproducing the diagnostic rounds only.
+  near_field_band_m: [0.5, 1.0]   # "near field" = pixels closer than these depths
+  formal_scope:
+    nyuv2: "all_labelled"        # 1449 images, 464 scenes, official intrinsics
+    eth3d: "all_dslr_scenes_downloaded"   # every downloaded DSLR scene, all images
+    resize_max_side: 0           # 0 = keep native resolution
+    max_images_per_scene: 0      # 0 = no cap
+  _exploratory_quotas:
+    pilot_quotas:
+      nyuv2: 40
+      eth3d: 20
+      arkit: 20
+    dev_quotas:
+      nyuv2: 20
+      eth3d: 10
+      arkit: 10
+    smoke_quotas:
+      nyuv2: 10
+      eth3d: 5
+      arkit: 5
+    resize_max_side: 1280
+    max_images_per_scene: 5
+  pilot_quotas:                 # exploratory pilot (diagnostic rounds only)
+    nyuv2: 40
+    eth3d: 20
+    arkit: 20
+  dev_quotas:                   # exploratory dev; scene-disjoint from pilot
+    nyuv2: 20
+    eth3d: 10
+    arkit: 10
+  smoke_quotas:                 # exploratory smoke; excluded from pilot summary
+    nyuv2: 10
+    eth3d: 5
+    arkit: 5
+  max_images_per_scene: 5
+  sampling: "sha256_order"
+  indoor_outdoor:               # pre-declared; never chosen by test score
+    nyuv2: "indoor"
+    eth3d: "outdoor"
+    arkit: "indoor"
+
+# ---------- leakage isolation ----------
+isolation:
+  agent_manifest_fields: ["sample_id", "image_path", "image_sha256", "width", "height"]
+  evaluator_only_fields: ["gt_path", "mask_path", "K", "scene_id", "source", "split"]
+  # handoff 2.3 / 16.10: isolation by real mount/permission boundary, not prompt.
+  # The Codex working dir receives only an anonymized copy plus a per-sample MCP context.
+
+frontend:
+  kind: "claude-code-vision-subagent"   # protocol change 2026-11-17: Codex CLI unusable
+  model: "claude-sonnet-5"
+  transport: "agent_client_cli"         # same handlers as the MCP server
+  codex_status: "unavailable: gpt-5.5/gpt-5-codex rejected for ChatGPT account (HTTP 400)"
+  prompt_harness: "prompts/claude_harness.txt"
+  prompt_direct: "prompts/claude_direct.txt"

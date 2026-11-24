@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1368",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "door_to_hallway",
+   "knowledge_group_id": "us_interior_door_standards",
+   "description": "White six-panel interior door leaf, open toward the hallway; horizontal span from the hinge-side edge to the latch/free edge at mid-height (~1.1 m above floor).",
+   "p1_xy": [
+    243.0,
+    165.0
+   ],
+   "p2_xy": [
+    281.0,
+    165.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.78,
+   "length_interval_m": [
+    0.7,
+    0.86
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Doorway left of the sideboard: white paneled leaf with three hinge marks on its left edge (~x=240 at y=115 and y=195) and a dark knob near the right edge (~x=272,y=207), so the visible leaf face spans the full leaf width; standard US interior doors are 30-32 in wide.",
+   "identity_uncertainty": "Exact door model unknown; assumed standard 80-in six-panel interior door (0.76-0.81 m wide). Edge position uncertain by about +/-3 px (~0.03 m)."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "wood_sideboard",
+   "knowledge_group_id": "buffet_sideboard_priors",
+   "description": "Wooden sideboard/buffet (two carved doors with center glass display + drawers), overall front width from left front arris to right front arris at mid-height.",
+   "p1_xy": [
+    340.0,
+    260.0
+   ],
+   "p2_xy": [
+    557.0,
+    260.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.6,
+   "length_interval_m": [
+    1.45,
+    1.75
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Large freestanding wooden sideboard on the wood floor against the back wall; its whole front (left door, center drawers, right door) is visible and its left/right front arrises are at x~338 and x~559, with the top edge y~218 and base y~346 giving a plausible sideboard W/H ratio of ~1.75.",
+   "identity_uncertainty": "Category prior only (typical 1.5-1.7 m buffets); specific make/size unknown, so width interval kept wide."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "wood_sideboard",
+   "knowledge_group_id": "buffet_sideboard_priors",
+   "description": "Same wooden sideboard/buffet, overall height from the front base at floor contact to the front top edge.",
+   "p1_xy": [
+    345.0,
+    221.0
+   ],
+   "p2_xy": [
+    345.0,
+    344.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.9,
+   "length_interval_m": [
+    0.82,
+    1.0
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Left front edge of the sideboard shows a clean bright-to-dark transition at the top (y~219) and the base meets the wood floor at y~346; a buffet base cabinet of this type is typically 34-38 in tall.",
+   "identity_uncertainty": "Category prior only; height typical for sideboards/buffets (0.85-0.95 m), identity of the exact piece unknown."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_0fce612be008b8fb",
+ "schema_version": "0.2"
+}

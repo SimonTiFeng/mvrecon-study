@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_0516",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "cushion_left_floral",
+   "knowledge_group_id": "square_decorative_cushion_45_50cm",
+   "description": "Width across the front face of the left floral square cushion propped against the headboard wall, from its left edge to its right edge at mid height.",
+   "p1_xy": [
+    461.0,
+    196.0
+   ],
+   "p2_xy": [
+    552.0,
+    186.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.47,
+   "length_interval_m": [
+    0.4,
+    0.56
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Two matching floral cushions stand side by side against the wall behind the bed; the left one shows a full square front face with both side edges and top edge visible.",
+   "identity_uncertainty": "Could be a 45x45 cm throw cushion or a 50x50 cm decorative pillow; if it is actually a 50x66 cm standard bed pillow used upright, the true width would be near the upper bound."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "bed_pillow_red",
+   "knowledge_group_id": "standard_us_bed_pillow_20x26in",
+   "description": "Length of the dark red bed pillow lying on the comforter, from its left end to its right end at mid height.",
+   "p1_xy": [
+    476.0,
+    250.0
+   ],
+   "p2_xy": [
+    624.0,
+    248.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.66,
+   "length_interval_m": [
+    0.56,
+    0.78
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The red pillow is a long low rectangle in front of the floral cushions, spanning most of the visible bed top with both ends visible.",
+   "identity_uncertainty": "Standard US pillow 20x26 in assumed; a queen 20x30 in pillow (0.76 m) or a folded throw would shift the length, and the right end sits close to the right floral cushion."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "purple_book_floor",
+   "knowledge_group_id": "large_hardcover_textbook_letter",
+   "description": "Long edge of the large purple hardcover book lying on top of the floor stack, between its two lower cover corners.",
+   "p1_xy": [
+    105.0,
+    367.0
+   ],
+   "p2_xy": [
+    235.0,
+    335.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.28,
+   "length_interval_m": [
+    0.22,
+    0.34
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "A thick purple hardcover with white printed cover text lies on top of the book pile in the lower left, with its lower cover edge spanning the visible face.",
+   "identity_uncertainty": "Title not legible, so it could be a US letter-size (0.279 m) textbook, a smaller 24 cm trade hardcover, or an oversized art book near 0.33 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_f9a723e79406b4c2",
+ "schema_version": "0.2"
+}

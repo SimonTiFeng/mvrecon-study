@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_1167",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "nyuv2_1167_white_sheet",
+   "knowledge_group_id": "standard_sheet_paper",
+   "description": "Long edge of the white sheet lying flat on the bedspread: near (lower) long edge between the sheet's visible lower-left corner and lower-right corner.",
+   "p1_xy": [
+    280.0,
+    356.0
+   ],
+   "p2_xy": [
+    341.0,
+    351.0
+   ],
+   "source_point_ids": [
+    "v2:p6",
+    "v2:p1"
+   ],
+   "length_m": 0.285,
+   "length_interval_m": [
+    0.2794,
+    0.297
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Bright white rectangular sheet on the pink patterned bedspread; its long side runs roughly left-right with the two end corners clearly visible against the dark bedspread shadow; the short side is about half the long side in the image, consistent with a standard paper sheet seen obliquely.",
+   "identity_uncertainty": "Only the category (a sheet of writing/printer paper) is certain, not the stationery format: US Letter long edge 0.2794 m vs A4 0.297 m; the neighborhood suggests US Letter is more likely, and a smaller card format cannot be fully excluded from one oblique view."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_44a1b4dd2e88793b",
+ "schema_version": "0.2"
+}

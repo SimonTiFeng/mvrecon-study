@@ -1,0 +1,121 @@
+{
+ "scene": "terrace",
+ "views": [
+  {
+   "sid": "eth3d_0228",
+   "K": [
+    [
+     3412.1300000000006,
+     0.0,
+     3035.47
+    ],
+    [
+     0.0,
+     3409.71,
+     2008.22
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "W": 6048,
+   "H": 4032,
+   "depth_units": "metres (model convention, focal/300 applied)",
+   "depth_convention": "z along optical axis",
+   "rgb_file": "eth3d_0228.jpg",
+   "rgb_scale": 0.5,
+   "rgb_note": "half-resolution JPEG; original ETH3D frame is 6048x4032 and K above refers to the ORIGINAL resolution"
+  },
+  {
+   "sid": "eth3d_0231",
+   "K": [
+    [
+     3410.51,
+     0.0,
+     3034.97
+    ],
+    [
+     0.0,
+     3409.46,
+     2012.81
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "W": 6048,
+   "H": 4032,
+   "depth_units": "metres (model convention, focal/300 applied)",
+   "depth_convention": "z along optical axis",
+   "rgb_file": "eth3d_0231.jpg",
+   "rgb_scale": 0.5,
+   "rgb_note": "half-resolution JPEG; original ETH3D frame is 6048x4032 and K above refers to the ORIGINAL resolution"
+  },
+  {
+   "sid": "eth3d_0233",
+   "K": [
+    [
+     3410.51,
+     0.0,
+     3034.97
+    ],
+    [
+     0.0,
+     3409.46,
+     2012.81
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "W": 6048,
+   "H": 4032,
+   "depth_units": "metres (model convention, focal/300 applied)",
+   "depth_convention": "z along optical axis",
+   "rgb_file": "eth3d_0233.jpg",
+   "rgb_scale": 0.5,
+   "rgb_note": "half-resolution JPEG; original ETH3D frame is 6048x4032 and K above refers to the ORIGINAL resolution"
+  },
+  {
+   "sid": "eth3d_0236",
+   "K": [
+    [
+     3410.51,
+     0.0,
+     3034.97
+    ],
+    [
+     0.0,
+     3409.46,
+     2012.81
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "W": 6048,
+   "H": 4032,
+   "depth_units": "metres (model convention, focal/300 applied)",
+   "depth_convention": "z along optical axis",
+   "rgb_file": "eth3d_0236.jpg",
+   "rgb_scale": 0.5,
+   "rgb_note": "half-resolution JPEG; original ETH3D frame is 6048x4032 and K above refers to the ORIGINAL resolution"
+  }
+ ],
+ "task_view_ids": [
+  "eth3d_0228",
+  "eth3d_0231",
+  "eth3d_0233",
+  "eth3d_0236"
+ ],
+ "metric_depth_reconstruction": "full-res metric z-depth = cv2.resize(npz[\"depth\"], (W,H)) * ((K[0,0]*Hp/W)+(K[1,1]*Wp/H))/2/300, where (Hp,Wp)=sidecar[\"processed_shape\"]. `model_output/<sid>_depth_metric_q4.npy` is that quantity at 1/4 scale, float16, metres.",
+ "note": "Agent-visible only: RGB, intrinsics, per-image own-frame point clouds and depth predictions. No reference poses, no injected transforms, no task ground truth, no reference scan."
+}

@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0845",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "switch_plate_left",
+    "knowledge_group_id": "us_single_gang_standard_wall_plate",
+    "description": "White single-gang toggle switch cover plate on the wall above the granite counter (the left plate of the visible pair); measured along its vertical centre line from the top edge to the bottom edge.",
+    "p1": {
+     "xy": [
+      530,
+      183
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      530,
+      215
+     ],
+     "point_id": null
+    },
+    "length_m": 0.1143,
+    "length_interval_m": [
+     0.107,
+     0.148
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Two identical white cover plates are clearly visible on the beige side wall. The left plate's bright region measures 21 x 33 px (aspect 1.57), matching the classic 2.75 x 4.5 in US single-gang plate ratio (1.64); points are placed on the top and bottom edges at mid-width.",
+    "identity_uncertainty": "Standard (2.75 x 4.5 in) vs oversized/jumbo (3.5 x 5.75 in) plate cannot be fully separated at this resolution, since both have the same aspect ratio; the interval brackets both interpretations."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "switch_plate_right",
+    "knowledge_group_id": "us_single_gang_standard_wall_plate",
+    "description": "Second white single-gang toggle switch cover plate to the right of a1, on the same wall; measured along its vertical centre line from top edge to bottom edge.",
+    "p1": {
+     "xy": [
+      584,
+      183
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      584,
+      216
+     ],
+     "point_id": null
+    },
+    "length_m": 0.1143,
+    "length_interval_m": [
+     0.107,
+     0.148
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "The right plate's bright region measures 24 x 35 px (aspect about 1.46); its top and bottom edges are horizontal against the plain wall, and the points are on those edges at mid-width.",
+    "identity_uncertainty": "Same standard-vs-jumbo ambiguity as a1; the right plate is closer to the bright door frame, so its measured pixel extent has about +/-1 px extra uncertainty."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "a815092105a4d21fbc430cc48e0eeb6e99c090d8bc78a60650ae280cfd6c9ed1"
+}

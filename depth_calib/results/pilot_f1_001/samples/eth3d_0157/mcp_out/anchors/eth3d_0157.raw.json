@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0157",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "main_facade_striped_masonry_pier",
+    "knowledge_group_id": "european_brick_course_module",
+    "description": "Vertical run of 12 brick courses, mortar joint to mortar joint, on the sunlit striped masonry pier between two ground-floor windows",
+    "p1": {
+     "xy": [
+      920,
+      631
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      920,
+      695
+     ],
+     "point_id": null
+    },
+    "length_m": 0.96,
+    "length_interval_m": [
+     0.88,
+     1.04
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "The sunlit brick pier (~x 900-950) shows alternating red and cream brick courses with clear horizontal mortar joints at ~5.3 px pitch; 12 course modules are counted between the two chosen joints (64 px span), and individual bricks show the standard ~3:1 length-to-height ratio.",
+    "identity_uncertainty": "Exact brick format of this 19th-century Swiss industrial building is unknown; course module assumed 75-85 mm (65-71 mm brick plus 10-12 mm joint)."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "bench_bottom_left",
+    "knowledge_group_id": "park_bench_seat_height",
+    "description": "Seat height of the wooden bench at lower left: point on the seat top surface directly above the front metal leg, to that leg's ground contact",
+    "p1": {
+     "xy": [
+      43,
+      759
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      43,
+      790
+     ],
+     "point_id": null
+    },
+    "length_m": 0.45,
+    "length_interval_m": [
+     0.4,
+     0.5
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "A thick wooden seat beam on U-shaped metal legs is visible; the seat top plane (bright upper face of the beam) and the bottom of the front leg resting on the gravel are both clearly visible, spanning ~31 px vertically.",
+    "identity_uncertainty": "Public/park bench seat heights are standardized around 0.40-0.50 m, but the exact bench model is unknown and the leg-ground contact is partly in shadow."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "litter_bin_bottom_left",
+    "knowledge_group_id": "street_litter_bin_height",
+    "description": "Height of the visible front face of the black street litter bin beside the bench (top-left corner to bottom-left corner of the face)",
+    "p1": {
+     "xy": [
+      77,
+      728
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      66,
+      792
+     ],
+     "point_id": null
+    },
+    "length_m": 0.92,
+    "length_interval_m": [
+     0.8,
+     1.05
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A tall black rectangular container with a top slot and a round opening stands on the gravel next to the bench; both left-hand corners of its visible face are distinguishable against the lighter stone plinth and gravel.",
+    "identity_uncertainty": "Municipal litter bins are typically 0.8-1.1 m tall; the exact product is unknown and the slanted top makes the chosen left face edge slightly shorter than the nominal overall height."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "fb88d4a4083d6c893dd8b74835562fd19079e66a6a3e209f29e1f8df351cb960"
+}

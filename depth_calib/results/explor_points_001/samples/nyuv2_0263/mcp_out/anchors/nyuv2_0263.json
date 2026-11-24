@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_0263",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "chair_back_01",
+   "knowledge_group_id": "dining_chair_back_width",
+   "description": "3D straight-line distance across the top of the spindle-back wooden dining chair, from the left end of its crest rail to the top of its right rear stile (chair back width).",
+   "p1_xy": [
+    232.0,
+    260.0
+   ],
+   "p2_xy": [
+    317.0,
+    257.0
+   ],
+   "source_point_ids": [
+    "v1:p0",
+    "v1:p1"
+   ],
+   "length_m": 0.42,
+   "length_interval_m": [
+    0.35,
+    0.5
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Dark curved crest rail of a spindle-back wooden chair, seen from behind against a bright window blind; the rail's continuous top edge runs at y~258-260 from candidate corner v1:p0 (left rail end) to v1:p1 (right rear stile top), both lying on the dark chair wood.",
+   "identity_uncertainty": "Make/model is not identifiable; typical domestic side chairs are 0.40-0.48 m wide across the back, but a narrow accent chair (~0.36 m) or a wide chair (~0.50 m) cannot be excluded. Both points are a few pixels inside the outer rail corners, so the measured span is slightly below the outer back width, and the rail is slightly bowed, so the straight chord is a little shorter than the arc."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_2329797473f118ea",
+ "schema_version": "0.2"
+}

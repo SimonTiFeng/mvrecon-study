@@ -1,0 +1,15 @@
+file=models\DA3MONO-LARGE\model.safetensors size=1336734448 segments=20 sha256=7a799a7f95eb8d4c404c2ca8be3dc3276b350a417ddc4420db72ba850cc0e960
+seg 0/19 bytes=67108864 attempt=5 FAIL
+Traceback (most recent call last):
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\upload_verified.py", line 110, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\Simon\Downloads\Git\research\music\depth_calib\scripts\upload_verified.py", line 70, in main
+    p.write_bytes(data)
+  File "C:\Users\Simon\anaconda3\Lib\pathlib.py", line 1036, in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Simon\anaconda3\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Simon\\AppData\\Local\\Temp\\upseg_euxup8iq\\model.safetensors.seg0001'

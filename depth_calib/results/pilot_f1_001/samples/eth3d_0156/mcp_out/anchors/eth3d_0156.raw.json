@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0156",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "facade_polychrome_brick_banding",
+    "knowledge_group_id": "historic_german_clay_brick_course_module",
+    "description": "Vertical distance on the sunlit ground-floor brick wall between the two arched windows (x~940): from the centre of one wide red decorative brick band (y~465) down to the centre of the fourth wide red band (y~675). The decorative banding period is 8 brick courses (3 red + 2 cream + 1 red + 2 cream, measured from the colour profile), so the span is 32 brick courses.",
+    "p1": {
+     "xy": [
+      940,
+      465
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      940,
+      675
+     ],
+     "point_id": null
+    },
+    "length_m": 2.52,
+    "length_interval_m": [
+     2.3,
+     2.75
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Redness profile of the brick wall at x=930-950 px shows five wide red bands at y~456-473, 506-524, 558-576, 612-630, 666-685, each separated by a two-course cream band and one thin red course; the two chosen band centres are 210 px apart and span exactly four full 8-course banding periods (32 courses).",
+    "identity_uncertainty": "Exact historic brick format is not measurable; assumed 19th-century German NF/RF clay brick with 75-83 mm course module including mortar (0.075-0.083 m/course). Band-period counting could be off by one course per period."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "c5b960dcd1823a6a52c4a8e3eb8128e2a9153acd10550fa4fb1e798b2fd48d1f"
+}

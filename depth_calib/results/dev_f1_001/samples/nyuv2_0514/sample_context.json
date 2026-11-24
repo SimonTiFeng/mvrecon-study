@@ -1,0 +1,9 @@
+{
+ "image_id": "nyuv2_0514",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_f1_001\\samples\\nyuv2_0514\\input.png",
+ "width": 640,
+ "height": 480,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/dev_f1_001/samples/nyuv2_0514/mcp_out",
+ "run_id": "dev_f1_001",
+ "mode": "harness"
+}

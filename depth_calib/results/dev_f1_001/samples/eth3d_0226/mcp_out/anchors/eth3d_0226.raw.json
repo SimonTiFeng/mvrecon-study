@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0226",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "terrace_paving",
+    "knowledge_group_id": "square_concrete_paver_standard_sizes",
+    "description": "Width of one square concrete paver slab on the courtyard terrace, measured between the two tile corners on one transverse joint at mid-foreground.",
+    "p1": {
+     "xy": [
+      323,
+      767
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      422,
+      758
+     ],
+     "point_id": null
+    },
+    "length_m": 0.5,
+    "length_interval_m": [
+     0.4,
+     0.6
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Large square concrete paving slabs form the terrace; the dark joint lines are clearly visible and adjacent joints are evenly spaced. The two chosen points sit on corners where one transverse joint meets two neighbouring longitudinal joints, so their 3D separation is one slab edge.",
+    "identity_uncertainty": "No marking or exact product identifiable. Square concrete pavers are commonly 40x40, 50x50 or 60x60 cm. Perspective consistency (joint spacing vs image row, and the standard 0.4 m round cover nearby measuring ~0.76 of a slab pitch) favours 50 cm."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "terrace_paving",
+    "knowledge_group_id": "square_concrete_paver_standard_sizes",
+    "description": "Width of one square concrete paver slab on the same joint pair, measured nearer the camera where the slabs are larger in the image.",
+    "p1": {
+     "xy": [
+      314,
+      808
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      428,
+      797
+     ],
+     "point_id": null
+    },
+    "length_m": 0.5,
+    "length_interval_m": [
+     0.4,
+     0.6
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Same slab grid as a1: two neighbouring longitudinal joints crossed by one transverse joint, with both corner intersections visible; the scan-line spacing (~114 px at this row) matches the grid pitch of the same paving.",
+    "identity_uncertainty": "Same uncertainty as a1: standard square paver sizes 40/50/60 cm; the two independent grid measurements agree with each other, so the ambiguity is one of nominal size only."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "round_cover_at_lawn_edge",
+    "knowledge_group_id": "standard_round_shaft_cover",
+    "description": "Diameter of the round utility/shaft cover set in the paving at the lawn edge, measured between the left and right extremes of its visible rim.",
+    "p1": {
+     "xy": [
+      262,
+      669
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      311,
+      669
+     ],
+     "point_id": null
+    },
+    "length_m": 0.4,
+    "length_interval_m": [
+     0.3,
+     0.5
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A clearly visible circular cover with a raised rim and cross pattern lies in the paving near the lawn edge; the ellipse's horizontal major axis spans about 50 px while the adjacent slab pitch there is about 66 px.",
+    "identity_uncertainty": "No lettering readable. Round concrete/steel shaft covers are typically 0.3-0.5 m; the observed size relative to the paving favours 0.4 m."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "dbd948fbc60b7c3843cb7ccfba67ea1884a08f1c5e2c27a7815bdbb701514ffd"
+}

@@ -1,0 +1,10 @@
+[
+ {
+  "sample_id": "synthetic_0000",
+  "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_claude_test\\samples\\synthetic_0000\\input.png",
+  "width": 640,
+  "height": 480,
+  "image_sha256": "73496ba449d2c067c7ae70dc3d5a2aec8ea4cc2d0944a9a8d8b9ec5531395262",
+  "context": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/dev_claude_test/samples/synthetic_0000/sample_context.json"
+ }
+]

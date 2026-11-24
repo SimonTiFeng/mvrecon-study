@@ -1,0 +1,54 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0130",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "mw_otr",
+    "knowledge_group_id": "otr_microwave_30in_17in",
+    "description": "Over-the-range microwave front-face vertical extent on its right side: top-front-right corner down to the bottom-front-right corner (microwave body height).",
+    "p1": {
+     "xy": null,
+     "point_id": "v2:p10"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v2:p2"
+    },
+    "length_m": 0.425,
+    "length_interval_m": [
+     0.39,
+     0.46
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Right front corner column of the built-in over-the-range microwave is fully visible: top-front edge meets the right vertical edge (candidate point at that junction), and the bottom-front edge reaches the lower-right corner; grille slats, door glass, brand label and white bottom strip all lie between them.",
+    "identity_uncertainty": "Brand/model unreadable; over-the-range bodies span about 16.4-17.2 in (0.417-0.437 m) and a 24-in compact unit would be shorter. If the diagonal above is the cabinet edge with a gap, the span overlaps a little extra space."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "mw_otr",
+    "knowledge_group_id": "otr_microwave_30in_17in",
+    "description": "Over-the-range microwave front width along the bottom front edge, from the lower-left front corner to the lower-right front corner.",
+    "p1": {
+     "xy": null,
+     "point_id": "v2:p1"
+    },
+    "p2": {
+     "xy": null,
+     "point_id": "v2:p2"
+    },
+    "length_m": 0.73,
+    "length_interval_m": [
+     0.64,
+     0.81
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The microwave is mounted directly above a standard 30-in gas range and its front face (door glass plus dark control-panel area and right bezel) spans the full frame from the lower-left front corner to the lower-right front corner at the image border.",
+    "identity_uncertainty": "Model unreadable; nominal 30-in (0.762 m) OTR width is the US standard, but the rightmost 1-2 percent may be clipped by the frame and the two candidate points sit a few pixels inside the true corners, so the actual point-to-point chord is slightly under nominal width. A compact 24-in unit would not fit this range."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "bbc8a6833fcc607728d4b2efd47e6138fd747d8e1ca47dffff5522d3bc1dd6f8"
+}

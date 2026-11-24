@@ -1,0 +1,9 @@
+{
+ "arguments": {
+  "image_id": "synthetic_0000",
+  "status": "abstain",
+  "anchors": [],
+  "abstain_reason": "合成几何测试图，没有可靠的世界知识尺寸参照。"
+ },
+ "request_hash": "b448a3bfb1892f71608241786eb775442674c0bfa4bb0788c883da661d3b88ca"
+}

@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0008",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "award_frame_mid_paper",
+    "knowledge_group_id": "us_letter_paper",
+    "description": "Chord across the printed certificate inside the middle framed document on the rear wall, taken between the midpoints of its left and right inner edges = paper short-side width (US Letter 8.5 in / A4 210 mm)",
+    "p1": {
+     "xy": [
+      214,
+      101
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      307,
+      118
+     ],
+     "point_id": null
+    },
+    "length_m": 0.2159,
+    "length_interval_m": [
+     0.2,
+     0.232
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Portrait white sheet with typed text and a signature fills the thin black frame; both endpoints lie on the sheet a few pixels inside its left/right inner edges at mid-height.",
+    "identity_uncertainty": "Sheet is US Letter (0.2159 m) or A4 (0.210 m); a white mat border or a diploma-size sheet would shift the true paper edges; endpoint placement error about +/-3 px."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "award_frame_mid_paper",
+    "knowledge_group_id": "us_letter_paper",
+    "description": "Chord across the same certificate between the midpoints of its top and bottom inner edges = paper long-side height (US Letter 11 in / A4 297 mm)",
+    "p1": {
+     "xy": [
+      268,
+      61
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      253,
+      159
+     ],
+     "point_id": null
+    },
+    "length_m": 0.2794,
+    "length_interval_m": [
+     0.26,
+     0.302
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Same white printed sheet; the endpoints sit on the sheet just below the top inner edge and just above the bottom inner edge, at mid-width.",
+    "identity_uncertainty": "US Letter/A4 ambiguity plus possible small mat margin; frame inner edges are thin and low contrast, endpoint error about +/-3-4 px."
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "corridor_linear_luminaire",
+    "knowledge_group_id": "fluorescent_fixture_4ft",
+    "description": "Length of the linear twin-lamp fluorescent luminaire on the ceiling of the adjoining corridor, from left end cap to right end",
+    "p1": {
+     "xy": [
+      479,
+      103
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      605,
+      121
+     ],
+     "point_id": null
+    },
+    "length_m": 1.22,
+    "length_interval_m": [
+     1.05,
+     1.38
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "A long, continuous bright bar with two parallel luminous tube lines and dark end caps runs left-right on the far corridor ceiling; both endpoints are placed at the housing ends.",
+    "identity_uncertainty": "Assumed a nominal 48-inch (4-ft) luminaire/tube length, dominant in US offices; a 40-inch or 8-ft variant would change the scale, and the left end sits close to the doorway head with a few pixels of endpoint ambiguity."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "51c15ecca4b7fa4f864f85085a487b48f072bb9f69abe44de68e4776f788d939"
+}

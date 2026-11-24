@@ -1,0 +1,89 @@
+{
+ "image_id": "eth3d_0084",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "double_glass_entry_door_no64",
+   "knowledge_group_id": "std_double_leaf_entrance_door_width",
+   "description": "Overall frame width of the double-leaf glass entrance door of house 64, between the outer top corners of its white frame.",
+   "p1_xy": [
+    161.0,
+    360.0
+   ],
+   "p2_xy": [
+    328.0,
+    377.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.92,
+   "length_interval_m": [
+    1.8,
+    2.06
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Both glass leaves, the central meeting stile and both outer jambs of the double door are fully visible; both points sit on the outer top corners of the door frame.",
+   "identity_uncertainty": "Leaves may be 0.90 m or 1.00 m wide, so the outer width is about 1.8-2.1 m; the facade is viewed obliquely, so only the 3D distance between the frame corners is used."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "double_glass_entry_door_no64",
+   "knowledge_group_id": "std_entrance_door_height",
+   "description": "Height of the glass entrance door from the top frame edge down to the threshold at the floor, measured across the left leaf.",
+   "p1_xy": [
+    200.0,
+    364.0
+   ],
+   "p2_xy": [
+    200.0,
+    606.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.15,
+   "length_interval_m": [
+    2.02,
+    2.35
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The door top frame and the bottom rail with the threshold line are visible; the pair lies on the top and bottom edges of the left door leaf.",
+   "identity_uncertainty": "Modern entrance doors are 2.1-2.4 m high; the exact leaf height including frame is not directly readable, so the interval covers that range."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "grey_steel_side_door",
+   "knowledge_group_id": "std_single_leaf_door_height",
+   "description": "Height of the single-leaf grey steel door (technical side entrance) next to the scaffolding, from the top frame edge to the door sill.",
+   "p1_xy": [
+    450.0,
+    404.0
+   ],
+   "p2_xy": [
+    450.0,
+    620.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.0,
+   "length_interval_m": [
+    1.9,
+    2.15
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The grey steel door and its frame are visible between the white utility box and the scaffold pole; the top frame line and the bottom rail/sill line are both visible at this column.",
+   "identity_uncertainty": "A standard 0.9 x 2.0-2.1 m single-leaf door; the bottom edge is close to a small sill/ramp so the base line is uncertain by about 5 cm."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_93191538829b2ead",
+ "schema_version": "0.2"
+}

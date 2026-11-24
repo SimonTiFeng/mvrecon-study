@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0473",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "basketball_on_chair",
+    "knowledge_group_id": "basketball_size7_diameter",
+    "description": "Diameter of the basketball resting on the office chair, measured between its left and right silhouette edges through the ball center.",
+    "p1": {
+     "xy": [
+      176,
+      214
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      245,
+      218
+     ],
+     "point_id": null
+    },
+    "length_m": 0.239,
+    "length_interval_m": [
+     0.226,
+     0.25
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Orange ball with black seams leaning against the black leather chair; left and right silhouette edges visible against the dark chair and white paper stack.",
+    "identity_uncertainty": "Assumed a men's size 7 regulation basketball (circumference 29.5 in, diameter about 23.9 cm); could be a size 6 youth ball (about 22.6 cm)."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "desk_frame",
+    "knowledge_group_id": "office_desk_height",
+    "description": "Vertical height of the desk at its front-left leg, from the leg's floor contact point to the front-left corner of the desk top directly above it.",
+    "p1": {
+     "xy": [
+      206,
+      452
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      199,
+      272
+     ],
+     "point_id": null
+    },
+    "length_m": 0.75,
+    "length_interval_m": [
+     0.7,
+     0.79
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Black metal desk frame front-left leg meets the wood floor near the bottom of the frame; the desk top's left front corner is clearly visible above it.",
+    "identity_uncertainty": "Standard office desk height (28-30 in); exact model unknown, a taller writing table cannot be excluded."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "22a5c1810677069df6aaa3723a31fe6a67850b4baa4402a31d1a5d6dfa49746e"
+}

@@ -1,0 +1,214 @@
+{
+ "A_calib_B_fallback": {
+  "abs_rel": {
+   "mean": 0.188867963062077,
+   "median": 0.12207964481491564,
+   "ci_low": 0.14683936198055347,
+   "ci_high": 0.23683595561191653,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.1781179760450513,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.19367716778022012,
+    "n": 38
+   }
+  }
+ },
+ "A_calib_affine": {
+  "abs_rel": {
+   "mean": 0.6244660543059237,
+   "median": 0.6214448812320783,
+   "ci_low": 0.5780537757182019,
+   "ci_high": 0.6682891885434508,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.7367951677544675,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.5742135561842064,
+    "n": 38
+   }
+  }
+ },
+ "A_raw_unscaled": {
+  "abs_rel": {
+   "mean": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "n": 0
+  },
+  "by_dataset": {}
+ },
+ "B_calib_conservative": {
+  "abs_rel": {
+   "mean": 0.11029610772237365,
+   "median": 0.10315278910540528,
+   "ci_low": 0.09794281080844128,
+   "ci_high": 0.12348621067634603,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.13316290253312035,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.10006622583335538,
+    "n": 38
+   }
+  }
+ },
+ "B_calib_consistent": {
+  "abs_rel": {
+   "mean": 0.1915506785791689,
+   "median": 0.12206235116232766,
+   "ci_low": 0.14900508024310574,
+   "ci_high": 0.23996723120013408,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.19005031868550734,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.192221892215807,
+    "n": 38
+   }
+  }
+ },
+ "B_calib_plain": {
+  "abs_rel": {
+   "mean": 0.23986455281683694,
+   "median": 0.16924422795262892,
+   "ci_low": 0.1889902071955957,
+   "ci_high": 0.29370760012355723,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.27788890349326795,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.22285365909317037,
+    "n": 38
+   }
+  }
+ },
+ "B_metric_raw": {
+  "abs_rel": {
+   "mean": 0.10399299857942092,
+   "median": 0.0983126041197583,
+   "ci_low": 0.09425809174443418,
+   "ci_high": 0.11412190827107362,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.11615753325139277,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.09855096991038088,
+    "n": 38
+   }
+  }
+ },
+ "B_oracle_scale_absrel": {
+  "abs_rel": {
+   "mean": 0.051948932371917785,
+   "median": 0.0438016936509819,
+   "ci_low": 0.0437498709503293,
+   "ci_high": 0.061597626996201554,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.02290299538425378,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.06494316734008325,
+    "n": 38
+   }
+  }
+ },
+ "B_oracle_scale_ls": {
+  "abs_rel": {
+   "mean": 0.06158424990621451,
+   "median": 0.047632798603305694,
+   "ci_low": 0.047950451370182445,
+   "ci_high": 0.081417000473976,
+   "n": 55
+  },
+  "by_dataset": {
+   "eth3d": {
+    "abs_rel_mean": 0.02399234866267186,
+    "n": 17
+   },
+   "nyuv2": {
+    "abs_rel_mean": 0.07840167940990465,
+    "n": 38
+   }
+  }
+ },
+ "B_unconverted": {
+  "abs_rel": {
+   "mean": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "n": 0
+  },
+  "by_dataset": {}
+ },
+ "submission_missing": {
+  "abs_rel": {
+   "mean": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "n": 0
+  },
+  "by_dataset": {}
+ },
+ "_paired_vs_B_metric_raw": {
+  "A_calib_B_fallback": {
+   "delta_abs_rel": {
+    "mean": -0.08487496448265613,
+    "median": 0.0,
+    "ci_low": -0.13350298886856415,
+    "ci_high": -0.04793192865146624,
+    "n": 55
+   },
+   "n_pairs": 55,
+   "improved": 3,
+   "worse": 25
+  },
+  "A_calib_affine": {
+   "delta_abs_rel": {
+    "mean": -0.5204730557265026,
+    "median": -0.5151869184124651,
+    "ci_low": -0.5637656932026299,
+    "ci_high": -0.47359584075685635,
+    "n": 55
+   },
+   "n_pairs": 55,
+   "improved": 0,
+   "worse": 55
+  },
+  "B_calib_conservative": {
+   "delta_abs_rel": {
+    "mean": -0.006303109142952733,
+    "median": 0.0,
+    "ci_low": -0.015082054319575822,
+    "ci_high": -0.0002370570835810682,
+    "n": 55
+   },
+   "n_pai

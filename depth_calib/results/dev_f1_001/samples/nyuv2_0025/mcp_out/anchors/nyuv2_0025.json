@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_0025",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "screen_1",
+   "knowledge_group_id": "projector_screen_4x3",
+   "description": "投影幕白色可视区域的水平宽度，取左右边框内侧在同一高度的两个可见表面点",
+   "p1_xy": [
+    258.0,
+    155.0
+   ],
+   "p2_xy": [
+    532.0,
+    155.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.85,
+   "length_interval_m": [
+    1.5,
+    2.1
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "白色投影幕带黑色边框，可见区域宽高比约 4:3，属于常见 84-100 英寸手动/电动幕布尺寸类别",
+   "identity_uncertainty": "无法识别具体型号与对角尺寸；幕布黑边与成像区域边界可能有数厘米歧义，故给出较宽区间"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_56e840adfadebb15",
+ "schema_version": "0.2"
+}

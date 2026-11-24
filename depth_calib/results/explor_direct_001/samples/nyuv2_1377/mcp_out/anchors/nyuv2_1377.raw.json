@@ -1,0 +1,94 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1377",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "g_wallplate_left_wall",
+    "knowledge_group_id": "us_std_1gang_wallplate_h",
+    "description": "左侧灰蓝墙面上浅米白色插座/开关面板：面板上缘中点到下缘中点的三维竖直距离（即面板高度）",
+    "p1": {
+     "xy": [
+      164,
+      208
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      164,
+      227
+     ],
+     "point_id": null
+    },
+    "length_m": 0.114,
+    "length_interval_m": [
+     0.1,
+     0.133
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "左侧墙面上有一块约13x20像素的浅米白矩形，暖色通道(r-b)在板上明显高于墙面；上下边缘清晰、内部有竖向暗槽，宽高比约0.6-0.7，与美标1-gang墙面面板2.75x4.5 in(比例0.61)相符",
+    "identity_uncertainty": "模糊无法确认是插座还是开关面板，但美标1-gang两者面板高度同为4.5 in=0.114 m；若为oversize面板(约5.25 in)高度约0.133 m，已包含在区间内"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "g_wallplate_backsplash",
+    "knowledge_group_id": "us_std_1gang_wallplate_h",
+    "description": "后墙吊柜左侧的浅色小面板（疑似柜灯开关）：面板上缘中点到下缘中点的三维竖直距离",
+    "p1": {
+     "xy": [
+      354,
+      118
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      354,
+      134
+     ],
+     "point_id": null
+    },
+    "length_m": 0.114,
+    "length_interval_m": [
+     0.1,
+     0.133
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "后墙面上、玻璃吊柜左侧可见约13x17像素的浅米白小矩形，上亮下暗、中央有竖槽，形态与左墙面板同型；随距离增加其成像略小于左墙面板",
+    "identity_uncertainty": "该处更远更模糊且紧邻柜体暗影；若实为墙面反光/污渍则该证据失效。规格沿用同一美标4.5 in面板高度假设，区间已放宽"
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "g_basecabinet_front",
+    "knowledge_group_id": "us_kitchen_counter_height_36in",
+    "description": "奶油色底柜正面：花岗岩台面前上棱线到同列柜体下缘（与地砖交界线）的三维直线距离，对应台面落地高度",
+    "p1": {
+     "xy": [
+      380,
+      200
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      380,
+      363
+     ],
+     "point_id": null
+    },
+    "length_m": 0.88,
+    "length_interval_m": [
+     0.78,
+     1.0
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "x≈380处台面前缘在y≈200由暗(花岗岩面)转亮(奶油柜面)，柜体正面沿同一竖向棱向下至y≈363与地砖交界；该单元为整块花岗岩台面、台下内嵌酒柜，属美式厨房台下柜标准构造",
+    "identity_uncertainty": "无法确认柜体底缘是落地还是内凹踢脚板上缘(相差约0.1 m)，也不能排除吧台非标高度；故点值取0.88 m、区间放宽至0.78-1.00 m"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "86848fc0aa8c25d9da8821e8f041cc9714bd2ff70583eb490cd3acff97d5a46e"
+}

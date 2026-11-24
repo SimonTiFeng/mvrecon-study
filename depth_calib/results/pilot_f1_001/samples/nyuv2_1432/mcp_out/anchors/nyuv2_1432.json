@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_1432",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "chair_right_slatback",
+   "knowledge_group_id": "dining_chair_overall_height",
+   "description": "Right-hand wooden slat-back dining chair: overall height from the top of the back rail down to the base of its rear leg on the floor.",
+   "p1_xy": [
+    496.0,
+    211.0
+   ],
+   "p2_xy": [
+    492.0,
+    340.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.94,
+   "length_interval_m": [
+    0.83,
+    1.09
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "A wooden dining chair stands on the wood floor at the right side of the table; its back top rail is visible near y=211-218 and the lower end of a leg meets the floor at the detector corner (492,340).",
+   "identity_uncertainty": "Chair model/set is not identifiable; typical wooden dining chairs measure 0.90-1.02 m overall. The back is slightly reclined and the leg base may lie a few cm closer to the camera, so the straight-line span can exceed the vertical height by several cm."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "door_backhall_white",
+   "knowledge_group_id": "interior_door_width",
+   "description": "White paneled interior door in the back hallway; width between the two upper corners of the door leaf (its bottom edge is occluded by a chair standing in front).",
+   "p1_xy": [
+    129.0,
+    56.0
+   ],
+   "p2_xy": [
+    172.0,
+    55.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.74,
+   "length_interval_m": [
+    0.58,
+    0.9
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "A white molded-panel door is visible at the back-left of the room beside the stair opening; its top edge runs between the two selected points at about y=55.",
+   "identity_uncertainty": "The door is 5-6 m away and seen obliquely, so its top edge is only about 40-50 px long; standard US interior-door widths span 24-36 in (0.61-0.91 m) and the exact nominal size cannot be read off. Endpoint placement can shift the span by roughly 0.02-0.05 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_88918d08531e8c98",
+ "schema_version": "0.2"
+}

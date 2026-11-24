@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0959",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "lamp_shade",
+   "knowledge_group_id": "drum_shade_14in",
+   "description": "White cylindrical drum lampshade of the bedside lamp at right; horizontal 3D diameter across the shade silhouette.",
+   "p1_xy": [
+    471.0,
+    256.0
+   ],
+   "p2_xy": [
+    591.0,
+    256.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.356,
+   "length_interval_m": [
+    0.3,
+    0.43
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Shade is a clean bright drum against a dark wall, left and right silhouette edges visible at 471 and 591 px on the same row; measured width 120 px at mid-height.",
+   "identity_uncertainty": "Unbranded generic shade; drum shades for bedside lamps commonly run 12-17 in diameter, nominal 14 in assumed."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "window_shutters",
+   "knowledge_group_id": "plantation_shutter_3p5in",
+   "description": "White plantation-shutter louvers on the far-wall window; vertical span of five consecutive louver pitches.",
+   "p1_xy": [
+    160.0,
+    148.0
+   ],
+   "p2_xy": [
+    160.0,
+    198.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.45,
+   "length_interval_m": [
+    0.32,
+    0.58
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Regular horizontal louver lines on the white shutter panel; row profile at x 130-190 shows bright louver edges every 10 px (148,158,168,178,188,198), i.e. five pitches between the two points.",
+   "identity_uncertainty": "Louver blade width not legible; standard widths are 2.5, 3.5 and 4.5 in; 3.5 in (0.089 m) assumed, so the 5-pitch span is 0.32-0.58 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_01b9148619fc8cf3",
+ "schema_version": "0.2"
+}

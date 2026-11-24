@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_1431",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "bg_doorway_left",
+   "knowledge_group_id": "interior_door_80in_standard",
+   "description": "Height of the white paneled interior door/opening at left background, from door head casing to floor threshold",
+   "p1_xy": [
+    128.0,
+    14.0
+   ],
+   "p2_xy": [
+    128.0,
+    245.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 2.03,
+   "length_interval_m": [
+    1.98,
+    2.13
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Tall white leaf with two vertical recessed panels, visible head casing at top and floor threshold at bottom; seen width-to-height ratio under oblique foreshortening is consistent with a standard 32-36 in x 80 in interior door",
+   "identity_uncertainty": "Likely closet/entry interior door; standard 80-inch height assumed; head edge sits near a brighter band, small risk that a few cm are clipped at top"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "left_dining_chair",
+   "knowledge_group_id": "dining_chair_overall_height",
+   "description": "Overall height of the left wooden slat-back dining chair, from top rail of backrest to wooden floor at chair base",
+   "p1_xy": [
+    65.0,
+    214.0
+   ],
+   "p2_xy": [
+    60.0,
+    390.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.95,
+   "length_interval_m": [
+    0.85,
+    1.05
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Wooden slat-back side chair; top rail clearly visible at backrest apex; front/rear legs rest on the reddish wood floor visible at lower left",
+   "identity_uncertainty": "Generic dining side chair, overall height varies 0.85-1.05 m by style; floor endpoint is near but not exactly under the backrest so 3D segment may slightly exceed vertical height"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_474f76e53294edd0",
+ "schema_version": "0.2"
+}

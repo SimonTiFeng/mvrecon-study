@@ -1,0 +1,56 @@
+[
+ {
+  "scene": "office",
+  "tag": "v2",
+  "pair": "eth3d_0135|eth3d_0130",
+  "rot_err": 101.92828447750904,
+  "trans_err": 2.0827001085896386,
+  "fitness": 0.9659155328798186,
+  "ok": false
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "pair": "eth3d_0135|eth3d_0130",
+  "rot_err": 102.73735336553862,
+  "trans_err": 2.05060251214027,
+  "fitness": 0.9680650037792895,
+  "ok": false
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "pair": "eth3d_0127|eth3d_0130",
+  "rot_err": 121.33215411583909,
+  "trans_err": 1.9072394268650867,
+  "fitness": 0.5972222222222222,
+  "ok": false
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "pair": "eth3d_0135|eth3d_0130",
+  "rot_err": 104.02072846983856,
+  "trans_err": 1.4727706826561646,
+  "fitness": 0.9125566893424036,
+  "ok": false
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "pair": "eth3d_0127|eth3d_0130",
+  "rot_err": 38.8416778720263,
+  "trans_err": 1.5326252101817315,
+  "fitness": 0.4998582766439909,
+  "ok": false
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "pair": "eth3d_0152|eth3d_0130",
+  "rot_err": 69.43277750535387,
+  "trans_err": 2.509258917999921,
+  "fitness": 0.4708049886621315,
+  "ok": false
+ }
+]

@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1390",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "console_cabinet",
+    "knowledge_group_id": "buffet_sideboard_height",
+    "description": "Wooden buffet/sideboard with dark stone top and cabriole legs against the wall; vertical distance from the tabletop surface near its front-right corner down to the floor contact at the foot of the front-right leg.",
+    "p1": {
+     "xy": [
+      502,
+      265
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      497,
+      373
+     ],
+     "point_id": null
+    },
+    "length_m": 0.86,
+    "length_interval_m": [
+     0.79,
+     0.95
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "The cabinet has two drawers and two doors below a dark slab top, a typical buffet/sideboard. In the image its height from floor to top is about 108 px against a width of about 180 px (ratio ~0.6), matching a ~1.4-1.5 m wide buffet of ~0.85 m height.",
+    "identity_uncertainty": "Generic furniture category; no model or exact spec visible. Buffet/sideboard heights range roughly 0.76-0.95 m, so the point-to-point length (top surface to floor at leg foot) is only category-level known."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "2032b3f78b6956ca3db00a130da65f40c062273d8d09180b37e90eb4bd0c58a5"
+}

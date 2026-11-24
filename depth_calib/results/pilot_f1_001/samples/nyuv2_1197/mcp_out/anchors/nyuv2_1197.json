@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1197",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "crib_playard",
+   "knowledge_group_id": "playard_40in_rail",
+   "description": "Exterior length along the portable crib's front top rail between its two end corners",
+   "p1_xy": [
+    463.0,
+    196.0
+   ],
+   "p2_xy": [
+    592.0,
+    177.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.97,
+   "length_interval_m": [
+    0.87,
+    1.07
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Patterned fabric top rail with mesh sides and flared plastic corners of a portable playard seen against the window wall; the whole near top rail and both ends are visible.",
+   "identity_uncertainty": "Playard brand/model unknown; standard playards are about 40x28.5x29 in, so the long rail is 1.00-1.04 m, but a non-standard size is possible."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "interior_door",
+   "knowledge_group_id": "us_interior_door_leaf",
+   "description": "Width of the open interior door leaf between its two vertical stiles at mid-height",
+   "p1_xy": [
+    378.0,
+    205.0
+   ],
+   "p2_xy": [
+    415.0,
+    205.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.78,
+   "length_interval_m": [
+    0.7,
+    0.87
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Full-height beige interior door swung open toward the camera with latch hardware on the left stile and the bright painted latch edge on the right; both stiles are visible at mid-height.",
+   "identity_uncertainty": "Standard US interior leaf, usually 0.76 m (30 in) or 0.81 m (32 in); a 0.71 m (28 in) closet leaf is possible."
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "crt_television",
+   "knowledge_group_id": "crt_tv_27in",
+   "description": "Overall cabinet width of the CRT television between the left and right front bezel edges at mid-screen height",
+   "p1_xy": [
+    43.0,
+    160.0
+   ],
+   "p2_xy": [
+    243.0,
+    160.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.7,
+   "length_interval_m": [
+    0.6,
+    0.86
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Whole front of a 4:3 CRT television on a wooden cart; both vertical bezel edges are clearly visible at mid-height.",
+   "identity_uncertainty": "Screen size and model unknown; a 24-27 in 4:3 CRT cabinet is 0.66-0.79 m wide (32 in sets exist but would be wider than the cart)."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_fd0d77e3afe74cd8",
+ "schema_version": "0.2"
+}

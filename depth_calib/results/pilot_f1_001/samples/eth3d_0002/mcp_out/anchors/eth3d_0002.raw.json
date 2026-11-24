@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "eth3d_0002",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "foreground_bierbank_row_near",
+    "knowledge_group_id": "bierbank_2200mm",
+    "description": "前景木制啤酒花园长凳（Bierbank）单条凳面长度：从可见左端面到与下一条凳对接的横缝处的三维直线距离。",
+    "p1": {
+     "xy": [
+      500,
+      750
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      897,
+      716
+     ],
+     "point_id": null
+    },
+    "length_m": 2.2,
+    "length_interval_m": [
+     2.0,
+     2.4
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "前景一列黄色松木板凳：本条左端面清晰可见(约x=495)，向右延伸至x≈905处与一条同样的凳首尾对接（横缝明显、板面有轻微错位）；每条凳面下有一对黑色钢腿，距端部约1/10凳长，符合德国标准Bierbank 220cm的构造；两条凳连成一列并透视缩短，整体幅度与2×2.2m一致。",
+    "identity_uncertainty": "德国Bierbank以220cm为主流标准，也存在180cm规格；腿距/凳深比例与整列透视更支持220cm，残余长度不确定约±0.2m。"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "white_loveseat",
+    "knowledge_group_id": "two_seat_sofa_width",
+    "description": "白色皮质双人沙发（loveseat）两个扶手外缘之间的整体宽度。",
+    "p1": {
+     "xy": [
+      598,
+      470
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      874,
+      469
+     ],
+     "point_id": null
+    },
+    "length_m": 1.55,
+    "length_interval_m": [
+     1.4,
+     1.75
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "庭院中一张白色皮质双人沙发，左右扶手外侧面完全可见且未被遮挡，两扶手外缘间水平跨度约276像素，取两扶手前面同高度点(598,470)与(874,469)；家具尺度与旁边长凳、木桌的透视一致。",
+    "identity_uncertainty": "无法确认具体型号，双人户外沙发宽度通常在1.40-1.80m之间，故按类别先验给出区间而非精确规格。"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "ba4aade37c8aee3f781f2790fed3547b0ff3d715068d91a598b579738918c8ed"
+}

@@ -1,0 +1,150 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1280",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "obj_doorway_1",
+    "knowledge_group_id": "know_us_interior_door",
+    "description": "门洞净宽：门洞左侧白色门套内侧下缘与右侧门套内侧下缘（均贴近地面）之间的三维直线距离，即通往厨房的开口宽度。",
+    "p1": {
+     "xy": [
+      459.0,
+      211.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      509.0,
+      210.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.8,
+    "length_interval_m": [
+     0.68,
+     0.95
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "门洞两侧白色门套内边与深色洞内区域分界清晰，两条门套下缘在近地面处可见，左门套竖直内边约在 x≈459、右门套约在 x≈509。",
+    "identity_uncertainty": "美国住宅内门洞常见净宽 30–32 英寸(0.76–0.81 m)，但通往厨房的开口也可能是 36 英寸(0.91 m) 甚至无门加宽开口；右侧局部被钢琴/其他家具遮挡，内边判定有 ±3 px 不确定度。"
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "obj_doorway_1",
+    "knowledge_group_id": "know_us_interior_door",
+    "description": "门洞净高：门洞内顶缘（门头横挡内边）与正下方相邻房间地板（门槛地坪线）之间的三维直线距离。",
+    "p1": {
+     "xy": [
+      491.0,
+      59.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      491.0,
+      213.0
+     ],
+     "point_id": null
+    },
+    "length_m": 2.03,
+    "length_interval_m": [
+     1.9,
+     2.12
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "门头白色横挡下沿与洞内暗区分界在 x≈491 处约 y≈58；门洞底部可见相邻房间被照亮的地板带（y≈212 起），二者构成门洞净高。",
+    "identity_uncertainty": "标准美式内门高 80 英寸(2.03 m)，若为老式公寓或带门头装饰线，实际洞口高度可能为 78–84 英寸；顶部横挡有约 5–6 px 的可见厚度，取内边存在 ±0.03 m 不确定度。"
+   },
+   {
+    "anchor_id": "a3",
+    "object_group_id": "obj_coffee_table_1",
+    "knowledge_group_id": "know_category_coffee_table",
+    "description": "茶几台面前缘长度：木制茶几台面前缘左角与右角之间的三维直线距离。",
+    "p1": {
+     "xy": [
+      181.0,
+      297.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      357.0,
+      296.0
+     ],
+     "point_id": null
+    },
+    "length_m": 1.15,
+    "length_interval_m": [
+     0.95,
+     1.35
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "茶几台面前缘的亮边线在 y≈296–298 处连续横贯 x≈181–357，两端与台面左右侧边形成可见角点。",
+    "identity_uncertainty": "传统矩形茶几长边常见 40–48 英寸(1.0–1.2 m)，但该桌可能为 36 英寸或更大规格；前缘左角处于阴影中，角点位置 ±3 px。"
+   },
+   {
+    "anchor_id": "a4",
+    "object_group_id": "obj_coffee_table_1",
+    "knowledge_group_id": "know_category_coffee_table",
+    "description": "茶几高度：台面前缘（左前角正上方顶边）与同一位置下方前腿落地接触点之间的三维直线距离。",
+    "p1": {
+     "xy": [
+      193.0,
+      297.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      193.0,
+      352.0
+     ],
+     "point_id": null
+    },
+    "length_m": 0.4,
+    "length_interval_m": [
+     0.32,
+     0.48
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "木质车削腿（球状/车木造型）从台面（y≈297）向下延伸，腿脚与地板接触处约在 y≈352，其下接地板色。",
+    "identity_uncertainty": "茶几高度常见 16–18 英寸(0.41–0.46 m)，也有 14 英寸矮几；腿脚与地板接触点处于阴影中，纵向判定 ±5 px(约 ±0.03 m)。"
+   },
+   {
+    "anchor_id": "a5",
+    "object_group_id": "obj_leather_loveseat_1",
+    "knowledge_group_id": "know_category_leather_loveseat",
+    "description": "双人皮沙发总宽：沙发左扶手外侧面与右扶手外侧面（扶手前部可见面）之间的三维直线距离。",
+    "p1": {
+     "xy": [
+      165.0,
+      214.0
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      334.0,
+      213.0
+     ],
+     "point_id": null
+    },
+    "length_m": 1.45,
+    "length_interval_m": [
+     1.25,
+     1.7
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "两只皮质靠背垫与左右圆鼓扶手轮廓清晰，两扶手外缘在 y≈214 处约位于 x≈165 与 x≈334。",
+    "identity_uncertainty": "两座皮沙发（loveseat）总宽常见 58–64 英寸(1.47–1.63 m)，也可能为 52 英寸紧凑款；扶手为圆弧形，最外缘判定 ±0.05 m。"
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "71e2c25ba0400cd5d74778429234dbabe19e73a84bb43f3c2210fe0cb3085fc9"
+}

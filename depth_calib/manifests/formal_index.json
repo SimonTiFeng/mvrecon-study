@@ -1,0 +1,16 @@
+{
+ "n": 1736,
+ "by_dataset": {
+  "eth3d": 287,
+  "nyuv2": 1449
+ },
+ "scenes": 471,
+ "sha256": "ba50f1c4e3904477efcce0a20bce9efd3d957e5fa9ca522d1fb3ff2a0554305c",
+ "scope": {
+  "nyuv2": "all_labelled",
+  "eth3d": "all_dslr_scenes_downloaded",
+  "resize_max_side": 0,
+  "max_images_per_scene": 0
+ },
+ "note": "formal manifest: every processed image, native resolution, no per-scene cap"
+}

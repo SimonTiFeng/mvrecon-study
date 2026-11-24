@@ -1,0 +1,89 @@
+{
+ "image_id": "nyuv2_1197",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "interior_door_leaf",
+   "knowledge_group_id": "us_interior_door_30_32in",
+   "description": "虚掩的单扇白色室内门；门扇两竖边(合页侧边到锁边)之间的三维直线距离，即门扇宽度，按美式住宅室内门30-32 in (0.762-0.813 m)标准规格。",
+   "p1_xy": [
+    280.0,
+    235.0
+   ],
+   "p2_xy": [
+    374.0,
+    235.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.74,
+   "length_interval_m": [
+    0.67,
+    0.82
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "门扇正面完整可见，左右两条竖直门边分别紧邻暗走道与受光门套，锁具靠近自由边；门边距约106 px，取点内缩约4 px后对应约94 px。",
+   "identity_uncertainty": "美式住宅室内单开门，30 in(0.762 m)与32 in(0.813 m)均常见；门边被门套/缝隙遮挡1-2 cm，取点内缩带来的约3%长度折减。"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "crt_television",
+   "knowledge_group_id": "crt_tv_27in_class",
+   "description": "银灰色4:3 CRT电视；可见暗玻璃屏幕左上角到右下角的三维直线距离(可视屏幕对角线)，按27 in级CRT(可视对角线约0.66 m)类别先验。",
+   "p1_xy": [
+    43.0,
+    63.0
+   ],
+   "p2_xy": [
+    222.0,
+    183.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.63,
+   "length_interval_m": [
+    0.55,
+    0.73
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "屏幕暗玻璃四角与外壳银边清晰可辨，投影宽高比约1.33与4:3 CRT一致；外壳前面宽与屏幕对角线投影接近等长，符合27 in级CRT机身比例。",
+   "identity_uncertainty": "27 in为美式卧室/起居室最常见CRT尺寸，但不排除24 in或32 in(可视对角线0.55-0.76 m)；玻璃弧面使角点弦长略小于标称对角线。"
+  },
+  {
+   "anchor_id": "a3",
+   "object_group_id": "portable_playard",
+   "knowledge_group_id": "playard_40x28_5x29in",
+   "description": "窗边织物便携婴儿游戏床(Pack 'n Play类)；近侧包布上横杆两端外角之间的三维直线距离，即床体外部长度，按标准40 x 28.5 x 29 in规格。",
+   "p1_xy": [
+    407.0,
+    171.0
+   ],
+   "p2_xy": [
+    576.0,
+    160.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.9,
+   "length_interval_m": [
+    0.83,
+    1.0
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "可见织物侧壁与网面、包布上横杆、提篮内衬及外撇支脚；床口近杆在前、远杆在后，左右方向为长边；横杆长/杆高投影比约1.39，与40:29相符。",
+   "identity_uncertainty": "按标准40 x 28.5 x 29 in便携游戏床读认；若为约31 in小摇篮则长约0.80 m，但投影长高比更支持40 in长边，取点内缩约5 px另作约5%折减。"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_5640f0a2d11b28bb",
+ "schema_version": "0.2"
+}

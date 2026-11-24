@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1367",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "door_leaf_right_kitchen",
+    "knowledge_group_id": "us_interior_hinged_door_80in",
+    "description": "White six-panel interior door leaf at the right side, open into the kitchen; measure the hinge-side vertical stile from the top edge of the leaf to its bottom edge at the threshold.",
+    "p1": {
+     "xy": [
+      559,
+      74
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      559,
+      302
+     ],
+     "point_id": null
+    },
+    "length_m": 2.03,
+    "length_interval_m": [
+     1.95,
+     2.1
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "The full white interior door leaf is visible from its top edge at the head casing down to its bottom edge meeting the floor threshold; both endpoints sit on the same vertical hinge-side stile, so the 3D straight-line distance equals the leaf height.",
+    "identity_uncertainty": "Standard US residential interior hinged door height is 80 in (2.03 m); at this resolution the exact top/bottom edge rows are uncertain by a few pixels, and an 84 in (2.13 m) door cannot be fully excluded."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "1ba424e803e1d11a469abf6ed0c2943d3947a51f9f57c29052f08cf10944fc88"
+}

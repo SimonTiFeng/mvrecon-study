@@ -1,0 +1,66 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_0518",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "paper_towel_roll",
+    "knowledge_group_id": "paper_towel_roll_11in",
+    "description": "Upright white paper-towel roll standing on the floor at the left front of the dark nightstand; height measured on its front face from the top rim to the base.",
+    "p1": {
+     "xy": [
+      460,
+      202
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      460,
+      241
+     ],
+     "point_id": null
+    },
+    "length_m": 0.28,
+    "length_interval_m": [
+     0.25,
+     0.31
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "White cylinder about 23 px wide and 45 px tall (height/width ratio ~2.0) at approx. (449-472, 196-242), with a visible elliptical top face, standing against the dark nightstand; proportions match a standard 11 in tall x ~5.5-6 in diameter paper-towel roll.",
+    "identity_uncertainty": "A white bottle/thermos of similar size cannot be fully excluded, but the 2:1 height-to-diameter ratio and paper-white surface favor a jumbo paper-towel roll; height uncertainty about +/-3 cm."
+   },
+   {
+    "anchor_id": "a2",
+    "object_group_id": "bookshelf_books",
+    "knowledge_group_id": "hardcover_book_height",
+    "description": "Pale-blue upright hardcover book on the third shelf of the bookcase at left-center; measured from its top edge down to the white page block resting on the shelf.",
+    "p1": {
+     "xy": [
+      338,
+      102
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      338,
+      138
+     ],
+     "point_id": null
+    },
+    "length_m": 0.26,
+    "length_interval_m": [
+     0.21,
+     0.31
+    ],
+    "prior_kind": "category_prior",
+    "visible_evidence": "Bookcase left of center shows three rows of books; the selected pale-blue spine near (338,120) runs nearly vertically between the dark shelf above (~y=97) and its white page block on the shelf below (~y=136-139), spanning almost the full row gap.",
+    "identity_uncertainty": "Generic domestic hardcover/textbook of unknown title and edition; the shelf holds mixed sizes and some books lean, so the chosen spine could be a somewhat shorter or taller volume; prior 21-31 cm."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "4212d825157cd6006c9e7e96a4c982cb4602d9b3d16e209da12944b580d69c74"
+}

@@ -1,0 +1,38 @@
+{
+ "arguments": {
+  "image_id": "nyuv2_1402",
+  "status": "ok",
+  "anchors": [
+   {
+    "anchor_id": "a1",
+    "object_group_id": "doorway_right_interior_door",
+    "knowledge_group_id": "us_interior_door_6ft8",
+    "description": "White-painted vertical door leaf/jamb edge of the interior doorway at the right of the scene, spanning from the floor threshold up to the door head.",
+    "p1": {
+     "xy": [
+      507,
+      70
+     ],
+     "point_id": null
+    },
+    "p2": {
+     "xy": [
+      510,
+      292
+     ],
+     "point_id": null
+    },
+    "length_m": 1.92,
+    "length_interval_m": [
+     1.82,
+     2.02
+    ],
+    "prior_kind": "identified_standard",
+    "visible_evidence": "Continuous white-painted door edge is visible from the light threshold at the floor (about y=300) up to the white door head (about y=65); both chosen points lie on that white surface a few pixels inside its ends. Its projected height and depth-consistent scale match a standard 80-inch interior door.",
+    "identity_uncertainty": "The white vertical band may be the open door leaf or the door jamb/casing; both belong to the same 6-ft-8-in doorway, so the height prior holds within a few cm. Older NYC openings can be 78 in (1.98 m) and head casing can add ~2-4 cm. Pixel placement uncertainty ~3-4 cm."
+   }
+  ],
+  "abstain_reason": null
+ },
+ "request_hash": "21a987edb5821725588c1939744d91cc61375c52dcc66ce9d70517c9376dca61"
+}

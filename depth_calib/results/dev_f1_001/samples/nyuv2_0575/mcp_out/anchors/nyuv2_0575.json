@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0575",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "kitchen_countertop",
+   "knowledge_group_id": "us_base_cabinet_24in_counter_depth",
+   "description": "Countertop depth: 3D straight-line distance across one cross-section of the corner worktop, from its front edge above the base-cabinet drawer stack to its back edge at the wall.",
+   "p1_xy": [
+    270.0,
+    232.0
+   ],
+   "p2_xy": [
+    270.0,
+    192.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.635,
+   "length_interval_m": [
+    0.57,
+    0.7
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Continuous pale worktop band at the inside corner between the range and the dish rack; the lower line borders the wood drawer fronts, the upper line is the counter/wall junction, so the segment spans the worktop depth at a single cross-section.",
+   "identity_uncertainty": "US kitchen base cabinets are 24 in deep plus about 1 in counter overhang (25 in = 0.635 m); a 600 mm metric worktop or a deeper custom top would differ. Endpoint placement is about +/-5 px, giving roughly +/-0.05 m on this highly foreshortened depth direction."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "dish_drying_rack",
+   "knowledge_group_id": "plastic_dish_drainer_16to18in_width",
+   "description": "Width of the white plastic dish-drying rack: distance between the front-bottom left and right corners of its base tray on the counter.",
+   "p1_xy": [
+    328.0,
+    220.0
+   ],
+   "p2_xy": [
+    448.0,
+    226.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.44,
+   "length_interval_m": [
+    0.37,
+    0.52
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "White plastic drainer with a flat base and ribbed upright sides, holding plates, standing on the counter left of the sink; both front bottom corners of the base are visible against the countertop.",
+   "identity_uncertainty": "Specific model is unknown; common plastic dish drainers are about 16-18 in (0.41-0.46 m) wide, but a compact or oversized model is possible, and the right end may include an adjacent utensil holder."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_4a4078a56f9263e3",
+ "schema_version": "0.2"
+}

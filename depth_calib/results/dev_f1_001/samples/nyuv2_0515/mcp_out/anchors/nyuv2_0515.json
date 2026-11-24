@@ -1,0 +1,63 @@
+{
+ "image_id": "nyuv2_0515",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "bed_main",
+   "knowledge_group_id": "us_mattress_sizes",
+   "description": "Mattress long dimension: near-side top edge from the headboard-side corner to the visible foot corner of the bed.",
+   "p1_xy": [
+    290.0,
+    258.0
+   ],
+   "p2_xy": [
+    585.0,
+    388.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 1.9,
+   "length_interval_m": [
+    1.72,
+    2.08
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The bed's near-side top edge and bedding run continuously from the mattress corner at the headboard (left) to the foot corner at lower right; both endpoints sit on the mattress top boundary.",
+   "identity_uncertainty": "US full (1.91 m) vs queen (2.03 m) mattress; the foot corner lies near the frame border and bedding overhang adds ~0.1 m; two-pillow width suggests a double/full bed."
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "pillow_floral_left",
+   "knowledge_group_id": "us_standard_pillow_sizes",
+   "description": "Width of the left floral pillow's front face between its left and right edges.",
+   "p1_xy": [
+    285.0,
+    172.0
+   ],
+   "p2_xy": [
+    390.0,
+    165.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.66,
+   "length_interval_m": [
+    0.58,
+    0.74
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "The left floral pillow's rectangular front face is fully visible against the headboard; endpoints lie on its left and right borders near mid-height.",
+   "identity_uncertainty": "Decorative sham could be a 26 in (0.66 m) standard pillow face; face edges are slightly soft, giving about +/-0.04 m."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_7cde8ddf5d33dce2",
+ "schema_version": "0.2"
+}

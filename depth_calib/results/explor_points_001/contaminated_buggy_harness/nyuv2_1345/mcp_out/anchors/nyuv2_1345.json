@@ -1,0 +1,37 @@
+{
+ "image_id": "nyuv2_1345",
+ "image_width": 640,
+ "image_height": 480,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "white_dining_chair_mid_right",
+   "knowledge_group_id": "dining_chair_overall_height",
+   "description": "White curved-back dining chair beside the right side of the table: top of the back rail down to the rear leg foot on the floor.",
+   "p1_xy": [
+    493.0,
+    188.0
+   ],
+   "p2_xy": [
+    491.0,
+    367.0
+   ],
+   "source_point_ids": [
+    "v3:p12",
+    "v3:p4"
+   ],
+   "length_m": 0.92,
+   "length_interval_m": [
+    0.84,
+    1.02
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "White upholstered dining chair behind the table's right end; the arched top of its back (p1) and its rear leg meeting the tiled floor (p2) are both visible, giving its full standing height.",
+   "identity_uncertainty": "Common white curved-back dining chair; exact model and thus overall height unknown (typical 0.85-1.05 m)."
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_ea12ae28d012e695",
+ "schema_version": "0.2"
+}

@@ -1,0 +1,63 @@
+{
+ "image_id": "eth3d_0227",
+ "image_width": 1280,
+ "image_height": 853,
+ "status": "ok",
+ "anchors": [
+  {
+   "anchor_id": "a1",
+   "object_group_id": "brick_spandrel_wall",
+   "knowledge_group_id": "eu_clay_brick_250",
+   "description": "Straight-line distance along one horizontal brick course on the brick spandrel wall left of the mesh gate, between two vertical mortar joints that span three full stretcher bricks",
+   "p1_xy": [
+    688.0,
+    492.0
+   ],
+   "p2_xy": [
+    745.0,
+    492.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.78,
+   "length_interval_m": [
+    0.7,
+    0.86
+   ],
+   "prior_kind": "identified_standard",
+   "visible_evidence": "Running-bond brickwork with clear courses and staggered vertical joints; three full stretcher pitches counted between the two marked joints; observed course-pitch vs stretcher-pitch ratio (~8 px : ~19 px, about 1:2.4) matches a standard ~250 x 90 mm clay brick with recessed mortar joints",
+   "identity_uncertainty": "Brick format not legible; span would be about 0.72 m with a 240 mm unit and 0.81 m with a 270 mm unit; endpoints placed within about 2 px of the joint centres"
+  },
+  {
+   "anchor_id": "a2",
+   "object_group_id": "mesh_gate_leaf",
+   "knowledge_group_id": "steel_mesh_pedestrian_gate_1000",
+   "description": "Outer width of the steel-mesh pedestrian gate leaf carrying the green emergency-exit sign, measured between the outer faces of the two vertical frame tubes at the top rail",
+   "p1_xy": [
+    867.0,
+    409.0
+   ],
+   "p2_xy": [
+    922.0,
+    409.0
+   ],
+   "source_point_ids": [
+    null,
+    null
+   ],
+   "length_m": 0.98,
+   "length_interval_m": [
+    0.88,
+    1.15
+   ],
+   "prior_kind": "category_prior",
+   "visible_evidence": "Gate leaf has a clear rectangular frame (top rail plus both vertical tubes) and the leaf outline is about 1:2 width:height, matching 1.0 m wide x ~2.0 m high standard mesh gates; about 18-20 vertical mesh modules across the leaf are consistent with 50 mm mesh over roughly 1 m",
+   "identity_uncertainty": "No product label; could be a 1.2 m gate leaf or a 0.9 m door leaf; width is taken between outer frame edges, so viewing angle does not change the physical span"
+  }
+ ],
+ "abstain_reason": null,
+ "submission_id": "sub_2fcdcbe7287df189",
+ "schema_version": "0.2"
+}

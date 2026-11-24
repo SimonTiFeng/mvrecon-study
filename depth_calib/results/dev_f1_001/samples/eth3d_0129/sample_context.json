@@ -1,0 +1,9 @@
+{
+ "image_id": "eth3d_0129",
+ "image_path": "C:\\Users\\Simon\\Downloads\\Git\\research\\music\\depth_calib\\results\\dev_f1_001\\samples\\eth3d_0129\\input.png",
+ "width": 1280,
+ "height": 853,
+ "output_dir": "C:/Users/Simon/Downloads/Git/research/music/depth_calib/results/dev_f1_001/samples/eth3d_0129/mcp_out",
+ "run_id": "dev_f1_001",
+ "mode": "harness"
+}
