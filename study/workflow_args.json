@@ -1,0 +1,284 @@
+{
+ "cases": [
+  {
+   "case": "courtyard_v2_eth3d_0008",
+   "scene": "courtyard",
+   "tag": "v2",
+   "ref": "eth3d_0004",
+   "target": "eth3d_0008"
+  },
+  {
+   "case": "courtyard_v3_eth3d_0008",
+   "scene": "courtyard",
+   "tag": "v3",
+   "ref": "eth3d_0004",
+   "target": "eth3d_0008"
+  },
+  {
+   "case": "courtyard_v3_eth3d_0000",
+   "scene": "courtyard",
+   "tag": "v3",
+   "ref": "eth3d_0004",
+   "target": "eth3d_0000"
+  },
+  {
+   "case": "courtyard_v4_eth3d_0008",
+   "scene": "courtyard",
+   "tag": "v4",
+   "ref": "eth3d_0004",
+   "target": "eth3d_0008"
+  },
+  {
+   "case": "courtyard_v4_eth3d_0000",
+   "scene": "courtyard",
+   "tag": "v4",
+   "ref": "eth3d_0004",
+   "target": "eth3d_0000"
+  },
+  {
+   "case": "delivery_area_v2_eth3d_0081",
+   "scene": "delivery_area",
+   "tag": "v2",
+   "ref": "eth3d_0062",
+   "target": "eth3d_0081"
+  },
+  {
+   "case": "delivery_area_v3_eth3d_0081",
+   "scene": "delivery_area",
+   "tag": "v3",
+   "ref": "eth3d_0062",
+   "target": "eth3d_0081"
+  },
+  {
+   "case": "delivery_area_v3_eth3d_0057",
+   "scene": "delivery_area",
+   "tag": "v3",
+   "ref": "eth3d_0062",
+   "target": "eth3d_0057"
+  },
+  {
+   "case": "delivery_area_v4_eth3d_0081",
+   "scene": "delivery_area",
+   "tag": "v4",
+   "ref": "eth3d_0062",
+   "target": "eth3d_0081"
+  },
+  {
+   "case": "delivery_area_v4_eth3d_0057",
+   "scene": "delivery_area",
+   "tag": "v4",
+   "ref": "eth3d_0062",
+   "target": "eth3d_0057"
+  },
+  {
+   "case": "electro_v2_eth3d_0097",
+   "scene": "electro",
+   "tag": "v2",
+   "ref": "eth3d_0082",
+   "target": "eth3d_0097"
+  },
+  {
+   "case": "electro_v3_eth3d_0097",
+   "scene": "electro",
+   "tag": "v3",
+   "ref": "eth3d_0082",
+   "target": "eth3d_0097"
+  },
+  {
+   "case": "electro_v3_eth3d_0126",
+   "scene": "electro",
+   "tag": "v3",
+   "ref": "eth3d_0082",
+   "target": "eth3d_0126"
+  },
+  {
+   "case": "electro_v4_eth3d_0097",
+   "scene": "electro",
+   "tag": "v4",
+   "ref": "eth3d_0082",
+   "target": "eth3d_0097"
+  },
+  {
+   "case": "electro_v4_eth3d_0126",
+   "scene": "electro",
+   "tag": "v4",
+   "ref": "eth3d_0082",
+   "target": "eth3d_0126"
+  },
+  {
+   "case": "electro_v4_eth3d_0092",
+   "scene": "electro",
+   "tag": "v4",
+   "ref": "eth3d_0082",
+   "target": "eth3d_0092"
+  },
+  {
+   "case": "facade_v2_eth3d_0209",
+   "scene": "facade",
+   "tag": "v2",
+   "ref": "eth3d_0177",
+   "target": "eth3d_0209"
+  },
+  {
+   "case": "facade_v3_eth3d_0209",
+   "scene": "facade",
+   "tag": "v3",
+   "ref": "eth3d_0177",
+   "target": "eth3d_0209"
+  },
+  {
+   "case": "facade_v3_eth3d_0169",
+   "scene": "facade",
+   "tag": "v3",
+   "ref": "eth3d_0177",
+   "target": "eth3d_0169"
+  },
+  {
+   "case": "facade_v4_eth3d_0209",
+   "scene": "facade",
+   "tag": "v4",
+   "ref": "eth3d_0177",
+   "target": "eth3d_0209"
+  },
+  {
+   "case": "facade_v4_eth3d_0169",
+   "scene": "facade",
+   "tag": "v4",
+   "ref": "eth3d_0177",
+   "target": "eth3d_0169"
+  },
+  {
+   "case": "facade_v4_eth3d_0201",
+   "scene": "facade",
+   "tag": "v4",
+   "ref": "eth3d_0177",
+   "target": "eth3d_0201"
+  },
+  {
+   "case": "office_v2_eth3d_0133",
+   "scene": "office",
+   "tag": "v2",
+   "ref": "eth3d_0127",
+   "target": "eth3d_0133"
+  },
+  {
+   "case": "office_v3_eth3d_0133",
+   "scene": "office",
+   "tag": "v3",
+   "ref": "eth3d_0127",
+   "target": "eth3d_0133"
+  },
+  {
+   "case": "office_v3_eth3d_0149",
+   "scene": "office",
+   "tag": "v3",
+   "ref": "eth3d_0127",
+   "target": "eth3d_0149"
+  },
+  {
+   "case": "office_v4_eth3d_0133",
+   "scene": "office",
+   "tag": "v4",
+   "ref": "eth3d_0127",
+   "target": "eth3d_0133"
+  },
+  {
+   "case": "office_v4_eth3d_0149",
+   "scene": "office",
+   "tag": "v4",
+   "ref": "eth3d_0127",
+   "target": "eth3d_0149"
+  },
+  {
+   "case": "office_v4_eth3d_0152",
+   "scene": "office",
+   "tag": "v4",
+   "ref": "eth3d_0127",
+   "target": "eth3d_0152"
+  },
+  {
+   "case": "playground_v2_eth3d_0286",
+   "scene": "playground",
+   "tag": "v2",
+   "ref": "eth3d_0282",
+   "target": "eth3d_0286"
+  },
+  {
+   "case": "playground_v3_eth3d_0286",
+   "scene": "playground",
+   "tag": "v3",
+   "ref": "eth3d_0282",
+   "target": "eth3d_0286"
+  },
+  {
+   "case": "playground_v3_eth3d_0278",
+   "scene": "playground",
+   "tag": "v3",
+   "ref": "eth3d_0282",
+   "target": "eth3d_0278"
+  },
+  {
+   "case": "playground_v4_eth3d_0286",
+   "scene": "playground",
+   "tag": "v4",
+   "ref": "eth3d_0282",
+   "target": "eth3d_0286"
+  },
+  {
+   "case": "playground_v4_eth3d_0278",
+   "scene": "playground",
+   "tag": "v4",
+   "ref": "eth3d_0282",
+   "target": "eth3d_0278"
+  },
+  {
+   "case": "playground_v4_eth3d_0249",
+   "scene": "playground",
+   "tag": "v4",
+   "ref": "eth3d_0282",
+   "target": "eth3d_0249"
+  },
+  {
+   "case": "terrace_v2_eth3d_0236",
+   "scene": "terrace",
+   "tag": "v2",
+   "ref": "eth3d_0233",
+   "target": "eth3d_0236"
+  },
+  {
+   "case": "terrace_v3_eth3d_0236",
+   "scene": "terrace",
+   "tag": "v3",
+   "ref": "eth3d_0233",
+   "target": "eth3d_0236"
+  },
+  {
+   "case": "terrace_v3_eth3d_0231",
+   "scene": "terrace",
+   "tag": "v3",
+   "ref": "eth3d_0233",
+   "target": "eth3d_0231"
+  },
+  {
+   "case": "terrace_v4_eth3d_0236",
+   "scene": "terrace",
+   "tag": "v4",
+   "ref": "eth3d_0233",
+   "target": "eth3d_0236"
+  },
+  {
+   "case": "terrace_v4_eth3d_0231",
+   "scene": "terrace",
+   "tag": "v4",
+   "ref": "eth3d_0233",
+   "target": "eth3d_0231"
+  },
+  {
+   "case": "terrace_v4_eth3d_0228",
+   "scene": "terrace",
+   "tag": "v4",
+   "ref": "eth3d_0233",
+   "target": "eth3d_0228"
+  }
+ ]
+}

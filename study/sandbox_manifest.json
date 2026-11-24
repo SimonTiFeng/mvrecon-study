@@ -1,0 +1,20 @@
+{
+ "sandbox": "C:\\Users\\Simon\\AppData\\Local\\Temp\\reg_wb_study_20261123",
+ "cli_sha256_16": "2c67867a32e0de73",
+ "n_cases": 40,
+ "budget": {
+  "photo": 6,
+  "render": 12,
+  "closeup": 6,
+  "match": 5,
+  "mask": 4,
+  "transform": 8,
+  "solve": 6,
+  "icp": 4,
+  "fpfh": 2,
+  "total": 30
+ },
+ "link_modes": {
+  "hardlink": 141
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "n": 40,
+ "sequence_groups": {
+  "rigid3d_then_icp": 37,
+  "fpfh_start": 2,
+  "other": 1
+ },
+ "n_closest_same": 3,
+ "closest_counts": {
+  "C_sift_rigid_sky": 3,
+  "B_sift_rigid": 11,
+  "E_rotA_sift_t_sky": 9,
+  "F_rotA_sift_corr": 4,
+  "H_sift_rigid_reproj": 5,
+  "D_rotA_sift_t": 6,
+  "G_rotA_sift_reproj": 2
+ },
+ "n_abstain": 2,
+ "multi_round": {
+  "n_with_first_solver": 40,
+  "rot_improved": 18,
+  "rot_worsened": 15,
+  "lat_improved": 18,
+  "lat_worsened": 14,
+  "rot_delta_median": -0.037464279262272915,
+  "lat_delta_median": -0.008279051727903011
+ }
+}

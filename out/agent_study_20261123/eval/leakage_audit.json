@@ -1,0 +1,333 @@
+{
+ "transcript_dir": "out/agent_study_20261123/raw/transcripts",
+ "n_agents": 40,
+ "n_passed": 39,
+ "n_failed": 1,
+ "agents": [
+  {
+   "transcript": "courtyard_v2_eth3d_0008.jsonl",
+   "n_tool_calls": 23,
+   "n_bash": 13,
+   "n_read": 10,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "courtyard_v3_eth3d_0000.jsonl",
+   "n_tool_calls": 22,
+   "n_bash": 14,
+   "n_read": 8,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "courtyard_v3_eth3d_0008.jsonl",
+   "n_tool_calls": 33,
+   "n_bash": 20,
+   "n_read": 13,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "courtyard_v4_eth3d_0000.jsonl",
+   "n_tool_calls": 38,
+   "n_bash": 22,
+   "n_read": 16,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "courtyard_v4_eth3d_0008.jsonl",
+   "n_tool_calls": 29,
+   "n_bash": 18,
+   "n_read": 11,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "delivery_area_v2_eth3d_0081.jsonl",
+   "n_tool_calls": 35,
+   "n_bash": 21,
+   "n_read": 14,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "delivery_area_v3_eth3d_0057.jsonl",
+   "n_tool_calls": 50,
+   "n_bash": 34,
+   "n_read": 16,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "delivery_area_v3_eth3d_0081.jsonl",
+   "n_tool_calls": 34,
+   "n_bash": 22,
+   "n_read": 12,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "delivery_area_v4_eth3d_0057.jsonl",
+   "n_tool_calls": 39,
+   "n_bash": 26,
+   "n_read": 13,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "delivery_area_v4_eth3d_0081.jsonl",
+   "n_tool_calls": 35,
+   "n_bash": 22,
+   "n_read": 13,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "electro_v2_eth3d_0097.jsonl",
+   "n_tool_calls": 26,
+   "n_bash": 16,
+   "n_read": 10,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "electro_v3_eth3d_0097.jsonl",
+   "n_tool_calls": 33,
+   "n_bash": 25,
+   "n_read": 8,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "electro_v3_eth3d_0126.jsonl",
+   "n_tool_calls": 45,
+   "n_bash": 29,
+   "n_read": 16,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "electro_v4_eth3d_0092.jsonl",
+   "n_tool_calls": 42,
+   "n_bash": 28,
+   "n_read": 14,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "electro_v4_eth3d_0097.jsonl",
+   "n_tool_calls": 24,
+   "n_bash": 16,
+   "n_read": 8,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "electro_v4_eth3d_0126.jsonl",
+   "n_tool_calls": 57,
+   "n_bash": 37,
+   "n_read": 20,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "facade_v2_eth3d_0209.jsonl",
+   "n_tool_calls": 45,
+   "n_bash": 27,
+   "n_read": 18,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "facade_v3_eth3d_0169.jsonl",
+   "n_tool_calls": 14,
+   "n_bash": 9,
+   "n_read": 5,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "facade_v3_eth3d_0209.jsonl",
+   "n_tool_calls": 45,
+   "n_bash": 29,
+   "n_read": 16,
+   "violations": [
+    {
+     "kind": "bash_outside_workbench",
+     "command": "python -c \"\nimport numpy as np\nM_icp = np.array([[0.9684697533952459,0.02412845425668998,0.24795998558988344,-0.9519048756130596],[-0.06794038291869606,0.9831528473639276,0.1696896670073451,1.482109159760007],[-0.23968821649679267,-0.18118580632981585,0.9537930920578124,3.365670262414501],[0,0,0,1.0]])\nInc = np.array([[0.9991843516645668,-0.009189201002375226,0.0393216222147201,-0.22796062256792127],[0.013304654655287119,0.9943073869411315,-0.10571568681516508,1.7409633427635882],[-0.03812633673"
+    }
+   ],
+   "passed": false
+  },
+  {
+   "transcript": "facade_v4_eth3d_0169.jsonl",
+   "n_tool_calls": 34,
+   "n_bash": 20,
+   "n_read": 14,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "facade_v4_eth3d_0201.jsonl",
+   "n_tool_calls": 50,
+   "n_bash": 34,
+   "n_read": 16,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "facade_v4_eth3d_0209.jsonl",
+   "n_tool_calls": 43,
+   "n_bash": 31,
+   "n_read": 12,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "office_v2_eth3d_0133.jsonl",
+   "n_tool_calls": 20,
+   "n_bash": 13,
+   "n_read": 7,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "office_v3_eth3d_0133.jsonl",
+   "n_tool_calls": 29,
+   "n_bash": 19,
+   "n_read": 10,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "office_v3_eth3d_0149.jsonl",
+   "n_tool_calls": 21,
+   "n_bash": 13,
+   "n_read": 8,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "office_v4_eth3d_0133.jsonl",
+   "n_tool_calls": 29,
+   "n_bash": 19,
+   "n_read": 10,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "office_v4_eth3d_0149.jsonl",
+   "n_tool_calls": 21,
+   "n_bash": 14,
+   "n_read": 7,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "office_v4_eth3d_0152.jsonl",
+   "n_tool_calls": 28,
+   "n_bash": 19,
+   "n_read": 9,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "playground_v2_eth3d_0286.jsonl",
+   "n_tool_calls": 33,
+   "n_bash": 23,
+   "n_read": 10,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "playground_v3_eth3d_0278.jsonl",
+   "n_tool_calls": 55,
+   "n_bash": 36,
+   "n_read": 19,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "playground_v3_eth3d_0286.jsonl",
+   "n_tool_calls": 41,
+   "n_bash": 30,
+   "n_read": 11,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "playground_v4_eth3d_0249.jsonl",
+   "n_tool_calls": 24,
+   "n_bash": 15,
+   "n_read": 9,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "playground_v4_eth3d_0278.jsonl",
+   "n_tool_calls": 56,
+   "n_bash": 35,
+   "n_read": 21,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "playground_v4_eth3d_0286.jsonl",
+   "n_tool_calls": 29,
+   "n_bash": 19,
+   "n_read": 10,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "terrace_v2_eth3d_0236.jsonl",
+   "n_tool_calls": 23,
+   "n_bash": 15,
+   "n_read": 8,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "terrace_v3_eth3d_0231.jsonl",
+   "n_tool_calls": 35,
+   "n_bash": 24,
+   "n_read": 11,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "terrace_v3_eth3d_0236.jsonl",
+   "n_tool_calls": 29,
+   "n_bash": 18,
+   "n_read": 11,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "terrace_v4_eth3d_0228.jsonl",
+   "n_tool_calls": 49,
+   "n_bash": 31,
+   "n_read": 18,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "terrace_v4_eth3d_0231.jsonl",
+   "n_tool_calls": 30,
+   "n_bash": 18,
+   "n_read": 12,
+   "violations": [],
+   "passed": true
+  },
+  {
+   "transcript": "terrace_v4_eth3d_0236.jsonl",
+   "n_tool_calls": 22,
+   "n_bash": 14,
+   "n_read": 8,
+   "violations": [],
+   "passed": true
+  }
+ ]
+}

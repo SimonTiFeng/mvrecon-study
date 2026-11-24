@@ -1,0 +1,500 @@
+{
+ "scene": "playground",
+ "views": [
+  "eth3d_0249",
+  "eth3d_0253",
+  "eth3d_0257",
+  "eth3d_0261",
+  "eth3d_0265",
+  "eth3d_0270",
+  "eth3d_0274",
+  "eth3d_0278",
+  "eth3d_0282",
+  "eth3d_0286"
+ ],
+ "depth_scale": 1.0,
+ "stride": 4,
+ "tol_rel": 0.05,
+ "stats": {
+  "eth3d_0249": {
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.02824500158679784,
+    "n_points": 178,
+    "components": 178
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.08191240387830157,
+    "n_points": 1960,
+    "components": 1960
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.23335072728458678,
+    "n_points": 14284,
+    "components": 14136
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.20772227450886954,
+    "n_points": 17022,
+    "components": 15058
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.3874353367820383,
+    "n_points": 34099,
+    "components": 25481
+   },
+   "valid_frac": 0.08201320651717477
+  },
+  "eth3d_0253": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.02862016679302502,
+    "n_points": 151,
+    "components": 151
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.268605974019102,
+    "n_points": 20263,
+    "components": 20061
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.18833580980683506,
+    "n_points": 14930,
+    "components": 13242
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.37247284289574495,
+    "n_points": 33462,
+    "components": 27940
+   },
+   "valid_frac": 0.06046141450407323
+  },
+  "eth3d_0257": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.08413628687791795,
+    "n_points": 847,
+    "components": 847
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.19311005618222202,
+    "n_points": 8866,
+    "components": 8824
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.17167252938877364,
+    "n_points": 5578,
+    "components": 4872
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.20507214691735898,
+    "n_points": 462,
+    "components": 439
+   },
+   "valid_frac": 0.041175227807172254
+  },
+  "eth3d_0261": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.03569954601733388,
+    "n_points": 346,
+    "components": 346
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.13335117056856188,
+    "n_points": 4984,
+    "components": 4984
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.14779796910160165,
+    "n_points": 7796,
+    "components": 7711
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "valid_frac": 0.06044304295792391
+  },
+  "eth3d_0265": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.09824115278660733,
+    "n_points": 2317,
+    "components": 2317
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.03828235770710958,
+    "n_points": 378,
+    "components": 374
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.23090760425183973,
+    "n_points": 2748,
+    "components": 2353
+   },
+   "valid_frac": 0.06776213571848493
+  },
+  "eth3d_0270": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.09089586969168122,
+    "n_points": 3750,
+    "components": 3750
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.1262903455140054,
+    "n_points": 4441,
+    "components": 4441
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.27723158658651803,
+    "n_points": 40148,
+    "components": 36546
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "valid_frac": 0.11808704963466868
+  },
+  "eth3d_0274": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.061025905400180436,
+    "n_points": 1890,
+    "components": 1888
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.09872642426599261,
+    "n_points": 4056,
+    "components": 4053
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.19864297253634894,
+    "n_points": 21476,
+    "components": 21356
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "valid_frac": 0.08250333312337281
+  },
+  "eth3d_0278": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.11724344171055473,
+    "n_points": 7057,
+    "components": 7056
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.15491754622189405,
+    "n_points": 10699,
+    "components": 10697
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.148534324631576,
+    "n_points": 20929,
+    "components": 19523
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.3307505985662332,
+    "n_points": 46230,
+    "components": 42641
+   },
+   "valid_frac": 0.09415351788863693
+  },
+  "eth3d_0282": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.14726430269128274,
+    "n_points": 6130,
+    "components": 6123
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.10130667089879913,
+    "n_points": 3826,
+    "components": 3817
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.09214012363850456,
+    "n_points": 313,
+    "components": 313
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.19110206096507468,
+    "n_points": 15383,
+    "components": 14879
+   },
+   "eth3d_0286": {
+    "frac_of_A_seen_by_B": 0.5258510868433071,
+    "n_points": 65524,
+    "components": 63966
+   },
+   "valid_frac": 0.08319685899050978
+  },
+  "eth3d_0286": {
+   "eth3d_0249": {
+    "frac_of_A_seen_by_B": 0.17071738344777737,
+    "n_points": 7556,
+    "components": 7546
+   },
+   "eth3d_0253": {
+    "frac_of_A_seen_by_B": 0.14855462602501449,
+    "n_points": 7172,
+    "components": 7169
+   },
+   "eth3d_0257": {
+    "frac_of_A_seen_by_B": 0.053102625298329355,
+    "n_points": 89,
+    "components": 89
+   },
+   "eth3d_0261": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0265": {
+    "frac_of_A_seen_by_B": 0.09686555891238671,
+    "n_points": 513,
+    "components": 513
+   },
+   "eth3d_0270": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0274": {
+    "frac_of_A_seen_by_B": 0.0,
+    "n_points": 0,
+    "components": 0
+   },
+   "eth3d_0278": {
+    "frac_of_A_seen_by_B": 0.2877782869823199,
+    "n_points": 23834,
+    "components": 23451
+   },
+   "eth3d_0282": {
+    "frac_of_A_seen_by_B": 0.34842563052294034,
+    "n_points": 42695,
+    "components": 42352
+   },
+   "valid_frac": 0.10010655496766607
+  }
+ }
+}

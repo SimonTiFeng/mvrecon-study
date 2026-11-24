@@ -1,0 +1,133 @@
+{
+ "courtyard": {
+  "v2": [
+   "eth3d_0004",
+   "eth3d_0008"
+  ],
+  "v3": [
+   "eth3d_0004",
+   "eth3d_0008",
+   "eth3d_0000"
+  ],
+  "v4": [
+   "eth3d_0004",
+   "eth3d_0008",
+   "eth3d_0000"
+  ],
+  "v2_overlap": 0.72,
+  "v2_baseline_m": 2.542
+ },
+ "delivery_area": {
+  "v2": [
+   "eth3d_0062",
+   "eth3d_0081"
+  ],
+  "v3": [
+   "eth3d_0062",
+   "eth3d_0081",
+   "eth3d_0057"
+  ],
+  "v4": [
+   "eth3d_0062",
+   "eth3d_0081",
+   "eth3d_0057"
+  ],
+  "v2_overlap": 0.47,
+  "v2_baseline_m": 2.764
+ },
+ "electro": {
+  "v2": [
+   "eth3d_0082",
+   "eth3d_0097"
+  ],
+  "v3": [
+   "eth3d_0082",
+   "eth3d_0097",
+   "eth3d_0126"
+  ],
+  "v4": [
+   "eth3d_0082",
+   "eth3d_0097",
+   "eth3d_0126",
+   "eth3d_0092"
+  ],
+  "v2_overlap": 0.59,
+  "v2_baseline_m": 1.121
+ },
+ "facade": {
+  "v2": [
+   "eth3d_0177",
+   "eth3d_0209"
+  ],
+  "v3": [
+   "eth3d_0177",
+   "eth3d_0209",
+   "eth3d_0169"
+  ],
+  "v4": [
+   "eth3d_0177",
+   "eth3d_0209",
+   "eth3d_0169",
+   "eth3d_0201"
+  ],
+  "v2_overlap": 0.5,
+  "v2_baseline_m": 4.687
+ },
+ "office": {
+  "v2": [
+   "eth3d_0127",
+   "eth3d_0133"
+  ],
+  "v3": [
+   "eth3d_0127",
+   "eth3d_0133",
+   "eth3d_0149"
+  ],
+  "v4": [
+   "eth3d_0127",
+   "eth3d_0133",
+   "eth3d_0149",
+   "eth3d_0152"
+  ],
+  "v2_overlap": 0.82,
+  "v2_baseline_m": 0.428
+ },
+ "playground": {
+  "v2": [
+   "eth3d_0282",
+   "eth3d_0286"
+  ],
+  "v3": [
+   "eth3d_0282",
+   "eth3d_0286",
+   "eth3d_0278"
+  ],
+  "v4": [
+   "eth3d_0282",
+   "eth3d_0286",
+   "eth3d_0278",
+   "eth3d_0249"
+  ],
+  "v2_overlap": 0.45,
+  "v2_baseline_m": 0.695
+ },
+ "terrace": {
+  "v2": [
+   "eth3d_0233",
+   "eth3d_0236"
+  ],
+  "v3": [
+   "eth3d_0233",
+   "eth3d_0236",
+   "eth3d_0231"
+  ],
+  "v4": [
+   "eth3d_0233",
+   "eth3d_0236",
+   "eth3d_0231",
+   "eth3d_0228"
+  ],
+  "v2_overlap": 0.67,
+  "v2_baseline_m": 2.444
+ }
+}

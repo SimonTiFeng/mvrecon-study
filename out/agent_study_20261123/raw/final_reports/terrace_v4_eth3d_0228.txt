@@ -1,0 +1,1 @@
+The back view shows the overlap concentrated on real structures with the rest of the moving cloud extending away as expected for partial overlap 鈥� no gross inconsistencies. The decisive evidence remains the sharp, multi-axis-constrained 6-DoF fit (2 m shifts halve overlap; 10掳 yaw drops it to 27%). I'll finalize with the current applied transform.

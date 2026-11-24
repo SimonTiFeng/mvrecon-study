@@ -1,0 +1,4042 @@
+[
+ {
+  "case": "courtyard_v2_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v2",
+  "sid": "eth3d_0008",
+  "ref": "eth3d_0004",
+  "status": "done",
+  "reason": "SIFT 638\u5bf9\u5168\u56fe\u5bf9\u5e94RANSAC\u521a\u4f53\u6c42\u89e3(\u5185\u70b9\u738782%)\u540eICP\u7cbe\u5316\uff1b\u6700\u7ec8\u4e2d\u4f4d\u6700\u8fd1\u90bb0.085m\uff0c\u91cd\u53e0\u738771%/57%\uff1b\u590d\u6838\u91cd\u65b0\u5339\u914d\u6b8b\u5dee0.099m\u3001\u9690\u542b\u5e73\u79fb\u6563\u5e030.058m\uff0c\u65e0\u91cd\u590d\u7816\u7eb9\u9519\u4f4d\u8bc1\u636e\uff1b\u591a\u89c6\u56fe\u6e32\u67d3\u4e24\u7247\u70b9\u4e91\u8d34\u5408\u3002",
+  "rot_err": 2.3613238831239625,
+  "lat_err": 0.29464090690889794,
+  "trans_err": 0.302728912701664,
+  "scale_err": 0.0,
+  "overlap": 0.7128579826992525,
+  "success": false,
+  "n_actions": 13,
+  "n_state_changes": 2,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 1,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 2,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 1,
+   "fpfh": 0,
+   "total": 11
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 4.371503159461554e-16,
+  "matrix_est": [
+   [
+    0.9997948595140178,
+    -0.020208841924713367,
+    -0.0013570546810865967,
+    2.809471975436806
+   ],
+   [
+    0.020159521215164018,
+    0.9993535993177868,
+    -0.029765369726579227,
+    0.042621956448947444
+   ],
+   [
+    0.0019577011316500356,
+    0.029731906071534604,
+    0.9995559920122697,
+    0.3050592947685604
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.999690948444571,
+    0.00989994876988515,
+    0.022803478075678434,
+    2.5306342944368776
+   ],
+   [
+    -0.00954404475030752,
+    0.9998317648373596,
+    -0.01566375536119008,
+    -0.05257684437690391
+   ],
+   [
+    -0.022954712104455155,
+    0.015441277038015122,
+    0.9996172508293549,
+    0.23555008270689282
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "courtyard_v3_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0008",
+  "ref": "eth3d_0004",
+  "status": "done",
+  "reason": "SIFT 638 matching pairs (rigid3d 82% inliers, near-identity rotation, translation ~2.81m lateral baseline); after ICP convergence median NN=0.085m, SIFT 3D residual 0.099m with spread 0.058m; renders show coherent wall/ground/furniture alignment; wall landmark patches agree within 5cm in depth/height.",
+  "rot_err": 2.36129371658468,
+  "lat_err": 0.29472159164661044,
+  "trans_err": 0.3028140665374553,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.7128159905937683,
+  "success": false,
+  "n_actions": 18,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 1,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 3,
+  "used": {
+   "photo": 1,
+   "render": 3,
+   "closeup": 6,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 16
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 4.440892098500626e-16,
+  "matrix_est": [
+   [
+    0.9997949691235032,
+    -0.02020347528381339,
+    -0.0013562086085936649,
+    2.8095442630736263
+   ],
+   [
+    0.020154160264059934,
+    0.9993533751939601,
+    -0.029776522840838673,
+    0.04265994461642195
+   ],
+   [
+    0.0019569208937179772,
+    0.029743084488612518,
+    0.9995556609742746,
+    0.305088146457899
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.999690948444571,
+    0.00989994876988515,
+    0.022803478075678434,
+    2.5306342944368776
+   ],
+   [
+    -0.00954404475030752,
+    0.9998317648373596,
+    -0.01566375536119008,
+    -0.05257684437690391
+   ],
+   [
+    -0.022954712104455155,
+    0.015441277038015122,
+    0.9996172508293549,
+    0.23555008270689282
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "courtyard_v3_eth3d_0000",
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0000",
+  "ref": "eth3d_0004",
+  "status": "done",
+  "reason": "SIFT 529 matches, rigid3d RANSAC 384 inliers (72.6%); median match residual under final transform 0.167 m (was 3.84 m); median NN 0.154 m; ICP converged to fixed point (2nd pass increment ~1e-6); independent ORB furniture-region matches consistent (0.38 m); renders show coherent overlap",
+  "rot_err": 2.9132128785987033,
+  "lat_err": 0.40552484389062676,
+  "trans_err": 0.5491585779274717,
+  "scale_err": 0.0,
+  "overlap": 0.6193835558914924,
+  "success": false,
+  "n_actions": 12,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 1,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 3,
+  "used": {
+   "photo": 1,
+   "render": 3,
+   "closeup": 0,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 10
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 8.881784197001252e-16,
+  "matrix_est": [
+   [
+    0.9991583084139275,
+    0.020471795523377214,
+    -0.035546874904377974,
+    -2.990919514513812
+   ],
+   [
+    -0.021405015632417222,
+    0.9994308190705579,
+    -0.02607418642508318,
+    0.01708637723465619
+   ],
+   [
+    0.03499285688814845,
+    0.026813121414767344,
+    0.9990278056624865,
+    0.1112058154267474
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9963790935312894,
+    0.011157768560516179,
+    -0.08428645309014125,
+    -2.585408477896332
+   ],
+   [
+    -0.01253954318323665,
+    0.9997952367306902,
+    -0.015882205998516696,
+    0.02043274749720536
+   ],
+   [
+    0.0840919843416863,
+    0.016881611634365107,
+    0.996314985011319,
+    -0.2590977690803511
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "courtyard_v4_eth3d_0008",
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0008",
+  "ref": "eth3d_0004",
+  "status": "done",
+  "reason": "SIFT correspondences (638, 82% RANSAC inliers) gave rigid3d; point-to-plane ICP converged to median NN 0.085 m (fitness 0.76, rmse 0.159 m). Independent AKAZE matching (885 pairs) confirmed under the final transform: median 3D residual 0.099 m, implied translation spread 0.064 m, ruling out repeated-window/vertical mismatch. Overlap is partial (moving 71%/ref 57% near-neighbor fractions); residual uncertainty ~10 cm due to predicted depth noise.",
+  "rot_err": 2.36129371658468,
+  "lat_err": 0.29472159164661044,
+  "trans_err": 0.3028140665374553,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.7128159905937683,
+  "success": false,
+  "n_actions": 17,
+  "n_state_changes": 4,
+  "n_undo": 1,
+  "n_match": 2,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 6,
+  "used": {
+   "photo": 1,
+   "render": 6,
+   "closeup": 1,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 14
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9997949691235032,
+    -0.02020347528381339,
+    -0.0013562086085936649,
+    2.8095442630736263
+   ],
+   [
+    0.020154160264059934,
+    0.9993533751939601,
+    -0.029776522840838673,
+    0.04265994461642195
+   ],
+   [
+    0.0019569208937179772,
+    0.029743084488612518,
+    0.9995556609742746,
+    0.305088146457899
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.999690948444571,
+    0.00989994876988515,
+    0.022803478075678434,
+    2.5306342944368776
+   ],
+   [
+    -0.00954404475030752,
+    0.9998317648373596,
+    -0.01566375536119008,
+    -0.05257684437690391
+   ],
+   [
+    -0.022954712104455155,
+    0.015441277038015122,
+    0.9996172508293549,
+    0.23555008270689282
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "courtyard_v4_eth3d_0000",
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0000",
+  "ref": "eth3d_0004",
+  "status": "done",
+  "reason": "SIFT 529 matches + rigid3d RANSAC (72.6% inliers) then ICP to RMSE 0.177 m; AKAZE cross-check median residual 0.159 m; independent sofa closeup centroids agree within ~0.13 m; final overlap 61.9%/54.3%, median NN 0.154 m",
+  "rot_err": 2.9133769228433835,
+  "lat_err": 0.4055236663575559,
+  "trans_err": 0.5491576325819135,
+  "scale_err": 0.0,
+  "overlap": 0.6193835558914924,
+  "success": false,
+  "n_actions": 20,
+  "n_state_changes": 2,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 1,
+  "n_icp": 1,
+  "n_fpfh": 0,
+  "n_render": 6,
+  "used": {
+   "photo": 3,
+   "render": 6,
+   "closeup": 4,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 1,
+   "fpfh": 0,
+   "total": 18
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.7763568394002505e-15,
+  "matrix_est": [
+   [
+    0.9991581743549915,
+    0.020479632392647686,
+    -0.03554612885620305,
+    -2.9909186873422087
+   ],
+   [
+    -0.021412937623617446,
+    0.9994305726383199,
+    -0.02607712749072153,
+    0.017129111434388333
+   ],
+   [
+    0.03499183793296437,
+    0.026816322136010682,
+    0.9990277554428462,
+    0.11120570301638419
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9963790935312894,
+    0.011157768560516179,
+    -0.08428645309014125,
+    -2.585408477896332
+   ],
+   [
+    -0.01253954318323665,
+    0.9997952367306902,
+    -0.015882205998516696,
+    0.02043274749720536
+   ],
+   [
+    0.0840919843416863,
+    0.016881611634365107,
+    0.996314985011319,
+    -0.2590977690803511
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "delivery_area_v2_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v2",
+  "sid": "eth3d_0081",
+  "ref": "eth3d_0062",
+  "status": "done",
+  "reason": "SIFT\u5168\u56fe\u5339\u914d333\u5bf9\u2192RANSAC rigid3d\u5f97106\u5185\u70b9(31.8%)\uff0c\u4e2d\u4f4d\u6700\u8fd1\u90bb\u75312.09m\u964d\u81f30.68m\uff0cICP\u6536\u655b\u540e0.32m\uff0c\u79fb\u52a8/\u53c2\u8003\u8986\u76d6\u738751%/79%\uff1bAKAZE\u72ec\u7acb\u590d\u6838\u5728\u5f53\u524d\u53d8\u6362\u4e0b\u4e09\u7ef4\u6b8b\u5dee\u4e2d\u4f4d0.29m\u3001\u9690\u542b\u5e73\u79fb\u6563\u5e030.22m\uff1breproj\u4ec5\u97000.58\u00b0\u4fee\u6b63\u5e76\u4e0eICP\u6536\u655b\u70b9\u4e00\u81f4\u3002\u4e24\u72ec\u7acb\u5339\u914d\u5668\u4e0e\u56fe\u50cf\u8bc1\u636e\u4e00\u81f4\u652f\u6301\u8be5\u4f4d\u59ff\uff0c\u6b8b\u4f59\u8bef\u5dee\u4e3b\u8981\u6765\u81ea\u5355\u76ee\u6df1\u5ea6\u566a\u58f0\u4e0e\u90e8\u5206\u91cd\u53e0\u3002",
+  "rot_err": 1.4677044953412792,
+  "lat_err": 0.20217935988810254,
+  "trans_err": 0.39979760774674095,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.5114218526916939,
+  "success": true,
+  "n_actions": 20,
+  "n_state_changes": 4,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 6,
+  "used": {
+   "photo": 1,
+   "render": 6,
+   "closeup": 4,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 18
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 5.551115123125783e-16,
+  "matrix_est": [
+   [
+    0.998639389317502,
+    -0.005270468229364884,
+    0.05188055770911198,
+    -2.642322746004171
+   ],
+   [
+    0.014356487085491386,
+    0.9842210587828194,
+    -0.17635985576936122,
+    0.0828903977679192
+   ],
+   [
+    -0.05013243842193755,
+    0.17686472122237676,
+    0.9829575825053706,
+    -0.9510966035764825
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9996116037622149,
+    -0.008546462009814083,
+    0.026525452136546328,
+    -2.4401489162452465
+   ],
+   [
+    0.013127203968462228,
+    0.9840055438983645,
+    -0.17765350008726255,
+    0.08438576574013856
+   ],
+   [
+    -0.02458288306736578,
+    0.1779327051567517,
+    0.9837355509971658,
+    -1.2960047559812264
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "delivery_area_v3_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0081",
+  "ref": "eth3d_0062",
+  "status": "done",
+  "reason": "SIFT \u5168\u56fe 333 \u5bf9\u5339\u914d\u7ecf rigid3d RANSAC(106 \u5185\u70b9)\u6c42\u89e3\u540e\uff0c\u70b9\u5230\u9762 ICP \u6536\u655b\uff1aRMSE 0.198 m\uff0c\u91cd\u53e0 51%/79%\uff0c\u4e2d\u4f4d\u6700\u8fd1\u90bb 0.319 m\u3002\u5f53\u524d\u53d8\u6362\u4e0b\u5339\u914d\u4e09\u7ef4\u6b8b\u5dee 0.265 m\u3001\u9690\u542b\u5e73\u79fb\u6563\u5e03 0.208 m\uff1b\u53e6\u7528\u706d\u706b\u5668\u7bb1/\u706d\u706b\u5668/\u6258\u76d8\u7b49\u72ec\u7279\u7269\u4f53\u9650\u5b9a\u533a\u57df\u5339\u914d(74 \u5bf9)\u9a8c\u8bc1\u6b8b\u5dee 0.176 m\u3001\u6563\u5e03 0.131 m\uff0c\u6392\u9664\u4e86\u6cbf\u91cd\u590d\u8d70\u5eca\u7ed3\u6784\u7684\u6ed1\u79fb\u3002reproj \u8bd5\u89e3\u7565\u5dee\u5df2\u64a4\u9500\u3002",
+  "rot_err": 1.4677044955548604,
+  "lat_err": 0.2021793599260417,
+  "trans_err": 0.39979760777530937,
+  "scale_err": 1.1102230246251565e-16,
+  "overlap": 0.5114218526916939,
+  "success": true,
+  "n_actions": 21,
+  "n_state_changes": 4,
+  "n_undo": 1,
+  "n_match": 4,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 3,
+  "used": {
+   "photo": 3,
+   "render": 3,
+   "closeup": 3,
+   "match": 4,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 17
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.99863938931738,
+    -0.005270468224270444,
+    0.05188055771198545,
+    -2.642322746041901
+   ],
+   [
+    0.01435648708074977,
+    0.9842210587836975,
+    -0.17635985576484625,
+    0.08289039773953383
+   ],
+   [
+    -0.050132438425733485,
+    0.17686472121764157,
+    0.9829575825060287,
+    -0.951096603565607
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9996116037622149,
+    -0.008546462009814083,
+    0.026525452136546328,
+    -2.4401489162452465
+   ],
+   [
+    0.013127203968462228,
+    0.9840055438983645,
+    -0.17765350008726255,
+    0.08438576574013856
+   ],
+   [
+    -0.02458288306736578,
+    0.1779327051567517,
+    0.9837355509971658,
+    -1.2960047559812264
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "delivery_area_v3_eth3d_0057",
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0057",
+  "ref": "eth3d_0062",
+  "status": "done",
+  "reason": "Registered eth3d_0057 onto eth3d_0062 using SIFT image correspondences: rigid3d RANSAC (50/169 inliers), then rotation/translation refinement driven by the same correspondences. Final pose R~5deg, t=(3.99,-0.06,1.02)m; median 3D residual of 169 SIFT matches is 0.28m (0.96m before, 2.75m under the FPFH pose). Deliberately rejected the point-overlap-optimal poses: dense point-to-plane ICP and FPFH+RANSAC both reached higher cloud overlap (median NN 0.50-0.70m) but contradict the image correspondences (residuals 0.96-2.75m), consistent with plane-dominated false optima from independently predicted, noisy depth. Remaining uncertainty: predicted depth noise/scale warp and partial overlap limit accuracy to roughly 0.3-0.5m; the moving view also sees extra floor to the right not present in the reference.",
+  "rot_err": 0.6869983235252897,
+  "lat_err": 0.25682992956007583,
+  "trans_err": 1.0408383511773864,
+  "scale_err": 4.884981308350689e-15,
+  "overlap": 0.2467456118249769,
+  "success": true,
+  "n_actions": 31,
+  "n_state_changes": 8,
+  "n_undo": 2,
+  "n_match": 5,
+  "n_solve": 5,
+  "n_icp": 2,
+  "n_fpfh": 1,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 6,
+   "match": 5,
+   "mask": 2,
+   "transform": 0,
+   "solve": 5,
+   "icp": 2,
+   "fpfh": 1,
+   "total": 27
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 3.3306690738754696e-16,
+  "matrix_est": [
+   [
+    0.9970820042953971,
+    -0.024058104643315995,
+    0.07244780404717661,
+    3.988592269959553
+   ],
+   [
+    0.023822083586739762,
+    0.9997077232747984,
+    0.00412023765306951,
+    -0.05549615895648518
+   ],
+   [
+    -0.07252575434887325,
+    -0.0023823571736084205,
+    0.9973636946121652,
+    1.0231262226601705
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9967105346825648,
+    -0.014547593553606315,
+    0.07972752081053783,
+    3.7364885613914898
+   ],
+   [
+    0.014356793560319209,
+    0.9998925372214145,
+    0.0029658873190141558,
+    -0.006451966190546887
+   ],
+   [
+    -0.07976209959286457,
+    -0.0018114995781898999,
+    0.9968122821965107,
+    0.014472238102618107
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "delivery_area_v4_eth3d_0081",
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0081",
+  "ref": "eth3d_0062",
+  "status": "done",
+  "reason": "SIFT full-image matches (333, 106 RANSAC inliers) solved a rigid transform, refined by point-to-plane ICP to convergence: median NN 0.31 m, RMSE 0.20 m, overlap 51%/79%. Independent AKAZE re-match confirms with 0.29 m median residual and small implied-translation spread; unique objects (white chair, striped column with red W mark, wash basin, fire-hose box) verified in both views; reproj refinement only needed a 0.31 deg / 0.09 m correction. Remaining uncertainty ~0.2-0.4 m from predicted-depth noise and partial overlap on the right side.",
+  "rot_err": 1.5845817297979308,
+  "lat_err": 0.26629085155809573,
+  "trans_err": 0.4790805013369077,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.5138993869152599,
+  "success": true,
+  "n_actions": 20,
+  "n_state_changes": 4,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 4,
+   "match": 3,
+   "mask": 2,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 18
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 5.134781488891349e-16,
+  "matrix_est": [
+   [
+    0.9984864595017857,
+    -0.00977645533999616,
+    0.054122186879073914,
+    -2.7057496590562544
+   ],
+   [
+    0.019285093634785734,
+    0.9838287974588321,
+    -0.17807016160549038,
+    0.10354465510713012
+   ],
+   [
+    -0.05150607105075944,
+    0.1788443966460593,
+    0.9825282725872173,
+    -0.8977494243939556
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9996116037622149,
+    -0.008546462009814083,
+    0.026525452136546328,
+    -2.4401489162452465
+   ],
+   [
+    0.013127203968462228,
+    0.9840055438983645,
+    -0.17765350008726255,
+    0.08438576574013856
+   ],
+   [
+    -0.02458288306736578,
+    0.1779327051567517,
+    0.9837355509971658,
+    -1.2960047559812264
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "delivery_area_v4_eth3d_0057",
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0057",
+  "ref": "eth3d_0062",
+  "status": "done",
+  "reason": "Two independent SIFT match sets (full image and fixture-only boxes) converged to the same pose (inlier fractions 30%/57%); rigid3d+ICP refined it; median NN 0.53 m, landmark centroid check 0.40 m, and independent AKAZE matches under the final transform show 0.42 m residual with 0.15 m implied translation spread across ceiling, pillar and fixture regions.",
+  "rot_err": 3.2234540719648725,
+  "lat_err": 0.30925368831436434,
+  "trans_err": 1.4397931095109417,
+  "scale_err": 1.1102230246251565e-16,
+  "overlap": 0.33576887545141515,
+  "success": false,
+  "n_actions": 24,
+  "n_state_changes": 6,
+  "n_undo": 2,
+  "n_match": 3,
+  "n_solve": 3,
+  "n_icp": 3,
+  "n_fpfh": 0,
+  "n_render": 6,
+  "used": {
+   "photo": 1,
+   "render": 6,
+   "closeup": 4,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 3,
+   "icp": 3,
+   "fpfh": 0,
+   "total": 20
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.9926457033356181,
+    -0.0025070913727610047,
+    0.12102983988333316,
+    3.4444736587164093
+   ],
+   [
+    0.006669876025263722,
+    0.9993995133462588,
+    -0.03400184520093695,
+    0.09535736713258863
+   ],
+   [
+    -0.12087191734701754,
+    0.03455903957157233,
+    0.9920663548275114,
+    1.4206608294583967
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9967105346825648,
+    -0.014547593553606315,
+    0.07972752081053783,
+    3.7364885613914898
+   ],
+   [
+    0.014356793560319209,
+    0.9998925372214145,
+    0.0029658873190141558,
+    -0.006451966190546887
+   ],
+   [
+    -0.07976209959286457,
+    -0.0018114995781898999,
+    0.9968122821965107,
+    0.014472238102618107
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "electro_v2_eth3d_0097",
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0097",
+  "ref": "eth3d_0082",
+  "status": "done",
+  "reason": "SIFT (416 matches, 63.7% rigid3d inliers) and AKAZE (190 matches, 67.4% inliers) independently produced nearly identical rigid transforms (yaw ~12.7 deg, translation diff <8 cm); ICP from both initial solutions converged to the identical final matrix. Final: median NN 0.123 m, RMSE 0.166 m, overlap frac 0.61/0.81. Unique, stable solution; done.",
+  "rot_err": 2.72982423259682,
+  "lat_err": 0.2604243695342362,
+  "trans_err": 0.27296218210229006,
+  "scale_err": 1.1102230246251565e-16,
+  "overlap": 0.6065759637188208,
+  "success": false,
+  "n_actions": 15,
+  "n_state_changes": 4,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 1,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 13
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 4.440892098500626e-16,
+  "matrix_est": [
+   [
+    0.9753093429570228,
+    -0.01084247048401212,
+    0.2205768037998023,
+    0.839004812181138
+   ],
+   [
+    0.015484360255258945,
+    0.9996933206242898,
+    -0.019326129635111624,
+    -0.011959825780781945
+   ],
+   [
+    -0.22029961445317797,
+    0.022264445490312198,
+    0.9751781244156319,
+    -1.0291973799659562
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9679245618498704,
+    0.018443044135229382,
+    0.25056315908521415,
+    0.592211418390657
+   ],
+   [
+    -0.017669251366458326,
+    0.9998296394105761,
+    -0.005337575504508238,
+    -0.09510952829787467
+   ],
+   [
+    -0.2506189141383491,
+    0.0007391069904912478,
+    0.9680855404337841,
+    -0.9474202400628062
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "electro_v3_eth3d_0097",
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0097",
+  "ref": "eth3d_0082",
+  "status": "done",
+  "reason": "SIFT 416 matches, 265 RANSAC inliers (63.7%); rigid3d solve reduced median NN from 1.18 m to 0.091 m, bidirectional overlap 60%/80%. Cross-validated by independent AKAZE matches (median 3D residual 0.085 m under final transform) and consistent render views. ICP converged to a nearby solution but worsened feature residuals (0.201 m) and median NN (0.123 m), so it was undone; rigid3d state kept as final.",
+  "rot_err": 2.142520064036442,
+  "lat_err": 0.23640171612303293,
+  "trans_err": 0.2400166485282497,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.5999832031578063,
+  "success": false,
+  "n_actions": 24,
+  "n_state_changes": 5,
+  "n_undo": 4,
+  "n_match": 4,
+  "n_solve": 2,
+  "n_icp": 3,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 1,
+   "match": 4,
+   "mask": 2,
+   "transform": 0,
+   "solve": 2,
+   "icp": 3,
+   "fpfh": 0,
+   "total": 17
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.9766279334585662,
+    0.014016000253701914,
+    0.21447944266371818,
+    0.8285760680178245
+   ],
+   [
+    -0.013590011339551067,
+    0.9999016629279265,
+    -0.0034606452806489607,
+    -0.09092338537849852
+   ],
+   [
+    -0.21450685578843817,
+    0.00046498479097274725,
+    0.9767223723294671,
+    -0.9889198808421948
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9679245618498704,
+    0.018443044135229382,
+    0.25056315908521415,
+    0.592211418390657
+   ],
+   [
+    -0.017669251366458326,
+    0.9998296394105761,
+    -0.005337575504508238,
+    -0.09510952829787467
+   ],
+   [
+    -0.2506189141383491,
+    0.0007391069904912478,
+    0.9680855404337841,
+    -0.9474202400628062
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "electro_v3_eth3d_0126",
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0126",
+  "ref": "eth3d_0082",
+  "status": "done",
+  "reason": "FPFH+RANSAC+ICP (after sky/far-point masking) converged to a stable geometric alignment: median NN 2.64 m -> 0.26 m, moving-near-ref 59%, ref-near-moving 40%, ICP RMSE 0.22 m with a near-identity final increment. Moving view shows two garage-door bays of the same building facade just outside the reference's field of view; photo-level SIFT checks were sparse/inconsistent (warning-label matches failed RANSAC), so residual along-facade/plane-normal placement uncertainty remains, but the point-cloud fit is the best supported by the noisy predicted depths.",
+  "rot_err": 91.98680691553037,
+  "lat_err": 10.106001966004634,
+  "trans_err": 12.04645071603123,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.38771310993533215,
+  "success": false,
+  "n_actions": 28,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 5,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 1,
+  "n_render": 6,
+  "used": {
+   "photo": 3,
+   "render": 6,
+   "closeup": 6,
+   "match": 5,
+   "mask": 1,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 1,
+   "total": 26
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 3.552713678800501e-15,
+  "matrix_est": [
+   [
+    0.010801152842295492,
+    0.5124096841038895,
+    0.8586731920432988,
+    -8.499728886648528
+   ],
+   [
+    0.9925411923311428,
+    0.09878713060526807,
+    -0.07143587580934373,
+    -2.260260560910031
+   ],
+   [
+    -0.12143029532677503,
+    0.8530401036664875,
+    -0.5075207039259815,
+    7.928605610442108
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.1281746377529925,
+    0.10827400894247712,
+    0.9858235142379255,
+    1.3372304164393771
+   ],
+   [
+    -0.07633348808191438,
+    0.9921509145822603,
+    -0.09904423905928443,
+    0.05609593287105774
+   ],
+   [
+    -0.9888096180934618,
+    -0.06255638801200686,
+    0.13543351684407334,
+    1.3722576089339622
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "electro_v4_eth3d_0097",
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0097",
+  "ref": "eth3d_0082",
+  "status": "done",
+  "reason": "SIFT 416\u5bf9\u5339\u914d(64%\u5185\u70b9)\u7ecfRANSAC\u521a\u4f53\u89e3\u7b97\u540e\uff0c\u70b9\u5230\u9762ICP\u6536\u655b\u7a33\u5b9a(\u4e8c\u6b21\u8fd0\u884c\u589e\u91cf\u7ea61e-14)\uff0c\u53cc\u5411\u91cd\u53e061%/81%\uff0c\u6700\u8fd1\u90bb\u4e2d\u4f4d\u8ddd\u79bb0.12m\uff1bAKAZE\u72ec\u7acb\u5339\u914d\u7684\u9690\u542b\u5e73\u79fb\u6563\u5e03\u4ec50.12m\uff0c\u4e0e\u5f53\u524d\u89e3\u4e00\u81f4\uff1breproj\u6c42\u89e3RMS 607px\u4e0d\u53ef\u9760\u5df2\u64a4\u9500\u3002\u6df1\u5ea6\u566a\u58f0\u4e0e\u90e8\u5206\u91cd\u53e0\u662f\u4e3b\u8981\u5269\u4f59\u4e0d\u786e\u5b9a\u6027\uff0c\u4f46\u591a\u8bc1\u636e\u4e00\u81f4\u652f\u6301\u914d\u51c6\u6b63\u786e\u3002",
+  "rot_err": 2.7298242325965525,
+  "lat_err": 0.2604243695342272,
+  "trans_err": 0.2729621821022722,
+  "scale_err": 3.6637359812630166e-15,
+  "overlap": 0.6065759637188208,
+  "success": false,
+  "n_actions": 15,
+  "n_state_changes": 4,
+  "n_undo": 1,
+  "n_match": 2,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 1,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 12
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9753093429570239,
+    -0.010842470484011825,
+    0.220576803799803,
+    0.8390048121811293
+   ],
+   [
+    0.01548436025525868,
+    0.9996933206242865,
+    -0.019326129635110736,
+    -0.011959825780784363
+   ],
+   [
+    -0.22029961445317658,
+    0.022264445490311632,
+    0.9751781244156236,
+    -1.029197379965925
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9679245618498704,
+    0.018443044135229382,
+    0.25056315908521415,
+    0.592211418390657
+   ],
+   [
+    -0.017669251366458326,
+    0.9998296394105761,
+    -0.005337575504508238,
+    -0.09510952829787467
+   ],
+   [
+    -0.2506189141383491,
+    0.0007391069904912478,
+    0.9680855404337841,
+    -0.9474202400628062
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "electro_v4_eth3d_0126",
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0126",
+  "ref": "eth3d_0082",
+  "status": "done",
+  "reason": "Registered best-effort: facade+ground planes aligned and moving door F50.001 placed just beyond ref door F51 per door-label/pillar correspondence; along-wall phase uncertainty about +/-0.5m; no image correspondences available (disjoint fields of view).",
+  "rot_err": 91.57022521951471,
+  "lat_err": 4.412672532790101,
+  "trans_err": 4.44070520387085,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.09590996892584194,
+  "success": false,
+  "n_actions": 36,
+  "n_state_changes": 6,
+  "n_undo": 4,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 3,
+  "n_fpfh": 1,
+  "n_render": 9,
+  "used": {
+   "photo": 3,
+   "render": 9,
+   "closeup": 6,
+   "match": 2,
+   "mask": 3,
+   "transform": 2,
+   "solve": 1,
+   "icp": 3,
+   "fpfh": 1,
+   "total": 30
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.5208039758151174,
+    0.8341231253780353,
+    -0.1816640594194267,
+    4.5685709816817655
+   ],
+   [
+    -0.5161456555149981,
+    0.13817303885259546,
+    -0.8452821266460286,
+    3.0611112461530396
+   ],
+   [
+    -0.6799682941638967,
+    0.5339914072752646,
+    0.5024900953133534,
+    0.874077093412285
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.1281746377529925,
+    0.10827400894247712,
+    0.9858235142379255,
+    1.3372304164393771
+   ],
+   [
+    -0.07633348808191438,
+    0.9921509145822603,
+    -0.09904423905928443,
+    0.05609593287105774
+   ],
+   [
+    -0.9888096180934618,
+    -0.06255638801200686,
+    0.13543351684407334,
+    1.3722576089339622
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "electro_v4_eth3d_0092",
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0092",
+  "ref": "eth3d_0082",
+  "status": "abstain",
+  "reason": "\u4e24\u89c6\u56fe\u5185\u5bb9\u51e0\u4e4e\u4e0d\u91cd\u53e0\uff1a\u53c2\u8003\u4e3a\u5efa\u7b51\u95e8\u9762\uff084-8m\uff09\uff0c\u79fb\u52a8\u4e3a\u505c\u8f66\u573a/\u6811\u6797\u53ca2m\u5904\u914d\u7535\u67dc\u7279\u5199\uff0c\u65e0\u5171\u540c\u53ef\u8fa8\u8bc6\u7ed3\u6784\u3002SIFT\u4e0eAKAZE\u5168\u56fe\u5339\u914d\u4ec510-13\u4e2a\u5bf9\u5e94\u4e14\u65e0\u521a\u4f53\u5171\u8bc6(RANSAC\u65e0\u89e3\uff0c\u4e09\u7ef4\u6b8b\u5dee29-35m\uff0c\u6563\u5e0313-19m)\uff1b\u5730\u9762\u6761\u5e26\u5339\u914d0\u4e2a\uff0c\u67dc\u4f53\u533a\u57df1\u4e2a\u3002FPFH\u5168\u5c40\u914d\u51c6\u4f7f\u4e2d\u4f4d\u6700\u8fd1\u90bb\u4ece7.4m\u6076\u5316\u523016.9m\uff1bICP(\u534a\u5f845m)\u6536\u655b\u5230\u9000\u5316\u5e73\u9762\u584c\u7f29\u89e3(\u6570\u503cfitness=1\u4f46\u4fa7\u89c6/iso\u6e32\u67d3\u663e\u793a\u79fb\u52a8\u5730\u9762\u60ac\u4e8e\u53c2\u8003\u5730\u9762\u4e4b\u4e0a\u5e76\u7a7f\u900f\u53c2\u8003\u70b9\u4e91)\uff0c\u5df2undo\u3002\u4ec5\u5730\u9762\u5e73\u9762\u53ef\u80fd\u5171\u4eab\uff0c\u4f46\u5355\u76ee\u6df1\u5ea6\u566a\u58f0\u5927\u4e14\u5730\u9762\u7ea6\u675f\u65e0\u6cd5\u786e\u5b9a\u504f\u822a\u89d2\uff0c\u4efb\u4f55\u504f\u822a\u9009\u62e9\u90fd\u662f\u731c\u6d4b\uff0c\u6545\u653e\u5f03\u3002",
+  "rot_err": 143.50090881425794,
+  "lat_err": 1.3672717116042827,
+  "trans_err": 1.4654513110232383,
+  "scale_err": 0.0,
+  "overlap": 0.001595700008398421,
+  "success": false,
+  "n_actions": 27,
+  "n_state_changes": 2,
+  "n_undo": 2,
+  "n_match": 4,
+  "n_solve": 2,
+  "n_icp": 1,
+  "n_fpfh": 1,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 5,
+   "match": 4,
+   "mask": 3,
+   "transform": 0,
+   "solve": 2,
+   "icp": 1,
+   "fpfh": 1,
+   "total": 22
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.9378511234662973,
+    -0.24977266783434332,
+    -0.2409333613593577,
+    -6.119745067087058
+   ],
+   [
+    0.09891298953967469,
+    0.8578480978013334,
+    -0.5042944195596042,
+    -0.8109692251695559
+   ],
+   [
+    0.3326431882863803,
+    0.4491216488898623,
+    0.8292395635672016,
+    -0.553480152183368
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    -0.5615655762878168,
+    0.11161831040297768,
+    0.8198691702407871,
+    -5.1623000842723545
+   ],
+   [
+    -0.012428263231732684,
+    0.9896099757775219,
+    -0.14323977839502516,
+    0.16511019692490558
+   ],
+   [
+    -0.827338891749672,
+    -0.09062807856507618,
+    -0.5543436746045068,
+    -0.026113475547061338
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "facade_v2_eth3d_0209",
+  "scene": "facade",
+  "tag": "v2",
+  "sid": "eth3d_0209",
+  "ref": "eth3d_0177",
+  "status": "done",
+  "reason": "SIFT matched unique portal coat-of-arms/pediment features (98 matches, 91% RANSAC inliers, 0.12m implied-translation spread); reproj solve aligns these matched pixels at 2.69px RMS and point-to-plane ICP independently converges within ~1 deg of the same pose. A pure 3D-3D feature solution differed by ~12 deg/2.4m, but that relies on both separately predicted depth maps (ref/mov), whose mutual bias explains the discrepancy; image-space evidence plus whole-cloud geometry were favored. Final median NN 0.37m with moving cloud interleaved in the reference facade.",
+  "rot_err": 2.9794906847618554,
+  "lat_err": 0.5605536741112102,
+  "trans_err": 0.6162593650554149,
+  "scale_err": 1.1102230246251565e-16,
+  "overlap": 0.4811455446376081,
+  "success": false,
+  "n_actions": 26,
+  "n_state_changes": 7,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 5,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 9,
+  "used": {
+   "photo": 1,
+   "render": 9,
+   "closeup": 5,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 5,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 24
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.3322676295501878e-15,
+  "matrix_est": [
+   [
+    0.971247803391097,
+    0.023680314331389538,
+    0.23689015834587773,
+    -0.5291972195124772
+   ],
+   [
+    -0.06805783915462983,
+    0.9811329380573464,
+    0.18095935562595844,
+    1.39524777389842
+   ],
+   [
+    -0.2281355626323326,
+    -0.19187860894879902,
+    0.9545348419467476,
+    4.085058889608004
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9598136008359732,
+    -0.0016854727694415803,
+    0.2806332318736088,
+    -1.0897289871985598
+   ],
+   [
+    -0.0535139115064712,
+    0.9805340852986292,
+    0.18891577182135455,
+    1.3902920727076413
+   ],
+   [
+    -0.27548886170871,
+    -0.19634170914282068,
+    0.9410397549122541,
+    4.341096354559769
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "facade_v3_eth3d_0209",
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0209",
+  "ref": "eth3d_0177",
+  "status": "done",
+  "reason": "SIFT+RANSAC (55/60 inliers on portal features) gave global pose; ICP refined (fitness 0.994, RMSE 0.30 m); independent lamp-region SIFT matches (0.46 m median residual, 0.18 m translation spread) and FPFH re-convergence (~4 cm increment) confirm. Final median NN 0.177 m, moving 74% near reference.",
+  "rot_err": 3.4425627731887025,
+  "lat_err": 0.18212589495871004,
+  "trans_err": 1.081361305254045,
+  "scale_err": 3.552713678800501e-15,
+  "overlap": 0.7434282354917275,
+  "success": false,
+  "n_actions": 27,
+  "n_state_changes": 5,
+  "n_undo": 1,
+  "n_match": 5,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 1,
+  "n_render": 7,
+  "used": {
+   "photo": 1,
+   "render": 7,
+   "closeup": 4,
+   "match": 5,
+   "mask": 1,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 1,
+   "total": 23
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 8.881784197001252e-16,
+  "matrix_est": [
+   [
+    0.9569844575437106,
+    0.04735618145663253,
+    0.286248388812274,
+    -1.1501470918732786
+   ],
+   [
+    -0.09144703690301549,
+    0.9855351679671007,
+    0.14268101535151173,
+    1.5621044536411055
+   ],
+   [
+    -0.27535102589500904,
+    -0.16272008105309435,
+    0.94747242058048,
+    3.2751824598730455
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9598136008359732,
+    -0.0016854727694415803,
+    0.2806332318736088,
+    -1.0897289871985598
+   ],
+   [
+    -0.0535139115064712,
+    0.9805340852986292,
+    0.18891577182135455,
+    1.3902920727076413
+   ],
+   [
+    -0.27548886170871,
+    -0.19634170914282068,
+    0.9410397549122541,
+    4.341096354559769
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "facade_v3_eth3d_0169",
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0169",
+  "ref": "eth3d_0177",
+  "status": "done",
+  "reason": "SIFT\u5168\u56fe\u5339\u914d(308\u5bf9)\u7ecfRANSAC rigid3d\u6c42\u89e3\u540eICP\u7cbe\u4fee\uff1afitness 0.77, RMSE 0.25m, \u4e2d\u4f4d\u6700\u8fd1\u90bb0.25m, \u91cd\u53e0\u7ea664%/59%; \u95e8\u5eca\u72ec\u7279\u77f3\u96d5\u533a\u57df\u72ec\u7acbSIFT\u9a8c\u8bc1\u6b8b\u5dee0.35m\u3001\u9690\u542b\u5e73\u79fb\u6563\u5e030.09m\uff0c\u7ed3\u6784\u4e0e\u7eb9\u7406\u5747\u4e00\u81f4\u3002",
+  "rot_err": 1.3177278776281494,
+  "lat_err": 0.7194231913849326,
+  "trans_err": 0.7651315272305761,
+  "scale_err": 4.440892098500626e-16,
+  "overlap": 0.6404635928445452,
+  "success": false,
+  "n_actions": 8,
+  "n_state_changes": 2,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 1,
+  "n_fpfh": 0,
+  "n_render": 1,
+  "used": {
+   "photo": 1,
+   "render": 1,
+   "closeup": 0,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 1,
+   "fpfh": 0,
+   "total": 6
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.1102230246251565e-15,
+  "matrix_est": [
+   [
+    0.971677678596942,
+    0.012881236511913792,
+    0.2359588156064173,
+    -6.294312139157432
+   ],
+   [
+    -0.004508081967189766,
+    0.9993419515838352,
+    -0.03599084608048855,
+    0.43076956286505697
+   ],
+   [
+    -0.23626714988215392,
+    0.03390778008859423,
+    0.9710963373095521,
+    1.3994187066126769
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9686253491365368,
+    0.0024013008994110546,
+    0.24851391664072428,
+    -6.945238933520686
+   ],
+   [
+    0.002132202224098781,
+    0.9998362227928131,
+    -0.017971680641372112,
+    0.12439718048952542
+   ],
+   [
+    -0.24851637113839786,
+    0.01793770736160022,
+    0.9684615903229263,
+    1.1389258551566104
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "facade_v4_eth3d_0209",
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0209",
+  "ref": "eth3d_0177",
+  "status": "done",
+  "reason": "SIFT+RANSAC \u5339\u914d\u89e3\u4e0e ICP/FPFH \u8868\u9762\u89e3\u4e00\u81f4\u6536\u655b\uff0c\u6700\u7ec8\u4f4d\u59ff\u7531 FPFH+RANSAC+ICP \u72ec\u7acb\u83b7\u5f97\uff08fitness 0.856, RMSE 0.221 m, \u4e2d\u4f4d\u6700\u8fd1\u90bb 0.177 m\uff09\uff0c\u6e32\u67d3\u68c0\u67e5\u663e\u793a\u7acb\u9762\u7ed3\u6784\u826f\u597d\u8d34\u5408\u3002",
+  "rot_err": 3.438433568736907,
+  "lat_err": 0.18737142274532803,
+  "trans_err": 1.0771882379326136,
+  "scale_err": 4.440892098500626e-16,
+  "overlap": 0.7467036197194927,
+  "success": false,
+  "n_actions": 30,
+  "n_state_changes": 10,
+  "n_undo": 4,
+  "n_match": 5,
+  "n_solve": 6,
+  "n_icp": 3,
+  "n_fpfh": 1,
+  "n_render": 5,
+  "used": {
+   "photo": 3,
+   "render": 5,
+   "closeup": 1,
+   "match": 5,
+   "mask": 0,
+   "transform": 0,
+   "solve": 6,
+   "icp": 3,
+   "fpfh": 1,
+   "total": 24
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 8.881784197001252e-16,
+  "matrix_est": [
+   [
+    0.9571379002245374,
+    0.04640061537351235,
+    0.28589162780102917,
+    -1.1470687679630223
+   ],
+   [
+    -0.0901335017378525,
+    0.9857885495496653,
+    0.14176349121420662,
+    1.568674245593532
+   ],
+   [
+    -0.27525077986853236,
+    -0.16145562384050685,
+    0.9477178323277659,
+    3.280329438654696
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9598136008359732,
+    -0.0016854727694415803,
+    0.2806332318736088,
+    -1.0897289871985598
+   ],
+   [
+    -0.0535139115064712,
+    0.9805340852986292,
+    0.18891577182135455,
+    1.3902920727076413
+   ],
+   [
+    -0.27548886170871,
+    -0.19634170914282068,
+    0.9410397549122541,
+    4.341096354559769
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "facade_v4_eth3d_0169",
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0169",
+  "ref": "eth3d_0177",
+  "status": "done",
+  "reason": "SIFT matches at the distinctive entrance portal (70 matches, 65 RANSAC inliers) gave a rigid solve that lowered median NN from 3.85m to 0.58m; two ICP runs converged (increment ~identity) to median NN 0.248m, RMSE 0.255m, fitness 0.77, moving/ref overlap 64%/59%. Renders show roof-line slopes and facade depth band aligned; full-image SIFT matches are coherent across the facade. Residual uncertainty: partial overlap and predicted-depth noise, ~0.2-0.9m local error especially at edges.",
+  "rot_err": 1.3177036883135482,
+  "lat_err": 0.7194592779450775,
+  "trans_err": 0.7651643781725971,
+  "scale_err": 0.0,
+  "overlap": 0.6403796086335769,
+  "success": false,
+  "n_actions": 18,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 1,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 3,
+   "render": 5,
+   "closeup": 2,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 16
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.609823385706477e-15,
+  "matrix_est": [
+   [
+    0.9716775984119013,
+    0.01287973252153696,
+    0.23595922790739396,
+    -6.294261629901652
+   ],
+   [
+    -0.004506438545823909,
+    0.999341946886752,
+    -0.03599118231218032,
+    0.4307469851151268
+   ],
+   [
+    -0.23626751100418503,
+    0.033908489833219764,
+    0.9710962246662882,
+    1.3994155344205015
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9686253491365368,
+    0.0024013008994110546,
+    0.24851391664072428,
+    -6.945238933520686
+   ],
+   [
+    0.002132202224098781,
+    0.9998362227928131,
+    -0.017971680641372112,
+    0.12439718048952542
+   ],
+   [
+    -0.24851637113839786,
+    0.01793770736160022,
+    0.9684615903229263,
+    1.1389258551566104
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "facade_v4_eth3d_0201",
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0201",
+  "ref": "eth3d_0177",
+  "status": "done",
+  "reason": "FPFH global registration followed by point-to-plane ICP produced a stable, best-scoring alignment (moving_near_ref_frac 0.361, ref_near_moving_frac 0.308, median NN 0.506 m). Image-based solves (rigid3d no consensus, reproj diverged, translation degraded overlap from 0.36 to 0.17) were rejected as the 30 SIFT correspondences are 3D-inconsistent under predicted-depth noise. A second FPFH restart stayed in the same basin; a large-radius ICP and a crest-centroid translation both degraded tight-threshold overlap, confirming the current pose. Residual uncertainty: predicted depth noise and only partial image overlap limit precision; residual in-plane placement error of order ~1 m cannot be excluded.",
+  "rot_err": 7.65930588399695,
+  "lat_err": 1.485698000595926,
+  "trans_err": 1.8458072955250233,
+  "scale_err": 4.440892098500626e-16,
+  "overlap": 0.27055513563450073,
+  "success": false,
+  "n_actions": 32,
+  "n_state_changes": 8,
+  "n_undo": 5,
+  "n_match": 3,
+  "n_solve": 4,
+  "n_icp": 2,
+  "n_fpfh": 2,
+  "n_render": 4,
+  "used": {
+   "photo": 3,
+   "render": 4,
+   "closeup": 5,
+   "match": 3,
+   "mask": 1,
+   "transform": 1,
+   "solve": 4,
+   "icp": 2,
+   "fpfh": 2,
+   "total": 25
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.3444904397535378,
+    0.21550969543047618,
+    0.9137187248239338,
+    -16.885258302386735
+   ],
+   [
+    -0.3026957593495877,
+    0.9468116291951674,
+    -0.10919256427325408,
+    0.9673393644949879
+   ],
+   [
+    -0.8886515707464818,
+    -0.23896298875820846,
+    0.3914014254107343,
+    8.307695680837604
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.2664109251293871,
+    0.31834769917595135,
+    0.9097691802875512,
+    -16.885554794082825
+   ],
+   [
+    -0.30901934339084886,
+    0.9222669900574828,
+    -0.23222972346493392,
+    2.453037335506393
+   ],
+   [
+    -0.9129798816961924,
+    -0.2192677392588549,
+    0.34407759900684903,
+    9.403006606209331
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "office_v2_eth3d_0133",
+  "scene": "office",
+  "tag": "v2",
+  "sid": "eth3d_0133",
+  "ref": "eth3d_0127",
+  "status": "done",
+  "reason": "SIFT matches (220 pairs) + RANSAC rigid3d (190 inliers, 86%) produced a consistent transform; re-matched SIFT residuals under the final transform are 6.2cm (depth-noise level) with 3.9cm translation spread; point clouds overlap 81%/93% with 5cm median NN distance.",
+  "rot_err": 0.5227276624827097,
+  "lat_err": 0.04790125310811833,
+  "trans_err": 0.0641568190704098,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.8097337700512304,
+  "success": true,
+  "n_actions": 11,
+  "n_state_changes": 2,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 1,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 0,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 1,
+   "fpfh": 0,
+   "total": 9
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.1102230246251565e-16,
+  "matrix_est": [
+   [
+    0.9956406983804742,
+    0.0006451453220625087,
+    -0.09326941361429711,
+    -0.37207833262341466
+   ],
+   [
+    -0.0014148397415849115,
+    0.9999654892227539,
+    -0.008186488380527733,
+    -0.012084117027437804
+   ],
+   [
+    0.0932609133396573,
+    0.008282762281527545,
+    0.9956072508233562,
+    -0.3176685396425777
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9948889991962879,
+    0.0004425591595282573,
+    -0.10097367686481408,
+    -0.32823601683185544
+   ],
+   [
+    -0.000789951593190584,
+    0.9999939063807155,
+    -0.0034004673087370185,
+    0.007213069175768416
+   ],
+   [
+    0.1009715566617153,
+    0.0034628518344992894,
+    0.994883286321809,
+    -0.2749887155578268
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "office_v3_eth3d_0133",
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0133",
+  "ref": "eth3d_0127",
+  "status": "done",
+  "reason": "SIFT+RANSAC rigid3d solved with 190/220 inliers (86%); median NN distance dropped 0.79m->0.046m, bidirectional near fractions rose to 81%/94%. Independent ORB matches show 4.1cm median 3D residual under this transform, and reproj solve converged to a nearby solution (5.6cm/0.5deg). Renders (iso/top/side) show consistent overlap of window, desk, monitors and floor; mismatch remains only where views partially overlap.",
+  "rot_err": 0.7049061366755855,
+  "lat_err": 0.03687071219341364,
+  "trans_err": 0.05438625535742132,
+  "scale_err": 0.0,
+  "overlap": 0.8126732174351222,
+  "success": true,
+  "n_actions": 16,
+  "n_state_changes": 3,
+  "n_undo": 2,
+  "n_match": 2,
+  "n_solve": 2,
+  "n_icp": 1,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 2,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 1,
+   "fpfh": 0,
+   "total": 12
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.995894886964228,
+    0.0014981783417680472,
+    -0.0905048594284511,
+    -0.35603755187598657
+   ],
+   [
+    -0.002374243534447096,
+    0.9999513603521462,
+    -0.009572873002997362,
+    0.031431328131347566
+   ],
+   [
+    0.09048611543295798,
+    0.009748455854576454,
+    0.9958500040278682,
+    -0.3149689025778133
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9948889991962879,
+    0.0004425591595282573,
+    -0.10097367686481408,
+    -0.32823601683185544
+   ],
+   [
+    -0.000789951593190584,
+    0.9999939063807155,
+    -0.0034004673087370185,
+    0.007213069175768416
+   ],
+   [
+    0.1009715566617153,
+    0.0034628518344992894,
+    0.994883286321809,
+    -0.2749887155578268
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "office_v3_eth3d_0149",
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0149",
+  "ref": "eth3d_0127",
+  "status": "done",
+  "reason": "SIFT\u5339\u914d176\u5bf9(158\u5185\u70b9,89.8%)\u7ecfRANSAC\u521a\u4f53\u6c42\u89e3+\u70b9\u5230\u9762ICP: \u4e2d\u4f4d\u6700\u8fd1\u90bb0.050m, \u91cd\u53e00.84/0.65, \u91cd\u9a8c\u5339\u914d\u6b8b\u5dee0.22m\u4e14\u9690\u542b\u5e73\u79fb\u6563\u5e03\u4ec50.08m, \u4e09\u89c6\u89d2\u6e32\u67d3\u4e00\u81f4",
+  "rot_err": 6.50642278321483,
+  "lat_err": 0.10943597877894701,
+  "trans_err": 0.11576623352241626,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.8425296044343663,
+  "success": false,
+  "n_actions": 12,
+  "n_state_changes": 2,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 1,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 0,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 1,
+   "fpfh": 0,
+   "total": 10
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9792602370423676,
+    0.012593113631460469,
+    0.20221474139337722,
+    0.4034925492860499
+   ],
+   [
+    -0.04230702717180278,
+    0.9887742709726856,
+    0.14330232557191236,
+    0.06057223942525421
+   ],
+   [
+    -0.19814011103158738,
+    -0.14888537386694245,
+    0.9688001041746902,
+    0.36786609596520214
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9685723211940908,
+    -0.03794074464793507,
+    0.24582139555427635,
+    0.305477012508256
+   ],
+   [
+    -0.022788003221966127,
+    0.9706056978881032,
+    0.23959400271355646,
+    0.011897934073589744
+   ],
+   [
+    -0.2476860220639175,
+    -0.2376658981063714,
+    0.9392372199564094,
+    0.33010914464944474
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "office_v4_eth3d_0133",
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0133",
+  "ref": "eth3d_0127",
+  "status": "done",
+  "reason": "Rigid solve from 220 SIFT matches (190 inliers, 86%) reduced median NN from 0.586 m to 0.046 m; point-to-plane ICP refinement plus 0.1 m-radius ICP reached median NN 0.040 m with 3.6 cm inlier RMSE. Independent AKAZE (145 matches, 5.8 cm median residual, 2.7 cm translation spread) and ORB (216 matches, 4.5 cm median residual, 3.2 cm spread) checks confirm the transform; no evidence of symmetric-structure misalignment despite partial overlap.",
+  "rot_err": 1.1213007692411152,
+  "lat_err": 0.03232103236571116,
+  "trans_err": 0.07957883656680549,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.7925589989082052,
+  "success": true,
+  "n_actions": 17,
+  "n_state_changes": 4,
+  "n_undo": 1,
+  "n_match": 3,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 1,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 14
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9930944549871988,
+    -0.009018038873682108,
+    -0.11697041698032551,
+    -0.2993434490491307
+   ],
+   [
+    0.009244904984901743,
+    0.9999562889685051,
+    0.001397098477609134,
+    -0.007273775204772303
+   ],
+   [
+    0.11695270499436358,
+    -0.0024688311422126873,
+    0.9931344167167372,
+    -0.34770832842905286
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9948889991962879,
+    0.0004425591595282573,
+    -0.10097367686481408,
+    -0.32823601683185544
+   ],
+   [
+    -0.000789951593190584,
+    0.9999939063807155,
+    -0.0034004673087370185,
+    0.007213069175768416
+   ],
+   [
+    0.1009715566617153,
+    0.0034628518344992894,
+    0.994883286321809,
+    -0.2749887155578268
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "office_v4_eth3d_0149",
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0149",
+  "ref": "eth3d_0127",
+  "status": "done",
+  "reason": "SIFT 176\u5bf9\u5339\u914d\uff08RANSAC \u5185\u70b9158\uff0c89.8%\uff09\u7ecfrigid3d\u6c42\u89e3\u540e\u4e2d\u4f4d\u6700\u8fd1\u90bb\u8ddd\u79bb\u4ece0.90m\u964d\u81f30.040m\uff0c\u91cd\u53e0\u6bd4\u4f8b0.25/0.29\u5347\u81f30.81/0.60\uff1b\u968f\u540e\u4e24\u8f6e\u70b9\u5230\u9762ICP\u6536\u655b\u81f3\u4e2d\u4f4d0.036m\uff08\u589e\u91cf\u6beb\u7c73\u7ea7\uff09\uff0ciso/top/side\u6e32\u67d3\u663e\u793a\u5899\u9762\u3001\u5929\u82b1\u677f\u3001\u684c\u9762\u7b49\u7ed3\u6784\u7ea2\u7070\u4e92\u5d4c\u4e00\u81f4\u3002reproj\u6c42\u89e3\u5f02\u5e38\uff08RMS 268px\u4e14\u7edf\u8ba1\u53d8\u5dee\uff09\u5df2\u64a4\u9500\u3002\u5269\u4f59\u4e0d\u786e\u5b9a\u6027\uff1a\u6df1\u5ea6\u4e3a\u9884\u6d4b\u503c\u53ef\u80fd\u6709\u5c40\u90e8\u566a\u58f0\uff0c\u90e8\u5206\u533a\u57df\u91cd\u53e0\u4e0d\u5b8c\u5168\u3002",
+  "rot_err": 3.982804300899286,
+  "lat_err": 0.12951811398763044,
+  "trans_err": 0.13012085851859895,
+  "scale_err": 0.0,
+  "overlap": 0.8244310069706895,
+  "success": false,
+  "n_actions": 14,
+  "n_state_changes": 4,
+  "n_undo": 1,
+  "n_match": 1,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 0,
+   "match": 1,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 10
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.1102230246251565e-16,
+  "matrix_est": [
+   [
+    0.9810070727476107,
+    -0.02689521001634658,
+    0.19209833652934385,
+    0.4265574396920275
+   ],
+   [
+    -0.012518309548545837,
+    0.9794978069439524,
+    0.20106550703199702,
+    0.05788132242099453
+   ],
+   [
+    -0.1935675983867428,
+    -0.19965143092440893,
+    0.9605575937884333,
+    0.3426189796085645
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9685723211940908,
+    -0.03794074464793507,
+    0.24582139555427635,
+    0.305477012508256
+   ],
+   [
+    -0.022788003221966127,
+    0.9706056978881032,
+    0.23959400271355646,
+    0.011897934073589744
+   ],
+   [
+    -0.2476860220639175,
+    -0.2376658981063714,
+    0.9392372199564094,
+    0.33010914464944474
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "office_v4_eth3d_0152",
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0152",
+  "ref": "eth3d_0127",
+  "status": "done",
+  "reason": "SIFT 84 \u5339\u914d\u7ecf RANSAC rigid3d \u5f97 43 \u5185\u70b9\uff0c\u4e2d\u4f4d\u6b8b\u5dee\u7531 3.36 m \u964d\u81f3 0.054 m\uff1b\u4e24\u8f6e ICP \u6536\u655b\uff08rmse 0.026 m\uff0c\u4e2d\u4f4d\u6700\u8fd1\u90bb 0.028 m\uff09\uff1bAKAZE/ORB \u72ec\u7acb\u5339\u914d\u5728\u5f53\u524d\u53d8\u6362\u4e0b\u4e2d\u4f4d\u6b8b\u5dee 0.148/0.106 m\u3001\u6563\u5e03\u7ea6 0.11 m\uff1biso/top/side \u6e32\u67d3\u4e2d\u5404\u89c6\u89d2\u623f\u95f4\u7ed3\u6784\uff08\u7a97\u6846\u3001\u663e\u793a\u5668\u3001\u684c\u9762\u3001\u6905\u5b50\u3001\u5899\u4f53\uff09\u4e00\u81f4\u3002",
+  "rot_err": 4.937687698400787,
+  "lat_err": 0.15437920258308793,
+  "trans_err": 0.21982794967577093,
+  "scale_err": 0.0,
+  "overlap": 1.0,
+  "success": false,
+  "n_actions": 18,
+  "n_state_changes": 5,
+  "n_undo": 1,
+  "n_match": 3,
+  "n_solve": 2,
+  "n_icp": 3,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 0,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 3,
+   "fpfh": 0,
+   "total": 14
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9860433785186097,
+    0.07821434865460895,
+    -0.14697268910971586,
+    0.1161429185431192
+   ],
+   [
+    -0.04221575558786412,
+    0.9713879422570443,
+    0.23371627161533176,
+    0.02006872554274847
+   ],
+   [
+    0.1610474639966482,
+    -0.22424981895680782,
+    0.9611325262616426,
+    0.6819516605874916
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9698952628542553,
+    0.0828892525812664,
+    -0.228981551438966,
+    0.27033335391511404
+   ],
+   [
+    -0.02362348405180933,
+    0.9678795919448714,
+    0.2503018707438768,
+    0.01243669894525895
+   ],
+   [
+    0.24237390555530225,
+    -0.23735725668946597,
+    0.9406999641770596,
+    0.8384489106223186
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "playground_v2_eth3d_0286",
+  "scene": "playground",
+  "tag": "v2",
+  "sid": "eth3d_0286",
+  "ref": "eth3d_0282",
+  "status": "done",
+  "reason": "SIFT+RANSAC rigid3d followed by ICP converged; independently re-verified by AKAZE matching (0.36 m median residual) and FPFH+RANSAC+ICP from scratch converging to the same pose (3 cm / <0.5 deg difference); final non-sky overlap 74-77% with median NN 0.116 m and ICP RMSE 0.164 m. Residual uncertainty due to predicted-depth noise and partial overlap.",
+  "rot_err": 1.0313851680904345,
+  "lat_err": 0.07193117831103824,
+  "trans_err": 0.1975747378361186,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.4641387419165197,
+  "success": true,
+  "n_actions": 22,
+  "n_state_changes": 6,
+  "n_undo": 2,
+  "n_match": 2,
+  "n_solve": 3,
+  "n_icp": 2,
+  "n_fpfh": 1,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 2,
+   "match": 2,
+   "mask": 1,
+   "transform": 0,
+   "solve": 3,
+   "icp": 2,
+   "fpfh": 1,
+   "total": 16
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 1.1102230246251565e-16,
+  "matrix_est": [
+   [
+    0.9932124483966047,
+    -0.039752461885385115,
+    -0.10931044837558085,
+    -0.460411717705352
+   ],
+   [
+    0.03786953487471782,
+    0.999097285617427,
+    -0.01924869346899416,
+    0.014043856536822446
+   ],
+   [
+    0.1099769552151362,
+    0.01497850613184537,
+    0.9938212684762114,
+    -0.2687086568823987
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9944719836988916,
+    -0.04722133891292178,
+    -0.09378496035752518,
+    -0.5270569715165347
+   ],
+   [
+    0.04601421370046028,
+    0.998828257618896,
+    -0.014993462559701978,
+    -0.013020964867676232
+   ],
+   [
+    0.09438307992177401,
+    0.010595137246481545,
+    0.995479571508732,
+    -0.4527240981306717
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "playground_v3_eth3d_0286",
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0286",
+  "ref": "eth3d_0282",
+  "status": "done",
+  "reason": "SIFT correspondence reprojection solve corrected a bad initial ~35deg z-rotation to near-identity relative pose (R~6.5deg, t~(-0.46,0.02,-0.26)m), consistent with adjacent ETH3D frames; final near-field (<=12m) stats: bidirectional coverage 85%/86%, median NN 0.089m; independent SIFT re-match residual dropped from 2.08m to 0.35m; iso/side renders show foreground playground and background arch structures coinciding. Far-field (>12m) depth-noise disagreement remains (global median NN 0.46m, coverage 46%/52%).",
+  "rot_err": 0.9218952382595017,
+  "lat_err": 0.07244233105672031,
+  "trans_err": 0.2029080448074133,
+  "scale_err": 0.0,
+  "overlap": 0.4617871840094062,
+  "success": true,
+  "n_actions": 28,
+  "n_state_changes": 8,
+  "n_undo": 1,
+  "n_match": 5,
+  "n_solve": 4,
+  "n_icp": 4,
+  "n_fpfh": 0,
+  "n_render": 6,
+  "used": {
+   "photo": 1,
+   "render": 6,
+   "closeup": 1,
+   "match": 5,
+   "mask": 4,
+   "transform": 0,
+   "solve": 4,
+   "icp": 4,
+   "fpfh": 0,
+   "total": 25
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.9934967321447417,
+    -0.03957520398070073,
+    -0.10676163378109735,
+    -0.4603935975988872
+   ],
+   [
+    0.03767533618189397,
+    0.9990947486514834,
+    -0.019754803481988978,
+    0.015331916940834415
+   ],
+   [
+    0.10744678804554542,
+    0.015604052259485579,
+    0.9940883770026557,
+    -0.2631883935295708
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9944719836988916,
+    -0.04722133891292178,
+    -0.09378496035752518,
+    -0.5270569715165347
+   ],
+   [
+    0.04601421370046028,
+    0.998828257618896,
+    -0.014993462559701978,
+    -0.013020964867676232
+   ],
+   [
+    0.09438307992177401,
+    0.010595137246481545,
+    0.995479571508732,
+    -0.4527240981306717
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "playground_v3_eth3d_0278",
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0278",
+  "ref": "eth3d_0282",
+  "status": "done",
+  "reason": "\u5df2\u5728\u5de5\u4f5c\u53f0\u5e94\u7528\u6700\u7ec8\u53d8\u6362\uff1a\u7a20\u5bc6\u6df1\u5ea6\u70b9\u4e91\u8fd1\u573a(<=12m)\u5bf9\u9f50\u4e2d\u4f4d\u6700\u8fd1\u90bb0.20m\u3001\u63a9\u7801ICP fitness 0.64/rmse 0.15m\uff0c\u79fb\u52a8\u70b968%\u5728\u53c2\u8003\u4e91\u9644\u8fd1\uff1b\u5168\u4e91\u4e2d\u4f4d0.72m\uff0c\u5dee\u5f02\u4e3b\u8981\u6765\u81ea\u8fdc\u573a\u90e8\u5206\u91cd\u53e0\u4e0e\u8fdc\u666f\u6df1\u5ea6\u566a\u58f0\u3002\u4f4d\u59ff\u7ea6\u504f\u822a28\u5ea6\u3001\u4fef\u4ef06\u5ea6\u3001\u5e73\u79fb2.7m\uff0c\u4e0e\u4e24\u56fe\u660e\u663e\u7684\u5927\u5e45\u89c6\u89d2\u5dee\u4e00\u81f4\u3002\u4e0d\u786e\u5b9a\uff1aSIFT/AKAZE/ORB\u5339\u914d\u51e0\u4e4e\u5168\u4e3a\u9519\u914d(RANSAC\u65e0\u5171\u8bc6\u3001\u6b8b\u5dee\u6052\u7ea66.9m)\uff0c\u65e0\u6cd5\u7528\u56fe\u50cf\u7279\u5f81\u72ec\u7acb\u590d\u6838\uff1bICP\u5728\u4e0d\u540c\u5c40\u90e8\u6781\u5c0f\u95f4\u66fe\u6446\u52a8(\u504f\u822a16-28\u5ea6)\uff0c\u6b8b\u4f59\u65cb\u8f6c\u8bef\u5dee\u53ef\u80fd\u8fbe\u6570\u5ea6\u3002",
+  "rot_err": 55.20799287273033,
+  "lat_err": 5.695358204257017,
+  "trans_err": 5.701399100084489,
+  "scale_err": 4.440892098500626e-16,
+  "overlap": 0.3672209624590577,
+  "success": false,
+  "n_actions": 34,
+  "n_state_changes": 8,
+  "n_undo": 2,
+  "n_match": 5,
+  "n_solve": 3,
+  "n_icp": 4,
+  "n_fpfh": 1,
+  "n_render": 7,
+  "used": {
+   "photo": 3,
+   "render": 7,
+   "closeup": 4,
+   "match": 5,
+   "mask": 2,
+   "transform": 1,
+   "solve": 3,
+   "icp": 4,
+   "fpfh": 1,
+   "total": 30
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 4.440892098500626e-16,
+  "matrix_est": [
+   [
+    0.8787492339392032,
+    0.0016611075219601936,
+    -0.47728086550066523,
+    2.484225473527673
+   ],
+   [
+    -0.05111113068889164,
+    0.9945710873483468,
+    -0.09064217853973691,
+    -0.06386186829679932
+   ],
+   [
+    0.4745391829669777,
+    0.10404610964628601,
+    0.8740634821890851,
+    1.1369630154433392
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.893144328022569,
+    0.03279458844275629,
+    0.44857298658076133,
+    -3.210151143590965
+   ],
+   [
+    -0.0009468127089979489,
+    0.9974731047489817,
+    -0.07103878411207579,
+    0.04187373218954871
+   ],
+   [
+    -0.4497691773196645,
+    0.06302317249471245,
+    0.8909184961947387,
+    0.8745766140302558
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "playground_v4_eth3d_0286",
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0286",
+  "ref": "eth3d_0282",
+  "status": "done",
+  "reason": "SIFT\u5bf9\u5e94+RANSAC\u521a\u4f53\u6c42\u89e3\u540e\uff0c\u4ee5\u8fd1\u573a\u666f(<=15m,\u53bb\u5929\u7a7a)\u63a9\u7801\u505a\u70b9\u5230\u9762ICP\u5e76\u6536\u655b\uff1b\u8fd1\u7ed3\u6784\u4e92\u90bb\u4e2d\u503c0.094m\u3001\u53cc\u5411\u91cd\u53e084-85%\u3001ICP RMSE 0.18m\uff1b\u590d\u9a8c\u5339\u914d\u4e09\u7ef4\u6b8b\u5dee\u75313.52m\u964d\u81f30.35m\uff0c\u5e73\u79fb\u6563\u5e031.93m\u964d\u81f30.35m\uff1b\u6e32\u67d3\u663e\u793a\u7acb\u67f1\u4e0e\u5730\u9762\u5728\u4e24\u89c6\u56fe\u4e00\u81f4\u5bf9\u9f50\u3002\u6b8b\u4f59\u4e0d\u786e\u5b9a\u6027\u6765\u81ea\u5355\u76ee\u6df1\u5ea6\u566a\u58f0\u4e0e\u8fdc\u666f\u80cc\u666f\u3002",
+  "rot_err": 1.1014757059855487,
+  "lat_err": 0.0653372445411482,
+  "trans_err": 0.21316915784844978,
+  "scale_err": 4.440892098500626e-16,
+  "overlap": 0.4620391366423112,
+  "success": true,
+  "n_actions": 18,
+  "n_state_changes": 5,
+  "n_undo": 1,
+  "n_match": 2,
+  "n_solve": 2,
+  "n_icp": 3,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 1,
+   "match": 2,
+   "mask": 1,
+   "transform": 0,
+   "solve": 2,
+   "icp": 3,
+   "fpfh": 0,
+   "total": 15
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9941825614254132,
+    -0.036380026187171385,
+    -0.10137814484505972,
+    -0.4891134606191755
+   ],
+   [
+    0.03372403930764988,
+    0.9990447127004487,
+    -0.027791207207556907,
+    0.04016968755370115
+   ],
+   [
+    0.1022923444368212,
+    0.024210653025022042,
+    0.9944597128841988,
+    -0.2498149205817311
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.9944719836988916,
+    -0.04722133891292178,
+    -0.09378496035752518,
+    -0.5270569715165347
+   ],
+   [
+    0.04601421370046028,
+    0.998828257618896,
+    -0.014993462559701978,
+    -0.013020964867676232
+   ],
+   [
+    0.09438307992177401,
+    0.010595137246481545,
+    0.995479571508732,
+    -0.4527240981306717
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "playground_v4_eth3d_0278",
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0278",
+  "ref": "eth3d_0282",
+  "status": "abstain",
+  "reason": "2D feature matches unreliable (SIFT 17/AKAZE 62 inconsistent; rigid3d no consensus; reproj diverged). Point-cloud fits converge (median NN 0.24m) but with ~14-19deg pitch tilt that contradicts the near-level horizons in the two photos (<=2-3deg), indicating per-view depth distortion bias; no image-space validation available.",
+  "rot_err": 43.414659229976195,
+  "lat_err": 4.991425979682851,
+  "trans_err": 4.9915037724346725,
+  "scale_err": 1.1102230246251565e-15,
+  "overlap": 0.3857814730830604,
+  "success": false,
+  "n_actions": 33,
+  "n_state_changes": 6,
+  "n_undo": 2,
+  "n_match": 5,
+  "n_solve": 3,
+  "n_icp": 2,
+  "n_fpfh": 2,
+  "n_render": 8,
+  "used": {
+   "photo": 1,
+   "render": 8,
+   "closeup": 6,
+   "match": 5,
+   "mask": 2,
+   "transform": 0,
+   "solve": 3,
+   "icp": 2,
+   "fpfh": 2,
+   "total": 29
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9619842616793494,
+    0.026850029565590034,
+    -0.2717818172607728,
+    1.7662930736010962
+   ],
+   [
+    -0.09254190894121128,
+    0.9683293996353953,
+    -0.2318925805006931,
+    0.4283142370911371
+   ],
+   [
+    0.25694800129745504,
+    0.24822822102670133,
+    0.9340023955617917,
+    0.902444150280552
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.893144328022569,
+    0.03279458844275629,
+    0.44857298658076133,
+    -3.210151143590965
+   ],
+   [
+    -0.0009468127089979489,
+    0.9974731047489817,
+    -0.07103878411207579,
+    0.04187373218954871
+   ],
+   [
+    -0.4497691773196645,
+    0.06302317249471245,
+    0.8909184961947387,
+    0.8745766140302558
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "playground_v4_eth3d_0249",
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0249",
+  "ref": "eth3d_0282",
+  "status": "done",
+  "reason": "FPFH+RANSAC+ICP global registration converged: fitness 0.83, RMSE 0.23 m, median NN 0.175 m over 23814 points; second ICP step moved only ~1 cm and 0.4 deg. Multi-view renders (iso/side/top) show moving and reference structures (pole cluster, fence/wall band, sloped pole column) coinciding. SIFT/AKAZE matches were unreliable in this repetitive wood texture and were not used as evidence.",
+  "rot_err": 56.6241441461672,
+  "lat_err": 0.9638963611709999,
+  "trans_err": 1.0484362259909559,
+  "scale_err": 1.1102230246251565e-16,
+  "overlap": 0.7116822037456958,
+  "success": false,
+  "n_actions": 14,
+  "n_state_changes": 2,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 1,
+  "n_icp": 1,
+  "n_fpfh": 1,
+  "n_render": 4,
+  "used": {
+   "photo": 1,
+   "render": 4,
+   "closeup": 2,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 1,
+   "fpfh": 1,
+   "total": 13
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.9994121992800332,
+    0.032796577103310874,
+    0.009982006839965075,
+    -0.9758896993615251
+   ],
+   [
+    -0.03392473286770787,
+    0.9880713292457959,
+    0.1502137171575946,
+    0.13615621558631036
+   ],
+   [
+    -0.004936439010170712,
+    -0.15046405834203025,
+    0.9886031553242909,
+    0.8552068725165756
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.5504009625603778,
+    -0.20579837048944533,
+    0.8091389319001396,
+    -1.9367623774186247
+   ],
+   [
+    0.018620229639264064,
+    0.971928913144601,
+    0.23453672386587307,
+    0.05986800127982517
+   ],
+   [
+    -0.8346927982562153,
+    -0.11402288584948468,
+    0.5387826222529499,
+    1.267665749123037
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "terrace_v2_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v2",
+  "sid": "eth3d_0236",
+  "ref": "eth3d_0233",
+  "status": "done",
+  "reason": "SIFT\u5339\u914d(130\u5bf9\uff0c64\u5185\u70b9)\u6c42\u89e3\u521a\u4f53\u53d8\u6362\u5e76ICP\u7cbe\u5316\u81f3\u7a33\u5b9a\u6536\u655b\uff1a\u4e2d\u4f4d\u6700\u8fd1\u90bb\u8ddd\u79bb0.115m\uff0c\u79fb\u52a8/\u53c2\u8003\u8fd1\u90bb\u91cd\u5408\u738768%/89%\uff1bORB\u72ec\u7acb\u5339\u914d82\u5bf9\u5728\u5f53\u524d\u53d8\u6362\u4e0b\u4e2d\u4f4d3D\u6b8b\u5dee0.166m\u3001\u9690\u542b\u5e73\u79fb\u6563\u5e030.077m\uff0c\u4ea4\u53c9\u9a8c\u8bc1\u4e00\u81f4\uff1breproj\u89e3\u56e0\u79bb\u7fa4\u5339\u914dRMS\u8fbe1002px\u5df2\u64a4\u9500\u3002\u5269\u4f59\u4e0d\u786e\u5b9a\u6027\uff1a\u5355\u76ee\u6df1\u5ea6\u566a\u58f0\u53ca\u90e8\u5206\u533a\u57df\u4ec5\u5355\u89c6\u56fe\u53ef\u89c1\u3002",
+  "rot_err": 0.8866387447680592,
+  "lat_err": 0.08096434122214054,
+  "trans_err": 0.08114824217995584,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.6808599983203157,
+  "success": true,
+  "n_actions": 14,
+  "n_state_changes": 4,
+  "n_undo": 1,
+  "n_match": 2,
+  "n_solve": 2,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 3,
+  "used": {
+   "photo": 1,
+   "render": 3,
+   "closeup": 1,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 2,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 11
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 4.440892098500626e-16,
+  "matrix_est": [
+   [
+    0.8500487118336999,
+    0.030080331705525844,
+    0.5258444267598088,
+    -2.463039191803908
+   ],
+   [
+    -0.04598252452671766,
+    0.9987941959571294,
+    0.017197719630837424,
+    -0.1190078832923361
+   ],
+   [
+    -0.5246930483130273,
+    -0.038798553669390605,
+    0.8504068892507555,
+    -0.5111354342131678
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.8447920915040714,
+    0.04178916643708202,
+    0.5334603900016107,
+    -2.389353558866532
+   ],
+   [
+    -0.05403206271744223,
+    0.998512178503549,
+    0.007346126775030479,
+    -0.08545714487790645
+   ],
+   [
+    -0.5323597076513916,
+    -0.03502991505257033,
+    0.845793146532138,
+    -0.5056753372028977
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "terrace_v3_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v3",
+  "sid": "eth3d_0236",
+  "ref": "eth3d_0233",
+  "status": "done",
+  "reason": "SIFT 130 matches -> rigid3d RANSAC 64 inliers -> ICP converged (fitness 0.74, rmse 0.175 m). Median NN 0.115 m, 89% ref points near moving, 68% moving near ref. Re-match under final transform: median residual 0.177 m, translation spread 0.139 m, confirming consistency.",
+  "rot_err": 0.8866387447680592,
+  "lat_err": 0.08096434122214054,
+  "trans_err": 0.08114824217995584,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.6808599983203157,
+  "success": true,
+  "n_actions": 16,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 3,
+  "n_solve": 1,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 2,
+   "match": 3,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 14
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 8.881784197001252e-16,
+  "matrix_est": [
+   [
+    0.8500487118336999,
+    0.030080331705525844,
+    0.5258444267598088,
+    -2.463039191803908
+   ],
+   [
+    -0.04598252452671766,
+    0.9987941959571294,
+    0.017197719630837424,
+    -0.1190078832923361
+   ],
+   [
+    -0.5246930483130273,
+    -0.038798553669390605,
+    0.8504068892507555,
+    -0.5111354342131678
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.8447920915040714,
+    0.04178916643708202,
+    0.5334603900016107,
+    -2.389353558866532
+   ],
+   [
+    -0.05403206271744223,
+    0.998512178503549,
+    0.007346126775030479,
+    -0.08545714487790645
+   ],
+   [
+    -0.5323597076513916,
+    -0.03502991505257033,
+    0.845793146532138,
+    -0.5056753372028977
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "terrace_v3_eth3d_0231",
+  "scene": "terrace",
+  "tag": "v3",
+  "sid": "eth3d_0231",
+  "ref": "eth3d_0233",
+  "status": "done",
+  "reason": "SIFT\u5168\u56fe\u5339\u914d+RANSAC\u521a\u4f53\u89e3\u7b97\u540e\u63a5\u4e24\u8f6e\u70b9\u5230\u9762ICP\uff0c\u6b8b\u5dee\u6536\u655b(rmse 0.16m, fitness 0.81)\uff1b\u72ec\u7acbORB\u5339\u914d\u4e0e\u4ece\u4e0d\u540c\u521d\u59cb\u89e3(B)\u51fa\u53d1\u7684ICP\u5747\u6536\u655b\u5230\u540c\u4e00\u53d8\u6362\uff1b\u957f\u6905\u533a7\u4e2a\u72ec\u7acb\u5bf9\u5e94\u5728\u6700\u7ec8\u65cb\u8f6c\u4e0b\u9690\u542b\u5e73\u79fb\u6563\u5e03\u4ec51.7cm\uff1b\u4e2d\u4f4d\u6700\u8fd1\u90bb0.135m\uff0c\u4e0eETH3D\u6df1\u5ea6\u566a\u58f0\u6c34\u5e73\u4e00\u81f4\uff0c\u5224\u4e3a\u5b8c\u6210\u3002",
+  "rot_err": 2.061756363910371,
+  "lat_err": 0.27385691703331233,
+  "trans_err": 0.5249304401996826,
+  "scale_err": 0.0,
+  "overlap": 0.7787855883093978,
+  "success": false,
+  "n_actions": 23,
+  "n_state_changes": 7,
+  "n_undo": 2,
+  "n_match": 5,
+  "n_solve": 4,
+  "n_icp": 3,
+  "n_fpfh": 0,
+  "n_render": 5,
+  "used": {
+   "photo": 1,
+   "render": 5,
+   "closeup": 1,
+   "match": 5,
+   "mask": 0,
+   "transform": 0,
+   "solve": 4,
+   "icp": 3,
+   "fpfh": 0,
+   "total": 19
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.7996213584353264,
+    -0.015749646170366956,
+    -0.6002979525032145,
+    0.2609961680640541
+   ],
+   [
+    0.024045937378658417,
+    0.9996940191034447,
+    0.005801815610963192,
+    0.11248290827690999
+   ],
+   [
+    0.6000228962544885,
+    -0.019073982654658858,
+    0.7997554045807161,
+    2.4407372799695035
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.791428203118325,
+    -0.04911833637501595,
+    -0.6092854736005527,
+    0.5267701429073925
+   ],
+   [
+    0.047269986193557385,
+    0.9986993258841661,
+    -0.019110334475688634,
+    0.17852687320151928
+   ],
+   [
+    0.6094316595929032,
+    -0.013676458249948828,
+    0.7927206360222857,
+    1.992904324459034
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "terrace_v4_eth3d_0236",
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0236",
+  "ref": "eth3d_0233",
+  "status": "done",
+  "reason": "SIFT 3D-3D RANSAC rigid solve: 64/130 inliers, median NN 0.115m; ICP refinement converged to RMSE 0.079m, median NN 0.111m, overlap 67%/89%. Independent AKAZE match set (not used for solving) agrees under the transform: median 3D residual 0.15m, implied translation spread 0.10m. Renders (iso/top/side) show facade, balcony, bench and floor structures coinciding; residual uncertainty is partial overlap (each view sees extra area on opposite sides) and ~0.1m depth noise.",
+  "rot_err": 0.4077497325671857,
+  "lat_err": 0.09137345349242423,
+  "trans_err": 0.1038675140539453,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.6704459561602418,
+  "success": true,
+  "n_actions": 12,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 3,
+  "used": {
+   "photo": 1,
+   "render": 3,
+   "closeup": 1,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 10
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 2.220446049250313e-16,
+  "matrix_est": [
+   [
+    0.8484750915742715,
+    0.039933218260118246,
+    0.5277265930928821,
+    -2.4789507510217828
+   ],
+   [
+    -0.05271802498838441,
+    0.9985670783458831,
+    0.009197819583492809,
+    -0.10338620400066263
+   ],
+   [
+    -0.5266031036932418,
+    -0.035624824535092636,
+    0.8493644936406799,
+    -0.5550651385045259
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.8447920915040714,
+    0.04178916643708202,
+    0.5334603900016107,
+    -2.389353558866532
+   ],
+   [
+    -0.05403206271744223,
+    0.998512178503549,
+    0.007346126775030479,
+    -0.08545714487790645
+   ],
+   [
+    -0.5323597076513916,
+    -0.03502991505257033,
+    0.845793146532138,
+    -0.5056753372028977
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "terrace_v4_eth3d_0231",
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0231",
+  "ref": "eth3d_0233",
+  "status": "done",
+  "reason": "SIFT+RANSAC rigid solve (28/95 inliers) then point-to-plane ICP converged (fitness 0.80, RMSE 0.129m, median NN 0.135m, second pass moved only 1.6cm). Independent AKAZE matches (97) show 0.29m median residual under this transform and renders from iso/top/side/front show arch, roofline, windows and furniture consistently aligned; same bench/chair cluster lands at comparable world positions. Residual uncertainty: partial overlap and noisy predicted depth.",
+  "rot_err": 1.5204731494252708,
+  "lat_err": 0.2918071644499543,
+  "trans_err": 0.5246010264094028,
+  "scale_err": 2.220446049250313e-16,
+  "overlap": 0.7734945830183926,
+  "success": true,
+  "n_actions": 16,
+  "n_state_changes": 3,
+  "n_undo": 0,
+  "n_match": 2,
+  "n_solve": 1,
+  "n_icp": 2,
+  "n_fpfh": 0,
+  "n_render": 6,
+  "used": {
+   "photo": 1,
+   "render": 6,
+   "closeup": 2,
+   "match": 2,
+   "mask": 0,
+   "transform": 0,
+   "solve": 1,
+   "icp": 2,
+   "fpfh": 0,
+   "total": 14
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 4.440892098500626e-16,
+  "matrix_est": [
+   [
+    0.7967331278974302,
+    -0.024550849474180052,
+    -0.6038324094489068,
+    0.24188533014865715
+   ],
+   [
+    0.03161386564740069,
+    0.9994995784936839,
+    0.0010752161542144506,
+    0.11534408532584087
+   ],
+   [
+    0.6035038412550537,
+    -0.01994613699557772,
+    0.7971105727622416,
+    2.4288570921821857
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    0.791428203118325,
+    -0.04911833637501595,
+    -0.6092854736005527,
+    0.5267701429073925
+   ],
+   [
+    0.047269986193557385,
+    0.9986993258841661,
+    -0.019110334475688634,
+    0.17852687320151928
+   ],
+   [
+    0.6094316595929032,
+    -0.013676458249948828,
+    0.7927206360222857,
+    1.992904324459034
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "case": "terrace_v4_eth3d_0228",
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0228",
+  "ref": "eth3d_0233",
+  "status": "done",
+  "reason": "FPFH+RANSAC+ICP global registration converged to a sharp 6-DoF optimum: 45% of moving and 16% of ref points in mutual proximity, median NN 0.46 m, ICP fitness 0.51/RMSE 0.22 m. Perturbation probes (2 m x-shift -> 0.23, 2 m z-shift -> 0.10 overlap, 10 deg yaw -> 0.27) show the alignment is pinned by real non-planar structure, not a sliding ground plane. The pose (~110 deg rotation, ~10 m translation) is consistent with the two cameras looking in nearly opposite directions across the shared white-wall/ground area (partial overlap). Residual uncertainty: limited visible overlap, predicted-depth noise, and sparse/unreliable SIFT matches could not independently verify correspondence.",
+  "rot_err": 89.86759318491984,
+  "lat_err": 2.81307022026601,
+  "trans_err": 5.794567099848498,
+  "scale_err": 4.440892098500626e-16,
+  "overlap": 0.4524649365919207,
+  "success": false,
+  "n_actions": 29,
+  "n_state_changes": 4,
+  "n_undo": 3,
+  "n_match": 3,
+  "n_solve": 0,
+  "n_icp": 0,
+  "n_fpfh": 1,
+  "n_render": 6,
+  "used": {
+   "photo": 3,
+   "render": 6,
+   "closeup": 6,
+   "match": 3,
+   "mask": 2,
+   "transform": 3,
+   "solve": 0,
+   "icp": 0,
+   "fpfh": 1,
+   "total": 24
+  },
+  "budget": {
+   "photo": 6,
+   "render": 12,
+   "closeup": 6,
+   "match": 5,
+   "mask": 4,
+   "transform": 8,
+   "solve": 6,
+   "icp": 4,
+   "fpfh": 2,
+   "total": 30
+  },
+  "recon_passed": true,
+  "recon_error": 0.0,
+  "matrix_est": [
+   [
+    0.49969938469692887,
+    -0.5366828847879325,
+    -0.679905880331399,
+    1.8414235322027386
+   ],
+   [
+    -0.7388480916811514,
+    0.14560607676979984,
+    -0.6579531653748848,
+    2.3568598171330573
+   ],
+   [
+    0.4521106306565164,
+    0.831125954102872,
+    -0.3237678582934956,
+    9.34044246672548
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "matrix_gt": [
+   [
+    -0.46674486218919037,
+    -0.0799829754614918,
+    -0.8807678225595665,
+    -0.179937259471731
+   ],
+   [
+    0.08774970483220534,
+    0.9867995039540551,
+    -0.13611292480103224,
+    0.40046910614799947
+   ],
+   [
+    0.8800279671248262,
+    -0.14081712478373157,
+    -0.45356511599304955,
+    4.274512758320599
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ }
+]

@@ -1,0 +1,44 @@
+
+== office  10 views, 45 pairs: {'G2_low': 44, 'G1_high': 1}
+  eth3d_0149 eth3d_0152 0.244 G1_high
+  eth3d_0130 eth3d_0135 0.187 G2_low
+  eth3d_0127 eth3d_0152 0.181 G2_low
+  eth3d_0127 eth3d_0133 0.178 G2_low
+  eth3d_0138 eth3d_0146 0.155 G2_low
+  eth3d_0133 eth3d_0138 0.152 G2_low
+  eth3d_0144 eth3d_0146 0.134 G2_low
+  eth3d_0146 eth3d_0149 0.131 G2_low
+
+== courtyard  10 views, 45 pairs: {'G2_low': 3, 'G3_bridge': 1, 'G4_unconnected': 41}
+  eth3d_0004 eth3d_0008 0.089 G2_low
+  eth3d_0000 eth3d_0004 0.073 G2_low
+  eth3d_0012 eth3d_0029 0.030 G2_low
+  eth3d_0016 eth3d_0021 0.018 G4_unconnected
+  eth3d_0004 eth3d_0012 0.016 G4_unconnected
+  eth3d_0008 eth3d_0012 0.015 G4_unconnected
+  eth3d_0000 eth3d_0008 0.014 G3_bridge
+  eth3d_0016 eth3d_0029 0.012 G4_unconnected
+  BRIDGE eth3d_0000 -> eth3d_0008 via ['eth3d_0004'] (ov 0.014)
+
+== playground  10 views, 45 pairs: {'G4_unconnected': 44, 'G2_low': 1}
+  eth3d_0253 eth3d_0286 0.041 G2_low
+  eth3d_0249 eth3d_0265 0.028 G4_unconnected
+  eth3d_0278 eth3d_0286 0.027 G4_unconnected
+  eth3d_0253 eth3d_0278 0.018 G4_unconnected
+  eth3d_0278 eth3d_0282 0.018 G4_unconnected
+  eth3d_0249 eth3d_0270 0.016 G4_unconnected
+  eth3d_0257 eth3d_0278 0.014 G4_unconnected
+  eth3d_0249 eth3d_0253 0.014 G4_unconnected
+
+== terrace  9 views, 36 pairs: {'G1_high': 1, 'G4_unconnected': 18, 'G2_low': 14, 'G3_bridge': 3}
+  eth3d_0226 eth3d_0228 0.240 G1_high
+  eth3d_0236 eth3d_0238 0.116 G2_low
+  eth3d_0233 eth3d_0236 0.095 G2_low
+  eth3d_0243 eth3d_0248 0.079 G2_low
+  eth3d_0231 eth3d_0236 0.058 G2_low
+  eth3d_0233 eth3d_0238 0.055 G2_low
+  eth3d_0226 eth3d_0248 0.054 G2_low
+  eth3d_0228 eth3d_0248 0.053 G2_low
+  BRIDGE eth3d_0231 -> eth3d_0233 via ['eth3d_0236'] (ov 0.003)
+
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\study\real_meta\visibility_graph.json

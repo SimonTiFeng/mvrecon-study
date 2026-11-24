@@ -1,0 +1,18 @@
+{
+  "batch": "A",
+  "launched": "2026-11-23",
+  "model": "claude-sonnet-5",
+  "harness": "Agent tool, subagent_type=Explore, frozen workbench_cli.py",
+  "cases": [
+    {"case": "courtyard_v2_eth3d_0008", "agent_id": "a0b6314cdacd2e87d"},
+    {"case": "courtyard_v3_eth3d_0008", "agent_id": "ad4912e9c896fb48a"},
+    {"case": "courtyard_v3_eth3d_0000", "agent_id": "acf0b11d0ef1129a1"},
+    {"case": "courtyard_v4_eth3d_0008", "agent_id": "a60dc7eff41ca98b6"},
+    {"case": "courtyard_v4_eth3d_0000", "agent_id": "aaad4c60acf4a5aeb"},
+    {"case": "delivery_area_v2_eth3d_0081", "agent_id": "ac5433cfd01de21db"},
+    {"case": "delivery_area_v3_eth3d_0081", "agent_id": "a0c14d717da2475f1"},
+    {"case": "delivery_area_v3_eth3d_0057", "agent_id": "a947dcbdebea299a1"},
+    {"case": "delivery_area_v4_eth3d_0081", "agent_id": "a1b22abf29964aebd"},
+    {"case": "delivery_area_v4_eth3d_0057", "agent_id": "a1f2ea057171d5094"}
+  ]
+}
