@@ -1,0 +1,55 @@
+courtyard     v2  eth3d_0008   cands 1 | rot  1.70 ->  1.70 | lat  0.27 ->  0.27
+courtyard     v3  eth3d_0008   cands 2 | rot  1.70 -> 38.05 | lat  0.27 ->  2.40
+courtyard     v3  eth3d_0000   cands 2 | rot  4.45 -> 40.89 | lat  0.45 ->  2.99
+courtyard     v4  eth3d_0008   cands 2 | rot  1.70 -> 38.05 | lat  0.27 ->  2.40
+courtyard     v4  eth3d_0000   cands 2 | rot  4.45 -> 40.89 | lat  0.45 ->  2.99
+[Open3D WARNING] Too few correspondences (84) after mutual filter, fall back to original correspondences.
+delivery_area v2  eth3d_0081   cands 1 | rot  1.07 ->  1.07 | lat  0.13 ->  0.13
+[Open3D WARNING] Too few correspondences (120) after mutual filter, fall back to original correspondences.
+delivery_area v3  eth3d_0081   cands 2 | rot  1.07 -> 16.65 | lat  0.13 ->  4.78
+delivery_area v3  eth3d_0057   cands 2 | rot  4.33 -> 13.32 | lat  1.24 ->  5.25
+delivery_area v4  eth3d_0081   cands 2 | rot  1.07 -> 16.65 | lat  0.13 ->  4.78
+delivery_area v4  eth3d_0057   cands 2 | rot  4.33 -> 13.32 | lat  1.24 ->  5.25
+electro       v2  eth3d_0097   cands 1 | rot  2.80 ->  2.80 | lat  0.28 ->  0.28
+[Open3D WARNING] Too few correspondences (74) after mutual filter, fall back to original correspondences.
+electro       v3  eth3d_0097   cands 2 | rot  2.80 -> 38.10 | lat  0.28 ->  3.68
+electro       v3  eth3d_0126   cands 2 | rot 179.95 -> 152.35 | lat  8.65 ->  7.11
+[Open3D WARNING] Too few correspondences (102) after mutual filter, fall back to original correspondences.
+electro       v4  eth3d_0097   cands 3 | rot  2.80 -> 40.67 | lat  0.28 ->  6.99
+electro       v4  eth3d_0126   cands 3 | rot 179.95 -> 130.51 | lat  8.65 ->  6.46
+electro       v4  eth3d_0092   cands 3 | rot 90.18 -> 128.73 | lat 15.01 -> 23.48
+facade        v2  eth3d_0209   cands 1 | rot  4.77 ->  4.77 | lat  0.89 ->  0.89
+facade        v3  eth3d_0209   cands 2 | rot  4.77 ->  4.55 | lat  0.89 ->  1.05
+facade        v3  eth3d_0169   cands 2 | rot  2.06 ->  2.24 | lat  0.33 ->  0.15
+facade        v4  eth3d_0209   cands 3 | rot  4.77 ->  9.63 | lat  0.89 ->  0.89
+facade        v4  eth3d_0169   cands 3 | rot  2.06 -> 17.90 | lat  0.33 ->  0.61
+facade        v4  eth3d_0201   cands 3 | rot 128.57 -> 171.03 | lat 30.87 -> 30.87
+[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.
+office        v2  eth3d_0133   cands 1 | rot  0.26 ->  0.26 | lat  0.01 ->  0.01
+office        v3  eth3d_0133   cands 2 | rot  0.26 ->  6.77 | lat  0.01 ->  0.41
+office        v3  eth3d_0149   cands 2 | rot  0.75 ->  6.10 | lat  0.02 ->  0.34
+office        v4  eth3d_0133   cands 3 | rot  0.26 ->  7.68 | lat  0.01 ->  0.31
+office        v4  eth3d_0149   cands 3 | rot  0.75 ->  2.75 | lat  0.02 ->  0.02
+office        v4  eth3d_0152   cands 3 | rot  0.98 ->  3.86 | lat  0.01 ->  0.15
+[Open3D WARNING] Too few correspondences (225) after mutual filter, fall back to original correspondences.
+playground    v2  eth3d_0286   cands 1 | rot  0.34 ->  0.34 | lat  0.09 ->  0.09
+[Open3D WARNING] Too few correspondences (281) after mutual filter, fall back to original correspondences.
+playground    v3  eth3d_0286   cands 2 | rot  0.34 -> 42.35 | lat  0.09 ->  0.62
+playground    v3  eth3d_0278   cands 2 | rot 78.42 -> 36.12 | lat  6.91 ->  2.89
+playground    v4  eth3d_0286   cands 3 | rot  0.34 -> 51.53 | lat  0.09 ->  1.33
+[Open3D WARNING] Too few correspondences (302) after mutual filter, fall back to original correspondences.
+playground    v4  eth3d_0278   cands 3 | rot 78.42 -> 55.39 | lat  6.91 ->  6.12
+playground    v4  eth3d_0249   cands 3 | rot 137.26 -> 107.58 | lat  9.17 ->  9.25
+terrace       v2  eth3d_0236   cands 1 | rot  1.30 ->  1.30 | lat  0.04 ->  0.04
+terrace       v3  eth3d_0236   cands 2 | rot  1.30 -> 22.27 | lat  0.04 ->  3.70
+terrace       v3  eth3d_0231   cands 2 | rot  3.24 -> 19.96 | lat  0.32 ->  3.67
+[Open3D WARNING] Too few correspondences (98) after mutual filter, fall back to original correspondences.
+terrace       v4  eth3d_0236   cands 3 | rot  1.30 -> 46.12 | lat  0.04 ->  0.04
+terrace       v4  eth3d_0231   cands 3 | rot  3.24 -> 28.38 | lat  0.32 ->  3.86
+terrace       v4  eth3d_0228   cands 3 | rot 128.26 -> 119.73 | lat  5.80 ->  0.79
+
+n=40
+rotation  median  2.43 -> 18.93   improved  7  worsened 26
+lateral   median  0.28 ->  1.87   improved  6  worsened 23
+under 0.5 m: 27 -> 13 of 40
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\multiview_fuse.json

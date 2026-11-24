@@ -1,0 +1,227 @@
+[
+ {
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0149",
+  "before": 0.1273213951203922,
+  "corner": NaN,
+  "interior": 0.2712351753079009,
+  "flat": 0.2712351753079009
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0133",
+  "before": 0.03136660326955145,
+  "corner": 0.017367162693601335,
+  "interior": 0.036524130845896535,
+  "flat": 0.036524130845896535
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v2",
+  "sid": "eth3d_0008",
+  "before": 3.3062979259592873,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0008",
+  "before": 3.305154102860537,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0000",
+  "before": 3.12544222049283,
+  "corner": NaN,
+  "interior": 0.24573319518620967,
+  "flat": 0.24573319518620967
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0008",
+  "before": 3.305168746249261,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0000",
+  "before": 3.1254422204928383,
+  "corner": NaN,
+  "interior": 0.2457331951861945,
+  "flat": 0.2457331951861945
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v2",
+  "sid": "eth3d_0081",
+  "before": 0.20889233205530358,
+  "corner": 0.41192254422270663,
+  "interior": 0.28768767360907016,
+  "flat": 0.28768767360907016
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0081",
+  "before": 0.20914053015155046,
+  "corner": 0.41227057971028963,
+  "interior": 0.2879070561727591,
+  "flat": 0.2879070561727591
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0057",
+  "before": 1.9981623526859442,
+  "corner": 6.506592169634103,
+  "interior": 4.578977857313383,
+  "flat": 4.578977857313383
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0081",
+  "before": 0.11652575394732395,
+  "corner": 0.31990566800339004,
+  "interior": 0.23125040093676283,
+  "flat": 0.23125040093676283
+ },
+ {
+  "scene": "playground",
+  "tag": "v2",
+  "sid": "eth3d_0286",
+  "before": 3.1058417315961524,
+  "corner": NaN,
+  "interior": 1.722745530254038,
+  "flat": 1.722745530254038
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0286",
+  "before": 1.8344710172855243,
+  "corner": NaN,
+  "interior": 2.5134337416888037,
+  "flat": 2.5134337416888037
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0286",
+  "before": 0.9412511636456441,
+  "corner": NaN,
+  "interior": 2.321193573013476,
+  "flat": 2.321193573013476
+ },
+ {
+  "scene": "terrace",
+  "tag": "v2",
+  "sid": "eth3d_0236",
+  "before": 0.09620230372793317,
+  "corner": 0.0660250798333415,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "sid": "eth3d_0231",
+  "before": 0.2723144064452329,
+  "corner": 0.1658973946469516,
+  "interior": 0.7787531828331866,
+  "flat": 0.7787531828331866
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0236",
+  "before": 0.09590680973681921,
+  "corner": 0.0661298125769268,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0097",
+  "before": 2.327787966035741,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": 0.13467197934153163
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0097",
+  "before": 2.3277879660357566,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": 0.13467197934153977
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0097",
+  "before": 4.75434232202669,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": 0.2790270200082224
+ },
+ {
+  "scene": "facade",
+  "tag": "v2",
+  "sid": "eth3d_0209",
+  "before": 0.18739702310995915,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0209",
+  "before": 6.295870178467174,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0169",
+  "before": 0.7936689582890527,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0209",
+  "before": 0.18737142274505542,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0169",
+  "before": 0.7932544024950346,
+  "corner": NaN,
+  "interior": NaN,
+  "flat": NaN
+ }
+]

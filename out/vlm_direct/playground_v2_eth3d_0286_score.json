@@ -1,0 +1,24 @@
+{
+ "n_pairs_used": 2,
+ "pairs": [
+  [
+   3360,
+   242,
+   4562,
+   484,
+   "cap of the thickest wooden post"
+  ],
+  [
+   3648,
+   1075,
+   4102,
+   1181,
+   "white antenna mast on the office roof"
+  ]
+ ],
+ "rot_err_deg": 174.42453601910654,
+ "lateral_err_m": 10.798930259614346,
+ "trans_err_m": 48.81240372815387,
+ "baseline_rot_deg": 5.694485571973077,
+ "baseline_trans_m": 3.7821919644238586
+}

@@ -1,0 +1,164 @@
+[
+ {
+  "scene": "office",
+  "tag": "v2",
+  "sid": "eth3d_0133",
+  "initial_rot": 63.45429401057385,
+  "ransac_fitness": 1.0,
+  "rigid": {
+   "scale": 1.0000000000000162,
+   "rot_err": 115.43533757607965,
+   "trans_err": 3.526587320430536,
+   "rot_err_scalenorm": 115.43533757607965,
+   "trans_err_scalenorm": 3.5265873204304854,
+   "overlap": 0.5070966658268246,
+   "icp_fitness": 0.9460401444528429,
+   "icp_rmse": 0.18325537156678673
+  },
+  "similarity": {
+   "scale": 0.7174799466619277,
+   "rot_err": 100.52123655964301,
+   "trans_err": 2.63090059144687,
+   "rot_err_scalenorm": 100.52123655964301,
+   "trans_err_scalenorm": 3.501472702098006,
+   "overlap": null,
+   "icp_fitness": 0.9916855631141346,
+   "icp_rmse": 0.18616295853836434
+  }
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0133",
+  "initial_rot": 37.51113062317044,
+  "ransac_fitness": 0.868421052631579,
+  "rigid": {
+   "scale": 1.0000000000000022,
+   "rot_err": 112.67466110306907,
+   "trans_err": 3.547474786579171,
+   "rot_err_scalenorm": 112.67466110306907,
+   "trans_err_scalenorm": 3.5474747865791634,
+   "overlap": 0.5344335264970186,
+   "icp_fitness": 0.9518770471151423,
+   "icp_rmse": 0.20027707793862937
+  },
+  "similarity": {
+   "scale": 0.35922800368954266,
+   "rot_err": 117.15739981724863,
+   "trans_err": 3.1491014596510456,
+   "rot_err_scalenorm": 117.15739981724863,
+   "trans_err_scalenorm": 8.439834202240865,
+   "overlap": null,
+   "icp_fitness": 1.0,
+   "icp_rmse": 0.07671469076324124
+  }
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0149",
+  "initial_rot": 59.63240311157422,
+  "ransac_fitness": 0.7291666666666666,
+  "rigid": {
+   "scale": 1.00000000000001,
+   "rot_err": 75.13694573647807,
+   "trans_err": 1.5529283321654592,
+   "rot_err_scalenorm": 75.13694573647807,
+   "trans_err_scalenorm": 1.552928332165446,
+   "overlap": 0.5475350634080792,
+   "icp_fitness": 0.9931972789115646,
+   "icp_rmse": 0.17562617272986675
+  },
+  "similarity": {
+   "scale": 0.01631930021434489,
+   "rot_err": 101.59809980844446,
+   "trans_err": 3.099084662678816,
+   "rot_err_scalenorm": 101.59809980844446,
+   "trans_err_scalenorm": 199.39357351989798,
+   "overlap": null,
+   "icp_fitness": 1.0,
+   "icp_rmse": 0.013102205125548091
+  }
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0133",
+  "initial_rot": 65.79396222771985,
+  "ransac_fitness": 1.0,
+  "rigid": {
+   "scale": 1.0000000000000044,
+   "rot_err": 15.97339290188974,
+   "trans_err": 0.5109503201790921,
+   "rot_err_scalenorm": 15.97339290188974,
+   "trans_err_scalenorm": 0.510950320179089,
+   "overlap": 0.5755857898715041,
+   "icp_fitness": 0.9944570420760896,
+   "icp_rmse": 0.14623191299605778
+  },
+  "similarity": {
+   "scale": 0.7774499408625668,
+   "rot_err": 2.244515167035397,
+   "trans_err": 0.9011901472157006,
+   "rot_err_scalenorm": 2.244515167035397,
+   "trans_err_scalenorm": 1.1078201321549976,
+   "overlap": null,
+   "icp_fitness": 0.9954648526077098,
+   "icp_rmse": 0.0901358799574159
+  }
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0149",
+  "initial_rot": 63.94883306671959,
+  "ransac_fitness": 0.9019607843137255,
+  "rigid": {
+   "scale": 1.000000000000012,
+   "rot_err": 74.95273452661611,
+   "trans_err": 1.5421121028998885,
+   "rot_err_scalenorm": 74.95273452661611,
+   "trans_err_scalenorm": 1.5421121028998728,
+   "overlap": 0.3091878726799362,
+   "icp_fitness": 0.993281263122533,
+   "icp_rmse": 0.17568453425249214
+  },
+  "similarity": {
+   "scale": 0.2897159442622148,
+   "rot_err": 79.78143709213953,
+   "trans_err": 2.5909385945388896,
+   "rot_err_scalenorm": 79.78143709213953,
+   "trans_err_scalenorm": 9.291745972916177,
+   "overlap": null,
+   "icp_fitness": 1.0,
+   "icp_rmse": 0.06891881986032464
+  }
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0152",
+  "initial_rot": 53.4365534904039,
+  "ransac_fitness": 1.0,
+  "rigid": {
+   "scale": 1.00000000000001,
+   "rot_err": 122.7704876019637,
+   "trans_err": 2.536753344621861,
+   "rot_err_scalenorm": 122.7704876019637,
+   "trans_err_scalenorm": 2.5367533446218338,
+   "overlap": 0.00655076845553036,
+   "icp_fitness": 0.9581338708322835,
+   "icp_rmse": 0.1626226180601146
+  },
+  "similarity": {
+   "scale": 0.33730819260631095,
+   "rot_err": 116.13157032223518,
+   "trans_err": 2.2578949311174124,
+   "rot_err_scalenorm": 116.13157032223518,
+   "trans_err_scalenorm": 7.819510991088377,
+   "overlap": null,
+   "icp_fitness": 1.0,
+   "icp_rmse": 0.07212198972084485
+  }
+ }
+]

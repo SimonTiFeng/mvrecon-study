@@ -1,0 +1,34 @@
+office        v3  eth3d_0149   before  0.13 | SIFT 1490/1648 m=171 3d=171 | T  0.22  RT  0.03/ 1.0  RTs  0.02/ 1.0 s=1.01
+office        v4  eth3d_0133   before  0.03 | SIFT 1490/1291 m=215 3d=215 | T  0.02  RT  0.04/ 0.7  RTs  0.03/ 0.7 s=0.98
+courtyard     v2  eth3d_0008   before  3.31 | SIFT 4000/4000 m=641 3d=641 | T  0.10  RT  0.33/ 2.0  RTs  0.31/ 2.0 s=1.01
+courtyard     v3  eth3d_0008   before  3.31 | SIFT 4000/4000 m=641 3d=641 | T  0.10  RT  0.33/ 2.0  RTs  0.31/ 2.0 s=1.01
+courtyard     v3  eth3d_0000   before  3.13 | SIFT 4000/4000 m=525 3d=525 | T  0.27  RT  0.27/ 2.0  RTs  0.15/ 2.0 s=1.05
+courtyard     v4  eth3d_0008   before  3.31 | SIFT 4000/4000 m=641 3d=641 | T  0.10  RT  0.33/ 2.0  RTs  0.31/ 2.0 s=1.01
+courtyard     v4  eth3d_0000   before  3.13 | SIFT 4000/4000 m=525 3d=525 | T  0.27  RT  0.27/ 2.0  RTs  0.15/ 2.0 s=1.05
+delivery_area v2  eth3d_0081   before  0.21 | SIFT 3589/4001 m=323 3d=323 | T  0.28  RT  1.27/ 5.6  RTs  0.77/ 3.5 s=0.99
+delivery_area v3  eth3d_0081   before  0.21 | SIFT 3589/4001 m=323 3d=323 | T  0.28  RT  1.27/ 5.6  RTs  0.77/ 3.5 s=0.99
+delivery_area v3  eth3d_0057   before  2.00 | SIFT 3589/2632 m=146 3d=146 | T  1.00  RT  0.11/ 1.1  RTs  0.44/ 0.6 s=1.11
+delivery_area v4  eth3d_0081   before  0.12 | SIFT 3589/4001 m=323 3d=323 | T  0.20  RT  1.27/ 5.6  RTs  0.77/ 3.5 s=0.99
+playground    v2  eth3d_0286   before  3.11 | SIFT 4000/4000 m=155 3d=155 | T  0.42  RT  0.04/ 1.4  RTs  0.09/ 0.8 s=0.97
+playground    v3  eth3d_0286   before  1.83 | SIFT 4000/4000 m=155 3d=155 | T  0.37  RT  0.04/ 1.4  RTs  0.09/ 0.8 s=0.97
+playground    v4  eth3d_0286   before  0.94 | SIFT 4000/4000 m=155 3d=155 | T  0.37  RT  0.04/ 1.4  RTs  0.09/ 0.8 s=0.97
+terrace       v2  eth3d_0236   before  0.10 | SIFT 3291/4000 m=133 3d=133 | T  0.09  RT  0.05/ 0.9  RTs  0.04/ 1.0 s=0.99
+terrace       v3  eth3d_0231   before  0.27 | SIFT 3291/4000 m=100 3d=100 | T  0.13  RT  0.48/ 4.4  RTs  0.22/ 2.6 s=1.05
+terrace       v4  eth3d_0236   before  0.10 | SIFT 3291/4000 m=133 3d=133 | T  0.09  RT  0.05/ 0.9  RTs  0.04/ 1.0 s=0.99
+electro       v2  eth3d_0097   before  2.33 | SIFT 2815/2684 m=398 3d=398 | T  0.15  RT  0.19/ 1.8  RTs  0.17/ 1.9 s=0.98
+electro       v3  eth3d_0097   before  2.33 | SIFT 2815/2684 m=398 3d=398 | T  0.15  RT  0.19/ 1.8  RTs  0.17/ 1.9 s=0.98
+electro       v4  eth3d_0097   before  4.75 | SIFT 2815/2684 m=398 3d=398 | T  0.05  RT  0.19/ 1.8  RTs  0.17/ 1.9 s=0.98
+facade        v2  eth3d_0209   before  0.19 | SIFT 4000/4000 m=306 3d=306 | T  0.49  RT  1.93/ 9.5  RTs  0.87/ 4.7 s=0.93
+facade        v3  eth3d_0209   before  6.30 | SIFT 4000/4000 m=306 3d=306 | T  1.19  RT  1.93/ 9.5  RTs  0.87/ 4.7 s=0.93
+facade        v3  eth3d_0169   before  0.79 | SIFT 4000/4000 m=300 3d=300 | T  1.06  RT  1.27/ 7.7  RTs  1.03/ 4.3 s=1.06
+facade        v4  eth3d_0209   before  0.19 | SIFT 4000/4000 m=306 3d=306 | T  0.49  RT  1.93/ 9.5  RTs  0.87/ 4.7 s=0.93
+facade        v4  eth3d_0169   before  0.79 | SIFT 4000/4000 m=300 3d=300 | T  1.06  RT  1.27/ 7.7  RTs  1.03/ 4.3 s=1.06
+
+scored 25/25 targets
+policy           median    <0.5m improved
+before            0.94m    10/25       0/25
+T                 0.27m    21/25      17/25
+RT                0.27m    17/25      16/25
+RTs               0.22m    17/25      18/25
+median SIFT matches 306, 3D pairs 306
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\sift_identity.json

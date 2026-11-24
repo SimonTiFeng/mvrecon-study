@@ -1,0 +1,15 @@
+rotation grid: 33 starts
+playground    v2  eth3d_0286   coarse  5.69бу/ 0.46 m | selected  4.09бу/ 0.44 m | oracle  4.09бу/ 0.44 m
+playground    v3  eth3d_0286   coarse  5.78бу/ 0.40 m | selected  5.48бу/ 0.40 m | oracle  3.52бу/ 0.38 m
+playground    v4  eth3d_0286   coarse  5.58бу/ 0.41 m | selected  5.46бу/ 0.38 m | oracle  4.64бу/ 0.54 m
+facade        v3  eth3d_0209   coarse  9.25бу/ 1.21 m | selected  7.75бу/ 1.51 m | oracle  5.24бу/ 1.00 m
+facade        v2  eth3d_0209   coarse  3.44бу/ 0.47 m | selected  8.59бу/ 1.73 m | oracle  4.37бу/ 0.87 m
+office        v3  eth3d_0149   coarse  5.84бу/ 0.21 m | selected  3.89бу/ 0.13 m | oracle  2.81бу/ 0.12 m
+courtyard     v3  eth3d_0000   coarse  2.82бу/ 0.23 m | selected  0.98бу/ 0.18 m | oracle  0.98бу/ 0.18 m
+delivery_area v3  eth3d_0057   coarse  4.47бу/ 0.88 m | selected  4.81бу/ 0.96 m | oracle  3.25бу/ 0.37 m
+
+n=8 targets
+coarse    rot median  5.64бу  lat median  0.43 m  under 0.5 m 6/8
+selected  rot median  5.13бу  lat median  0.42 m  under 0.5 m 5/8
+oracle    rot median  3.80бу  lat median  0.41 m  under 0.5 m 5/8
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\multistart_rotation.json

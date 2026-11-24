@@ -1,0 +1,41 @@
+office        v2  eth3d_0133   rmsA  2235.4 rmsB  1041.0 pick B | lat A  0.22 B  0.72 sel  0.72
+office        v3  eth3d_0133   rmsA  2412.0 rmsB  2273.3 pick B | lat A  3.36 B  3.59 sel  3.59
+office        v3  eth3d_0149   rmsA   535.0 rmsB   496.2 pick B | lat A  0.20 B  0.02 sel  0.02
+office        v4  eth3d_0133   rmsA   646.1 rmsB   645.4 pick B | lat A  0.02 B  0.02 sel  0.02
+office        v4  eth3d_0149   rmsA  1475.2 rmsB   808.5 pick B | lat A  0.50 B  0.65 sel  0.65
+office        v4  eth3d_0152   rmsA  1624.3 rmsB  1153.9 pick B | lat A  1.02 B  0.75 sel  0.75
+courtyard     v2  eth3d_0008   rmsA   951.7 rmsB   921.5 pick B | lat A  0.10 B  0.34 sel  0.34
+courtyard     v3  eth3d_0008   rmsA   951.7 rmsB   921.5 pick B | lat A  0.10 B  0.34 sel  0.34
+courtyard     v3  eth3d_0000   rmsA  1126.1 rmsB  1110.6 pick B | lat A  0.25 B  0.27 sel  0.27
+courtyard     v4  eth3d_0008   rmsA   951.7 rmsB   921.5 pick B | lat A  0.10 B  0.34 sel  0.34
+courtyard     v4  eth3d_0000   rmsA  1126.1 rmsB  1110.6 pick B | lat A  0.25 B  0.27 sel  0.27
+delivery_area v2  eth3d_0081   rmsA   811.8 rmsB   812.5 pick A | lat A  0.29 B  0.45 sel  0.29
+delivery_area v3  eth3d_0081   rmsA   811.8 rmsB   812.5 pick A | lat A  0.29 B  0.45 sel  0.29
+delivery_area v3  eth3d_0057   rmsA  1651.3 rmsB  1561.0 pick B | lat A  0.88 B  0.22 sel  0.22
+delivery_area v4  eth3d_0081   rmsA   813.0 rmsB   812.7 pick B | lat A  0.21 B  0.45 sel  0.45
+delivery_area v4  eth3d_0057   rmsA  2516.0 rmsB  3179.7 pick A | lat A  4.78 B  2.46 sel  4.78
+playground    v2  eth3d_0286   rmsA  1002.8 rmsB   948.5 pick B | lat A  0.46 B  0.03 sel  0.03
+playground    v3  eth3d_0286   rmsA   998.8 rmsB   948.1 pick B | lat A  0.39 B  0.03 sel  0.03
+playground    v4  eth3d_0286   rmsA   998.1 rmsB   948.2 pick B | lat A  0.40 B  0.03 sel  0.03
+terrace       v2  eth3d_0236   rmsA  2107.0 rmsB  2121.3 pick A | lat A  0.12 B  0.05 sel  0.12
+terrace       v3  eth3d_0236   rmsA  2699.6 rmsB 927943.7 pick A | lat A  4.15 B  4.06 sel  4.15
+terrace       v3  eth3d_0231   rmsA  1090.9 rmsB  1092.0 pick A | lat A  0.15 B  0.37 sel  0.15
+terrace       v4  eth3d_0236   rmsA  2107.3 rmsB  2121.3 pick A | lat A  0.12 B  0.05 sel  0.12
+terrace       v4  eth3d_0231   rmsA  1518.7 rmsB  1620.8 pick A | lat A  6.22 B  9.49 sel  6.22
+electro       v2  eth3d_0097   rmsA   835.2 rmsB   805.3 pick B | lat A  0.16 B  0.19 sel  0.19
+electro       v3  eth3d_0097   rmsA   835.2 rmsB   805.3 pick B | lat A  0.16 B  0.19 sel  0.19
+electro       v4  eth3d_0097   rmsA   851.7 rmsB   805.9 pick B | lat A  0.05 B  0.19 sel  0.19
+facade        v2  eth3d_0209   rmsA   474.0 rmsB   475.8 pick A | lat A  0.47 B  0.83 sel  0.47
+facade        v3  eth3d_0209   rmsA   501.3 rmsB   477.9 pick B | lat A  1.19 B  0.68 sel  0.68
+facade        v3  eth3d_0169   rmsA  1025.9 rmsB  1017.6 pick B | lat A  1.14 B  0.86 sel  0.86
+facade        v4  eth3d_0209   rmsA   474.0 rmsB   475.8 pick A | lat A  0.47 B  0.83 sel  0.47
+facade        v4  eth3d_0169   rmsA  1025.9 rmsB  1017.6 pick B | lat A  1.14 B  0.86 sel  0.86
+
+n=32   picked B in 22
+picked B by coherence in 22
+A       rot med  2.82бу  <2бу 14 | lat med  0.29 m  <0.5 m 22/32
+B       rot med  2.09бу  <2бу 13 | lat med  0.36 m  <0.5 m 20/32
+S       rot med  2.07бу  <2бу 15 | lat med  0.31 m  <0.5 m 22/32
+C       rot med  1.83бу  <2бу 17 | lat med  0.29 m  <0.5 m 19/32
+oracle  rot med  1.48бу  <2бу 19 | lat med  0.22 m  <0.5 m 23/32
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\select_by_reproj.json

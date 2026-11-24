@@ -1,0 +1,167 @@
+[
+ {
+  "scene": "courtyard",
+  "tag": "v2",
+  "sid": "eth3d_0008",
+  "lateral_before": 3.3062979259592873,
+  "lateral_after": 2.220399868865628,
+  "offset_a": 0.5,
+  "offset_b": -1.0,
+  "coverage": 0.8987150415721844,
+  "normal_div": 0.0627830481913682
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0008",
+  "lateral_before": 3.305154102860537,
+  "lateral_after": 2.2192416675701856,
+  "offset_a": 0.5,
+  "offset_b": -1.0,
+  "coverage": 0.8987150415721844,
+  "normal_div": 0.06275316570775119
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0000",
+  "lateral_before": 3.12544222049283,
+  "lateral_after": 2.7250381717293592,
+  "offset_a": 0.25,
+  "offset_b": 0.375,
+  "coverage": 0.9387755102040817,
+  "normal_div": 0.05898374513146696
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0008",
+  "lateral_before": 3.305168746249261,
+  "lateral_after": 2.219255981803635,
+  "offset_a": 0.5,
+  "offset_b": -1.0,
+  "coverage": 0.8987150415721844,
+  "normal_div": 0.06275316515359
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0000",
+  "lateral_before": 3.1254422204928383,
+  "lateral_after": 2.7250381717293677,
+  "offset_a": 0.25,
+  "offset_b": 0.375,
+  "coverage": 0.9387755102040817,
+  "normal_div": 0.058983745131465495
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0057",
+  "lateral_before": 1.9981623526859442,
+  "lateral_after": 5.435998273055143,
+  "offset_a": -3.5,
+  "offset_b": 0.5,
+  "coverage": 0.5219198790627362,
+  "normal_div": 0.03438281131814779
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0081",
+  "lateral_before": 0.11652575394732395,
+  "lateral_after": 2.5832204792291225,
+  "offset_a": 1.5,
+  "offset_b": -2.5,
+  "coverage": 0.8068783068783069,
+  "normal_div": 0.03193807601526025
+ },
+ {
+  "scene": "playground",
+  "tag": "v2",
+  "sid": "eth3d_0286",
+  "lateral_before": 3.1058417315961524,
+  "lateral_after": 1.4145731728822297,
+  "offset_a": -4.0,
+  "offset_b": -2.5,
+  "coverage": 0.30385487528344673,
+  "normal_div": 0.07629141227439391
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0286",
+  "lateral_before": 1.8344710172855243,
+  "lateral_after": 1.2313896081216338,
+  "offset_a": -1.5,
+  "offset_b": 2.5,
+  "coverage": 0.31594860166288735,
+  "normal_div": 0.07279767308726161
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0286",
+  "lateral_before": 0.9412511636456441,
+  "lateral_after": 2.925327887514981,
+  "offset_a": -4.0,
+  "offset_b": 2.5,
+  "coverage": 0.3223733938019652,
+  "normal_div": 0.06782641525933461
+ },
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0097",
+  "lateral_before": 2.327787966035741,
+  "lateral_after": 3.448977657025831,
+  "offset_a": -1.5,
+  "offset_b": 1.5,
+  "coverage": 0.5279667422524565,
+  "normal_div": 0.05001090317893959
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0097",
+  "lateral_before": 2.3277879660357566,
+  "lateral_after": 3.44897765702584,
+  "offset_a": -1.5,
+  "offset_b": 1.5,
+  "coverage": 0.5279667422524565,
+  "normal_div": 0.05001119363022747
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0097",
+  "lateral_before": 4.75434232202669,
+  "lateral_after": 2.0765938305564084,
+  "offset_a": -3.0,
+  "offset_b": -3.5,
+  "coverage": 0.5256991685563114,
+  "normal_div": 0.056072866518387256
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0169",
+  "lateral_before": 0.7936689582890527,
+  "lateral_after": 4.628495293700899,
+  "offset_a": 0.5,
+  "offset_b": -4.0,
+  "coverage": 0.4497354497354497,
+  "normal_div": 0.03834831014867249
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0169",
+  "lateral_before": 0.7932544024950346,
+  "lateral_after": 4.627646144326366,
+  "offset_a": 0.5,
+  "offset_b": -4.0,
+  "coverage": 0.4493575207860922,
+  "normal_div": 0.03830530399310125
+ }
+]

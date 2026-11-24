@@ -1,0 +1,32 @@
+office        v3  eth3d_0149   floor  0.99 deg | from coarse  5.84 ->  0.99 deg, lat  0.13 ->  0.10 | basin   12 deg
+office        v4  eth3d_0133   floor  3.61 deg | from coarse  0.32 ->  3.61 deg, lat  0.06 ->  0.14 | basin   13 deg
+courtyard     v2  eth3d_0008   floor  1.83 deg | from coarse  1.49 ->  1.84 deg, lat  3.31 ->  0.10 | basin   12 deg
+courtyard     v3  eth3d_0008   floor  1.83 deg | from coarse  1.49 ->  1.84 deg, lat  3.31 ->  0.10 | basin   12 deg
+courtyard     v3  eth3d_0000   floor  2.54 deg | from coarse  2.82 ->  2.53 deg, lat  3.16 ->  0.25 | basin   12 deg
+courtyard     v4  eth3d_0008   floor  1.83 deg | from coarse  1.49 ->  1.84 deg, lat  3.31 ->  0.10 | basin   12 deg
+courtyard     v4  eth3d_0000   floor  2.54 deg | from coarse  2.82 ->  2.53 deg, lat  3.16 ->  0.25 | basin   12 deg
+delivery_area v2  eth3d_0081   floor  1.11 deg | from coarse  1.48 ->  1.11 deg, lat  0.38 ->  0.12 | basin    4 deg
+delivery_area v3  eth3d_0081   floor  1.11 deg | from coarse  1.48 ->  1.11 deg, lat  0.38 ->  0.12 | basin    4 deg
+delivery_area v3  eth3d_0057   floor  3.75 deg | from coarse  4.47 ->  5.34 deg, lat  2.18 ->  0.57 | basin    7 deg
+delivery_area v4  eth3d_0081   floor  1.11 deg | from coarse  1.20 ->  1.11 deg, lat  1.60 ->  0.12 | basin    4 deg
+playground    v2  eth3d_0286   floor  0.65 deg | from coarse  5.69 ->  5.10 deg, lat  3.78 ->  0.65 | basin    2 deg
+playground    v3  eth3d_0286   floor  0.65 deg | from coarse  5.78 ->  6.21 deg, lat  2.83 ->  0.67 | basin    2 deg
+playground    v4  eth3d_0286   floor  0.65 deg | from coarse  5.58 ->  5.56 deg, lat  2.36 ->  0.50 | basin    2 deg
+terrace       v2  eth3d_0236   floor  1.31 deg | from coarse  0.61 ->  0.97 deg, lat  0.10 ->  0.20 | basin    5 deg
+terrace       v3  eth3d_0231   floor  1.74 deg | from coarse  2.06 ->  2.83 deg, lat  0.52 ->  0.05 | basin    4 deg
+terrace       v4  eth3d_0236   floor  1.31 deg | from coarse  0.61 ->  0.97 deg, lat  0.10 ->  0.20 | basin    5 deg
+electro       v2  eth3d_0097   floor  2.11 deg | from coarse  1.28 ->  2.14 deg, lat  2.51 ->  0.19 | basin    9 deg
+electro       v3  eth3d_0097   floor  2.11 deg | from coarse  1.28 ->  2.14 deg, lat  2.51 ->  0.19 | basin    9 deg
+electro       v4  eth3d_0097   floor  2.11 deg | from coarse  0.30 ->  2.11 deg, lat  5.13 ->  0.18 | basin    9 deg
+facade        v2  eth3d_0209   floor  1.92 deg | from coarse  3.44 ->  2.07 deg, lat  1.08 ->  0.33 | basin    4 deg
+facade        v3  eth3d_0209   floor  1.92 deg | from coarse  9.25 ->  7.94 deg, lat  6.32 ->  1.43 | basin    4 deg
+facade        v3  eth3d_0169   floor  0.64 deg | from coarse  1.65 ->  0.84 deg, lat  0.84 ->  0.22 | basin    5 deg
+facade        v4  eth3d_0209   floor  1.92 deg | from coarse  3.44 ->  2.07 deg, lat  1.08 ->  0.33 | basin    4 deg
+facade        v4  eth3d_0169   floor  0.64 deg | from coarse  1.65 ->  0.84 deg, lat  0.84 ->  0.22 | basin    5 deg
+
+n=25
+achievable rotation floor (ICP from truth): median 1.83 deg  (max 3.75)
+from the coarse estimate: 1.65 -> 2.07 deg   improved 13/25
+translation after that refinement: median 2.18 -> 0.20 m  (under 0.5 m 6/25 -> 20/25)
+basin half-width: median 5 deg  (min 2, max 13)
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\rotation_basin.json

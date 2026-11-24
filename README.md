@@ -116,6 +116,8 @@ out/agent_study_20261123/
   raw/       per-case transcripts, final messages, launches, frozen CLI, run manifest
   export/    offline 3D viewers per scene (no network needed)
   report/    SUMMARY.md
+out/*        the earlier analysis arms (rotation, translation, identity, HPC sweep,
+             selection, VLM tooling) — indexed in out/README.md
 FINDING_*.md / STATUS.md   cumulative research log
 ```
 

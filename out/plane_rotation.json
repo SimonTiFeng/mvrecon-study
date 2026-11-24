@@ -1,0 +1,227 @@
+[
+ {
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0149",
+  "rot_coarse": 5.841331720888196,
+  "rot_frame": 4.262566214781072,
+  "lat_coarse": 0.18700080411011075,
+  "lat_frame": 0.1985275356072598
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0133",
+  "rot_coarse": 0.32389195303451296,
+  "rot_frame": 3.461373317023569,
+  "lat_coarse": 0.01571093716924853,
+  "lat_frame": 0.21893605644277445
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v2",
+  "sid": "eth3d_0008",
+  "rot_coarse": 1.490270885575166,
+  "rot_frame": 1.7315517250621377,
+  "lat_coarse": 0.17218785112041093,
+  "lat_frame": 0.2018634137583015
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0008",
+  "rot_coarse": 1.486851037031345,
+  "rot_frame": 1.5095777126508947,
+  "lat_coarse": 0.17181326636657446,
+  "lat_frame": 0.1751649429657397
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0000",
+  "rot_coarse": 2.8224181793429315,
+  "rot_frame": 1.4737266784877598,
+  "lat_coarse": 0.16207166002405646,
+  "lat_frame": 0.17337074349174275
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0008",
+  "rot_coarse": 1.486848777967086,
+  "rot_frame": 1.6450919154429984,
+  "lat_coarse": 0.17181345237311854,
+  "lat_frame": 0.18925676286343326
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0000",
+  "rot_coarse": 2.822418179342673,
+  "rot_frame": 1.4891128631926815,
+  "lat_coarse": 0.16207166002404344,
+  "lat_frame": 0.1772552881615404
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v2",
+  "sid": "eth3d_0081",
+  "rot_coarse": 1.4799945490230957,
+  "rot_frame": 1.8580114272748653,
+  "lat_coarse": 0.3449790539636918,
+  "lat_frame": 0.43241153102861973
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0081",
+  "rot_coarse": 1.4811259095961238,
+  "rot_frame": 1.5210047650590073,
+  "lat_coarse": 0.34523893089099295,
+  "lat_frame": 0.35425532302541746
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0057",
+  "rot_coarse": 4.466496242942441,
+  "rot_frame": 0.267600896939871,
+  "lat_coarse": 0.5085703610154682,
+  "lat_frame": 0.02948107771290037
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0081",
+  "rot_coarse": 1.1951076832592216,
+  "rot_frame": 1.8526637964196495,
+  "lat_coarse": 0.277569604730668,
+  "lat_frame": 0.42986449384339187
+ },
+ {
+  "scene": "playground",
+  "tag": "v2",
+  "sid": "eth3d_0286",
+  "rot_coarse": 5.694485571973077,
+  "rot_frame": 4.679951422248195,
+  "lat_coarse": 0.547287663797958,
+  "lat_frame": 0.4264318054438043
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0286",
+  "rot_coarse": 5.776679681807605,
+  "rot_frame": 4.944768970817089,
+  "lat_coarse": 0.4429681815142203,
+  "lat_frame": 0.46574525878545425
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0286",
+  "rot_coarse": 5.579183151520291,
+  "rot_frame": 5.1853168323544825,
+  "lat_coarse": 0.4568344288624362,
+  "lat_frame": 0.4506696625086028
+ },
+ {
+  "scene": "terrace",
+  "tag": "v2",
+  "sid": "eth3d_0236",
+  "rot_coarse": 0.6088372602420146,
+  "rot_frame": 2.464569306140083,
+  "lat_coarse": 0.05119017649733005,
+  "lat_frame": 0.16471995296910324
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "sid": "eth3d_0231",
+  "rot_coarse": 2.0631344035229175,
+  "rot_frame": 29.659692034606575,
+  "lat_coarse": 0.14425608740301196,
+  "lat_frame": 3.991152364345035
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0236",
+  "rot_coarse": 0.6138946723710192,
+  "rot_frame": 1.8592097940095533,
+  "lat_coarse": 0.05151058981230386,
+  "lat_frame": 0.14830313996799271
+ },
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0097",
+  "rot_coarse": 1.27765695715963,
+  "rot_frame": 0.35520210483861697,
+  "lat_coarse": 0.10481038055258997,
+  "lat_frame": 0.03483779799285186
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0097",
+  "rot_coarse": 1.27765695715963,
+  "rot_frame": 0.41745634677340154,
+  "lat_coarse": 0.1048103805525793,
+  "lat_frame": 0.040060922593773425
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0097",
+  "rot_coarse": 0.2974962744982234,
+  "rot_frame": 0.4082366814519139,
+  "lat_coarse": 0.012159490553777972,
+  "lat_frame": 0.039627705161732044
+ },
+ {
+  "scene": "facade",
+  "tag": "v2",
+  "sid": "eth3d_0209",
+  "rot_coarse": 3.4388331008365545,
+  "rot_frame": 35.0925556706448,
+  "lat_coarse": 0.474440944648191,
+  "lat_frame": 1.1182354707125322
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0209",
+  "rot_coarse": 9.249137734251848,
+  "rot_frame": 33.60208061620282,
+  "lat_coarse": 1.4693444901634656,
+  "lat_frame": 0.7170006156473766
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0169",
+  "rot_coarse": 1.6496709149788171,
+  "rot_frame": 23.36404113946324,
+  "lat_coarse": 0.556009369333274,
+  "lat_frame": 5.8931797218225315
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0209",
+  "rot_coarse": 3.4384335687379677,
+  "rot_frame": 36.96917728868551,
+  "lat_coarse": 0.47442508785603965,
+  "lat_frame": 1.3269383388267375
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0169",
+  "rot_coarse": 1.6520952964789062,
+  "rot_frame": 23.954811755708295,
+  "lat_coarse": 0.5566404601654549,
+  "lat_frame": 5.821472659386372
+ }
+]

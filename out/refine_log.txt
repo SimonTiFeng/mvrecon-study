@@ -1,0 +1,31 @@
+office        v3  eth3d_0149   planes 5/4 pairs 4 | rot  5.84 ->  9.97 | lat  0.21 ->  0.39
+office        v4  eth3d_0133   planes 5/4 pairs 3 | rot  0.32 ->  3.65 | lat  0.02 ->  0.20
+courtyard     v2  eth3d_0008   planes 5/5 pairs 5 | rot  1.49 ->  2.39 | lat  0.10 ->  0.11
+courtyard     v3  eth3d_0008   planes 5/5 pairs 5 | rot  1.49 ->  1.54 | lat  0.10 ->  0.06
+courtyard     v3  eth3d_0000   planes 5/5 pairs 5 | rot  2.82 ->  1.60 | lat  0.23 ->  0.21
+courtyard     v4  eth3d_0008   planes 5/5 pairs 5 | rot  1.49 ->  1.24 | lat  0.10 ->  0.02
+courtyard     v4  eth3d_0000   planes 4/5 pairs 4 | rot  2.82 ->  1.14 | lat  0.23 ->  0.16
+delivery_area v2  eth3d_0081   planes 6/6 pairs 5 | rot  1.48 ->  5.94 | lat  0.28 ->  1.42
+delivery_area v3  eth3d_0081   planes 7/6 pairs 5 | rot  1.48 ->  3.35 | lat  0.28 ->  0.80
+delivery_area v3  eth3d_0057   planes 7/6 pairs 4 | rot  4.47 ->  5.18 | lat  0.88 ->  1.02
+delivery_area v4  eth3d_0081   planes 6/6 pairs 5 | rot  1.20 ->  1.82 | lat  0.20 ->  0.42
+playground    v2  eth3d_0286   planes 8/7 pairs 7 | rot  5.69 ->  2.78 | lat  0.46 ->  0.32
+playground    v3  eth3d_0286   planes 6/7 pairs 6 | rot  5.78 ->  3.43 | lat  0.40 ->  0.38
+playground    v4  eth3d_0286   planes 7/7 pairs 7 | rot  5.58 ->  4.30 | lat  0.41 ->  0.37
+terrace       v2  eth3d_0236   planes 6/6 pairs 4 | rot  0.61 ->  1.55 | lat  0.10 ->  0.03
+terrace       v3  eth3d_0231   planes 6/8 pairs 5 | rot  2.06 ->  3.86 | lat  0.12 ->  0.37
+terrace       v4  eth3d_0236   planes 6/6 pairs 4 | rot  0.61 ->  0.78 | lat  0.10 ->  0.21
+electro       v2  eth3d_0097   planes 5/5 pairs 5 | rot  1.28 ->  5.45 | lat  0.16 ->  0.68
+electro       v3  eth3d_0097   planes 5/5 pairs 4 | rot  1.28 ->  3.06 | lat  0.16 ->  0.29
+electro       v4  eth3d_0097   planes 5/5 pairs 5 | rot  0.30 ->  2.30 | lat  0.05 ->  0.28
+facade        v2  eth3d_0209   planes 8/8 pairs 6 | rot  3.44 ->  6.60 | lat  0.47 ->  1.44
+facade        v3  eth3d_0209   planes 8/8 pairs 6 | rot  9.25 ->  5.45 | lat  1.21 ->  1.04
+facade        v3  eth3d_0169   planes 8/8 pairs 7 | rot  1.65 ->  3.91 | lat  1.42 ->  1.87
+facade        v4  eth3d_0209   planes 8/8 pairs 7 | rot  3.44 ->  9.00 | lat  0.47 ->  1.85
+facade        v4  eth3d_0169   planes 8/8 pairs 7 | rot  1.65 ->  3.61 | lat  1.42 ->  1.67
+
+n=25
+rotation median  1.65 ->  3.43 deg  improved 7  worsened 18
+translation median  0.23 ->  0.37 m  under 0.5 m 21 -> 16
+rotation under 2 deg: 14 -> 7 of 25
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\plane_refine.json

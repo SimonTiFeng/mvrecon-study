@@ -1,0 +1,12 @@
+office        v3  eth3d_0149   floor 144.37 deg | from coarse  5.84 -> 114.07 deg, lat  0.13 ->  1.07 | basin   20 deg
+office        v4  eth3d_0133   floor 65.90 deg | from coarse  0.32 -> 66.38 deg, lat  0.06 ->  0.43 | basin   20 deg
+courtyard     v2  eth3d_0008   floor 66.72 deg | from coarse  1.49 -> 66.57 deg, lat  3.31 ->  4.21 | basin   20 deg
+courtyard     v3  eth3d_0008   floor  0.00 deg | from coarse  1.49 ->  1.49 deg, lat  3.31 ->  0.17 | basin    2 deg
+courtyard     v3  eth3d_0000   floor 26.57 deg | from coarse  2.82 -> 26.57 deg, lat  3.16 ->  3.31 | basin   20 deg
+courtyard     v4  eth3d_0008   floor 28.59 deg | from coarse  1.49 -> 28.08 deg, lat  3.31 ->  2.56 | basin   20 deg
+courtyard     v4  eth3d_0000   floor 78.43 deg | from coarse  2.82 -> 41.41 deg, lat  3.16 ->  4.10 | basin   20 deg
+delivery_area v2  eth3d_0081   floor 68.65 deg | from coarse  1.48 -> 68.65 deg, lat  0.38 ->  3.26 | basin   20 deg
+delivery_area v3  eth3d_0081   floor 51.22 deg | from coarse  1.48 -> 82.22 deg, lat  0.38 -> 11.28 | basin   20 deg
+delivery_area v3  eth3d_0057   floor 89.05 deg | from coarse  4.47 -> 77.77 deg, lat  2.18 ->  9.97 | basin   20 deg
+delivery_area v4  eth3d_0081   floor 41.16 deg | from coarse  1.20 -> 47.91 deg, lat  1.60 -> 16.34 | basin   20 deg
+playground    v2  eth3d_0286   floor  0.00 deg | from coarse  5.69 -> 151.70 deg, lat  3.78 -> 59.44 | basin    2 deg

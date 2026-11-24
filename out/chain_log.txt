@@ -1,0 +1,32 @@
+office        v3  eth3d_0149   rot  5.84 -> 11.03 -> 11.04 | lat  0.21 ->  0.40 ->  0.40 | spread 0.10/0.13/0.16
+office        v4  eth3d_0133   rot  0.32 ->  4.18 ->  9.87 | lat  0.02 ->  0.23 ->  0.10 | spread 0.04/0.10/0.19
+courtyard     v2  eth3d_0008   rot  1.49 ->  1.11 ->  2.71 | lat  0.10 ->  0.04 ->  0.33 | spread 0.13/0.14/0.05
+courtyard     v3  eth3d_0008   rot  1.49 ->  1.78 ->  2.37 | lat  0.10 ->  0.11 ->  0.29 | spread 0.13/0.14/0.11
+courtyard     v3  eth3d_0000   rot  2.82 ->  1.45 ->  2.39 | lat  0.23 ->  0.21 ->  0.28 | spread 0.17/0.15/0.14
+courtyard     v4  eth3d_0008   rot  1.49 ->  1.87 ->  2.21 | lat  0.10 ->  0.02 ->  0.28 | spread 0.13/0.15/0.06
+courtyard     v4  eth3d_0000   rot  2.82 ->  1.67 ->  2.39 | lat  0.23 ->  0.25 ->  0.27 | spread 0.17/0.16/0.14
+delivery_area v2  eth3d_0081   rot  1.48 ->  2.46 ->  1.09 | lat  0.28 ->  0.41 ->  0.17 | spread 0.21/0.27/0.24
+delivery_area v3  eth3d_0081   rot  1.48 ->  2.97 ->  1.17 | lat  0.28 ->  0.47 ->  0.19 | spread 0.21/0.26/0.23
+delivery_area v3  eth3d_0057   rot  4.47 ->  4.55 ->  5.25 | lat  0.88 ->  0.91 ->  1.04 | spread 0.32/0.33/0.34
+delivery_area v4  eth3d_0081   rot  1.20 ->  3.85 ->  3.62 | lat  0.20 ->  0.82 ->  0.78 | spread 0.23/0.27/0.29
+playground    v2  eth3d_0286   rot  5.69 ->  2.21 ->  2.23 | lat  0.46 ->  0.26 ->  0.27 | spread 0.49/0.42/0.43
+playground    v3  eth3d_0286   rot  5.78 ->  2.63 ->  2.30 | lat  0.40 ->  0.30 ->  0.27 | spread 0.42/0.44/0.43
+playground    v4  eth3d_0286   rot  5.58 ->  5.36 ->  5.59 | lat  0.41 ->  0.33 ->  0.33 | spread 0.44/0.51/0.51
+terrace       v2  eth3d_0236   rot  0.61 ->  6.65 ->  2.88 | lat  0.10 ->  0.62 ->  0.13 | spread 0.14/0.43/0.19
+terrace       v3  eth3d_0231   rot  2.06 ->  7.88 ->  3.48 | lat  0.12 ->  0.82 ->  0.13 | spread 0.25/0.31/0.29
+terrace       v4  eth3d_0236   rot  0.61 -> 10.42 ->  6.19 | lat  0.10 ->  1.13 ->  0.54 | spread 0.14/0.62/0.37
+electro       v2  eth3d_0097   rot  1.28 ->  5.75 ->  2.63 | lat  0.16 ->  0.70 ->  0.32 | spread 0.10/0.18/0.09
+electro       v3  eth3d_0097   rot  1.28 ->  5.80 ->  2.26 | lat  0.16 ->  0.74 ->  0.28 | spread 0.10/0.19/0.08
+electro       v4  eth3d_0097   rot  0.30 ->  2.25 ->  2.03 | lat  0.05 ->  0.31 ->  0.25 | spread 0.10/0.13/0.09
+facade        v2  eth3d_0209   rot  3.44 ->  6.18 ->  5.96 | lat  0.47 ->  1.19 ->  1.12 | spread 0.37/0.53/0.52
+facade        v3  eth3d_0209   rot  9.25 ->  7.42 ->  7.45 | lat  1.21 ->  1.52 ->  1.59 | spread 0.64/0.51/0.52
+facade        v3  eth3d_0169   rot  1.65 ->  4.45 ->  2.86 | lat  1.42 ->  2.35 ->  1.75 | spread 0.69/0.92/0.70
+facade        v4  eth3d_0209   rot  3.44 ->  3.86 ->  1.63 | lat  0.47 ->  0.83 ->  0.39 | spread 0.37/0.35/0.35
+facade        v4  eth3d_0169   rot  1.65 ->  4.84 ->  4.04 | lat  1.42 ->  1.57 ->  1.80 | spread 0.69/1.02/0.93
+
+n=25
+coarse         rot median  1.65  <2deg 14/25 | lat median  0.23  <0.5m 21/25
+plane refine   rot median  4.18  <2deg  5/25 | lat median  0.47  <0.5m 13/25
+then ICP       rot median  2.71  <2deg  3/25 | lat median  0.29  <0.5m 18/25
+monotonically improving rotation: 1/25
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\stage_chain.json

@@ -1,0 +1,32 @@
+office        v3  eth3d_0149   rot  5.84 ->  5.90 | lat  0.13 ->  0.15 m | fitness 0.83 (25 cands)
+office        v4  eth3d_0133   rot  0.32 ->  5.98 | lat  0.03 ->  0.19 m | fitness 0.80 (25 cands)
+courtyard     v2  eth3d_0008   rot  1.49 ->  2.28 | lat  3.31 ->  3.47 m | fitness 0.67 (25 cands)
+courtyard     v3  eth3d_0008   rot  1.49 ->  2.28 | lat  3.31 ->  3.47 m | fitness 0.67 (25 cands)
+courtyard     v3  eth3d_0000   rot  2.82 ->  1.77 | lat  3.13 ->  3.41 m | fitness 0.72 (25 cands)
+courtyard     v4  eth3d_0008   rot  1.49 ->  2.76 | lat  3.31 ->  3.45 m | fitness 0.69 (25 cands)
+courtyard     v4  eth3d_0000   rot  2.82 ->  1.77 | lat  3.13 ->  3.41 m | fitness 0.72 (25 cands)
+delivery_area v2  eth3d_0081   rot  1.48 ->  0.86 | lat  0.21 ->  0.03 m | fitness 0.56 (25 cands)
+delivery_area v3  eth3d_0081   rot  1.48 ->  0.86 | lat  0.21 ->  0.03 m | fitness 0.56 (25 cands)
+delivery_area v3  eth3d_0057   rot  4.47 ->  4.73 | lat  2.00 ->  2.09 m | fitness 0.43 (25 cands)
+delivery_area v4  eth3d_0081   rot  1.20 ->  1.34 | lat  0.12 ->  0.08 m | fitness 0.53 (25 cands)
+playground    v2  eth3d_0286   rot  5.69 ->  6.04 | lat  3.11 ->  3.13 m | fitness 0.39 (25 cands)
+playground    v3  eth3d_0286   rot  5.78 ->  5.55 | lat  1.83 ->  1.90 m | fitness 0.41 (25 cands)
+playground    v4  eth3d_0286   rot  5.58 ->  5.49 | lat  0.94 ->  0.83 m | fitness 0.40 (25 cands)
+terrace       v2  eth3d_0236   rot  0.61 ->  2.31 | lat  0.10 ->  0.09 m | fitness 0.67 (25 cands)
+terrace       v3  eth3d_0231   rot  2.06 ->  3.21 | lat  0.27 ->  0.20 m | fitness 0.49 (25 cands)
+terrace       v4  eth3d_0236   rot  0.61 ->  2.89 | lat  0.10 ->  0.10 m | fitness 0.67 (25 cands)
+electro       v2  eth3d_0097   rot  1.28 ->  1.23 | lat  2.33 ->  2.37 m | fitness 0.65 (25 cands)
+electro       v3  eth3d_0097   rot  1.28 ->  1.23 | lat  2.33 ->  2.37 m | fitness 0.65 (25 cands)
+electro       v4  eth3d_0097   rot  0.30 ->  1.55 | lat  4.75 ->  4.79 m | fitness 0.60 (25 cands)
+facade        v2  eth3d_0209   rot  3.44 ->  3.37 | lat  0.19 ->  0.19 m | fitness 0.44 (25 cands)
+facade        v3  eth3d_0209   rot  9.25 ->  8.72 | lat  6.30 ->  6.18 m | fitness 0.33 (25 cands)
+facade        v3  eth3d_0169   rot  1.65 ->  2.36 | lat  0.79 ->  0.84 m | fitness 0.41 (25 cands)
+facade        v4  eth3d_0209   rot  3.44 ->  3.36 | lat  0.19 ->  0.19 m | fitness 0.45 (25 cands)
+facade        v4  eth3d_0169   rot  1.65 ->  2.36 | lat  0.79 ->  0.83 m | fitness 0.41 (25 cands)
+
+n=25
+rotation  median  1.65 ->  2.36 deg   improved 11  worsened 14
+translation median  0.94 ->  0.84 m  improved 8  worsened 15
+under 0.5 m: 0.94 -> 0.84 m; count 10 -> 10
+rotation under 2 deg: 14 -> 8 of 25
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\frame_candidates.json

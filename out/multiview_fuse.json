@@ -1,0 +1,402 @@
+[
+ {
+  "scene": "courtyard",
+  "tag": "v2",
+  "sid": "eth3d_0008",
+  "n_cands": 1,
+  "rot_direct": 1.7041498657193084,
+  "lat_direct": 0.26873742048283644,
+  "rot_fused": 1.7041498657188805,
+  "lat_fused": 0.26873742048283644
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0008",
+  "n_cands": 2,
+  "rot_direct": 1.7041498657193084,
+  "lat_direct": 0.26873742048283644,
+  "rot_fused": 38.04828545636046,
+  "lat_fused": 2.397966285944552
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v3",
+  "sid": "eth3d_0000",
+  "n_cands": 2,
+  "rot_direct": 4.452407727552361,
+  "lat_direct": 0.45320466685647637,
+  "rot_fused": 40.89258914905137,
+  "lat_fused": 2.9881262851124495
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0008",
+  "n_cands": 2,
+  "rot_direct": 1.7041498657193084,
+  "lat_direct": 0.26873742048283644,
+  "rot_fused": 38.04828545636046,
+  "lat_fused": 2.397966285944552
+ },
+ {
+  "scene": "courtyard",
+  "tag": "v4",
+  "sid": "eth3d_0000",
+  "n_cands": 2,
+  "rot_direct": 4.452407727552361,
+  "lat_direct": 0.45320466685647637,
+  "rot_fused": 40.89258914905137,
+  "lat_fused": 2.9881262851124495
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v2",
+  "sid": "eth3d_0081",
+  "n_cands": 1,
+  "rot_direct": 1.0688623125085868,
+  "lat_direct": 0.1320519219068587,
+  "rot_fused": 1.0688623125099508,
+  "lat_fused": 0.1320519219068587
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0081",
+  "n_cands": 2,
+  "rot_direct": 1.0688623125085868,
+  "lat_direct": 0.1320519219068587,
+  "rot_fused": 16.647263497117127,
+  "lat_fused": 4.77799115805914
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v3",
+  "sid": "eth3d_0057",
+  "n_cands": 2,
+  "rot_direct": 4.3285312241832745,
+  "lat_direct": 1.2412523826163053,
+  "rot_fused": 13.318347048573239,
+  "lat_fused": 5.246303949774436
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0081",
+  "n_cands": 2,
+  "rot_direct": 1.0688623125085868,
+  "lat_direct": 0.1320519219068587,
+  "rot_fused": 16.647263497117127,
+  "lat_fused": 4.77799115805914
+ },
+ {
+  "scene": "delivery_area",
+  "tag": "v4",
+  "sid": "eth3d_0057",
+  "n_cands": 2,
+  "rot_direct": 4.3285312241832745,
+  "lat_direct": 1.2412523826163053,
+  "rot_fused": 13.318347048573239,
+  "lat_fused": 5.246303949774436
+ },
+ {
+  "scene": "electro",
+  "tag": "v2",
+  "sid": "eth3d_0097",
+  "n_cands": 1,
+  "rot_direct": 2.796394444790034,
+  "lat_direct": 0.28056847711763594,
+  "rot_fused": 2.7963944447897733,
+  "lat_fused": 0.28056847711763594
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0097",
+  "n_cands": 2,
+  "rot_direct": 2.796394444790034,
+  "lat_direct": 0.28056847711763594,
+  "rot_fused": 38.099044989611244,
+  "lat_fused": 3.684205070581061
+ },
+ {
+  "scene": "electro",
+  "tag": "v3",
+  "sid": "eth3d_0126",
+  "n_cands": 2,
+  "rot_direct": 179.95070795808883,
+  "lat_direct": 8.650753687672585,
+  "rot_fused": 152.3472041260814,
+  "lat_fused": 7.105569718679884
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0097",
+  "n_cands": 3,
+  "rot_direct": 2.796394444790034,
+  "lat_direct": 0.28056847711763594,
+  "rot_fused": 40.67122605276113,
+  "lat_fused": 6.986150773533088
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0126",
+  "n_cands": 3,
+  "rot_direct": 179.95070795808883,
+  "lat_direct": 8.650753687672585,
+  "rot_fused": 130.51057830565037,
+  "lat_fused": 6.457316291915271
+ },
+ {
+  "scene": "electro",
+  "tag": "v4",
+  "sid": "eth3d_0092",
+  "n_cands": 3,
+  "rot_direct": 90.18205921248727,
+  "lat_direct": 15.01486506593039,
+  "rot_fused": 128.7276458376724,
+  "lat_fused": 23.483216671290787
+ },
+ {
+  "scene": "facade",
+  "tag": "v2",
+  "sid": "eth3d_0209",
+  "n_cands": 1,
+  "rot_direct": 4.768210592977239,
+  "lat_direct": 0.8944421496614067,
+  "rot_fused": 4.768210592977239,
+  "lat_fused": 0.8944421496614067
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0209",
+  "n_cands": 2,
+  "rot_direct": 4.768210592977239,
+  "lat_direct": 0.8944421496614067,
+  "rot_fused": 4.551155222829762,
+  "lat_fused": 1.0520505922831043
+ },
+ {
+  "scene": "facade",
+  "tag": "v3",
+  "sid": "eth3d_0169",
+  "n_cands": 2,
+  "rot_direct": 2.0612071464217263,
+  "lat_direct": 0.32833817786802877,
+  "rot_fused": 2.2377790169012206,
+  "lat_fused": 0.14718909878030292
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0209",
+  "n_cands": 3,
+  "rot_direct": 4.768210592977239,
+  "lat_direct": 0.8944421496614067,
+  "rot_fused": 9.63232775039877,
+  "lat_fused": 0.8944421496614067
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0169",
+  "n_cands": 3,
+  "rot_direct": 2.0612071464217263,
+  "lat_direct": 0.32833817786802877,
+  "rot_fused": 17.896660521408826,
+  "lat_fused": 0.6070274797874556
+ },
+ {
+  "scene": "facade",
+  "tag": "v4",
+  "sid": "eth3d_0201",
+  "n_cands": 3,
+  "rot_direct": 128.56890452385215,
+  "lat_direct": 30.8697608458201,
+  "rot_fused": 171.03300842260617,
+  "lat_fused": 30.8697608458201
+ },
+ {
+  "scene": "office",
+  "tag": "v2",
+  "sid": "eth3d_0133",
+  "n_cands": 1,
+  "rot_direct": 0.26271620965504894,
+  "lat_direct": 0.005127783561993496,
+  "rot_fused": 0.26271620965504894,
+  "lat_fused": 0.005127783561993496
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0133",
+  "n_cands": 2,
+  "rot_direct": 0.26271620965504894,
+  "lat_direct": 0.005127783561993496,
+  "rot_fused": 6.771752798661591,
+  "lat_fused": 0.4145063492987428
+ },
+ {
+  "scene": "office",
+  "tag": "v3",
+  "sid": "eth3d_0149",
+  "n_cands": 2,
+  "rot_direct": 0.7454662460927299,
+  "lat_direct": 0.02100278020543414,
+  "rot_fused": 6.103904249706153,
+  "lat_fused": 0.3373539261593133
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0133",
+  "n_cands": 3,
+  "rot_direct": 0.26271620965504894,
+  "lat_direct": 0.005127783561993496,
+  "rot_fused": 7.679116475976817,
+  "lat_fused": 0.3110028704444055
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0149",
+  "n_cands": 3,
+  "rot_direct": 0.7454662460927299,
+  "lat_direct": 0.02100278020543414,
+  "rot_fused": 2.7450617194981395,
+  "lat_fused": 0.02100278020543414
+ },
+ {
+  "scene": "office",
+  "tag": "v4",
+  "sid": "eth3d_0152",
+  "n_cands": 3,
+  "rot_direct": 0.9751383459896837,
+  "lat_direct": 0.012541935622760944,
+  "rot_fused": 3.863820323437128,
+  "lat_fused": 0.15029670251803917
+ },
+ {
+  "scene": "playground",
+  "tag": "v2",
+  "sid": "eth3d_0286",
+  "n_cands": 1,
+  "rot_direct": 0.3396623236000908,
+  "lat_direct": 0.08769854185937455,
+  "rot_fused": 0.3396623235957987,
+  "lat_fused": 0.08769854185937455
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0286",
+  "n_cands": 2,
+  "rot_direct": 0.3396623236000908,
+  "lat_direct": 0.08769854185937455,
+  "rot_fused": 42.351331299350775,
+  "lat_fused": 0.624556901986204
+ },
+ {
+  "scene": "playground",
+  "tag": "v3",
+  "sid": "eth3d_0278",
+  "n_cands": 2,
+  "rot_direct": 78.42287448760827,
+  "lat_direct": 6.906479921595907,
+  "rot_fused": 36.11689941729844,
+  "lat_fused": 2.889166087522859
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0286",
+  "n_cands": 3,
+  "rot_direct": 0.3396623236000908,
+  "lat_direct": 0.08769854185937455,
+  "rot_fused": 51.5298410300573,
+  "lat_fused": 1.332209773682832
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0278",
+  "n_cands": 3,
+  "rot_direct": 78.42287448760827,
+  "lat_direct": 6.906479921595907,
+  "rot_fused": 55.39157724423756,
+  "lat_fused": 6.121396453397329
+ },
+ {
+  "scene": "playground",
+  "tag": "v4",
+  "sid": "eth3d_0249",
+  "n_cands": 3,
+  "rot_direct": 137.25745672326843,
+  "lat_direct": 9.173893001019962,
+  "rot_fused": 107.5796101590304,
+  "lat_fused": 9.253568928197438
+ },
+ {
+  "scene": "terrace",
+  "tag": "v2",
+  "sid": "eth3d_0236",
+  "n_cands": 1,
+  "rot_direct": 1.3010633813570143,
+  "lat_direct": 0.04293159306970322,
+  "rot_fused": 1.3010633813570143,
+  "lat_fused": 0.04293159306970322
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "sid": "eth3d_0236",
+  "n_cands": 2,
+  "rot_direct": 1.3010633813570143,
+  "lat_direct": 0.04293159306970322,
+  "rot_fused": 22.268687022264025,
+  "lat_fused": 3.703169834558605
+ },
+ {
+  "scene": "terrace",
+  "tag": "v3",
+  "sid": "eth3d_0231",
+  "n_cands": 2,
+  "rot_direct": 3.2391115507271087,
+  "lat_direct": 0.32383085562241837,
+  "rot_fused": 19.96151355458949,
+  "lat_fused": 3.672520718434212
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0236",
+  "n_cands": 3,
+  "rot_direct": 1.3010633813570143,
+  "lat_direct": 0.04293159306970322,
+  "rot_fused": 46.124165798856716,
+  "lat_fused": 0.04293159306970322
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0231",
+  "n_cands": 3,
+  "rot_direct": 3.2391115507271087,
+  "lat_direct": 0.32383085562241837,
+  "rot_fused": 28.38259519306551,
+  "lat_fused": 3.859759815919896
+ },
+ {
+  "scene": "terrace",
+  "tag": "v4",
+  "sid": "eth3d_0228",
+  "n_cands": 3,
+  "rot_direct": 128.2622770536662,
+  "lat_direct": 5.798744756377212,
+  "rot_fused": 119.73335286723773,
+  "lat_fused": 0.7899628136160016
+ }
+]

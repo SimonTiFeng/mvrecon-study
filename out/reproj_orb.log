@@ -1,0 +1,31 @@
+office        v3  eth3d_0149   n=173 rms 95.3 px | rot  5.84 ->  0.71 | lat  0.13 ->  0.02
+office        v4  eth3d_0133   n=198 rms 259.4 px | rot  0.32 ->  0.26 | lat  0.03 ->  0.01
+courtyard     v2  eth3d_0008   n=448 rms 585.9 px | rot  1.49 ->  2.15 | lat  3.31 ->  0.31
+courtyard     v3  eth3d_0008   n=448 rms 585.9 px | rot  1.49 ->  2.15 | lat  3.31 ->  0.31
+courtyard     v3  eth3d_0000   n=349 rms 705.0 px | rot  2.82 ->  5.62 | lat  3.13 ->  0.59
+courtyard     v4  eth3d_0008   n=448 rms 585.9 px | rot  1.49 ->  2.15 | lat  3.31 ->  0.31
+courtyard     v4  eth3d_0000   n=349 rms 705.0 px | rot  2.82 ->  5.62 | lat  3.13 ->  0.59
+delivery_area v2  eth3d_0081   n=330 rms 268.7 px | rot  1.48 ->  0.68 | lat  0.21 ->  0.03
+delivery_area v3  eth3d_0081   n=330 rms 268.7 px | rot  1.48 ->  0.68 | lat  0.21 ->  0.03
+delivery_area v3  eth3d_0057   n=264 rms 513.7 px | rot  4.47 ->  0.91 | lat  2.00 ->  0.13
+delivery_area v4  eth3d_0081   n=330 rms 268.7 px | rot  1.20 ->  0.68 | lat  0.12 ->  0.03
+playground    v2  eth3d_0286   n= 50 rms 796.5 px | rot  5.69 ->  0.72 | lat  3.11 ->  0.03
+playground    v3  eth3d_0286   n= 50 rms 796.5 px | rot  5.78 ->  0.72 | lat  1.83 ->  0.03
+playground    v4  eth3d_0286   n= 50 rms 796.5 px | rot  5.58 ->  0.72 | lat  0.94 ->  0.03
+terrace       v2  eth3d_0236   n= 89 rms 672.8 px | rot  0.61 -> 19.87 | lat  0.10 ->  2.61
+terrace       v3  eth3d_0231   n= 25 rms 712.6 px | rot  2.06 -> 63.86 | lat  0.27 ->  6.95
+terrace       v4  eth3d_0236   n= 89 rms 672.8 px | rot  0.61 -> 19.87 | lat  0.10 ->  2.61
+electro       v2  eth3d_0097   n=174 rms 599.5 px | rot  1.28 ->  7.80 | lat  2.33 ->  0.88
+electro       v3  eth3d_0097   n=174 rms 599.5 px | rot  1.28 ->  7.80 | lat  2.33 ->  0.88
+electro       v4  eth3d_0097   n=174 rms 599.5 px | rot  0.30 ->  7.80 | lat  4.75 ->  0.88
+facade        v2  eth3d_0209   n=203 rms 477.3 px | rot  3.44 ->  1.07 | lat  0.19 ->  0.12
+facade        v3  eth3d_0209   n=203 rms 477.3 px | rot  9.25 ->  1.07 | lat  6.30 ->  0.12
+facade        v3  eth3d_0169   n=185 rms 612.2 px | rot  1.65 ->  2.63 | lat  0.79 ->  0.23
+facade        v4  eth3d_0209   n=203 rms 477.3 px | rot  3.44 ->  1.07 | lat  0.19 ->  0.12
+facade        v4  eth3d_0169   n=185 rms 612.2 px | rot  1.65 ->  2.63 | lat  0.79 ->  0.23
+
+n=25
+rotation median 1.65 -> 2.15бу   <2бу: 14 -> 12
+lateral  median 0.94 -> 0.23 m   <0.5 m: 10 -> 17
+improved 21  worsened 3
+wrote C:\Users\Simon\Downloads\Git\research\music\depth_calib\mvrecon\out\reproj_refine_orb.json
